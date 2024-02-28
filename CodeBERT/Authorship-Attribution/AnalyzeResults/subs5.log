@@ -1,0 +1,3629 @@
+
+ cached_features_file:  ../dataset/data_folder/processed_gcjpy/cached_valid
+/home/ljc/desktop/neutral-attack-for-pretrained-models/CodeXGLUE/Authorship-Attribution/code/model.py:47: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  prob=F.softmax(logits)
+>> NOACC! f => l (0.78043 => 0.80823)
+>> SNT! f => l (0.80823 => 0.83602)
+>> ACC! numCases => numRecase (0.83602 => 0.45937)
+>> ACC! x => ex (0.45937 => 0.43112)
+>> NOACC! equal => actual (0.42914 => 0.43112)
+>> SNT! equal => actual (0.43112 => 0.43311)
+>> ACC! numbers => nNumbers (0.43311 => 0.39664)
+>> ACC! start => cur (0.39664 => 0.37488)
+>> ACC! number => name (0.37488 => 0.34022)
+>> ACC! min => Min (0.34022 => 0.31401)
+>> NOACC! end => add (0.31050 => 0.31401)
+>> NOSNT!
+>> ACC! count => cond (0.31401 => 0.30817)
+>> ACC! max => can (0.30817 => 0.28904)
+>> ACC! rev_end => re_end (0.28904 => 0.28279)
+>> NOACC! half_len => quarter_len (0.27853 => 0.28279)
+>> NOSNT!
+>> ACC! num_len => num__val (0.28279 => 0.27480)
+>> ACC! case => example (0.27480 => 0.25403)
+>> ACC! num_str =>  num_string (0.25403 => 0.22840)
+>> ACC! INSERT ;print(f) 0.22840=>0.21761
+>> ACC! INSERT ;print(ff) 0.21761=>0.21297
+Example time cost:  1.13 min
+ALL examples time cost:  1.13 min
+Query times in this attack:  2819
+Greedy query times: 315
+Ga query times: 2504
+All Query times:  2819
+Success rate:  0.0
+Successful items count:  0
+Total count:  1
+Index:  0
+
+>> ACC! i => ti (0.67198 => 0.64248)
+>> ACC! scores => cores (0.64248 => 0.63389)
+>> ACC! x => co (0.63389 => 0.62649)
+>> NOACC! num_cases => numxruns (0.61283 => 0.62649)
+>> NOSNT!
+>> ACC! table => model (0.62649 => 0.61642)
+>> ACC! numPass => sumPass (0.61642 => 0.59811)
+>> ACC! y => yy (0.59811 => 0.59469)
+>> ACC! line => feed (0.59469 => 0.55219)
+>> ACC! score_needed => core_allowed (0.55219 => 0.54899)
+>> ACC! scores_raw => scores_spec (0.54899 => 0.54678)
+>> ACC! num_surprises => num_survey (0.54678 => 0.53586)
+>> ACC! INSERT ;table = 0 0.53586=>0.53586
+Example time cost:  0.8 min
+ALL examples time cost:  1.94 min
+Query times in this attack:  1959
+Greedy query times: 247
+Ga query times: 1712
+All Query times:  4778
+Success rate:  0.0
+Successful items count:  0
+Total count:  2
+Index:  1
+
+>> NOACC! basename => baseette (0.93060 => 0.93060)
+>> NOSNT!
+>> ACC! lines => l (0.93060 => 0.92488)
+>> ACC! end_idx => endxidy (0.92488 => 0.92244)
+>> NOACC! outfile =>  outfilename (0.92244 => 0.92244)
+>> NOSNT!
+>> ACC! ncases => ncase (0.92244 => 0.92189)
+>> NOACC! infile => uppath (0.92189 => 0.92189)
+>> NOSNT!
+>> ACC! ci => le (0.92189 => 0.91873)
+>> NOACC! base_lo => bas_loc (0.91864 => 0.91873)
+>> SNT! base_lo => bas_loc (0.91873 => 0.91882)
+>> NOACC! line => inline (0.91679 => 0.91882)
+>> NOSNT!
+>> ACC! sub => section (0.91882 => 0.91732)
+>> ACC! base_hi => base25hi (0.91732 => 0.91705)
+>> NOACC! f_out => f2Out (0.91705 => 0.91705)
+>> SNT! f_out => f2Out (0.91705 => 0.91705)
+>> ACC! cnt => nrt (0.91705 => 0.91656)
+>> ACC! result => mate (0.91656 => 0.91503)
+>> ACC! num => text (0.91503 => 0.91190)
+>> ACC! f_in =>  f_ini (0.91190 => 0.89119)
+>> ACC! i => ip (0.89119 => 0.89104)
+>> ACC! hi => chi (0.89104 => 0.88896)
+>> ACC! lo => small (0.88896 => 0.88870)
+>> ACC! s => b (0.88870 => 0.88265)
+>> ACC! base => loc (0.88265 => 0.88138)
+Example time cost:  1.54 min
+ALL examples time cost:  3.48 min
+Query times in this attack:  3767
+Greedy query times: 425
+Ga query times: 3342
+All Query times:  8545
+Success rate:  0.0
+Successful items count:  0
+Total count:  3
+Index:  2
+
+>> ACC! f_in => fAMout (0.92487 => 0.90109)
+>> ACC! basename => Basame (0.90109 => 0.89042)
+>> ACC! thre_surprise => thre_purprises (0.89042 => 0.88896)
+>> NOACC! f_out =>  f_err (0.88896 => 0.88896)
+>> NOSNT!
+>> ACC! lines => ines (0.88896 => 0.86750)
+>> ACC! thre_normal => thore_common (0.86750 => 0.86739)
+>> ACC! numdata => tempdata (0.86739 => 0.84398)
+>> NOACC! outfile => outfolder (0.83425 => 0.84398)
+>> NOSNT!
+>> ACC! infile => outzip (0.84398 => 0.83587)
+>> NOACC! line => l (0.81882 => 0.83587)
+>> NOSNT!
+>> ACC! sub => sq (0.83587 => 0.83163)
+>> ACC! maxdiff =>  maxchange (0.83163 => 0.82677)
+>> ACC! s => sec (0.82677 => 0.81045)
+>> ACC! ci => chi (0.81045 => 0.80094)
+>> ACC! N => P (0.80094 => 0.80018)
+>> ACC! ncases => ncase (0.80018 => 0.79457)
+>> ACC! minval => maxmin (0.79457 => 0.79431)
+>> ACC! scores => Scores (0.79431 => 0.78948)
+>> NOACC! tot => tots (0.78043 => 0.78948)
+>> NOSNT!
+>> ACC! S => Case (0.78948 => 0.77660)
+>> NOACC! result => scale (0.77084 => 0.77660)
+>> NOSNT!
+>> ACC! p => i (0.77660 => 0.76394)
+Example time cost:  1.59 min
+ALL examples time cost:  5.06 min
+Query times in this attack:  3828
+Greedy query times: 440
+Ga query times: 3388
+All Query times:  12373
+Success rate:  0.0
+Successful items count:  0
+Total count:  4
+Index:  3
+
+>> ACC! pal_sqr_roots =>  sys_sqr_files (0.92502 => 0.92132)
+>> ACC! inf => cli (0.92132 => 0.91649)
+>> ACC! INSERT ;inf = 0 0.91649=>0.91649
+Example time cost:  0.18 min
+ALL examples time cost:  5.25 min
+Query times in this attack:  362
+Greedy query times: 42
+Ga query times: 320
+All Query times:  12735
+Success rate:  0.0
+Successful items count:  0
+Total count:  5
+Index:  4
+
+>> NOACC! S => size (0.93343 => 0.93367)
+>> NOSNT!
+>> NOACC! N => P (0.93307 => 0.93367)
+>> NOSNT!
+>> ACC! p => Q (0.93367 => 0.93355)
+>> NOACC! caseNo => CaseNO (0.93347 => 0.93355)
+>> NOSNT!
+>> ACC! score => fee (0.93355 => 0.93328)
+>> ACC! lst => lST (0.93328 => 0.93327)
+>> ACC! mx => ti (0.93327 => 0.93252)
+>> ACC! cnt => count (0.93252 => 0.93055)
+>> ACC! inf => magic (0.93055 => 0.92966)
+>> ACC! INSERT ;N = 0 0.92966=>0.92957
+>> ACC! INSERT ;S = 0 0.92957=>0.92957
+>> ACC! INSERT ;magic = 0 0.92957=>0.92956
+Example time cost:  0.65 min
+ALL examples time cost:  5.89 min
+Query times in this attack:  1576
+Greedy query times: 177
+Ga query times: 1399
+All Query times:  14311
+Success rate:  0.0
+Successful items count:  0
+Total count:  6
+Index:  5
+
+Example time cost:  0.0 min
+ALL examples time cost:  5.89 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1399
+All Query times:  14312
+Success rate:  0.0
+Successful items count:  0
+Total count:  6
+Index:  6
+
+>> ACC! z => i (0.44690 => 0.28484)
+>> NOACC! B => AR (0.27714 => 0.28484)
+>> NOSNT!
+>> ACC! y => min (0.28484 => 0.28216)
+>> NOACC! A => Ca (0.28089 => 0.28216)
+>> NOSNT!
+>> ACC! s => es (0.28216 => 0.27569)
+>> ACC! res => exp (0.27569 => 0.26841)
+>> ACC! T => TS (0.26841 => 0.23276)
+>> ACC! p => pp (0.23276 => 0.22550)
+>> ACC! x => alpha (0.22550 => 0.21177)
+>> ACC! a => aa (0.21177 => 0.20240)
+>> SUC! INSERT ;T = 0
+Example time cost:  0.04 min
+ALL examples time cost:  5.93 min
+Query times in this attack:  86
+Greedy query times: 86
+Ga query times: 1399
+All Query times:  14398
+Success rate:  0.14285714285714285
+Successful items count:  1
+Total count:  7
+Index:  7
+
+>> ACC! b => z (0.90762 => 0.90759)
+>> ACC! i => ip (0.90759 => 0.90637)
+>> ACC! j => mm (0.90637 => 0.90495)
+>> ACC! q => qu (0.90495 => 0.90419)
+>> ACC! line => LINE (0.90419 => 0.89952)
+>> NOACC! a => aa (0.89906 => 0.89952)
+>> SNT! a => aa (0.89952 => 0.89999)
+>> ACC! ma => ama (0.89999 => 0.89955)
+>> NOACC! mb => ab (0.89878 => 0.89955)
+>> NOSNT!
+>> ACC! l =>  L (0.89955 => 0.89818)
+>> ACC! count => size (0.89818 => 0.89792)
+>> ACC! x => text (0.89792 => 0.89127)
+>> ACC! l2 => Ltwo (0.89127 => 0.88948)
+>> ACC! f => feed (0.88948 => 0.80985)
+>> ACC! num => unit (0.80985 => 0.77874)
+>> ACC! INSERT ;f = 0 0.77874=>0.76519
+>> ACC! INSERT ;print(f) 0.76519=>0.65061
+>> ACC! INSERT ;print(num) 0.65061=>0.63428
+>> ACC! INSERT ;x = 0 0.63428=>0.62562
+>> ACC! INSERT ;line = 0 0.62562=>0.61548
+>> ACC! INSERT ;folder = 0 0.61548=>0.61395
+>> ACC! INSERT ;t = 0 0.61395=>0.58286
+Example time cost:  0.99 min
+ALL examples time cost:  6.93 min
+Query times in this attack:  2509
+Greedy query times: 282
+Ga query times: 2227
+All Query times:  16907
+Success rate:  0.125
+Successful items count:  1
+Total count:  8
+Index:  8
+
+>> ACC! nrsup => Nrsuper (0.91249 => 0.91176)
+>> ACC! res => re (0.91176 => 0.91036)
+>> ACC! x => xx (0.91036 => 0.90993)
+>> ACC! i => ip (0.90993 => 0.90765)
+>> ACC! nrg => pnrw (0.90765 => 0.90680)
+>> ACC! nrpass => adrpassword (0.90680 => 0.90481)
+>> ACC! score => sat (0.90481 => 0.90401)
+>> ACC! f => folder (0.90401 => 0.84628)
+>> ACC! nrsuppass => nruppasses (0.84628 => 0.84258)
+>> ACC! num => max (0.84258 => 0.83358)
+>> ACC! INSERT ;f = 0 0.83358=>0.82951
+>> ACC! INSERT ;print(f) 0.82951=>0.76249
+>> ACC! INSERT ;num = 0 0.76249=>0.70383
+>> ACC! INSERT ;folder = 0 0.70383=>0.67213
+>> ACC! INSERT ;print(folder) 0.67213=>0.66275
+>> ACC! INSERT ;rf = 0 0.66275=>0.66081
+>> ACC! INSERT ;print(rf) 0.66081=>0.63464
+>> ACC! INSERT ;size = 0 0.63464=>0.59230
+>> ACC! INSERT ;unit = 0 0.59230=>0.57946
+Example time cost:  0.69 min
+ALL examples time cost:  7.62 min
+Query times in this attack:  1625
+Greedy query times: 205
+Ga query times: 1420
+All Query times:  18532
+Success rate:  0.1111111111111111
+Successful items count:  1
+Total count:  9
+Index:  9
+
+>> NOACC! n => l (0.92417 => 0.92417)
+>> SNT! n => l (0.92417 => 0.92417)
+>> ACC! m => sm (0.92417 => 0.92417)
+>> ACC! in_lines =>  inxcases (0.92417 => 0.91724)
+>> NOACC! lines => inline (0.91724 => 0.91724)
+>> NOSNT!
+>> ACC! k => key (0.91724 => 0.91701)
+>> ACC! td => chart (0.91701 => 0.91667)
+>> ACC! b => xb (0.91667 => 0.90316)
+>> NOACC! raw => small (0.90316 => 0.90316)
+>> NOSNT!
+>> NOACC! buff => config (0.90316 => 0.90316)
+>> NOSNT!
+>> NOACC! sb => abb (0.90316 => 0.90316)
+>> NOSNT!
+>> NOACC! ln => ld (0.90316 => 0.90316)
+>> NOSNT!
+>> NOACC! cl => rl (0.90316 => 0.90316)
+>> SNT! cl => rl (0.90316 => 0.90316)
+>> NOACC! outs => css (0.90316 => 0.90316)
+>> NOSNT!
+>> ACC! amap =>  amaps (0.90316 => 0.89356)
+>> ACC! cmap => rcopen (0.89356 => 0.89240)
+>> ACC! i => ip (0.89240 => 0.89194)
+>> ACC! mtx => MTX (0.89194 => 0.89056)
+>> ACC! j => J (0.89056 => 0.89021)
+>> ACC! t => target (0.89021 => 0.88980)
+>> ACC! bmap => rblock (0.88980 => 0.88635)
+>> ACC! rmap => cshare (0.88635 => 0.88584)
+>> ACC! cn => cin (0.88584 => 0.88328)
+>> ACC! out => echo (0.88328 => 0.81484)
+>> ACC! s => shell (0.81484 => 0.80276)
+>> ACC! x => z (0.80276 => 0.79540)
+>> ACC! rn => rb (0.79540 => 0.78921)
+>> ACC! case => exc (0.78921 => 0.17497)
+>> ACC! INSERT ;t = 0 0.17497=>0.17497
+Example time cost:  1.1 min
+ALL examples time cost:  8.72 min
+Query times in this attack:  1002
+Greedy query times: 596
+Ga query times: 406
+All Query times:  19534
+Success rate:  0.2
+Successful items count:  2
+Total count:  10
+Index:  10
+
+>> ACC! x => xx (0.90714 => 0.90574)
+>> ACC! i => j (0.90574 => 0.90567)
+>> ACC! cc => kk (0.90567 => 0.90438)
+>> ACC! n => z (0.90438 => 0.90311)
+>> ACC! test_data => case_data (0.90311 => 0.89439)
+>> ACC! result => character (0.89439 => 0.89039)
+>> ACC! input_file => inputPoolfile (0.89039 => 0.83494)
+>> ACC! case_input => Case_output (0.83494 => 0.80339)
+>> ACC! data => text (0.80339 => 0.79592)
+>> ACC! raw => RAW (0.79592 => 0.79157)
+>> ACC! input => step (0.79157 => 0.77924)
+>> NOACC! caseLineNum => caseLineNo (0.77549 => 0.77924)
+>> NOSNT!
+>> ACC! iLine => iiDay (0.77924 => 0.77093)
+>> ACC! ts => lines (0.77093 => 0.76570)
+>> NOACC! T => P (0.75737 => 0.76570)
+>> NOSNT!
+>> ACC! output_file => outputingfile (0.76570 => 0.69544)
+>> NOACC! rslt => Rsl (0.69544 => 0.69544)
+>> NOSNT!
+>> NOACC! test_file => testingline (0.69544 => 0.69544)
+>> NOSNT!
+>> ACC! ct => case (0.69544 => 0.63733)
+>> ACC! use_test_data => use_case_function (0.63733 => 0.56545)
+>> ACC! icase => ticased (0.56545 => 0.39475)
+>> ACC! case_output => case2output (0.39475 => 0.31634)
+>> ACC! INSERT ;icase = 0 0.31634=>0.31634
+Example time cost:  1.62 min
+ALL examples time cost:  10.33 min
+Query times in this attack:  3918
+Greedy query times: 451
+Ga query times: 3467
+All Query times:  23452
+Success rate:  0.18181818181818182
+Successful items count:  2
+Total count:  11
+Index:  11
+
+>> ACC! n => adj (0.87921 => 0.86856)
+>> ACC! T => TS (0.86856 => 0.84751)
+>> ACC! i => ai (0.84751 => 0.83559)
+>> NOACC! B => QB (0.83231 => 0.83559)
+>> NOSNT!
+>> NOACC! m => min (0.83503 => 0.83559)
+>> SNT! m => min (0.83559 => 0.83614)
+>> ACC! A => API (0.83614 => 0.82673)
+>> ACC! s => l (0.82673 => 0.82650)
+>> ACC! j => P (0.82650 => 0.81457)
+>> ACC! INSERT ;T = 0 0.81457=>0.77983
+>> ACC! INSERT ;print(T) 0.77983=>0.68665
+>> ACC! INSERT ;n = 0 0.68665=>0.59234
+>> ACC! INSERT ;A = 0 0.59234=>0.57697
+>> ACC! INSERT ;print(Q) 0.57697=>0.57334
+>> ACC! INSERT ;TS = 0 0.57334=>0.53444
+>> ACC! INSERT ;Z = 0 0.53444=>0.50945
+>> ACC! INSERT ;API = 0 0.50945=>0.50413
+>> ACC! INSERT ;print(API) 0.50413=>0.46378
+>> ACC! INSERT ;D = 0 0.46378=>0.38944
+Example time cost:  0.56 min
+ALL examples time cost:  10.89 min
+Query times in this attack:  1321
+Greedy query times: 167
+Ga query times: 1154
+All Query times:  24773
+Success rate:  0.16666666666666666
+Successful items count:  2
+Total count:  12
+Index:  12
+
+>> NOACC! line => text (0.79938 => 0.80837)
+>> NOSNT!
+>> ACC! nums => rnumbers (0.80837 => 0.80575)
+>> ACC! T => TS (0.80575 => 0.79911)
+>> NOACC! N => P (0.79799 => 0.79911)
+>> SNT! N => P (0.79911 => 0.80024)
+>> ACC! num => un (0.80024 => 0.79905)
+>> ACC! x => ex (0.79905 => 0.79596)
+>> ACC! rem => ref (0.79596 => 0.79516)
+>> NOACC! p => pm (0.79513 => 0.79516)
+>> NOSNT!
+>> ACC! S => Q (0.79516 => 0.79466)
+>> ACC! count => key (0.79466 => 0.79056)
+>> ACC! quo => QuO (0.79056 => 0.78549)
+Example time cost:  0.79 min
+ALL examples time cost:  11.69 min
+Query times in this attack:  1961
+Greedy query times: 233
+Ga query times: 1728
+All Query times:  26734
+Success rate:  0.15384615384615385
+Successful items count:  2
+Total count:  13
+Index:  13
+
+>> ACC! fout => fmwrite (0.88040 => 0.80740)
+>> ACC! ret => Ret (0.80740 => 0.80514)
+>> ACC! x => rax (0.80514 => 0.80209)
+>> NOACC! j => bj (0.80209 => 0.80209)
+>> NOSNT!
+>> ACC! n2 => nb3 (0.80209 => 0.80086)
+>> NOACC! B => Q (0.80016 => 0.80086)
+>> NOSNT!
+>> ACC! sq => seq (0.80086 => 0.79503)
+>> NOACC! i => b (0.79441 => 0.79503)
+>> NOSNT!
+>> NOACC! ns => z (0.79270 => 0.79503)
+>> NOSNT!
+>> ACC! A => Case (0.79503 => 0.79299)
+>> ACC! s => b (0.79299 => 0.79156)
+>> ACC! fin => final (0.79156 => 0.76915)
+>> ACC! n => l (0.76915 => 0.76466)
+>> ACC! T => Q (0.76466 => 0.75320)
+>> ACC! INSERT ;fin = 0 0.75320=>0.75320
+Example time cost:  1.03 min
+ALL examples time cost:  12.71 min
+Query times in this attack:  2484
+Greedy query times: 301
+Ga query times: 2183
+All Query times:  29218
+Success rate:  0.14285714285714285
+Successful items count:  2
+Total count:  14
+Index:  14
+
+>> ACC! input_file => inputingfiles (0.90499 => 0.90218)
+>> ACC! inp => Infile (0.90218 => 0.89195)
+>> ACC! n => b (0.89195 => 0.89132)
+>> ACC! l => pl (0.89132 => 0.89114)
+>> ACC! sout => soutput (0.89114 => 0.88973)
+>> ACC! r => P (0.88973 => 0.88913)
+>> ACC! br =>  Br (0.88913 => 0.88820)
+>> ACC! d => dc (0.88820 => 0.88755)
+>> NOACC! i => ip (0.88742 => 0.88755)
+>> NOSNT!
+>> ACC! lines => LINE (0.88755 => 0.88630)
+>> NOACC! t => art (0.88605 => 0.88630)
+>> NOSNT!
+>> ACC! N => Col (0.88630 => 0.88613)
+>> ACC! out => engine (0.88613 => 0.88102)
+>> NOACC! S => J (0.88080 => 0.88102)
+>> NOSNT!
+>> ACC! p => pp (0.88102 => 0.88072)
+>> ACC! ret => fun (0.88072 => 0.88071)
+>> ACC! data => valid (0.88071 => 0.88002)
+>> ACC! output_file => outputChanemail (0.88002 => 0.84637)
+>> ACC! INSERT ;input_file = 0 0.84637=>0.84087
+>> ACC! INSERT ;print(input_file) 0.84087=>0.83841
+>> ACC! INSERT ;print(N) 0.83841=>0.83829
+>> ACC! INSERT ;inputsfile = 0 0.83829=>0.83268
+>> ACC! INSERT ;print(inputsresource) 0.83268=>0.82934
+>> ACC! INSERT ;print(inputingfiles) 0.82934=>0.81977
+>> ACC! INSERT ;inputodefile = 0 0.81977=>0.81021
+>> ACC! INSERT ;outputingbase = 0 0.81021=>0.80035
+>> ACC! INSERT ;outputChanemail = 0 0.80035=>0.78224
+>> ACC! INSERT ;print(outputChanemail) 0.78224=>0.75984
+>> ACC! INSERT ;print(outputChanfolder) 0.75984=>0.75868
+>> ACC! INSERT ;print(inping) 0.75868=>0.75634
+>> ACC! INSERT ;print( INfile) 0.75634=>0.74851
+>> ACC! INSERT ;print(Infile) 0.74851=>0.74765
+>> ACC! INSERT ;print(case) 0.74765=>0.74057
+>> ACC! INSERT ;print(valid) 0.74057=>0.73974
+>> ACC! INSERT ;sgOut = 0 0.73974=>0.73969
+Example time cost:  1.3 min
+ALL examples time cost:  14.01 min
+Query times in this attack:  3188
+Greedy query times: 360
+Ga query times: 2828
+All Query times:  32406
+Success rate:  0.13333333333333333
+Successful items count:  2
+Total count:  15
+Index:  15
+
+Example time cost:  0.0 min
+ALL examples time cost:  14.01 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 2828
+All Query times:  32407
+Success rate:  0.13333333333333333
+Successful items count:  2
+Total count:  15
+Index:  16
+
+Example time cost:  0.0 min
+ALL examples time cost:  14.02 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 2828
+All Query times:  32408
+Success rate:  0.13333333333333333
+Successful items count:  2
+Total count:  15
+Index:  17
+
+>> ACC! numTests => numbertcases (0.79086 => 0.46379)
+>> ACC! filename => ppa (0.46379 => 0.42799)
+>> ACC! outputname => Outputstring (0.42799 => 0.36112)
+>> SUC! outFile => newStream (0.36112 => 0.26195)
+Example time cost:  0.03 min
+ALL examples time cost:  14.04 min
+Query times in this attack:  60
+Greedy query times: 60
+Ga query times: 2828
+All Query times:  32468
+Success rate:  0.1875
+Successful items count:  3
+Total count:  16
+Index:  18
+
+>> ACC! outputFile => inputFilename (0.91345 => 0.90689)
+>> ACC! numTests => numEntester (0.90689 => 0.78267)
+>> ACC! totals => totsals (0.78267 => 0.77214)
+>> ACC! j => adj (0.77214 => 0.76888)
+>> ACC! total => otal (0.76888 => 0.76557)
+>> ACC! line => inline (0.76557 => 0.76352)
+>> ACC! s => t (0.76352 => 0.76041)
+>> ACC! p => pr (0.76041 => 0.75357)
+>> NOACC! n => z (0.75354 => 0.75357)
+>> SNT! n => z (0.75357 => 0.75359)
+>> ACC! guaranteed => Guantree (0.75359 => 0.74355)
+>> ACC! i => chi (0.74355 => 0.73411)
+>> NOACC! needSurprise => needsurvey (0.73372 => 0.73411)
+>> NOSNT!
+>> ACC! inputFile => inputLine (0.73411 => 0.52967)
+>> ACC! INSERT ;print(n) 0.52967=>0.47706
+>> ACC! INSERT ;print(s) 0.47706=>0.44618
+>> ACC! INSERT ;p = 0 0.44618=>0.42708
+Example time cost:  1.0 min
+ALL examples time cost:  15.05 min
+Query times in this attack:  2314
+Greedy query times: 276
+Ga query times: 2038
+All Query times:  34782
+Success rate:  0.17647058823529413
+Successful items count:  3
+Total count:  17
+Index:  19
+
+>> ACC! n_cases =>  nxtimes (0.91892 => 0.80543)
+>> ACC! case => ab (0.80543 => 0.67838)
+>> ACC! n => j (0.67838 => 0.67238)
+>> ACC! x => ex (0.67238 => 0.67122)
+>> ACC! a => ai (0.67122 => 0.65480)
+>> ACC! b => bar (0.65480 => 0.65162)
+>> NOACC! nums => snoms (0.65152 => 0.65162)
+>> SNT! nums => snoms (0.65162 => 0.65172)
+>> ACC! s => t (0.65172 => 0.57324)
+>> NOACC! palins =>  palouts (0.57104 => 0.57324)
+>> NOSNT!
+>> NOACC! palin_squares => palin_shares (0.57025 => 0.57324)
+>> NOSNT!
+>> ACC! range_squares => range_varieries (0.57324 => 0.56504)
+>> NOACC! squares => quars (0.56263 => 0.56504)
+>> NOSNT!
+>> ACC! INSERT ;s = 0 0.56504=>0.56393
+>> ACC! INSERT ;print(s) 0.56393=>0.53801
+>> ACC! INSERT ;n = 0 0.53801=>0.51335
+>> ACC! INSERT ;print(n) 0.51335=>0.48119
+>> ACC! INSERT ;print(b) 0.48119=>0.47730
+>> ACC! INSERT ;nums = 0 0.47730=>0.47716
+>> ACC! INSERT ;print(n__tests) 0.47716=>0.47008
+>> ACC! INSERT ; nxtimes = 0 0.47008=>0.40957
+>> ACC! INSERT ;print( nxtimes) 0.40957=>0.37113
+>> ACC! INSERT ;nxtests = 0 0.37113=>0.36266
+>> ACC! INSERT ; n_times = 0 0.36266=>0.35056
+>> ACC! INSERT ;l = 0 0.35056=>0.29314
+>> ACC! INSERT ;input = 0 0.29314=>0.29261
+>> ACC! INSERT ;print(input) 0.29261=>0.23461
+>> SUC! INSERT ;t = 0
+Example time cost:  0.18 min
+ALL examples time cost:  15.23 min
+Query times in this attack:  144
+Greedy query times: 144
+Ga query times: 2038
+All Query times:  34926
+Success rate:  0.2222222222222222
+Successful items count:  4
+Total count:  18
+Index:  20
+
+>> ACC! n_cases =>  n_times (0.89670 => 0.36641)
+>> ACC! ins => ones (0.36641 => 0.35835)
+>> SUC! case => exc (0.35835 => 0.11978)
+Example time cost:  0.02 min
+ALL examples time cost:  15.25 min
+Query times in this attack:  45
+Greedy query times: 45
+Ga query times: 2038
+All Query times:  34971
+Success rate:  0.2631578947368421
+Successful items count:  5
+Total count:  19
+Index:  21
+
+>> NOACC! power => P (0.85878 => 0.85878)
+>> NOSNT!
+>> ACC! rlt => rglett (0.85878 => 0.85805)
+>> NOACC! outLine => OutRow (0.85805 => 0.85805)
+>> SNT! outLine => OutRow (0.85805 => 0.85805)
+>> NOACC! _ => ow (0.85805 => 0.85805)
+>> NOSNT!
+>> NOACC! p => P (0.85805 => 0.85805)
+>> NOSNT!
+>> NOACC! f => l (0.85805 => 0.85805)
+>> NOSNT!
+>> NOACC! B => URL (0.85753 => 0.85805)
+>> SNT! B => URL (0.85805 => 0.85858)
+>> ACC! a => sta (0.85858 => 0.85707)
+>> ACC! i => ih (0.85707 => 0.84869)
+>> ACC! b => rb (0.84869 => 0.84697)
+>> ACC! digits => milbits (0.84697 => 0.84251)
+>> ACC! A => au (0.84251 => 0.83863)
+>> ACC! num => loc (0.83863 => 0.83132)
+>> ACC! ls => las (0.83132 => 0.80667)
+>> ACC! next_root =>  next_seed (0.80667 => 0.80634)
+>> NOACC! T => P (0.80634 => 0.80634)
+>> SNT! T => P (0.80634 => 0.80634)
+>> ACC! str_a => raw___fa (0.80634 => 0.80588)
+>> NOACC! root => children (0.80551 => 0.80588)
+>> SNT! root => children (0.80588 => 0.80625)
+>> ACC! half_digits => half_sequbits (0.80625 => 0.80139)
+Example time cost:  1.51 min
+ALL examples time cost:  16.76 min
+Query times in this attack:  3463
+Greedy query times: 422
+Ga query times: 3041
+All Query times:  38434
+Success rate:  0.25
+Successful items count:  5
+Total count:  20
+Index:  22
+
+>> NOACC! args => input (0.87665 => 0.87828)
+>> SNT! args => input (0.87828 => 0.87991)
+>> ACC! e => es (0.87991 => 0.87956)
+>> ACC! i => ti (0.87956 => 0.87847)
+>> ACC! p => l (0.87847 => 0.87669)
+>> ACC! S => State (0.87669 => 0.87589)
+>> ACC! r => ir (0.87589 => 0.87543)
+>> NOACC! N => D (0.87415 => 0.87543)
+>> NOSNT!
+>> NOACC! outputLines => outputBine (0.87543 => 0.87543)
+>> SNT! outputLines => outputBine (0.87543 => 0.87543)
+>> NOACC! s => j (0.87539 => 0.87543)
+>> NOSNT!
+>> NOACC! rslt => rsitt (0.87234 => 0.87543)
+>> SNT! rslt => rsitt (0.87543 => 0.87852)
+>> NOACC! T => P (0.87852 => 0.87852)
+>> NOSNT!
+>> NOACC! inputLines => inputCLues (0.87852 => 0.87852)
+>> NOSNT!
+>> ACC! inputFile => InputBuffer (0.87852 => 0.87687)
+Example time cost:  0.96 min
+ALL examples time cost:  17.72 min
+Query times in this attack:  2319
+Greedy query times: 282
+Ga query times: 2037
+All Query times:  40753
+Success rate:  0.23809523809523808
+Successful items count:  5
+Total count:  21
+Index:  23
+
+>> NOACC! n => t (0.89009 => 0.89010)
+>> NOSNT!
+>> ACC! stream => u (0.89010 => 0.83623)
+>> NOACC! i => j (0.83549 => 0.83623)
+>> NOSNT!
+>> ACC! x => ex (0.83623 => 0.83520)
+>> NOACC! case => exc (0.83077 => 0.83520)
+>> SNT! case => exc (0.83520 => 0.83963)
+>> ACC! cnt => uncret (0.83963 => 0.83874)
+>> NOACC! r => l (0.83857 => 0.83874)
+>> SNT! r => l (0.83874 => 0.83891)
+>> ACC! rt => right (0.83891 => 0.82590)
+>> ACC! line => LINE (0.82590 => 0.80202)
+Example time cost:  0.65 min
+ALL examples time cost:  18.36 min
+Query times in this attack:  1507
+Greedy query times: 196
+Ga query times: 1311
+All Query times:  42260
+Success rate:  0.22727272727272727
+Successful items count:  5
+Total count:  22
+Index:  24
+
+Example time cost:  0.0 min
+ALL examples time cost:  18.36 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1311
+All Query times:  42261
+Success rate:  0.22727272727272727
+Successful items count:  5
+Total count:  22
+Index:  25
+
+>> ACC! out => text (0.92165 => 0.91094)
+>> ACC! s => u (0.91094 => 0.91021)
+>> ACC! i => iw (0.91021 => 0.90764)
+>> NOACC! infname => Infname (0.90764 => 0.90764)
+>> NOSNT!
+>> ACC! v => nv (0.90764 => 0.90258)
+>> ACC! squere =>  squeren (0.90258 => 0.89865)
+>> ACC! fslst => sfslst (0.89865 => 0.89852)
+>> NOACC! fs => omp (0.89852 => 0.89852)
+>> NOSNT!
+>> NOACC! outfname => wsfword (0.89852 => 0.89852)
+>> SNT! outfname => wsfword (0.89852 => 0.89852)
+>> NOACC! cnt => Cct (0.89852 => 0.89852)
+>> NOSNT!
+>> ACC! MAX => Q (0.89852 => 0.89763)
+>> NOACC! inf => pp (0.89675 => 0.89763)
+>> NOSNT!
+>> ACC! outf => offfe (0.89763 => 0.88655)
+>> ACC! ans => AU (0.88655 => 0.87777)
+>> ACC! A => Ac (0.87777 => 0.87264)
+>> ACC! B => QB (0.87264 => 0.86767)
+>> ACC! T => Z (0.86767 => 0.86410)
+>> ACC! X => OX (0.86410 => 0.85084)
+>> ACC! f => fore (0.85084 => 0.48198)
+Example time cost:  0.8 min
+ALL examples time cost:  19.16 min
+Query times in this attack:  832
+Greedy query times: 399
+Ga query times: 433
+All Query times:  43093
+Success rate:  0.2608695652173913
+Successful items count:  6
+Total count:  23
+Index:  26
+
+>> NOACC! m => mm (0.84270 => 0.84287)
+>> NOSNT!
+>> ACC! X => P (0.84287 => 0.83307)
+>> NOACC! N => j (0.82594 => 0.83307)
+>> NOSNT!
+>> NOACC! t => j (0.83213 => 0.83307)
+>> NOSNT!
+>> ACC! S => Ps (0.83307 => 0.81436)
+>> NOACC! y => id (0.81352 => 0.81436)
+>> NOSNT!
+>> ACC! p => j (0.81436 => 0.80985)
+>> ACC! d => dc (0.80985 => 0.80905)
+>> ACC! T => Case (0.80905 => 0.79444)
+Example time cost:  0.67 min
+ALL examples time cost:  19.83 min
+Query times in this attack:  1688
+Greedy query times: 199
+Ga query times: 1489
+All Query times:  44781
+Success rate:  0.25
+Successful items count:  6
+Total count:  24
+Index:  27
+
+Example time cost:  0.0 min
+ALL examples time cost:  19.83 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1489
+All Query times:  44782
+Success rate:  0.25
+Successful items count:  6
+Total count:  24
+Index:  28
+
+Example time cost:  0.0 min
+ALL examples time cost:  19.83 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1489
+All Query times:  44783
+Success rate:  0.25
+Successful items count:  6
+Total count:  24
+Index:  29
+
+>> ACC! out => fi (0.73367 => 0.70164)
+>> ACC! caseCnt => CaseCourse (0.70164 => 0.62297)
+>> ACC! case => ce (0.62297 => 0.59665)
+>> ACC! f => rf (0.59665 => 0.56411)
+>> ACC! L => TL (0.56411 => 0.56033)
+>> ACC! H => Z (0.56033 => 0.55102)
+>> ACC! Num => Data (0.55102 => 0.53948)
+>> ACC! i => ti (0.53948 => 0.52894)
+>> NOACC! lb => rl (0.52894 => 0.52894)
+>> NOSNT!
+>> NOACC! ub => cur (0.52894 => 0.52894)
+>> NOSNT!
+Example time cost:  0.73 min
+ALL examples time cost:  20.57 min
+Query times in this attack:  1740
+Greedy query times: 213
+Ga query times: 1527
+All Query times:  46523
+Success rate:  0.24
+Successful items count:  6
+Total count:  25
+Index:  30
+
+>> ACC! f => df (0.82828 => 0.80848)
+>> ACC! l => le (0.80848 => 0.79099)
+>> ACC! cnt =>  cnn (0.79099 => 0.75955)
+>> ACC! ns => ins (0.75955 => 0.75112)
+>> ACC! p => ip (0.75112 => 0.74524)
+>> ACC! ts => es (0.74524 => 0.74081)
+>> ACC! s => P (0.74081 => 0.72437)
+>> ACC! c => tc (0.72437 => 0.71617)
+>> ACC! no => co (0.71617 => 0.69939)
+>> ACC! T => z (0.69939 => 0.69001)
+>> ACC! ss => hess (0.69001 => 0.68894)
+>> ACC! w => log (0.68894 => 0.56341)
+>> ACC! INSERT ;print(view) 0.56341=>0.54588
+>> ACC! INSERT ;print(Cnc) 0.54588=>0.54284
+>> ACC! INSERT ; cnn = 0 0.54284=>0.54256
+>> ACC! INSERT ;print( cnn) 0.54256=>0.53639
+>> ACC! INSERT ;Cnn = 0 0.53639=>0.52321
+>> ACC! INSERT ;dcnd = 0 0.52321=>0.51092
+>> ACC! INSERT ;print(dcnd) 0.51092=>0.50974
+>> ACC! INSERT ;conNT = 0 0.50974=>0.50487
+>> ACC! INSERT ;print(conNT) 0.50487=>0.50070
+>> ACC! INSERT ;print(lo) 0.50070=>0.49853
+>> ACC! INSERT ;print(error) 0.49853=>0.46416
+>> ACC! INSERT ;print(rl) 0.46416=>0.44201
+>> ACC! INSERT ;print(log) 0.44201=>0.43538
+>> ACC! INSERT ;print( L) 0.43538=>0.43203
+>> ACC! INSERT ;print(lo) 0.43203=>0.41423
+>> ACC! INSERT ;print(le) 0.41423=>0.41388
+>> ACC! INSERT ;print(lines) 0.41388=>0.41245
+>> ACC! INSERT ;print(ip) 0.41245=>0.41142
+>> ACC! INSERT ;print(lines) 0.41142=>0.40937
+>> ACC! INSERT ;print(nos) 0.40937=>0.39099
+Example time cost:  0.83 min
+ALL examples time cost:  21.4 min
+Query times in this attack:  2037
+Greedy query times: 238
+Ga query times: 1799
+All Query times:  48560
+Success rate:  0.23076923076923078
+Successful items count:  6
+Total count:  26
+Index:  31
+
+Example time cost:  0.0 min
+ALL examples time cost:  21.4 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1799
+All Query times:  48561
+Success rate:  0.23076923076923078
+Successful items count:  6
+Total count:  26
+Index:  32
+
+>> ACC! out => log (0.87857 => 0.83625)
+>> ACC! inp => INe (0.83625 => 0.83252)
+>> ACC! surprises =>  surprise (0.83252 => 0.83110)
+>> NOACC! scores => switches (0.82984 => 0.83110)
+>> NOSNT!
+>> ACC! p => l (0.83110 => 0.82975)
+>> ACC! i => z (0.82975 => 0.82961)
+>> NOACC! j => note (0.82856 => 0.82961)
+>> NOSNT!
+>> ACC! n => r (0.82961 => 0.82529)
+>> ACC! count => sec (0.82529 => 0.82265)
+>> NOACC! c => size (0.82059 => 0.82265)
+>> NOSNT!
+>> ACC! poss => hosit (0.82265 => 0.82101)
+>> ACC! f => fer (0.82101 => 0.79803)
+>> ACC! s => stats (0.79803 => 0.79629)
+>> NOACC! e => es (0.78970 => 0.79629)
+>> NOSNT!
+>> ACC! score => fit (0.79629 => 0.78548)
+>> ACC! INSERT ;f = 0 0.78548=>0.78548
+Example time cost:  1.11 min
+ALL examples time cost:  22.51 min
+Query times in this attack:  2706
+Greedy query times: 330
+Ga query times: 2376
+All Query times:  51267
+Success rate:  0.2222222222222222
+Successful items count:  6
+Total count:  27
+Index:  33
+
+>> ACC! bot => plot (0.89387 => 0.83050)
+>> ACC! top => tip (0.83050 => 0.82233)
+>> ACC! b => l (0.82233 => 0.82058)
+>> NOACC! a => ab (0.81685 => 0.82058)
+>> NOSNT!
+>> ACC! case => ASE (0.82058 => 0.77229)
+>> ACC! count => size (0.77229 => 0.76025)
+>> ACC! res => exc (0.76025 => 0.75479)
+>> ACC! line => LINE (0.75479 => 0.66629)
+>> ACC! num => int (0.66629 => 0.65669)
+>> ACC! i => fi (0.65669 => 0.61728)
+>> ACC! INSERT ;num = 0 0.61728=>0.49353
+>> ACC! INSERT ;print(num) 0.49353=>0.46516
+>> ACC! INSERT ;bot = 0 0.46516=>0.36027
+>> ACC! INSERT ;print(top) 0.36027=>0.27792
+>> ACC! INSERT ;case = 0 0.27792=>0.26382
+>> ACC! INSERT ;print(case) 0.26382=>0.24528
+>> ACC! INSERT ;int = 0 0.24528=>0.23748
+>> ACC! INSERT ;print(multi) 0.23748=>0.22012
+>> ACC! INSERT ;plot = 0 0.22012=>0.17901
+>> ACC! INSERT ;Case = 0 0.17901=>0.14562
+>> ACC! INSERT ;LINE = 0 0.14562=>0.12683
+>> ACC! INSERT ;print(progress) 0.12683=>0.12579
+Example time cost:  0.71 min
+ALL examples time cost:  23.23 min
+Query times in this attack:  1779
+Greedy query times: 202
+Ga query times: 1577
+All Query times:  53046
+Success rate:  0.21428571428571427
+Successful items count:  6
+Total count:  28
+Index:  34
+
+Example time cost:  0.0 min
+ALL examples time cost:  23.23 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1577
+All Query times:  53047
+Success rate:  0.21428571428571427
+Successful items count:  6
+Total count:  28
+Index:  35
+
+>> SUC! num_of_cases => num_ofxcase (0.18002 => 0.03766)
+Example time cost:  0.01 min
+ALL examples time cost:  23.24 min
+Query times in this attack:  33
+Greedy query times: 33
+Ga query times: 1577
+All Query times:  53080
+Success rate:  0.2413793103448276
+Successful items count:  7
+Total count:  29
+Index:  36
+
+>> ACC! num_of_surprising => num_of_serieving (0.93522 => 0.93511)
+>> ACC! num_of_googlers => num_of_googglor (0.93511 => 0.93489)
+>> ACC! possible_scores => possible_scours (0.93489 => 0.93481)
+>> ACC! i => ip (0.93481 => 0.93391)
+>> NOACC! k =>  work (0.93391 => 0.93391)
+>> SNT! k =>  work (0.93391 => 0.93391)
+>> NOACC! normal => small (0.93391 => 0.93391)
+>> NOSNT!
+>> NOACC! possible => spores (0.93391 => 0.93391)
+>> NOSNT!
+>> NOACC! surprising => surprises (0.93391 => 0.93391)
+>> NOSNT!
+>> ACC! combinations => domines (0.93391 => 0.93375)
+>> ACC! result => section (0.93375 => 0.93349)
+>> ACC! desired_score => desired_match (0.93349 => 0.93343)
+>> ACC! case => Case (0.93343 => 0.93270)
+>> ACC! number_of_cases => number_of_fits (0.93270 => 0.92680)
+>> ACC! n => t (0.92680 => 0.92658)
+>> ACC! results => stats (0.92658 => 0.92594)
+>> NOACC! scores => cores (0.92448 => 0.92594)
+>> NOSNT!
+>> ACC! INSERT ;n = 0 0.92594=>0.92594
+Example time cost:  1.2 min
+ALL examples time cost:  24.44 min
+Query times in this attack:  2854
+Greedy query times: 340
+Ga query times: 2514
+All Query times:  55934
+Success rate:  0.23333333333333334
+Successful items count:  7
+Total count:  30
+Index:  37
+
+>> ACC! IN => URL (0.91000 => 0.73725)
+>> ACC! OUT => LINE (0.73725 => 0.51503)
+>> ACC! n => adj (0.51503 => 0.50210)
+>> NOACC! T => P (0.50015 => 0.50210)
+>> NOSNT!
+>> NOACC! solution => solver (0.48950 => 0.50210)
+>> NOSNT!
+>> ACC! m => mm (0.50210 => 0.49776)
+>> ACC! A => Data (0.49776 => 0.46054)
+>> ACC! B => D (0.46054 => 0.45166)
+>> NOACC! ABmax => abmax (0.44963 => 0.45166)
+>> NOSNT!
+>> ACC! index => END (0.45166 => 0.42663)
+>> ACC! INSERT ;print(n) 0.42663=>0.42372
+>> ACC! INSERT ;B = 0 0.42372=>0.42171
+>> ACC! INSERT ;print(B) 0.42171=>0.41409
+>> ACC! INSERT ;solution = 0 0.41409=>0.38651
+>> ACC! INSERT ;print(solution) 0.38651=>0.38349
+>> ACC! INSERT ;print(m) 0.38349=>0.37704
+Example time cost:  0.73 min
+ALL examples time cost:  25.17 min
+Query times in this attack:  1786
+Greedy query times: 216
+Ga query times: 1570
+All Query times:  57720
+Success rate:  0.22580645161290322
+Successful items count:  7
+Total count:  31
+Index:  38
+
+>> ACC! IN => URL (0.88780 => 0.75966)
+>> ACC! OUT => P (0.75966 => 0.50975)
+>> ACC! tlist => pcode (0.50975 => 0.47285)
+>> ACC! N => Z (0.47285 => 0.45342)
+>> ACC! p => i (0.45342 => 0.44631)
+>> ACC! data => missing (0.44631 => 0.43685)
+>> ACC! index => out (0.43685 => 0.38867)
+>> NOACC! S => Q (0.38739 => 0.38867)
+>> NOSNT!
+>> ACC! t => tc (0.38867 => 0.37497)
+>> ACC! consider => integer (0.37497 => 0.36844)
+>> ACC! above => past (0.36844 => 0.36041)
+>> ACC! mod =>  mods (0.36041 => 0.29023)
+>> ACC! avg => ajp (0.29023 => 0.19583)
+>> ACC! INSERT ;S = 0 0.19583=>0.18754
+>> ACC! INSERT ;print(tlist) 0.18754=>0.18258
+>> ACC! INSERT ;State = 0 0.18258=>0.17519
+>> ACC! INSERT ;TS = 0 0.17519=>0.16784
+>> SUC! INSERT ;print(TS)
+Example time cost:  0.14 min
+ALL examples time cost:  25.31 min
+Query times in this attack:  153
+Greedy query times: 153
+Ga query times: 1570
+All Query times:  57873
+Success rate:  0.25
+Successful items count:  8
+Total count:  32
+Index:  39
+
+>> ACC! test_case_id => test_section_index (0.85914 => 0.66560)
+>> ACC! s => t (0.66560 => 0.65392)
+>> ACC! n => l (0.65392 => 0.63860)
+>> ACC! x => rax (0.63860 => 0.57229)
+>> ACC! palindromes => palintromites (0.57229 => 0.56971)
+>> ACC! i => ai (0.56971 => 0.52005)
+>> ACC! N_MAX => NAMmax (0.52005 => 0.50922)
+>> ACC! palindrome_squares => palindrome_Squeries (0.50922 => 0.49810)
+>> NOACC! B => QB (0.49757 => 0.49810)
+>> NOSNT!
+>> ACC! T => Z (0.49810 => 0.42835)
+>> ACC! answer => address (0.42835 => 0.38986)
+>> ACC! A => Ca (0.38986 => 0.37027)
+>> ACC! fair_and_square_palindromes => fair_and_square_palndramES (0.37027 => 0.33919)
+>> ACC! INSERT ;print(fair_and_square_palindromes) 0.33919=>0.33829
+>> ACC! INSERT ;print(A) 0.33829=>0.32636
+>> ACC! INSERT ;print(n__max) 0.32636=>0.32408
+>> ACC! INSERT ;print(l) 0.32408=>0.32006
+>> ACC! INSERT ;services = 0 0.32006=>0.29636
+>> ACC! INSERT ;print(services) 0.29636=>0.27945
+>> ACC! INSERT ;print(palindroyis) 0.27945=>0.27367
+>> ACC! INSERT ;P = 0 0.27367=>0.27125
+Example time cost:  0.92 min
+ALL examples time cost:  26.23 min
+Query times in this attack:  2292
+Greedy query times: 258
+Ga query times: 2034
+All Query times:  60165
+Success rate:  0.24242424242424243
+Successful items count:  8
+Total count:  33
+Index:  40
+
+>> ACC! a => ai (0.76309 => 0.73093)
+>> ACC! c => cur (0.73093 => 0.72038)
+>> ACC! b => api (0.72038 => 0.70952)
+>> ACC! n => config (0.70952 => 0.68700)
+>> ACC! i => ip (0.68700 => 0.65544)
+>> ACC! T => Q (0.65544 => 0.58314)
+>> NOACC! div => min (0.57977 => 0.58314)
+>> SNT! div => min (0.58314 => 0.58652)
+>> ACC! poss => Pens (0.58652 => 0.53079)
+>> ACC! S =>  SS (0.53079 => 0.51744)
+>> ACC! N => P (0.51744 => 0.51655)
+>> ACC! ans => Na (0.51655 => 0.47469)
+>> ACC! t => tc (0.47469 => 0.40808)
+>> NOACC! nb => abb (0.40514 => 0.40808)
+>> NOSNT!
+>> ACC! p => amp (0.40808 => 0.39722)
+>> ACC! na => wa (0.39722 => 0.39375)
+>> ACC! nc => nv (0.39375 => 0.39139)
+>> ACC! sb => bb (0.39139 => 0.38653)
+>> ACC! sa => ba (0.38653 => 0.38144)
+>> ACC! sc => Sc (0.38144 => 0.37796)
+>> SUC! case => section (0.37796 => 0.14005)
+Example time cost:  0.08 min
+ALL examples time cost:  26.3 min
+Query times in this attack:  165
+Greedy query times: 165
+Ga query times: 2034
+All Query times:  60330
+Success rate:  0.2647058823529412
+Successful items count:  9
+Total count:  34
+Index:  41
+
+>> ACC! max_N =>  max_K (0.93240 => 0.93216)
+>> ACC! i => t (0.93216 => 0.93213)
+>> ACC! p => page (0.93213 => 0.93193)
+>> ACC! s => ssh (0.93193 => 0.93186)
+>> NOACC! f => l (0.93186 => 0.93186)
+>> NOSNT!
+>> NOACC! B => P (0.93186 => 0.93186)
+>> NOSNT!
+>> NOACC! SQUARE_SET => SQUAR_Set (0.93186 => 0.93186)
+>> NOSNT!
+>> NOACC! count => l (0.93186 => 0.93186)
+>> NOSNT!
+>> NOACC! A => Ac (0.93186 => 0.93186)
+>> NOSNT!
+>> NOACC! T => P (0.93186 => 0.93186)
+>> NOSNT!
+>> NOACC! N => Na (0.93184 => 0.93186)
+>> NOSNT!
+>> NOACC! x => xb (0.93186 => 0.93186)
+>> NOSNT!
+>> NOACC! v => l (0.93186 => 0.93186)
+>> NOSNT!
+>> NOACC! ss => css (0.93186 => 0.93186)
+>> SNT! ss => css (0.93186 => 0.93186)
+>> NOACC! MAX_N =>  MAXIDS (0.93186 => 0.93186)
+>> NOSNT!
+>> ACC! _cache => _ache (0.93186 => 0.93179)
+>> ACC! cachedValue =>  cryptedValues (0.93179 => 0.93151)
+>> ACC! key => link (0.93151 => 0.93139)
+>> ACC! cache => can (0.93139 => 0.93116)
+>> ACC! function => library (0.93116 => 0.92189)
+>> ACC! INPUT => AINLINE (0.92189 => 0.88159)
+>> ACC! _callable => _variable (0.88159 => 0.83822)
+>> ACC! self => co (0.83822 => 0.80314)
+Example time cost:  1.7 min
+ALL examples time cost:  28.0 min
+Query times in this attack:  4095
+Greedy query times: 469
+Ga query times: 3626
+All Query times:  64425
+Success rate:  0.2571428571428571
+Successful items count:  9
+Total count:  35
+Index:  42
+
+>> ACC! low_p => old_lp (0.92567 => 0.92524)
+>> ACC! l => j (0.92524 => 0.92501)
+>> ACC! x => max (0.92501 => 0.92494)
+>> ACC! i => ip (0.92494 => 0.92449)
+>> ACC! f => fit (0.92449 => 0.92411)
+>> ACC! T => P (0.92411 => 0.92368)
+>> NOACC! v => vd (0.92189 => 0.92368)
+>> NOSNT!
+>> ACC! S => Z (0.92368 => 0.92291)
+>> ACC! d => dc (0.92291 => 0.92239)
+>> ACC! s => input (0.92239 => 0.91902)
+>> ACC! N => Na (0.91902 => 0.91875)
+>> NOACC! p => pp (0.91816 => 0.91875)
+>> NOSNT!
+>> ACC! INPUT => INLA (0.91875 => 0.79107)
+>> ACC! INSERT ;s = 0 0.79107=>0.77923
+>> ACC! INSERT ;print(s) 0.77923=>0.77177
+>> ACC! INSERT ;N = 0 0.77177=>0.73673
+>> ACC! INSERT ;print(low_p) 0.73673=>0.73214
+>> ACC! INSERT ;S = 0 0.73214=>0.73102
+>> ACC! INSERT ;print(S) 0.73102=>0.71361
+>> ACC! INSERT ;d = 0 0.71361=>0.69780
+>> ACC! INSERT ;v = 0 0.69780=>0.69579
+>> ACC! INSERT ;print(f) 0.69579=>0.69341
+Example time cost:  0.94 min
+ALL examples time cost:  28.94 min
+Query times in this attack:  2264
+Greedy query times: 273
+Ga query times: 1991
+All Query times:  66689
+Success rate:  0.25
+Successful items count:  9
+Total count:  36
+Index:  43
+
+Example time cost:  0.0 min
+ALL examples time cost:  28.94 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1991
+All Query times:  66690
+Success rate:  0.25
+Successful items count:  9
+Total count:  36
+Index:  44
+
+>> ACC! T => Z (0.73937 => 0.71823)
+>> ACC! i => chi (0.71823 => 0.45801)
+>> ACC! t => l (0.45801 => 0.45717)
+>> ACC! values => args (0.45717 => 0.37390)
+>> ACC! N => J (0.37390 => 0.36786)
+>> ACC! s => multi (0.36786 => 0.35595)
+>> ACC! note => all (0.35595 => 0.35314)
+>> ACC! answer => au (0.35314 => 0.34615)
+>> NOACC! n => z (0.34584 => 0.34615)
+>> NOSNT!
+>> ACC! p => exp (0.34615 => 0.33274)
+>> ACC! INSERT ;T = 0 0.33274=>0.33274
+Example time cost:  0.73 min
+ALL examples time cost:  29.67 min
+Query times in this attack:  1812
+Greedy query times: 217
+Ga query times: 1595
+All Query times:  68502
+Success rate:  0.24324324324324326
+Successful items count:  9
+Total count:  37
+Index:  45
+
+>> ACC! FILE_NAME_BASE => FILE_NAMEPBAME (0.93423 => 0.92569)
+>> ACC! inp =>  infp (0.92569 => 0.92213)
+>> ACC! l1 => L0 (0.92213 => 0.92164)
+>> NOACC! value => section (0.92164 => 0.92164)
+>> NOSNT!
+>> NOACC! l2 => Ltwo (0.92149 => 0.92164)
+>> NOSNT!
+>> NOACC! result => process (0.92164 => 0.92164)
+>> SNT! result => process (0.92164 => 0.92164)
+>> NOACC! case => step (0.92164 => 0.92164)
+>> NOSNT!
+>> ACC! soft => mm (0.92164 => 0.92154)
+>> ACC! pool => graph (0.92154 => 0.92106)
+>> NOACC! out => log (0.92106 => 0.92106)
+>> NOSNT!
+>> ACC! c => co (0.92106 => 0.92074)
+>> ACC! _ =>  all (0.92074 => 0.92018)
+>> NOACC! numCases => numPases (0.91960 => 0.92018)
+>> NOSNT!
+>> ACC! hard => small (0.92018 => 0.91965)
+>> ACC! results => features (0.91965 => 0.91936)
+>> ACC! x => input (0.91936 => 0.91844)
+>> ACC! i => j (0.91844 => 0.91837)
+>> NOACC! r => br (0.91767 => 0.91837)
+>> NOSNT!
+>> ACC! a => aa (0.91837 => 0.91812)
+>> ACC! NUM_PROCESSES => NUM_PRECECes (0.91812 => 0.88851)
+>> ACC! b => ab (0.88851 => 0.88733)
+>> ACC! RECURSION_LIMIT => RECURSION_CLimITS (0.88733 => 0.88522)
+>> ACC! MEM_LIMIT_GB => MEM_LIMIT2GP (0.88522 => 0.87707)
+Example time cost:  1.71 min
+ALL examples time cost:  31.37 min
+Query times in this attack:  4112
+Greedy query times: 464
+Ga query times: 3648
+All Query times:  72614
+Success rate:  0.23684210526315788
+Successful items count:  9
+Total count:  38
+Index:  46
+
+>> ACC! FILE_NAME_BASE => FILE_NAME_WBBS (0.88350 => 0.88184)
+>> ACC! NUM_PROCESSES => NUM_PRECECes (0.88184 => 0.79821)
+>> NOACC! total => scale (0.79820 => 0.79821)
+>> SNT! total => scale (0.79821 => 0.79823)
+>> NOACC! out => log (0.79823 => 0.79823)
+>> NOSNT!
+>> ACC! totals => totsases (0.79823 => 0.78460)
+>> NOACC! value => format (0.78460 => 0.78460)
+>> SNT! value => format (0.78460 => 0.78460)
+>> NOACC! b => i (0.78453 => 0.78460)
+>> NOSNT!
+>> NOACC! s => t (0.78460 => 0.78460)
+>> NOSNT!
+>> NOACC! case => step (0.78460 => 0.78460)
+>> SNT! case => step (0.78460 => 0.78460)
+>> NOACC! _ =>  the (0.78460 => 0.78460)
+>> NOSNT!
+>> NOACC! countCertain => countGeneral (0.78460 => 0.78460)
+>> SNT! countCertain => countGeneral (0.78460 => 0.78460)
+>> NOACC! result => section (0.78460 => 0.78460)
+>> NOSNT!
+>> NOACC! pool => graph (0.78460 => 0.78460)
+>> SNT! pool => graph (0.78460 => 0.78460)
+>> NOACC! results => versions (0.78460 => 0.78460)
+>> NOSNT!
+>> NOACC! points => tests (0.78360 => 0.78460)
+>> SNT! points => tests (0.78460 => 0.78560)
+>> NOACC! countSurprise => countSusception (0.78560 => 0.78560)
+>> NOSNT!
+>> ACC! surprises => interplex (0.78560 => 0.77077)
+>> ACC! x => z (0.77077 => 0.76697)
+>> ACC! dancers => ad100 (0.76697 => 0.75496)
+>> ACC! data => features (0.75496 => 0.74880)
+>> ACC! inp =>  inz (0.74880 => 0.69371)
+Example time cost:  1.61 min
+ALL examples time cost:  32.99 min
+Query times in this attack:  3803
+Greedy query times: 441
+Ga query times: 3362
+All Query times:  76417
+Success rate:  0.23076923076923078
+Successful items count:  9
+Total count:  39
+Index:  47
+
+>> NOACC! myCases => MyCases (0.92211 => 0.92211)
+>> NOSNT!
+>> NOACC! outfile =>  outFile (0.92211 => 0.92211)
+>> NOSNT!
+>> NOACC! args => loc (0.92211 => 0.92211)
+>> NOSNT!
+>> NOACC! answer => address (0.92211 => 0.92211)
+>> NOSNT!
+>> NOACC! iCase => iChance (0.92211 => 0.92211)
+>> NOSNT!
+>> NOACC! transform => format (0.92211 => 0.92211)
+>> NOSNT!
+>> NOACC! thelist => theirl (0.92211 => 0.92211)
+>> SNT! thelist => theirl (0.92211 => 0.92211)
+>> ACC! n => l (0.92211 => 0.92072)
+>> NOACC! trunc => Trunc (0.92072 => 0.92072)
+>> NOSNT!
+>> NOACC! item => link (0.92072 => 0.92072)
+>> SNT! item => link (0.92072 => 0.92072)
+>> NOACC! a => aa (0.92055 => 0.92072)
+>> NOSNT!
+>> NOACC! p => opt (0.92058 => 0.92072)
+>> SNT! p => opt (0.92072 => 0.92085)
+>> ACC! cn => css (0.92085 => 0.92009)
+>> ACC! palinSqrt => palinEsQrot (0.92009 => 0.91939)
+>> ACC! NumCases => NumChodes (0.91939 => 0.91548)
+>> ACC! object => config (0.91548 => 0.90971)
+>> ACC! caseNum => testnum (0.90971 => 0.89798)
+>> ACC! fname => filenames (0.89798 => 0.88731)
+>> ACC! b => j (0.88731 => 0.88704)
+>> ACC! num => init (0.88704 => 0.88563)
+>> ACC! self => exc (0.88563 => 0.86691)
+>> ACC! infile => INfolder (0.86691 => 0.38834)
+>> ACC! INSERT ;n = 0 0.38834=>0.38834
+Example time cost:  1.08 min
+ALL examples time cost:  34.07 min
+Query times in this attack:  1252
+Greedy query times: 570
+Ga query times: 682
+All Query times:  77669
+Success rate:  0.25
+Successful items count:  10
+Total count:  40
+Index:  48
+
+>> ACC! NumCases => numScased (0.87065 => 0.79749)
+>> ACC! isurprise => issurprise (0.79749 => 0.79479)
+>> SUC! infile => innhandle (0.79479 => 0.26112)
+Example time cost:  0.02 min
+ALL examples time cost:  34.09 min
+Query times in this attack:  53
+Greedy query times: 53
+Ga query times: 682
+All Query times:  77722
+Success rate:  0.2682926829268293
+Successful items count:  11
+Total count:  41
+Index:  49
+
+>> ACC! lines_used => cases_created (0.90237 => 0.89942)
+>> ACC! phash => Phashes (0.89942 => 0.89838)
+>> ACC! square => alpha (0.89838 => 0.89790)
+>> ACC! i => l (0.89790 => 0.89425)
+>> ACC! case => config (0.89425 => 0.88938)
+>> ACC! p => page (0.88938 => 0.88839)
+>> ACC! c => z (0.88839 => 0.88772)
+>> ACC! answer => address (0.88772 => 0.88696)
+>> ACC! fands => panders (0.88696 => 0.88628)
+>> ACC! cNum => CNum (0.88628 => 0.88573)
+>> ACC! lines => sticks (0.88573 => 0.84252)
+>> ACC! small_p => small_data (0.84252 => 0.84158)
+>> ACC! big_p => big_wp (0.84158 => 0.84038)
+>> ACC! dims => Dim (0.84038 => 0.82316)
+Example time cost:  1.04 min
+ALL examples time cost:  35.12 min
+Query times in this attack:  2556
+Greedy query times: 312
+Ga query times: 2244
+All Query times:  80278
+Success rate:  0.2619047619047619
+Successful items count:  11
+Total count:  42
+Index:  50
+
+>> ACC! f_in => F_out (0.91508 => 0.91337)
+>> NOACC! case => address (0.91337 => 0.91337)
+>> NOSNT!
+>> ACC! data => Data (0.91337 => 0.91236)
+>> ACC! caseNumber => CaseNum (0.91236 => 0.91147)
+>> ACC! self => l (0.91147 => 0.90232)
+>> NOACC! nCases =>  nScased (0.90232 => 0.90232)
+>> SNT! nCases =>  nScased (0.90232 => 0.90232)
+>> NOACC! cases => ceptions (0.90232 => 0.90232)
+>> NOSNT!
+>> ACC! caseData => catchdata (0.90232 => 0.90149)
+>> NOACC! c => exc (0.90149 => 0.90149)
+>> NOSNT!
+>> ACC! result => target (0.90149 => 0.90141)
+>> NOACC! sys => exc (0.90141 => 0.90141)
+>> NOSNT!
+>> NOACC! f_out => f2Out (0.90141 => 0.90141)
+>> NOSNT!
+>> NOACC! counter => step (0.90141 => 0.90141)
+>> NOSNT!
+>> NOACC! framework => support (0.90141 => 0.90141)
+>> NOSNT!
+>> NOACC! num => exp (0.90141 => 0.90141)
+>> NOSNT!
+>> ACC! number => size (0.90141 => 0.90032)
+>> ACC! cls => pls (0.90032 => 0.89521)
+>> NOACC! stdout => stdouts (0.89521 => 0.89521)
+>> NOSNT!
+>> NOACC! resultData => errorInfo (0.89510 => 0.89521)
+>> NOSNT!
+Example time cost:  1.5 min
+ALL examples time cost:  36.62 min
+Query times in this attack:  3285
+Greedy query times: 450
+Ga query times: 2835
+All Query times:  83563
+Success rate:  0.2558139534883721
+Successful items count:  11
+Total count:  43
+Index:  51
+
+>> ACC! t => size (0.44957 => 0.36182)
+>> ACC! ii => ci (0.36182 => 0.27601)
+>> NOACC! line => log (0.25026 => 0.27601)
+>> NOSNT!
+>> NOACC! num => tri (0.27253 => 0.27601)
+>> NOSNT!
+>> ACC! b => ab (0.27601 => 0.25752)
+>> ACC! i => image (0.25752 => 0.22022)
+>> ACC! orig => ref (0.22022 => 0.21111)
+>> NOACC! count => case (0.20091 => 0.21111)
+>> NOSNT!
+>> NOACC! a => wa (0.21014 => 0.21111)
+>> SNT! a => wa (0.21111 => 0.21209)
+>> NOACC! rev => cur (0.20780 => 0.21209)
+>> NOSNT!
+>> ACC! palin => spolin (0.21209 => 0.19923)
+>> SUC! s => tests (0.19923 => 0.15829)
+Example time cost:  0.05 min
+ALL examples time cost:  36.67 min
+Query times in this attack:  113
+Greedy query times: 113
+Ga query times: 2835
+All Query times:  83676
+Success rate:  0.2727272727272727
+Successful items count:  12
+Total count:  44
+Index:  52
+
+>> ACC! t => tc (0.81647 => 0.78212)
+>> NOACC! inputline => outputline (0.77788 => 0.78212)
+>> NOSNT!
+>> ACC! inputparams => paramparams (0.78212 => 0.75964)
+>> ACC! surprisingcount => surprisinglysum (0.75964 => 0.72623)
+>> ACC! p => z (0.72623 => 0.70835)
+>> ACC! score => vec (0.70835 => 0.70795)
+>> NOACC! validcount => validCount (0.70630 => 0.70795)
+>> NOSNT!
+>> ACC! i => ip (0.70795 => 0.55272)
+>> ACC! n => size (0.55272 => 0.50188)
+>> ACC! j => adj (0.50188 => 0.49048)
+>> ACC! s => features (0.49048 => 0.43993)
+>> ACC! INSERT ;print(outputshape) 0.43993=>0.43365
+>> ACC! INSERT ;print(latline) 0.43365=>0.38564
+>> ACC! INSERT ;print(Inputpar) 0.38564=>0.31942
+>> ACC! INSERT ;print(jobs) 0.31942=>0.31113
+>> ACC! INSERT ;print(P) 0.31113=>0.29465
+>> ACC! INSERT ;case = 0 0.29465=>0.26656
+>> ACC! INSERT ;print(case) 0.26656=>0.24783
+Example time cost:  0.79 min
+ALL examples time cost:  37.46 min
+Query times in this attack:  1982
+Greedy query times: 222
+Ga query times: 1760
+All Query times:  85658
+Success rate:  0.26666666666666666
+Successful items count:  12
+Total count:  45
+Index:  53
+
+Example time cost:  0.0 min
+ALL examples time cost:  37.46 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1760
+All Query times:  85659
+Success rate:  0.26666666666666666
+Successful items count:  12
+Total count:  45
+Index:  54
+
+>> ACC! T => P (0.36286 => 0.34311)
+>> ACC! min_normal => min48normal (0.34311 => 0.34153)
+>> ACC! min_surprising => min_urprisingly (0.34153 => 0.33976)
+>> ACC! cnt_normal => cnt10norm (0.33976 => 0.33866)
+>> ACC! cnt_surprising => cnt_surprise (0.33866 => 0.33739)
+>> ACC! t => ti (0.33739 => 0.33390)
+>> ACC! _N => _n (0.33390 => 0.33071)
+>> ACC! i => l (0.33071 => 0.26448)
+>> NOACC! p => j (0.25801 => 0.26448)
+>> NOSNT!
+>> ACC! S => Q (0.26448 => 0.26410)
+>> SUC! values => lines (0.26410 => 0.21424)
+Example time cost:  0.04 min
+ALL examples time cost:  37.5 min
+Query times in this attack:  81
+Greedy query times: 81
+Ga query times: 1760
+All Query times:  85740
+Success rate:  0.2826086956521739
+Successful items count:  13
+Total count:  46
+Index:  55
+
+Example time cost:  0.0 min
+ALL examples time cost:  37.5 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1760
+All Query times:  85741
+Success rate:  0.2826086956521739
+Successful items count:  13
+Total count:  46
+Index:  56
+
+>> ACC! t => l (0.88150 => 0.87500)
+>> ACC! surprising_scores => surprising_acourses (0.87500 => 0.87396)
+>> ACC! T => P (0.87396 => 0.86626)
+>> NOACC! num_scores => num_accore (0.86598 => 0.86626)
+>> NOSNT!
+>> ACC! scores => Scores (0.86626 => 0.86537)
+>> ACC! non_surprising_scores => non_surprising_missores (0.86537 => 0.86499)
+>> NOACC! p => j (0.86141 => 0.86499)
+>> NOSNT!
+>> ACC! N => Z (0.86499 => 0.86409)
+>> ACC! S => J (0.86409 => 0.86330)
+>> ACC! temp => int (0.86330 => 0.86232)
+>> ACC! f => ff (0.86232 => 0.83197)
+>> ACC! INSERT ;f = 0 0.83197=>0.77501
+>> ACC! INSERT ;print(f) 0.77501=>0.55627
+>> ACC! INSERT ;T = 0 0.55627=>0.55294
+>> ACC! INSERT ;t = 0 0.55294=>0.51250
+>> ACC! INSERT ;print(t) 0.51250=>0.49105
+>> ACC! INSERT ;num_scores = 0 0.49105=>0.41484
+>> ACC! INSERT ;input = 0 0.41484=>0.36537
+>> ACC! INSERT ;l = 0 0.36537=>0.35543
+Example time cost:  0.78 min
+ALL examples time cost:  38.28 min
+Query times in this attack:  1933
+Greedy query times: 219
+Ga query times: 1714
+All Query times:  87674
+Success rate:  0.2765957446808511
+Successful items count:  13
+Total count:  47
+Index:  57
+
+>> ACC! S => Sample (0.68498 => 0.67517)
+>> ACC! s => services (0.67517 => 0.66545)
+>> ACC! infile => inline (0.66545 => 0.60467)
+>> ACC! i => ti (0.60467 => 0.59715)
+>> ACC! B => QB (0.59715 => 0.59440)
+>> ACC! t => note (0.59440 => 0.59239)
+>> ACC! A => As (0.59239 => 0.59091)
+>> NOACC! count => size (0.59058 => 0.59091)
+>> NOSNT!
+>> ACC! f => ff (0.59091 => 0.59007)
+>> ACC! inF => INFile (0.59007 => 0.49490)
+>> ACC! m => mm (0.49490 => 0.49347)
+>> ACC! temp => format (0.49347 => 0.49238)
+>> ACC! outF => OutFile (0.49238 => 0.44888)
+>> ACC! outfile =>  outfilename (0.44888 => 0.35504)
+>> ACC! INSERT ;S = 0 0.35504=>0.34616
+>> ACC! INSERT ;print(S) 0.34616=>0.33996
+>> ACC! INSERT ;s = 0 0.33996=>0.33941
+>> ACC! INSERT ;i = 0 0.33941=>0.33212
+>> ACC! INSERT ;infile = 0 0.33212=>0.30572
+>> ACC! INSERT ;print(temp) 0.30572=>0.30169
+>> ACC! INSERT ;Sample = 0 0.30169=>0.29378
+>> ACC! INSERT ;print(Sample) 0.29378=>0.27850
+Example time cost:  1.02 min
+ALL examples time cost:  39.3 min
+Query times in this attack:  2472
+Greedy query times: 283
+Ga query times: 2189
+All Query times:  90146
+Success rate:  0.2708333333333333
+Successful items count:  13
+Total count:  48
+Index:  58
+
+>> ACC! outfile => newname (0.91951 => 0.91734)
+>> ACC! infile => inf (0.91734 => 0.90784)
+>> ACC! caseA => instanceA (0.90784 => 0.90699)
+>> ACC! over_norm => over___normal (0.90699 => 0.90656)
+>> ACC! over_supr => over_suprl (0.90656 => 0.90636)
+>> ACC! linesA => blocksAs (0.90636 => 0.90515)
+>> NOACC! total => size (0.90515 => 0.90515)
+>> NOSNT!
+>> NOACC! a3 => A4 (0.90515 => 0.90515)
+>> SNT! a3 => A4 (0.90515 => 0.90515)
+>> NOACC! fullA => quickG (0.90515 => 0.90515)
+>> NOSNT!
+>> NOACC! a2 => ga5 (0.90515 => 0.90515)
+>> NOSNT!
+>> NOACC! maxN => MaxC (0.90515 => 0.90515)
+>> SNT! maxN => MaxC (0.90515 => 0.90515)
+>> NOACC! maxS => maxP (0.90515 => 0.90515)
+>> NOSNT!
+>> ACC! outA => listS (0.90515 => 0.90342)
+>> ACC! conv => Q (0.90342 => 0.90339)
+>> NOACC! a1 => aa5 (0.90339 => 0.90339)
+>> SNT! a1 => aa5 (0.90339 => 0.90339)
+>> ACC! line => LINE (0.90339 => 0.90335)
+>> NOACC! lowest => smallests (0.90335 => 0.90335)
+>> SNT! lowest => smallests (0.90335 => 0.90335)
+>> ACC! N => J (0.90335 => 0.90313)
+>> ACC! t => target (0.90313 => 0.90301)
+>> NOACC! depth => format (0.90301 => 0.90301)
+>> SNT! depth => format (0.90301 => 0.90301)
+>> ACC! S => D (0.90301 => 0.90281)
+>> ACC! P => API (0.90281 => 0.90253)
+>> NOACC! out => log (0.90253 => 0.90253)
+>> SNT! out => log (0.90253 => 0.90253)
+>> ACC! init => size (0.90253 => 0.90108)
+>> ACC! data_dict => data__list (0.90108 => 0.89701)
+>> ACC! i => l (0.89701 => 0.89652)
+>> ACC! T => DT (0.89652 => 0.89606)
+Example time cost:  2.05 min
+ALL examples time cost:  41.35 min
+Query times in this attack:  4797
+Greedy query times: 564
+Ga query times: 4233
+All Query times:  94943
+Success rate:  0.2653061224489796
+Successful items count:  13
+Total count:  49
+Index:  59
+
+>> ACC! n => ln (0.93217 => 0.92867)
+>> ACC! x => int (0.92867 => 0.92754)
+>> ACC! i => j (0.92754 => 0.92743)
+>> ACC! P => Price (0.92743 => 0.92466)
+>> ACC! T => Z (0.92466 => 0.92259)
+>> NOACC! y => l (0.92244 => 0.92259)
+>> NOSNT!
+>> NOACC! res => complete (0.92255 => 0.92259)
+>> NOSNT!
+>> NOACC! b => ab (0.92250 => 0.92259)
+>> NOSNT!
+>> ACC! low => size (0.92259 => 0.92248)
+>> NOACC! a => wa (0.92240 => 0.92248)
+>> NOSNT!
+>> ACC! high => max (0.92248 => 0.92217)
+>> NOACC! t => l (0.92217 => 0.92217)
+>> NOSNT!
+>> NOACC! common => small (0.92217 => 0.92217)
+>> NOSNT!
+>> ACC! C => Ca (0.92217 => 0.92099)
+>> ACC! N => Q (0.92099 => 0.91979)
+>> ACC! I => H (0.91979 => 0.91880)
+>> ACC! S => Ps (0.91880 => 0.91823)
+>> ACC! testcase => testsection (0.91823 => 0.88889)
+>> ACC! infile => INFile (0.88889 => 0.78813)
+>> ACC! INSERT ;x = 0 0.78813=>0.78813
+Example time cost:  1.4 min
+ALL examples time cost:  42.75 min
+Query times in this attack:  3387
+Greedy query times: 392
+Ga query times: 2995
+All Query times:  98330
+Success rate:  0.26
+Successful items count:  13
+Total count:  50
+Index:  60
+
+>> ACC! testcase => traincases (0.93290 => 0.88319)
+>> ACC! infile => INFile (0.88319 => 0.78406)
+>> ACC! g => reg (0.78406 => 0.78401)
+>> ACC! P => PIN (0.78401 => 0.77940)
+>> ACC! p => py (0.77940 => 0.75293)
+>> ACC! s =>  rs (0.75293 => 0.74606)
+>> ACC! N => J (0.74606 => 0.74115)
+>> NOACC! G => D (0.74036 => 0.74115)
+>> NOSNT!
+>> NOACC! S => Q (0.74077 => 0.74115)
+>> SNT! S => Q (0.74115 => 0.74153)
+>> ACC! t => tc (0.74153 => 0.73985)
+>> ACC! r => i (0.73985 => 0.73872)
+>> ACC! T => D (0.73872 => 0.73809)
+>> ACC! cache => case (0.73809 => 0.67947)
+>> ACC! self => connection (0.67947 => 0.63634)
+>> ACC! INSERT ;cache = 0 0.63634=>0.63634
+Example time cost:  1.02 min
+ALL examples time cost:  43.77 min
+Query times in this attack:  2520
+Greedy query times: 286
+Ga query times: 2234
+All Query times:  100850
+Success rate:  0.2549019607843137
+Successful items count:  13
+Total count:  51
+Index:  61
+
+>> ACC! b => ab (0.48544 => 0.46993)
+>> NOACC! result => final (0.46638 => 0.46993)
+>> SNT! result => final (0.46993 => 0.47348)
+>> ACC! index => page (0.47348 => 0.45163)
+>> NOACC! a => wa (0.44682 => 0.45163)
+>> NOSNT!
+>> NOACC! root => alpha (0.45055 => 0.45163)
+>> NOSNT!
+>> ACC! n => t (0.45163 => 0.44222)
+>> ACC! i => z (0.44222 => 0.43618)
+>> ACC! count => int (0.43618 => 0.43153)
+>> ACC! INSERT ;log = 0 0.43153=>0.41029
+>> ACC! INSERT ;print(log) 0.41029=>0.39630
+>> ACC! INSERT ;l = 0 0.39630=>0.25723
+>> ACC! INSERT ;print(j) 0.25723=>0.20977
+>> ACC! INSERT ;t = 0 0.20977=>0.19234
+>> ACC! INSERT ;l = 0 0.19234=>0.18648
+>> ACC! INSERT ;print(ip) 0.18648=>0.18626
+>> ACC! INSERT ;size = 0 0.18626=>0.15759
+>> SUC! INSERT ;out = 0
+Example time cost:  0.25 min
+ALL examples time cost:  44.02 min
+Query times in this attack:  164
+Greedy query times: 164
+Ga query times: 2234
+All Query times:  101014
+Success rate:  0.2692307692307692
+Successful items count:  14
+Total count:  52
+Index:  62
+
+>> SUC! scores_sums => scores_nsessions (0.19754 => 0.09995)
+Example time cost:  0.02 min
+ALL examples time cost:  44.03 min
+Query times in this attack:  60
+Greedy query times: 60
+Ga query times: 2234
+All Query times:  101074
+Success rate:  0.2830188679245283
+Successful items count:  15
+Total count:  53
+Index:  63
+
+>> ACC! word => address (0.93748 => 0.93744)
+>> ACC! root => null (0.93744 => 0.93720)
+>> ACC! range_ => framePool (0.93720 => 0.93627)
+>> NOACC! i => b (0.93603 => 0.93627)
+>> NOSNT!
+>> ACC! start => size (0.93627 => 0.93614)
+>> ACC! count_ => depth__ (0.93614 => 0.93596)
+>> ACC! end => END (0.93596 => 0.93577)
+>> NOACC! result => answer (0.93577 => 0.93577)
+>> SNT! result => answer (0.93577 => 0.93577)
+>> NOACC! f_w => f_raw (0.93577 => 0.93577)
+>> SNT! f_w => f_raw (0.93577 => 0.93577)
+>> NOACC! output_str => output_string (0.93577 => 0.93577)
+>> NOSNT!
+>> ACC! f_half => ssOsize (0.93577 => 0.93552)
+>> ACC! n_test => n_match (0.93552 => 0.93527)
+>> ACC! isPalin => isHamnin (0.93527 => 0.93499)
+>> ACC! s_half => soyhalf (0.93499 => 0.93454)
+>> ACC! f_r => f24sr (0.93454 => 0.93433)
+Example time cost:  1.11 min
+ALL examples time cost:  45.14 min
+Query times in this attack:  2702
+Greedy query times: 314
+Ga query times: 2388
+All Query times:  103776
+Success rate:  0.2777777777777778
+Successful items count:  15
+Total count:  54
+Index:  64
+
+>> ACC! g => gc (0.93521 => 0.93472)
+>> ACC! k => l (0.93472 => 0.93460)
+>> NOACC! googlers => moogling (0.93460 => 0.93460)
+>> SNT! googlers => moogling (0.93460 => 0.93460)
+>> NOACC! noSu =>  Nosu (0.93460 => 0.93460)
+>> SNT! noSu =>  Nosu (0.93460 => 0.93460)
+>> NOACC! sur_count => sur_sum (0.93460 => 0.93460)
+>> SNT! sur_count => sur_sum (0.93460 => 0.93460)
+>> NOACC! i => ti (0.93448 => 0.93460)
+>> NOSNT!
+>> ACC! total => ip (0.93460 => 0.93412)
+>> NOACC! equ_count =>  equ_size (0.93412 => 0.93412)
+>> SNT! equ_count =>  equ_size (0.93412 => 0.93412)
+>> NOACC! both_count => both_len (0.93412 => 0.93412)
+>> NOSNT!
+>> NOACC! first_count => sec_const (0.93412 => 0.93412)
+>> NOSNT!
+>> NOACC! N => P (0.93412 => 0.93412)
+>> NOSNT!
+>> NOACC! o => lo (0.93412 => 0.93412)
+>> NOSNT!
+>> ACC! indcies => infger (0.93412 => 0.93389)
+>> NOACC! equ => cur (0.93389 => 0.93389)
+>> SNT! equ => cur (0.93389 => 0.93389)
+>> NOACC! count => size (0.93389 => 0.93389)
+>> SNT! count => size (0.93389 => 0.93389)
+>> ACC! s_ => ions_ (0.93389 => 0.93377)
+>> ACC! j => J (0.93377 => 0.93361)
+>> NOACC! info => z (0.93361 => 0.93361)
+>> NOSNT!
+>> NOACC! d => ld (0.93361 => 0.93361)
+>> NOSNT!
+>> ACC! S => D (0.93361 => 0.93343)
+>> NOACC! p => per (0.93303 => 0.93343)
+>> NOSNT!
+>> NOACC! sur => esc (0.93343 => 0.93343)
+>> NOSNT!
+>> ACC! h => oh (0.93343 => 0.93329)
+>> NOACC! f => exp (0.93329 => 0.93329)
+>> NOSNT!
+>> ACC! n => un (0.93329 => 0.93326)
+>> NOACC! sur_equ => Sur_qu (0.93326 => 0.93326)
+>> NOSNT!
+>> ACC! t => unt (0.93326 => 0.93266)
+Example time cost:  2.11 min
+ALL examples time cost:  47.25 min
+Query times in this attack:  4865
+Greedy query times: 598
+Ga query times: 4267
+All Query times:  108641
+Success rate:  0.2727272727272727
+Successful items count:  15
+Total count:  55
+Index:  65
+
+>> ACC! num => input (0.76428 => 0.64887)
+>> ACC! T => TS (0.64887 => 0.61249)
+>> ACC! i => j (0.61249 => 0.58559)
+>> ACC! x => z (0.58559 => 0.57822)
+>> NOACC! B => Other (0.57001 => 0.57822)
+>> NOSNT!
+>> ACC! A => alpha (0.57822 => 0.56584)
+>> ACC! count => t (0.56584 => 0.55995)
+>> ACC! INSERT ;print(num) 0.55995=>0.55123
+>> ACC! INSERT ;A = 0 0.55123=>0.49232
+>> ACC! INSERT ;count = 0 0.49232=>0.45179
+>> ACC! INSERT ;case = 0 0.45179=>0.35878
+>> ACC! INSERT ;print(case) 0.35878=>0.27453
+Example time cost:  0.49 min
+ALL examples time cost:  47.74 min
+Query times in this attack:  1128
+Greedy query times: 152
+Ga query times: 976
+All Query times:  109769
+Success rate:  0.26785714285714285
+Successful items count:  15
+Total count:  56
+Index:  66
+
+>> NOACC! a => art (0.85465 => 0.85516)
+>> SNT! a => art (0.85516 => 0.85568)
+>> ACC! n => j (0.85568 => 0.85430)
+>> ACC! S => D (0.85430 => 0.85095)
+>> ACC! i => P (0.85095 => 0.84793)
+>> ACC! scores => SCores (0.84793 => 0.84418)
+>> ACC! nums => ynums (0.84418 => 0.83249)
+>> ACC! p => lp (0.83249 => 0.81480)
+>> ACC! s => z (0.81480 => 0.81408)
+>> ACC! b => aa (0.81408 => 0.81091)
+>> ACC! T => Z (0.81091 => 0.80942)
+>> NOACC! N => J (0.80897 => 0.80942)
+>> NOSNT!
+>> ACC! t => null (0.80942 => 0.80836)
+>> ACC! INSERT ;n = 0 0.80836=>0.80836
+Example time cost:  0.86 min
+ALL examples time cost:  48.6 min
+Query times in this attack:  2069
+Greedy query times: 256
+Ga query times: 1813
+All Query times:  111838
+Success rate:  0.2631578947368421
+Successful items count:  15
+Total count:  57
+Index:  67
+
+>> ACC! x => i (0.93202 => 0.93182)
+>> ACC! A => AR (0.93182 => 0.93142)
+>> ACC! B => API (0.93142 => 0.93109)
+>> ACC! root => case (0.93109 => 0.93047)
+>> ACC! t => text (0.93047 => 0.93003)
+>> ACC! count => log (0.93003 => 0.92956)
+>> ACC! B_root =>  B_Root (0.92956 => 0.92898)
+>> ACC! A_root =>  A_row (0.92898 => 0.92857)
+>> ACC! T => D (0.92857 => 0.92658)
+>> ACC! word => byte (0.92658 => 0.92573)
+>> ACC! INSERT ;x = 0 0.92573=>0.92455
+>> ACC! INSERT ;T = 0 0.92455=>0.92291
+>> ACC! INSERT ;A = 0 0.92291=>0.92242
+>> ACC! INSERT ;print(A) 0.92242=>0.92192
+>> ACC! INSERT ;B = 0 0.92192=>0.91988
+>> ACC! INSERT ;print(B) 0.91988=>0.91918
+>> ACC! INSERT ;print(A_root) 0.91918=>0.91894
+>> ACC! INSERT ;B_root = 0 0.91894=>0.91548
+>> ACC! INSERT ;count = 0 0.91548=>0.91404
+>> ACC! INSERT ;word = 0 0.91404=>0.91224
+>> ACC! INSERT ;text = 0 0.91224=>0.90744
+>> ACC! INSERT ;j = 0 0.90744=>0.90295
+>> ACC! INSERT ;unit = 0 0.90295=>0.89860
+>> ACC! INSERT ;A_roots = 0 0.89860=>0.89667
+>> ACC! INSERT ; A_row = 0 0.89667=>0.89379
+>> ACC! INSERT ;A__length = 0 0.89379=>0.89181
+>> ACC! INSERT ;print(tool) 0.89181=>0.89055
+>> ACC! INSERT ;key = 0 0.89055=>0.87201
+Example time cost:  0.71 min
+ALL examples time cost:  49.31 min
+Query times in this attack:  1742
+Greedy query times: 199
+Ga query times: 1543
+All Query times:  113580
+Success rate:  0.25862068965517243
+Successful items count:  15
+Total count:  58
+Index:  68
+
+>> ACC! line => id (0.92911 => 0.92882)
+>> ACC! t => int (0.92882 => 0.92807)
+>> ACC! p => l (0.92807 => 0.92771)
+>> ACC! S => size (0.92771 => 0.92738)
+>> NOACC! count => new (0.92736 => 0.92738)
+>> NOSNT!
+>> ACC! N => J (0.92738 => 0.92737)
+>> ACC! T => Z (0.92737 => 0.92734)
+>> ACC! x => ex (0.92734 => 0.92666)
+>> ACC! INSERT ;x = 0 0.92666=>0.92607
+Example time cost:  0.58 min
+ALL examples time cost:  49.9 min
+Query times in this attack:  1480
+Greedy query times: 168
+Ga query times: 1312
+All Query times:  115060
+Success rate:  0.2542372881355932
+Successful items count:  15
+Total count:  59
+Index:  69
+
+Example time cost:  0.0 min
+ALL examples time cost:  49.9 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1312
+All Query times:  115061
+Success rate:  0.2542372881355932
+Successful items count:  15
+Total count:  59
+Index:  70
+
+>> ACC! line => model (0.87215 => 0.84161)
+>> ACC! this_p =>  this_point (0.84161 => 0.83754)
+>> ACC! maxp => Maxi (0.83754 => 0.83538)
+>> ACC! surprise => syprising (0.83538 => 0.82881)
+>> NOACC! either => anything (0.82862 => 0.82881)
+>> NOSNT!
+>> ACC! p => P (0.82881 => 0.82880)
+>> ACC! points => format (0.82880 => 0.81740)
+>> ACC! x => i (0.81740 => 0.81442)
+>> ACC! caseI => catchE (0.81442 => 0.79393)
+>> ACC! N =>  network (0.79393 => 0.78931)
+>> ACC! make_surprise => make_surprises (0.78931 => 0.78819)
+>> ACC! f => rf (0.78819 => 0.66906)
+>> ACC! g => graph (0.66906 => 0.58763)
+Example time cost:  0.95 min
+ALL examples time cost:  50.85 min
+Query times in this attack:  2306
+Greedy query times: 281
+Ga query times: 2025
+All Query times:  117367
+Success rate:  0.25
+Successful items count:  15
+Total count:  60
+Index:  71
+
+>> ACC! case => ASE (0.35907 => 0.12328)
+>> ACC! possibles => pOSSible (0.12328 => 0.10000)
+>> ACC! A => State (0.10000 => 0.09328)
+>> ACC! count => key (0.09328 => 0.08955)
+>> ACC! B => J (0.08955 => 0.08784)
+>> ACC! possible => cpcould (0.08784 => 0.08460)
+>> SUC! INSERT ;possibles = 0
+Example time cost:  0.03 min
+ALL examples time cost:  50.88 min
+Query times in this attack:  47
+Greedy query times: 47
+Ga query times: 2025
+All Query times:  117414
+Success rate:  0.26229508196721313
+Successful items count:  16
+Total count:  61
+Index:  72
+
+>> ACC! elems => elns (0.93831 => 0.93771)
+>> ACC! i => ai (0.93771 => 0.93719)
+>> ACC! start => l (0.93719 => 0.93081)
+>> ACC! INSERT ;start = 0 0.93081=>0.92792
+>> ACC! INSERT ;elems = 0 0.92792=>0.92251
+>> ACC! INSERT ;i = 0 0.92251=>0.91196
+>> ACC! INSERT ;print(l) 0.91196=>0.89253
+>> ACC! INSERT ;l = 0 0.89253=>0.88974
+>> ACC! INSERT ;print(l) 0.88974=>0.88642
+Example time cost:  0.23 min
+ALL examples time cost:  51.11 min
+Query times in this attack:  582
+Greedy query times: 61
+Ga query times: 521
+All Query times:  117996
+Success rate:  0.25806451612903225
+Successful items count:  16
+Total count:  62
+Index:  73
+
+>> ACC! filepath => filePath (0.92828 => 0.92683)
+>> ACC! n => max (0.92683 => 0.92654)
+>> ACC! case_counter => case_number (0.92654 => 0.92615)
+>> ACC! case => feed (0.92615 => 0.92283)
+>> NOACC! elem => gelev (0.92283 => 0.92283)
+>> SNT! elem => gelev (0.92283 => 0.92283)
+>> ACC! line_index => link_address (0.92283 => 0.92094)
+>> ACC! line => input (0.92094 => 0.91989)
+>> NOACC! output => address (0.91989 => 0.91989)
+>> NOSNT!
+>> ACC! lines_left => lines_below (0.91989 => 0.91977)
+>> NOACC! index => address (0.91977 => 0.91977)
+>> NOSNT!
+>> ACC! new_case => new_change (0.91977 => 0.91836)
+>> NOACC! flags => fires (0.91836 => 0.91836)
+>> SNT! flags => fires (0.91836 => 0.91836)
+>> NOACC! array => address (0.91836 => 0.91836)
+>> NOSNT!
+Example time cost:  1.06 min
+ALL examples time cost:  52.17 min
+Query times in this attack:  2237
+Greedy query times: 332
+Ga query times: 1905
+All Query times:  120233
+Success rate:  0.25396825396825395
+Successful items count:  16
+Total count:  63
+Index:  74
+
+>> NOACC! self => exc (0.39971 => 0.43958)
+>> SNT! self => exc (0.43958 => 0.47944)
+>> NOACC! i => b (0.45752 => 0.47944)
+>> NOSNT!
+>> ACC! j => J (0.47944 => 0.43362)
+>> ACC! k => right (0.43362 => 0.42516)
+>> ACC! total_points => max67groups (0.42516 => 0.32758)
+>> NOACC! best_result => best_results (0.32758 => 0.32758)
+>> NOSNT!
+>> NOACC! actual_triplet => actual_promplet (0.32758 => 0.32758)
+>> NOSNT!
+>> ACC! surprise => suvey (0.32758 => 0.32156)
+>> ACC! valid => Valid (0.32156 => 0.30769)
+>> NOACC! is_surprise => is_subvey (0.30769 => 0.30769)
+>> NOSNT!
+>> NOACC! surprise_triplets => surprise_tuplet (0.30582 => 0.30769)
+>> SNT! surprise_triplets => surprise_tuplet (0.30769 => 0.30955)
+>> NOACC! input_list => input_diff (0.30955 => 0.30955)
+>> NOSNT!
+>> NOACC! triplet_redundancy => triplet_redunency (0.30955 => 0.30955)
+>> NOSNT!
+>> NOACC! can_surprise => can_surprising (0.30955 => 0.30955)
+>> NOSNT!
+>> ACC! triplet => trajet (0.30955 => 0.29150)
+>> ACC! max_diff => max64error (0.29150 => 0.27031)
+>> ACC! regular_triplets => regular_droplet (0.27031 => 0.26844)
+>> ACC! INSERT ;self = 0 0.26844=>0.26844
+Example time cost:  0.69 min
+ALL examples time cost:  52.86 min
+Query times in this attack:  606
+Greedy query times: 477
+Ga query times: 129
+All Query times:  120839
+Success rate:  0.265625
+Successful items count:  17
+Total count:  64
+Index:  75
+
+>> ACC! n => z (0.89024 => 0.88553)
+>> ACC! S => Q (0.88553 => 0.88424)
+>> ACC! i => input (0.88424 => 0.88410)
+>> ACC! LIM =>  LINK (0.88410 => 0.85930)
+>> NOACC! q => qu (0.85599 => 0.85930)
+>> SNT! q => qu (0.85930 => 0.86260)
+>> ACC! A => API (0.86260 => 0.85947)
+>> ACC! B => WB (0.85947 => 0.85919)
+>> ACC! T => Z (0.85919 => 0.85172)
+>> NOACC! N => D (0.84762 => 0.85172)
+>> SNT! N => D (0.85172 => 0.85583)
+>> ACC! LIST => IN (0.85583 => 0.82011)
+>> ACC! PP => pp (0.82011 => 0.81623)
+>> NOACC! ANS => AR (0.81503 => 0.81623)
+>> NOSNT!
+>> ACC! INSERT ;print(IN) 0.81623=>0.81124
+Example time cost:  0.85 min
+ALL examples time cost:  53.71 min
+Query times in this attack:  2140
+Greedy query times: 238
+Ga query times: 1902
+All Query times:  122979
+Success rate:  0.26153846153846155
+Successful items count:  17
+Total count:  65
+Index:  76
+
+>> ACC! score => ne (0.92082 => 0.91964)
+>> ACC! p => P (0.91964 => 0.91942)
+>> NOACC! N => Q (0.91813 => 0.91942)
+>> NOSNT!
+>> ACC! i => ip (0.91942 => 0.91680)
+>> ACC! S => D (0.91680 => 0.91578)
+>> ACC! Good =>  good (0.91578 => 0.91078)
+>> ACC! Data =>  data (0.91078 => 0.90772)
+>> NOACC! T => DT (0.90756 => 0.90772)
+>> SNT! T => DT (0.90772 => 0.90788)
+Example time cost:  0.57 min
+ALL examples time cost:  54.28 min
+Query times in this attack:  1447
+Greedy query times: 163
+Ga query times: 1284
+All Query times:  124426
+Success rate:  0.25757575757575757
+Successful items count:  17
+Total count:  66
+Index:  77
+
+Example time cost:  0.0 min
+ALL examples time cost:  54.29 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1284
+All Query times:  124427
+Success rate:  0.25757575757575757
+Successful items count:  17
+Total count:  66
+Index:  78
+
+Example time cost:  0.0 min
+ALL examples time cost:  54.29 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1284
+All Query times:  124428
+Success rate:  0.25757575757575757
+Successful items count:  17
+Total count:  66
+Index:  79
+
+Example time cost:  0.0 min
+ALL examples time cost:  54.29 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1284
+All Query times:  124429
+Success rate:  0.25757575757575757
+Successful items count:  17
+Total count:  66
+Index:  80
+
+Example time cost:  0.0 min
+ALL examples time cost:  54.29 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 1284
+All Query times:  124430
+Success rate:  0.25757575757575757
+Successful items count:  17
+Total count:  66
+Index:  81
+
+>> ACC! main =>  result (0.92920 => 0.92714)
+>> ACC! x => xx (0.92714 => 0.92658)
+>> ACC! start => cur (0.92658 => 0.92614)
+>> ACC! let => shell (0.92614 => 0.92581)
+>> ACC! a => i (0.92581 => 0.92533)
+>> ACC! l => j (0.92533 => 0.92505)
+>> ACC! b => abb (0.92505 => 0.92452)
+>> ACC! INSERT ;print(start) 0.92452=>0.92365
+>> ACC! INSERT ;log = 0 0.92365=>0.92223
+>> ACC! INSERT ;print(log) 0.92223=>0.91775
+>> ACC! INSERT ;print( result) 0.91775=>0.91767
+>> ACC! INSERT ; L = 0 0.91767=>0.91458
+>> ACC! INSERT ;print( L) 0.91458=>0.91206
+>> ACC! INSERT ;lines = 0 0.91206=>0.90581
+>> ACC! INSERT ;fore = 0 0.90581=>0.90407
+>> ACC! INSERT ;pl = 0 0.90407=>0.90404
+>> ACC! INSERT ;lt = 0 0.90404=>0.90257
+>> ACC! INSERT ;shell = 0 0.90257=>0.90056
+>> ACC! INSERT ;print(shell) 0.90056=>0.89955
+Example time cost:  0.46 min
+ALL examples time cost:  54.75 min
+Query times in this attack:  805
+Greedy query times: 145
+Ga query times: 660
+All Query times:  125235
+Success rate:  0.2537313432835821
+Successful items count:  17
+Total count:  67
+Index:  82
+
+>> ACC! main => log (0.92493 => 0.92181)
+>> ACC! pts => PTses (0.92181 => 0.91982)
+>> NOACC! cond => det (0.91962 => 0.91982)
+>> NOSNT!
+>> ACC! n => adj (0.91982 => 0.91964)
+>> ACC! directs =>  directments (0.91964 => 0.91945)
+>> ACC! maxScore =>  maxscore (0.91945 => 0.91773)
+>> ACC! surps => Surpped (0.91773 => 0.91762)
+>> NOACC! tot => toti (0.91655 => 0.91762)
+>> SNT! tot => toti (0.91762 => 0.91869)
+>> ACC! t => l (0.91869 => 0.91531)
+>> ACC! solve => ssolution (0.91531 => 0.91007)
+>> ACC! INSERT ;print(n) 0.91007=>0.90997
+>> ACC! INSERT ;pts = 0 0.90997=>0.90970
+>> ACC! INSERT ;print(pts) 0.90970=>0.90944
+>> ACC! INSERT ;t = 0 0.90944=>0.90932
+>> ACC! INSERT ;log = 0 0.90932=>0.90633
+>> ACC! INSERT ;print(log) 0.90633=>0.90600
+>> ACC! INSERT ;print(page) 0.90600=>0.90503
+>> ACC! INSERT ;print(log) 0.90503=>0.90465
+Example time cost:  0.72 min
+ALL examples time cost:  55.47 min
+Query times in this attack:  1583
+Greedy query times: 200
+Ga query times: 1383
+All Query times:  126818
+Success rate:  0.25
+Successful items count:  17
+Total count:  68
+Index:  83
+
+>> ACC! k => l (0.89609 => 0.89571)
+>> ACC! j => J (0.89571 => 0.89488)
+>> ACC! n => Na (0.89488 => 0.89390)
+>> NOACC! A => Ca (0.89301 => 0.89390)
+>> SNT! A => Ca (0.89390 => 0.89479)
+>> ACC! s => services (0.89479 => 0.88544)
+>> ACC! ans => can (0.88544 => 0.88536)
+>> ACC! B => ab (0.88536 => 0.88419)
+>> ACC! test => t (0.88419 => 0.88035)
+>> ACC! T => Case (0.88035 => 0.82775)
+>> ACC! x => ex (0.82775 => 0.82388)
+>> ACC! i => ip (0.82388 => 0.82057)
+>> NOACC! goods => Goodsites (0.80882 => 0.82057)
+>> SNT! goods => Goodsites (0.82057 => 0.83232)
+>> ACC! case => address (0.83232 => 0.81613)
+>> ACC! INSERT ;s = 0 0.81613=>0.81103
+>> ACC! INSERT ;print(s) 0.81103=>0.75009
+>> ACC! INSERT ;k = 0 0.75009=>0.67766
+>> ACC! INSERT ;i = 0 0.67766=>0.66149
+>> ACC! INSERT ;j = 0 0.66149=>0.65400
+>> ACC! INSERT ;print(test) 0.65400=>0.60188
+>> ACC! INSERT ;T = 0 0.60188=>0.53310
+>> ACC! INSERT ;Case = 0 0.53310=>0.49009
+>> ACC! INSERT ;print(Case) 0.49009=>0.44744
+>> ACC! INSERT ;J = 0 0.44744=>0.41478
+>> ACC! INSERT ;TS = 0 0.41478=>0.39613
+>> ACC! INSERT ;config = 0 0.39613=>0.35631
+Example time cost:  0.92 min
+ALL examples time cost:  56.38 min
+Query times in this attack:  2232
+Greedy query times: 262
+Ga query times: 1970
+All Query times:  129050
+Success rate:  0.2463768115942029
+Successful items count:  17
+Total count:  69
+Index:  84
+
+>> ACC! x => exp (0.81304 => 0.81170)
+>> ACC! maybe => anything (0.81170 => 0.81048)
+>> ACC! nice => wh (0.81048 => 0.80676)
+>> ACC! p => ip (0.80676 => 0.80613)
+>> ACC! n => j (0.80613 => 0.80469)
+>> ACC! s => z (0.80469 => 0.80428)
+>> ACC! y => chi (0.80428 => 0.80382)
+>> ACC! huh => workuh (0.80382 => 0.80065)
+>> ACC! l => le (0.80065 => 0.79586)
+>> ACC! t => u (0.79586 => 0.78969)
+>> ACC! ss => pp (0.78969 => 0.78894)
+>> ACC! T => Q (0.78894 => 0.77879)
+>> ACC! INSERT ;T = 0 0.77879=>0.73034
+>> ACC! INSERT ;print(T) 0.73034=>0.58017
+>> ACC! INSERT ;t = 0 0.58017=>0.50872
+>> ACC! INSERT ;l = 0 0.50872=>0.49136
+>> ACC! INSERT ;print(l) 0.49136=>0.48863
+>> ACC! INSERT ;x = 0 0.48863=>0.46619
+>> ACC! INSERT ;iter = 0 0.46619=>0.46560
+>> ACC! INSERT ;print(iter) 0.46560=>0.45862
+>> ACC! INSERT ;rl = 0 0.45862=>0.43810
+>> ACC! INSERT ; L = 0 0.43810=>0.43297
+>> ACC! INSERT ;print( L) 0.43297=>0.43040
+>> ACC! INSERT ;pl = 0 0.43040=>0.42780
+Example time cost:  0.84 min
+ALL examples time cost:  57.22 min
+Query times in this attack:  2140
+Greedy query times: 236
+Ga query times: 1904
+All Query times:  131190
+Success rate:  0.24285714285714285
+Successful items count:  17
+Total count:  70
+Index:  85
+
+>> ACC! problem => strip (0.84673 => 0.77781)
+>> ACC! suffix =>  suffixed (0.77781 => 0.71795)
+>> ACC! tag => key (0.71795 => 0.69310)
+>> ACC! table_of_fairs => table_of_pairs (0.69310 => 0.68590)
+>> ACC! INSERT ;problem = 0 0.68590=>0.68590
+Example time cost:  0.46 min
+ALL examples time cost:  57.68 min
+Query times in this attack:  662
+Greedy query times: 81
+Ga query times: 581
+All Query times:  131852
+Success rate:  0.23943661971830985
+Successful items count:  17
+Total count:  71
+Index:  86
+
+>> ACC! max_nosurprise => max_posureprise (0.92544 => 0.92496)
+>> ACC! outfile => outputline (0.92496 => 0.92437)
+>> ACC! min_nosurprise => min_posurprises (0.92437 => 0.92420)
+>> NOACC! cases => config (0.92420 => 0.92420)
+>> NOSNT!
+>> ACC! p => pp (0.92420 => 0.92383)
+>> NOACC! S => P (0.92383 => 0.92383)
+>> NOSNT!
+>> NOACC! resid =>  resite (0.92379 => 0.92383)
+>> NOSNT!
+>> NOACC! line => co (0.92383 => 0.92383)
+>> NOSNT!
+>> NOACC! i => ip (0.92383 => 0.92383)
+>> SNT! i => ip (0.92383 => 0.92383)
+>> NOACC! points => features (0.92383 => 0.92383)
+>> NOSNT!
+>> NOACC! N => P (0.92383 => 0.92383)
+>> NOSNT!
+>> NOACC! always => Q (0.92383 => 0.92383)
+>> NOSNT!
+>> NOACC! possible => features (0.92383 => 0.92383)
+>> NOSNT!
+>> NOACC! item => step (0.92383 => 0.92383)
+>> NOSNT!
+>> ACC! lookup => Lookdown (0.92383 => 0.92106)
+>> ACC! total => P (0.92106 => 0.91491)
+>> ACC! case => step (0.91491 => 0.89959)
+>> ACC! infile => INFile (0.89959 => 0.89668)
+>> ACC! practice => progress (0.89668 => 0.88730)
+>> ACC! problem => fit (0.88730 => 0.80446)
+Example time cost:  1.51 min
+ALL examples time cost:  59.2 min
+Query times in this attack:  3545
+Greedy query times: 437
+Ga query times: 3108
+All Query times:  135397
+Success rate:  0.2361111111111111
+Successful items count:  17
+Total count:  72
+Index:  87
+
+>> ACC! N => Z (0.85357 => 0.82462)
+>> ACC! T => j (0.82462 => 0.68464)
+>> ACC! num => dim (0.68464 => 0.62509)
+>> ACC! fair_numbers => fair_nodes (0.62509 => 0.51853)
+>> ACC! s1 => S3 (0.51853 => 0.32025)
+>> NOACC! s2 => ss2 (0.27693 => 0.32025)
+>> NOSNT!
+>> ACC! i => z (0.32025 => 0.30527)
+>> ACC! ans => can (0.30527 => 0.27992)
+>> ACC! max_val => max__val (0.27992 => 0.27787)
+>> ACC! min_val => min__Val (0.27787 => 0.27593)
+>> SUC! INSERT ;num = 0
+Example time cost:  0.04 min
+ALL examples time cost:  59.24 min
+Query times in this attack:  82
+Greedy query times: 82
+Ga query times: 3108
+All Query times:  135479
+Success rate:  0.2465753424657534
+Successful items count:  18
+Total count:  73
+Index:  88
+
+>> ACC! suprising_min => supraising_diff (0.87871 => 0.87699)
+>> ACC! normal_min =>  normal_lower (0.87699 => 0.87634)
+>> ACC! clear => adv (0.87634 => 0.87530)
+>> ACC! S => Z (0.87530 => 0.87388)
+>> ACC! p => b (0.87388 => 0.87181)
+>> ACC! ans => ians (0.87181 => 0.86801)
+>> ACC! possible => Pierra (0.86801 => 0.86673)
+>> ACC! score =>  result (0.86673 => 0.86556)
+>> ACC! N => J (0.86556 => 0.86546)
+>> ACC! params => config (0.86546 => 0.86065)
+>> NOACC! scores => oscases (0.85708 => 0.86065)
+>> NOSNT!
+>> NOACC! n => z (0.86054 => 0.86065)
+>> NOSNT!
+>> ACC! i => chi (0.86065 => 0.85663)
+>> ACC! line => log (0.85663 => 0.78798)
+>> ACC! INSERT ;print(i) 0.78798=>0.78488
+>> ACC! INSERT ;line = 0 0.78488=>0.67189
+>> ACC! INSERT ;print(params) 0.67189=>0.66178
+>> ACC! INSERT ;print(n) 0.66178=>0.65460
+>> ACC! INSERT ;N = 0 0.65460=>0.64389
+>> ACC! INSERT ;S = 0 0.64389=>0.62438
+>> ACC! INSERT ;l = 0 0.62438=>0.62138
+>> ACC! INSERT ;LINE = 0 0.62138=>0.60611
+>> ACC! INSERT ;l = 0 0.60611=>0.58820
+Example time cost:  0.97 min
+ALL examples time cost:  60.2 min
+Query times in this attack:  2344
+Greedy query times: 273
+Ga query times: 2071
+All Query times:  137823
+Success rate:  0.24324324324324326
+Successful items count:  18
+Total count:  74
+Index:  89
+
+Example time cost:  0.0 min
+ALL examples time cost:  60.21 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 2071
+All Query times:  137824
+Success rate:  0.24324324324324326
+Successful items count:  18
+Total count:  74
+Index:  90
+
+>> ACC! line => l (0.79423 => 0.76771)
+>> ACC! maxsurprising =>  maxsurpiring (0.76771 => 0.75961)
+>> ACC! casenum => catum (0.75961 => 0.54544)
+>> ACC! data => i (0.54544 => 0.51764)
+>> NOACC! p => pp (0.50067 => 0.51764)
+>> NOSNT!
+>> ACC! best => obj (0.51764 => 0.50473)
+>> ACC! scores =>  scorer (0.50473 => 0.44622)
+>> ACC! s => small (0.44622 => 0.43124)
+>> ACC! score => z (0.43124 => 0.34184)
+>> SUC! maxgooglers => maxgooggling (0.34184 => 0.31889)
+Example time cost:  0.04 min
+ALL examples time cost:  60.25 min
+Query times in this attack:  87
+Greedy query times: 87
+Ga query times: 2071
+All Query times:  137911
+Success rate:  0.25333333333333335
+Successful items count:  19
+Total count:  75
+Index:  91
+
+>> NOACC! n => ot (0.50781 => 0.50806)
+>> NOSNT!
+>> ACC! f => fore (0.50806 => 0.48321)
+>> ACC! fn => fun (0.48321 => 0.47623)
+>> ACC! sn => pn (0.47623 => 0.46970)
+>> NOACC! mid => mm (0.46685 => 0.46970)
+>> NOSNT!
+>> ACC! root => null (0.46970 => 0.46794)
+>> NOACC! ss => es (0.46639 => 0.46794)
+>> NOSNT!
+>> ACC! fair => respect (0.46794 => 0.46256)
+>> NOACC! unfair => unavored (0.45481 => 0.46256)
+>> NOSNT!
+>> NOACC! square => clear (0.46216 => 0.46256)
+>> NOSNT!
+>> NOACC! s => ts (0.46256 => 0.46256)
+>> NOSNT!
+>> NOACC! y => j (0.46256 => 0.46256)
+>> NOSNT!
+>> NOACC! t => tip (0.46256 => 0.46256)
+>> NOSNT!
+>> NOACC! x => ex (0.46256 => 0.46256)
+>> NOSNT!
+>> ACC! l => le (0.46256 => 0.46140)
+>> NOACC! Total => Mass (0.46140 => 0.46140)
+>> NOSNT!
+>> NOACC! _t => _v (0.46140 => 0.46140)
+>> NOSNT!
+Example time cost:  1.25 min
+ALL examples time cost:  61.49 min
+Query times in this attack:  3044
+Greedy query times: 349
+Ga query times: 2695
+All Query times:  140955
+Success rate:  0.25
+Successful items count:  19
+Total count:  76
+Index:  92
+
+>> ACC! fn => fun (0.61764 => 0.60569)
+>> ACC! f => l (0.60569 => 0.57618)
+>> ACC! input => library (0.57618 => 0.50320)
+>> ACC! s => bis (0.50320 => 0.50011)
+>> ACC! t => tc (0.50011 => 0.49676)
+>> NOACC! ti => fi (0.49629 => 0.49676)
+>> NOSNT!
+>> ACC! p => j (0.49676 => 0.49662)
+>> ACC! i => ip (0.49662 => 0.49478)
+>> ACC! _t => _task (0.49478 => 0.46030)
+>> NOACC! x => z (0.45971 => 0.46030)
+>> NOSNT!
+>> NOACC! score => z (0.45970 => 0.46030)
+>> NOSNT!
+>> NOACC! r => P (0.46011 => 0.46030)
+>> NOSNT!
+>> NOACC! N => P (0.45977 => 0.46030)
+>> NOSNT!
+>> ACC! S => TS (0.46030 => 0.45929)
+>> NOACC! low_scores => low_scorer (0.45900 => 0.45929)
+>> NOSNT!
+>> ACC! output => summary (0.45929 => 0.44609)
+>> ACC! letter => address (0.44609 => 0.44416)
+Example time cost:  0.84 min
+ALL examples time cost:  62.34 min
+Query times in this attack:  1348
+Greedy query times: 345
+Ga query times: 1003
+All Query times:  142303
+Success rate:  0.2597402597402597
+Successful items count:  20
+Total count:  77
+Index:  93
+
+>> ACC! fd => cond (0.77394 => 0.51551)
+>> ACC! readfunc => Readproc (0.51551 => 0.41956)
+>> ACC! self => b (0.41956 => 0.40794)
+>> ACC! cols => celows (0.40794 => 0.40471)
+>> ACC! data => cell (0.40471 => 0.40177)
+>> ACC! r => l (0.40177 => 0.39069)
+>> NOACC! rows => values (0.39069 => 0.39069)
+>> NOSNT!
+>> NOACC! line => LINE (0.39069 => 0.39069)
+>> SNT! line => LINE (0.39069 => 0.39069)
+>> NOACC! _ => j (0.39069 => 0.39069)
+>> SNT! _ => j (0.39069 => 0.39069)
+>> NOACC! i => ip (0.38227 => 0.39069)
+>> NOSNT!
+>> ACC! c => arc (0.39069 => 0.37959)
+>> NOACC! res => css (0.37959 => 0.37959)
+>> SNT! res => css (0.37959 => 0.37959)
+>> NOACC! p => ip (0.37931 => 0.37959)
+>> SNT! p => ip (0.37959 => 0.37988)
+>> ACC! epsilon => epilln (0.37988 => 0.35454)
+>> NOACC! y => z (0.34712 => 0.35454)
+>> SNT! y => z (0.35454 => 0.36196)
+>> NOACC! x => ex (0.35512 => 0.36196)
+>> NOSNT!
+>> ACC! INSERT ;x = 0 0.36196=>0.36196
+Example time cost:  1.26 min
+ALL examples time cost:  63.6 min
+Query times in this attack:  2958
+Greedy query times: 394
+Ga query times: 2564
+All Query times:  145261
+Success rate:  0.2564102564102564
+Successful items count:  20
+Total count:  78
+Index:  94
+
+>> NOACC! filename => rl (0.22732 => 0.22732)
+>> NOSNT!
+>> NOACC! s_max_val => s_max__val (0.22687 => 0.22732)
+>> NOSNT!
+>> SUC! CASE_PRFX => CASE_POUN (0.22732 => 0.17063)
+Example time cost:  0.03 min
+ALL examples time cost:  63.63 min
+Query times in this attack:  108
+Greedy query times: 108
+Ga query times: 2564
+All Query times:  145369
+Success rate:  0.26582278481012656
+Successful items count:  21
+Total count:  79
+Index:  95
+
+>> ACC! directory => input (0.93698 => 0.90941)
+>> ACC! x => key (0.90941 => 0.90778)
+>> ACC! testcase => xtest (0.90778 => 0.90559)
+>> ACC! i => ip (0.90559 => 0.90490)
+>> ACC! filenames => filrenaming (0.90490 => 0.90338)
+>> NOACC! chosen_filename => chosing_filename (0.90338 => 0.90338)
+>> NOSNT!
+>> ACC! f_in =>  floglogin (0.90338 => 0.89765)
+>> ACC! T => TS (0.89765 => 0.89582)
+>> ACC! n => u (0.89582 => 0.88711)
+>> ACC! B => AR (0.88711 => 0.88637)
+>> ACC! sqr => sqrage (0.88637 => 0.88499)
+>> NOACC! A => Na (0.88468 => 0.88499)
+>> NOSNT!
+>> ACC! f_out => l_Out (0.88499 => 0.88122)
+>> NOACC! l1 =>  lone (0.88098 => 0.88122)
+>> NOSNT!
+>> ACC! count => col (0.88122 => 0.88093)
+>> NOACC! l => lo (0.87332 => 0.88093)
+>> NOSNT!
+>> ACC! fair_and_squares => fair_and_qares (0.88093 => 0.87963)
+Example time cost:  1.26 min
+ALL examples time cost:  64.88 min
+Query times in this attack:  3030
+Greedy query times: 357
+Ga query times: 2673
+All Query times:  148399
+Success rate:  0.2625
+Successful items count:  21
+Total count:  80
+Index:  96
+
+>> ACC! p => pr (0.94590 => 0.94574)
+>> NOACC! x => l (0.94558 => 0.94574)
+>> NOSNT!
+>> ACC! f_in => f_IN (0.94574 => 0.94096)
+>> ACC! t => l (0.94096 => 0.94062)
+>> ACC! A => API (0.94062 => 0.94032)
+>> NOACC! chosen_filename => chosing_queue (0.94032 => 0.94032)
+>> NOSNT!
+>> ACC! directory => connection (0.94032 => 0.92877)
+>> ACC! result => text (0.92877 => 0.92802)
+>> ACC! nnn => lnns (0.92802 => 0.92681)
+>> ACC! B => WB (0.92681 => 0.92599)
+>> ACC! line => LINE (0.92599 => 0.92402)
+>> NOACC! filenames => fillenetimes (0.92402 => 0.92402)
+>> SNT! filenames => fillenetimes (0.92402 => 0.92402)
+>> ACC! t_i => t__iu (0.92402 => 0.92343)
+>> ACC! S => size (0.92343 => 0.92260)
+>> ACC! f_out =>  f_run (0.92260 => 0.90964)
+>> NOACC! l1 => ll1 (0.90964 => 0.90964)
+>> SNT! l1 => ll1 (0.90964 => 0.90964)
+>> ACC! i => ai (0.90964 => 0.90746)
+>> ACC! T => TS (0.90746 => 0.90034)
+Example time cost:  1.31 min
+ALL examples time cost:  66.19 min
+Query times in this attack:  3091
+Greedy query times: 384
+Ga query times: 2707
+All Query times:  151490
+Success rate:  0.25925925925925924
+Successful items count:  21
+Total count:  81
+Index:  97
+
+>> ACC! case => exc (0.77228 => 0.75115)
+>> ACC! B => API (0.75115 => 0.75016)
+>> ACC! allPalindrome => allEllindome (0.75016 => 0.72638)
+>> ACC! f => ff (0.72638 => 0.64515)
+>> ACC! res => rex (0.64515 => 0.63217)
+>> ACC! A => El (0.63217 => 0.62319)
+>> ACC! outString => outputArray (0.62319 => 0.51344)
+>> ACC! num => text (0.51344 => 0.50870)
+>> ACC! a => ai (0.50870 => 0.45119)
+>> ACC! b => i (0.45119 => 0.43848)
+>> ACC! g => eg (0.43848 => 0.36260)
+>> ACC! n => all (0.36260 => 0.35730)
+>> ACC! start => shift (0.35730 => 0.35607)
+>> NOACC! T => DT (0.34667 => 0.35607)
+>> NOSNT!
+>> ACC! INSERT ;n = 0 0.35607=>0.35607
+Example time cost:  0.57 min
+ALL examples time cost:  66.76 min
+Query times in this attack:  516
+Greedy query times: 295
+Ga query times: 221
+All Query times:  152006
+Success rate:  0.2682926829268293
+Successful items count:  22
+Total count:  82
+Index:  98
+
+>> ACC! S => size (0.89546 => 0.89521)
+>> NOACC! N => P (0.89511 => 0.89521)
+>> NOSNT!
+>> ACC! ok => ise (0.89521 => 0.89474)
+>> ACC! case => nice (0.89474 => 0.89397)
+>> ACC! cases => features (0.89397 => 0.88858)
+>> NOACC! res => exp (0.88856 => 0.88858)
+>> NOSNT!
+>> ACC! okLimit => joblimit (0.88858 => 0.88768)
+>> ACC! line => strip (0.88768 => 0.88412)
+>> NOACC! T => P (0.88335 => 0.88412)
+>> NOSNT!
+>> ACC! p => P (0.88412 => 0.88358)
+>> ACC! okIfS => errorIFS (0.88358 => 0.88257)
+>> ACC! okIfSLimit => okIfSLIMited (0.88257 => 0.88233)
+>> ACC! fin => fun (0.88233 => 0.87913)
+>> ACC! fout =>  ffile (0.87913 => 0.87455)
+>> ACC! INSERT ;fin = 0 0.87455=>0.86645
+>> ACC! INSERT ;fout = 0 0.86645=>0.85133
+>> ACC! INSERT ;cases = 0 0.85133=>0.82849
+>> ACC! INSERT ;case = 0 0.82849=>0.75904
+>> ACC! INSERT ;print(case) 0.75904=>0.71986
+>> ACC! INSERT ;line = 0 0.71986=>0.70054
+>> ACC! INSERT ;print(S) 0.70054=>0.69852
+>> ACC! INSERT ;fun = 0 0.69852=>0.64094
+>> ACC! INSERT ;Case = 0 0.64094=>0.60794
+>> ACC! INSERT ;features = 0 0.60794=>0.60381
+>> ACC! INSERT ; code = 0 0.60381=>0.59127
+>> ACC! INSERT ;Case = 0 0.59127=>0.57371
+>> ACC! INSERT ;print(address) 0.57371=>0.54344
+>> ACC! INSERT ;LINE = 0 0.54344=>0.52690
+>> ACC! INSERT ;section = 0 0.52690=>0.52164
+>> ACC! INSERT ;okIfSLimsiter = 0 0.52164=>0.51995
+Example time cost:  0.98 min
+ALL examples time cost:  67.74 min
+Query times in this attack:  2395
+Greedy query times: 276
+Ga query times: 2119
+All Query times:  154401
+Success rate:  0.26506024096385544
+Successful items count:  22
+Total count:  83
+Index:  99
+
+>> ACC! n => b (0.87254 => 0.87009)
+>> NOACC! digits => digals (0.85689 => 0.87009)
+>> SNT! digits => digals (0.87009 => 0.88328)
+>> ACC! square => screen (0.88328 => 0.88199)
+>> ACC! count => key (0.88199 => 0.88154)
+>> ACC! A => API (0.88154 => 0.87689)
+>> NOACC! B => J (0.87542 => 0.87689)
+>> SNT! B => J (0.87689 => 0.87836)
+>> ACC! case => address (0.87836 => 0.87618)
+>> ACC! T => Case (0.87618 => 0.87293)
+>> ACC! soln => Soln (0.87293 => 0.87241)
+Example time cost:  0.67 min
+ALL examples time cost:  68.4 min
+Query times in this attack:  1653
+Greedy query times: 199
+Ga query times: 1454
+All Query times:  156054
+Success rate:  0.2619047619047619
+Successful items count:  22
+Total count:  84
+Index:  100
+
+>> ACC! count => cond (0.90990 => 0.90952)
+>> ACC! s => l (0.90952 => 0.90937)
+>> ACC! p => ip (0.90937 => 0.90933)
+>> ACC! T => section (0.90933 => 0.90813)
+>> NOACC! scores => Scores (0.90689 => 0.90813)
+>> NOSNT!
+>> ACC! case => cell (0.90813 => 0.90775)
+>> ACC! n => z (0.90775 => 0.90765)
+>> ACC! t => tc (0.90765 => 0.90761)
+>> ACC! line => co (0.90761 => 0.90747)
+>> ACC! result => mate (0.90747 => 0.90723)
+>> ACC! INSERT ;case = 0 0.90723=>0.90590
+>> ACC! INSERT ;print(case) 0.90590=>0.88841
+>> ACC! INSERT ;line = 0 0.88841=>0.84072
+>> ACC! INSERT ;P = 0 0.84072=>0.82585
+>> ACC! INSERT ;print(key) 0.82585=>0.81764
+>> ACC! INSERT ;P = 0 0.81764=>0.81383
+>> ACC! INSERT ;LINE = 0 0.81383=>0.81187
+>> ACC! INSERT ;print(LINE) 0.81187=>0.80898
+>> ACC! INSERT ;print(log) 0.80898=>0.80027
+>> ACC! INSERT ;text = 0 0.80027=>0.77899
+>> ACC! INSERT ;cur = 0 0.77899=>0.77681
+>> ACC! INSERT ;text = 0 0.77681=>0.75802
+>> ACC! INSERT ;page = 0 0.75802=>0.75779
+Example time cost:  0.71 min
+ALL examples time cost:  69.12 min
+Query times in this attack:  1779
+Greedy query times: 205
+Ga query times: 1574
+All Query times:  157833
+Success rate:  0.25882352941176473
+Successful items count:  22
+Total count:  85
+Index:  101
+
+>> ACC! cache => co (0.16496 => 0.15839)
+>> ACC! pal_square => palMsingle (0.15839 => 0.15829)
+>> ACC! pal_int => half_net (0.15829 => 0.14622)
+>> SUC! test_int => Test_arg (0.14622 => 0.05946)
+Example time cost:  0.03 min
+ALL examples time cost:  69.15 min
+Query times in this attack:  121
+Greedy query times: 121
+Ga query times: 1574
+All Query times:  157954
+Success rate:  0.26744186046511625
+Successful items count:  23
+Total count:  86
+Index:  102
+
+>> ACC! case_number => case_count (0.77600 => 0.77600)
+>> NOACC! input_file => accept_string (0.77600 => 0.77600)
+>> NOSNT!
+>> ACC! N => Net (0.77600 => 0.75459)
+>> NOACC! potential_surprises => potential_surprising (0.75062 => 0.75459)
+>> NOSNT!
+>> ACC! p => path (0.75459 => 0.73100)
+>> ACC! options => includes (0.73100 => 0.71731)
+>> NOACC! score => fit (0.71340 => 0.71731)
+>> NOSNT!
+>> ACC! t => format (0.71731 => 0.68264)
+>> NOACC! data_args =>  data_params (0.68264 => 0.68264)
+>> NOSNT!
+>> ACC! win_cutoff => win_Cutoffs (0.68264 => 0.67713)
+>> ACC! parser => per (0.67713 => 0.67149)
+>> NOACC! S => Q (0.66552 => 0.67149)
+>> NOSNT!
+>> ACC! x => ip (0.67149 => 0.66735)
+>> ACC! outright_wins => outright_watches (0.66735 => 0.66644)
+>> ACC! surprise_cutoff => surprise_cutsoffs (0.66644 => 0.63162)
+>> ACC! args => image (0.63162 => 0.61828)
+>> ACC! bits => tests (0.61828 => 0.59049)
+>> ACC! data_line => case_lin (0.59049 => 0.26894)
+>> NOACC! total_cases =>  total_frames (0.26894 => 0.26894)
+>> SNT! total_cases =>  total_frames (0.26894 => 0.26894)
+Example time cost:  1.39 min
+ALL examples time cost:  70.54 min
+Query times in this attack:  3378
+Greedy query times: 388
+Ga query times: 2990
+All Query times:  161332
+Success rate:  0.26436781609195403
+Successful items count:  23
+Total count:  87
+Index:  103
+
+>> ACC! r => l (0.92046 => 0.91147)
+>> ACC! case_number => case__numbered (0.91147 => 0.36783)
+>> NOACC! candidate =>  candidation (0.34640 => 0.36783)
+>> NOSNT!
+>> ACC! x => image (0.36783 => 0.19068)
+>> ACC! fs => ff (0.19068 => 0.18556)
+>> NOACC! ab => abb (0.18122 => 0.18556)
+>> NOSNT!
+>> NOACC! root => fixed (0.18488 => 0.18556)
+>> SNT! root => fixed (0.18556 => 0.18623)
+>> ACC! sq => shift (0.18623 => 0.18527)
+>> SUC! total_cases => Total_cs (0.18527 => 0.12690)
+Example time cost:  0.04 min
+ALL examples time cost:  70.58 min
+Query times in this attack:  88
+Greedy query times: 88
+Ga query times: 2990
+All Query times:  161420
+Success rate:  0.2727272727272727
+Successful items count:  24
+Total count:  88
+Index:  104
+
+>> ACC! r => l (0.90874 => 0.89966)
+>> ACC! case_number => case__numbered (0.89966 => 0.40632)
+>> ACC! s => b (0.40632 => 0.38632)
+>> ACC! scores => scales (0.38632 => 0.38118)
+>> ACC! case_line => caselypart (0.38118 => 0.34522)
+>> NOACC! mod_plus_conv_without_s => mod_plus_conv_without_d (0.34448 => 0.34522)
+>> NOSNT!
+>> ACC! ans => am (0.34522 => 0.33426)
+>> ACC! total_cases =>  total_lines (0.33426 => 0.19791)
+>> SUC! p => pp (0.19791 => 0.17035)
+Example time cost:  0.04 min
+ALL examples time cost:  70.62 min
+Query times in this attack:  86
+Greedy query times: 86
+Ga query times: 2990
+All Query times:  161506
+Success rate:  0.2808988764044944
+Successful items count:  25
+Total count:  89
+Index:  105
+
+>> ACC! fout => FOut (0.89441 => 0.88962)
+>> ACC! i => ti (0.88962 => 0.88342)
+>> ACC! f => obj (0.88342 => 0.87798)
+>> ACC! sqrtI => sqratE (0.87798 => 0.87741)
+>> ACC! A => API (0.87741 => 0.87627)
+>> ACC! data => lines (0.87627 => 0.87544)
+>> NOACC! found => missing (0.87520 => 0.87544)
+>> NOSNT!
+>> ACC! case => section (0.87544 => 0.87479)
+>> ACC! B => ab (0.87479 => 0.87242)
+>> ACC! n => z (0.87242 => 0.86927)
+>> ACC! T => Z (0.86927 => 0.86706)
+>> ACC! inputFileName => outputFilePath (0.86706 => 0.80655)
+>> ACC! INSERT ;print(n) 0.80655=>0.80082
+>> ACC! INSERT ;i = 0 0.80082=>0.79681
+>> ACC! INSERT ;print(i) 0.79681=>0.79462
+>> ACC! INSERT ;f = 0 0.79462=>0.78300
+>> ACC! INSERT ;case = 0 0.78300=>0.77846
+>> ACC! INSERT ;print(case) 0.77846=>0.77198
+>> ACC! INSERT ;print(data) 0.77198=>0.77012
+>> ACC! INSERT ;A = 0 0.77012=>0.73682
+>> ACC! INSERT ;outputFilePath = 0 0.73682=>0.72621
+>> ACC! INSERT ;print(outputFilePath) 0.72621=>0.72454
+>> ACC! INSERT ;inputTablePath = 0 0.72454=>0.70035
+>> ACC! INSERT ;inputFileCopy = 0 0.70035=>0.61036
+Example time cost:  0.86 min
+ALL examples time cost:  71.48 min
+Query times in this attack:  2152
+Greedy query times: 246
+Ga query times: 1906
+All Query times:  163658
+Success rate:  0.2777777777777778
+Successful items count:  25
+Total count:  90
+Index:  106
+
+>> ACC! score => ward (0.46913 => 0.44423)
+>> ACC! data => input (0.44423 => 0.40358)
+>> ACC! arq => arqs (0.40358 => 0.38513)
+>> NOACC! n_cases => nb_trial (0.15483 => 0.38513)
+>> NOSNT!
+>> ACC! case =>  trial (0.38513 => 0.32980)
+>> ACC! i => z (0.32980 => 0.31374)
+>> ACC! p => ip (0.31374 => 0.30628)
+>> ACC! candidates => candances (0.30628 => 0.30011)
+>> ACC! n => nu (0.30011 => 0.29634)
+>> ACC! s => features (0.29634 => 0.29080)
+>> ACC! j => adj (0.29080 => 0.27886)
+>> ACC! scores => escodes (0.27886 => 0.25694)
+>> ACC! n_googlers_with_best_result => n_googlers_with_best_Result (0.25694 => 0.25604)
+>> NOACC! out => log (0.22451 => 0.25604)
+>> NOSNT!
+>> ACC! INSERT ;print(arqs) 0.25604=>0.25391
+Example time cost:  0.99 min
+ALL examples time cost:  72.46 min
+Query times in this attack:  2247
+Greedy query times: 303
+Ga query times: 1944
+All Query times:  165905
+Success rate:  0.27472527472527475
+Successful items count:  25
+Total count:  91
+Index:  107
+
+>> ACC! n => pn (0.87609 => 0.87567)
+>> ACC! l => rl (0.87567 => 0.87216)
+>> ACC! a => ak (0.87216 => 0.86918)
+>> ACC! N => Na (0.86918 => 0.86514)
+>> ACC! x => xx (0.86514 => 0.86435)
+>> ACC! result => final (0.86435 => 0.86302)
+>> ACC! b => rb (0.86302 => 0.86028)
+>> ACC! u => chu (0.86028 => 0.85806)
+>> ACC! i => lo (0.85806 => 0.85299)
+>> ACC! count => case (0.85299 => 0.85082)
+>> ACC! INSERT ;n = 0 0.85082=>0.84389
+>> ACC! INSERT ;print(n) 0.84389=>0.84219
+>> ACC! INSERT ;l = 0 0.84219=>0.80845
+>> ACC! INSERT ;b = 0 0.80845=>0.80673
+>> ACC! INSERT ;count = 0 0.80673=>0.79875
+>> ACC! INSERT ;N = 0 0.79875=>0.78670
+>> ACC! INSERT ;case = 0 0.78670=>0.78645
+>> ACC! INSERT ;print(case) 0.78645=>0.77386
+>> ACC! INSERT ;max = 0 0.77386=>0.76575
+>> ACC! INSERT ;print(max) 0.76575=>0.76168
+>> ACC! INSERT ;key = 0 0.76168=>0.68279
+>> ACC! INSERT ;input = 0 0.68279=>0.67187
+>> ACC! INSERT ;print(input) 0.67187=>0.66295
+>> ACC! INSERT ;int = 0 0.66295=>0.62966
+>> ACC! INSERT ;print(int) 0.62966=>0.61973
+>> ACC! INSERT ;P = 0 0.61973=>0.58784
+>> ACC! INSERT ;print(P) 0.58784=>0.53538
+>> ACC! INSERT ;Na = 0 0.53538=>0.52224
+Example time cost:  0.7 min
+ALL examples time cost:  73.17 min
+Query times in this attack:  1709
+Greedy query times: 204
+Ga query times: 1505
+All Query times:  167614
+Success rate:  0.2717391304347826
+Successful items count:  25
+Total count:  92
+Index:  108
+
+>> NOACC! num_surprises => num__surfaces (0.86130 => 0.86161)
+>> NOSNT!
+>> ACC! N => Na (0.86161 => 0.84340)
+>> ACC! line => le (0.84340 => 0.82921)
+>> ACC! result => cur (0.82921 => 0.82314)
+>> ACC! ts => tests (0.82314 => 0.80654)
+>> ACC! i => ip (0.80654 => 0.78382)
+>> ACC! x => ex (0.78382 => 0.78101)
+>> ACC! t => window (0.78101 => 0.77956)
+>> ACC! p => l (0.77956 => 0.77210)
+>> ACC! s => min (0.77210 => 0.76804)
+>> ACC! a => wa (0.76804 => 0.76449)
+>> NOACC! u => n (0.76385 => 0.76449)
+>> NOSNT!
+>> ACC! r => rad (0.76449 => 0.75887)
+>> ACC! INSERT ;num_surprises = 0 0.75887=>0.74171
+>> ACC! INSERT ;print(num_surprises) 0.74171=>0.73895
+>> ACC! INSERT ;p = 0 0.73895=>0.71566
+>> ACC! INSERT ;print(p) 0.71566=>0.70274
+Example time cost:  0.94 min
+ALL examples time cost:  74.11 min
+Query times in this attack:  2341
+Greedy query times: 272
+Ga query times: 2069
+All Query times:  169955
+Success rate:  0.26881720430107525
+Successful items count:  25
+Total count:  93
+Index:  109
+
+Example time cost:  0.0 min
+ALL examples time cost:  74.12 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 2069
+All Query times:  169956
+Success rate:  0.26881720430107525
+Successful items count:  25
+Total count:  93
+Index:  110
+
+>> ACC! f => rf (0.52533 => 0.50102)
+>> ACC! ns => tests (0.50102 => 0.49497)
+>> ACC! t => size (0.49497 => 0.49041)
+>> ACC! fn => ren (0.49041 => 0.45605)
+>> ACC! _t =>  _tp (0.45605 => 0.45153)
+>> NOACC! x => i (0.45054 => 0.45153)
+>> NOSNT!
+>> ACC! p => l (0.45153 => 0.44831)
+>> SUC! scores => oscopes (0.44831 => 0.43977)
+Example time cost:  0.04 min
+ALL examples time cost:  74.15 min
+Query times in this attack:  83
+Greedy query times: 83
+Ga query times: 2069
+All Query times:  170039
+Success rate:  0.2765957446808511
+Successful items count:  26
+Total count:  94
+Index:  111
+
+>> ACC! test => address (0.86844 => 0.86426)
+>> ACC! i => key (0.86426 => 0.86410)
+>> ACC! s => sports (0.86410 => 0.86192)
+>> NOACC! count => process (0.86192 => 0.86192)
+>> NOSNT!
+>> NOACC! l => z (0.86183 => 0.86192)
+>> NOSNT!
+>> ACC! parts => piece (0.86192 => 0.86159)
+>> ACC! n => nv (0.86159 => 0.86111)
+>> NOACC! case => exc (0.86111 => 0.86111)
+>> NOSNT!
+>> ACC! line => LINE (0.86111 => 0.86006)
+>> NOACC! result => new (0.86006 => 0.86006)
+>> NOSNT!
+>> ACC! file => connection (0.86006 => 0.72524)
+>> ACC! frontHalf =>  frontWall (0.72524 => 0.72377)
+>> ACC! backHalf => baseHalf (0.72377 => 0.72252)
+>> ACC! tests => stats (0.72252 => 0.70733)
+>> ACC! sqrtN => squrotN (0.70733 => 0.70679)
+>> NOACC! T => TS (0.70088 => 0.70679)
+>> NOSNT!
+>> ACC! INSERT ;file = 0 0.70679=>0.70679
+Example time cost:  1.22 min
+ALL examples time cost:  75.37 min
+Query times in this attack:  2857
+Greedy query times: 367
+Ga query times: 2490
+All Query times:  172896
+Success rate:  0.2736842105263158
+Successful items count:  26
+Total count:  95
+Index:  112
+
+>> NOACC! scores => scriptorer (0.85246 => 0.85246)
+>> NOSNT!
+>> NOACC! k => ak (0.85246 => 0.85246)
+>> SNT! k => ak (0.85246 => 0.85246)
+>> ACC! test => trip (0.85246 => 0.85222)
+>> NOACC! unsurps => untype (0.85222 => 0.85222)
+>> NOSNT!
+>> NOACC! tested => handled (0.85222 => 0.85222)
+>> NOSNT!
+>> NOACC! surps => surples (0.85222 => 0.85222)
+>> NOSNT!
+>> NOACC! s => l (0.85222 => 0.85222)
+>> NOSNT!
+>> NOACC! avg => afge (0.85222 => 0.85222)
+>> NOSNT!
+>> ACC! p => P (0.85222 => 0.85186)
+>> ACC! j => J (0.85186 => 0.85131)
+>> ACC! t => target (0.85131 => 0.85084)
+>> ACC! filename => section (0.85084 => 0.79877)
+>> ACC! line => strip (0.79877 => 0.79808)
+>> NOACC! triplets => dipps (0.79808 => 0.79808)
+>> SNT! triplets => dipps (0.79808 => 0.79808)
+>> NOACC! S => D (0.79679 => 0.79808)
+>> NOSNT!
+>> NOACC! best =>  closest (0.79808 => 0.79808)
+>> NOSNT!
+>> ACC! N => Out (0.79808 => 0.79535)
+>> NOACC! points => windows (0.79535 => 0.79535)
+>> NOSNT!
+>> ACC! parts => format (0.79535 => 0.79185)
+>> ACC! tests => lines (0.79185 => 0.78889)
+>> ACC! i => ti (0.78889 => 0.78650)
+>> ACC! retval => retvalue (0.78650 => 0.78407)
+>> NOACC! triplet => dipper (0.78104 => 0.78407)
+>> NOSNT!
+>> ACC! file => view (0.78407 => 0.72513)
+>> NOACC! T => TS (0.72006 => 0.72513)
+>> NOSNT!
+>> ACC! INSERT ;filename = 0 0.72513=>0.72513
+Example time cost:  2.02 min
+ALL examples time cost:  77.39 min
+Query times in this attack:  4563
+Greedy query times: 560
+Ga query times: 4003
+All Query times:  177459
+Success rate:  0.2708333333333333
+Successful items count:  26
+Total count:  96
+Index:  113
+
+>> ACC! int_maior => int_waor (0.86896 => 0.86798)
+>> ACC! tCase =>  tStep (0.86798 => 0.81940)
+>> ACC! quadrado => quadrad (0.81940 => 0.80891)
+>> ACC! self => connection (0.80891 => 0.77328)
+>> NOACC! i => ip (0.77328 => 0.77328)
+>> NOSNT!
+>> ACC! maior => mair (0.77328 => 0.77066)
+>> ACC! fns => dfcs (0.77066 => 0.75828)
+>> NOACC! x => xb (0.75828 => 0.75828)
+>> NOSNT!
+>> NOACC! result => master (0.75695 => 0.75828)
+>> NOSNT!
+>> ACC! M => P (0.75828 => 0.74863)
+>> ACC! N => IN (0.74863 => 0.71754)
+>> ACC! num => uri (0.71754 => 0.69416)
+>> ACC! INSERT ;self = 0 0.69416=>0.69416
+Example time cost:  0.9 min
+ALL examples time cost:  78.29 min
+Query times in this attack:  2192
+Greedy query times: 272
+Ga query times: 1920
+All Query times:  179651
+Success rate:  0.26804123711340205
+Successful items count:  26
+Total count:  97
+Index:  114
+
+>> ACC! frases => frased (0.78211 => 0.77174)
+>> ACC! i => ip (0.77174 => 0.75313)
+>> ACC! ER1 => AR2 (0.75313 => 0.75000)
+>> ACC! linha => ilja (0.75000 => 0.74348)
+>> ACC! frase => Fraser (0.74348 => 0.73502)
+>> NOACC! supT => virtualT (0.73123 => 0.73502)
+>> NOSNT!
+>> ACC! realT => imagT (0.73502 => 0.73433)
+>> ACC! j => adj (0.73433 => 0.73402)
+>> ACC! P => D (0.73402 => 0.72816)
+>> ACC! item => t (0.72816 => 0.72136)
+>> ACC! list => l (0.72136 => 0.70922)
+>> NOACC! T => DT (0.70560 => 0.70922)
+>> NOSNT!
+>> NOACC! case => address (0.67147 => 0.70922)
+>> NOSNT!
+>> NOACC! count => key (0.70279 => 0.70922)
+>> NOSNT!
+>> ACC! tCase =>  tcase (0.70922 => 0.50163)
+>> ACC! INSERT ;frases = 0 0.50163=>0.50035
+>> ACC! INSERT ;print(frases) 0.50035=>0.47603
+>> ACC! INSERT ;case = 0 0.47603=>0.45467
+>> ACC! INSERT ;print(address) 0.45467=>0.42363
+>> ACC! INSERT ;print(sea) 0.42363=>0.40419
+>> ACC! INSERT ;print(path) 0.40419=>0.39945
+>> ACC! INSERT ;chain = 0 0.39945=>0.35853
+>> ACC! INSERT ;print(realP) 0.35853=>0.35712
+>> ACC! INSERT ;print(realt) 0.35712=>0.35606
+Example time cost:  0.73 min
+ALL examples time cost:  79.02 min
+Query times in this attack:  1097
+Greedy query times: 313
+Ga query times: 784
+All Query times:  180748
+Success rate:  0.2755102040816326
+Successful items count:  27
+Total count:  98
+Index:  115
+
+Example time cost:  0.0 min
+ALL examples time cost:  79.02 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 784
+All Query times:  180749
+Success rate:  0.2755102040816326
+Successful items count:  27
+Total count:  98
+Index:  116
+
+>> ACC! q => Q (0.67261 => 0.61871)
+>> ACC! case => tri (0.61871 => 0.59381)
+>> ACC! p => b (0.59381 => 0.52992)
+>> ACC! r => rl (0.52992 => 0.40217)
+>> ACC! t => P (0.40217 => 0.38025)
+>> ACC! st => ld (0.38025 => 0.37571)
+>> ACC! result => new (0.37571 => 0.36752)
+>> ACC! n => u (0.36752 => 0.36322)
+>> ACC! s => es (0.36322 => 0.36006)
+>> NOACC! normal => example (0.35911 => 0.36006)
+>> NOSNT!
+>> ACC! i => j (0.36006 => 0.35328)
+>> NOACC! surprising => urging (0.34032 => 0.35328)
+>> NOSNT!
+>> ACC! INSERT ;p = 0 0.35328=>0.31901
+>> ACC! INSERT ;print(p) 0.31901=>0.30464
+>> SUC! INSERT ;t = 0
+Example time cost:  0.06 min
+ALL examples time cost:  79.08 min
+Query times in this attack:  112
+Greedy query times: 112
+Ga query times: 784
+All Query times:  180861
+Success rate:  0.2828282828282828
+Successful items count:  28
+Total count:  99
+Index:  117
+
+>> NOACC! case_num => Case_id (0.89650 => 0.90930)
+>> NOSNT!
+>> ACC! lo => LO (0.90930 => 0.90474)
+>> ACC! f => j (0.90474 => 0.88572)
+>> ACC! out => exp (0.88572 => 0.87480)
+>> NOACC! args => lines (0.87455 => 0.87480)
+>> NOSNT!
+>> ACC! lst => lST (0.87480 => 0.86793)
+>> ACC! n => size (0.86793 => 0.86492)
+>> ACC! line => log (0.86492 => 0.84209)
+>> ACC! oname => onname (0.84209 => 0.82344)
+>> ACC! hi => ci (0.82344 => 0.80098)
+>> NOACC! i => ip (0.79962 => 0.80098)
+>> NOSNT!
+>> ACC! count => lines (0.80098 => 0.79365)
+>> ACC! fname => cename (0.79365 => 0.66562)
+>> ACC! INSERT ;lst = 0 0.66562=>0.66562
+Example time cost:  0.95 min
+ALL examples time cost:  80.03 min
+Query times in this attack:  2306
+Greedy query times: 262
+Ga query times: 2044
+All Query times:  183167
+Success rate:  0.28
+Successful items count:  28
+Total count:  100
+Index:  118
+
+>> ACC! fileName =>  fileDir (0.94158 => 0.93018)
+>> NOACC! dataS => datI (0.93010 => 0.93018)
+>> NOSNT!
+>> ACC! i => ih (0.93018 => 0.92899)
+>> ACC! dataN => Datan (0.92899 => 0.92717)
+>> NOACC! maximum => dimension (0.92717 => 0.92717)
+>> SNT! maximum => dimension (0.92717 => 0.92717)
+>> NOACC! s_vals => s___mas (0.92717 => 0.92717)
+>> NOSNT!
+>> ACC! tests => docs (0.92717 => 0.92570)
+>> ACC! raw => RAW (0.92570 => 0.91552)
+>> ACC! n_vals => n2als (0.91552 => 0.91484)
+>> ACC! ti => fee (0.91484 => 0.91339)
+>> ACC! minimum => uri (0.91339 => 0.91216)
+>> ACC! p => b (0.91216 => 0.91207)
+>> NOACC! s => sq (0.91166 => 0.91207)
+>> NOSNT!
+>> ACC! f => uf (0.91207 => 0.89915)
+>> ACC! items => lines (0.89915 => 0.89674)
+>> ACC! t => l (0.89674 => 0.89632)
+Example time cost:  1.18 min
+ALL examples time cost:  81.21 min
+Query times in this attack:  2822
+Greedy query times: 345
+Ga query times: 2477
+All Query times:  185989
+Success rate:  0.27722772277227725
+Successful items count:  28
+Total count:  101
+Index:  119
+
+>> ACC! out_fn => outFilefn (0.94834 => 0.94831)
+>> ACC! fn => FN (0.94831 => 0.94830)
+>> ACC! res => exc (0.94830 => 0.94818)
+>> ACC! in_fn => inningfn (0.94818 => 0.94807)
+>> ACC! solver => sol (0.94807 => 0.94794)
+>> ACC! i => ip (0.94794 => 0.94786)
+>> NOACC! c => l (0.94786 => 0.94786)
+>> NOSNT!
+>> NOACC! n => l (0.94786 => 0.94786)
+>> NOSNT!
+>> ACC! case => config (0.94786 => 0.94786)
+>> ACC! T => Q (0.94786 => 0.94781)
+>> NOACC! nn => co (0.94781 => 0.94781)
+>> NOSNT!
+>> NOACC! B => P (0.94781 => 0.94781)
+>> SNT! B => P (0.94781 => 0.94781)
+>> NOACC! A => AR (0.94781 => 0.94781)
+>> NOSNT!
+>> NOACC! s => small (0.94781 => 0.94781)
+>> NOSNT!
+>> ACC! reader => df (0.94781 => 0.94754)
+>> NOACC! R => J (0.94751 => 0.94754)
+>> NOSNT!
+>> ACC! x => input (0.94754 => 0.94718)
+>> ACC! d => l (0.94718 => 0.94418)
+>> ACC! b => bl (0.94418 => 0.94059)
+>> ACC! f => uf (0.94059 => 0.92559)
+Example time cost:  1.55 min
+ALL examples time cost:  82.76 min
+Query times in this attack:  3633
+Greedy query times: 479
+Ga query times: 3154
+All Query times:  189622
+Success rate:  0.27450980392156865
+Successful items count:  28
+Total count:  102
+Index:  120
+
+>> ACC! __prob__ => __pebe____ (0.93057 => 0.89822)
+>> ACC! __path__ => __method__ (0.89822 => 0.89748)
+>> ACC! pout => procobj (0.89748 => 0.88052)
+>> ACC! __file__ =>  __path___ (0.88052 => 0.87809)
+>> NOACC! R => P (0.87809 => 0.87809)
+>> SNT! R => P (0.87809 => 0.87809)
+>> NOACC! append => include (0.87809 => 0.87809)
+>> NOSNT!
+>> ACC! i =>  I (0.87809 => 0.87687)
+>> NOACC! b => xb (0.87687 => 0.87687)
+>> NOSNT!
+>> ACC! best => right (0.87687 => 0.87650)
+>> ACC! y => uy (0.87650 => 0.87637)
+>> ACC! a => input (0.87637 => 0.87447)
+>> ACC! res => rest (0.87447 => 0.87331)
+>> NOACC! x => key (0.87296 => 0.87331)
+>> NOSNT!
+>> ACC! back => ce (0.87331 => 0.82044)
+>> ACC! d => ld (0.82044 => 0.80556)
+>> ACC! f => fun (0.80556 => 0.76912)
+>> ACC! s => function (0.76912 => 0.62429)
+Example time cost:  1.46 min
+ALL examples time cost:  84.22 min
+Query times in this attack:  3043
+Greedy query times: 452
+Ga query times: 2591
+All Query times:  192665
+Success rate:  0.27184466019417475
+Successful items count:  28
+Total count:  103
+Index:  121
+
+>> ACC! x => text (0.85831 => 0.80599)
+>> ACC! i => ip (0.80599 => 0.76893)
+>> ACC! cantidad => callité (0.76893 => 0.74471)
+>> ACC! t => u (0.74471 => 0.72633)
+>> ACC! case => rice (0.72633 => 0.66011)
+>> ACC! a => sta (0.66011 => 0.63544)
+>> ACC! b => min (0.63544 => 0.60435)
+>> ACC! max => size (0.60435 => 0.60047)
+>> ACC! line => band (0.60047 => 0.52066)
+>> ACC! INSERT ;print(cantidad) 0.52066=>0.51559
+>> ACC! INSERT ;ex = 0 0.51559=>0.48431
+>> ACC! INSERT ;print(ex) 0.48431=>0.47960
+>> ACC! INSERT ;es = 0 0.47960=>0.45315
+>> ACC! INSERT ;section = 0 0.45315=>0.44814
+>> ACC! INSERT ;Case = 0 0.44814=>0.42450
+>> ACC! INSERT ;print(Case) 0.42450=>0.42138
+>> ACC! INSERT ;address = 0 0.42138=>0.41410
+>> ACC! INSERT ;print(address) 0.41410=>0.41210
+>> ACC! INSERT ;print(LINE) 0.41210=>0.41087
+>> ACC! INSERT ;print(log) 0.41087=>0.34394
+>> ACC! INSERT ;print(ai) 0.34394=>0.34054
+Example time cost:  0.63 min
+ALL examples time cost:  84.85 min
+Query times in this attack:  1511
+Greedy query times: 184
+Ga query times: 1327
+All Query times:  194176
+Success rate:  0.2692307692307692
+Successful items count:  28
+Total count:  104
+Index:  122
+
+>> ACC! t => art (0.89614 => 0.89076)
+>> ACC! total => otal (0.89076 => 0.88766)
+>> ACC! max => maximum (0.88766 => 0.88705)
+>> ACC! s => stats (0.88705 => 0.88286)
+>> ACC! p => ot (0.88286 => 0.87964)
+>> ACC! j => J (0.87964 => 0.87620)
+>> ACC! i => ij (0.87620 => 0.86150)
+>> ACC! n => size (0.86150 => 0.85294)
+>> ACC! line => input (0.85294 => 0.83200)
+>> ACC! INSERT ;print(line) 0.83200=>0.82868
+>> ACC! INSERT ;n = 0 0.82868=>0.80761
+>> ACC! INSERT ;s = 0 0.80761=>0.79470
+>> ACC! INSERT ;ai = 0 0.79470=>0.79324
+Example time cost:  0.64 min
+ALL examples time cost:  85.48 min
+Query times in this attack:  1457
+Greedy query times: 198
+Ga query times: 1259
+All Query times:  195633
+Success rate:  0.26666666666666666
+Successful items count:  28
+Total count:  105
+Index:  123
+
+>> NOACC! palindromes => palindrimides (0.53470 => 0.54071)
+>> NOSNT!
+>> ACC! n => l (0.54071 => 0.52547)
+>> ACC! c => co (0.52547 => 0.43097)
+>> ACC! all_palindromes => all_palindronES (0.43097 => 0.42991)
+>> NOACC! psqix => psqutop (0.41276 => 0.42991)
+>> NOSNT!
+>> ACC! psqtop => psqbot (0.42991 => 0.40650)
+>> ACC! pp => P (0.40650 => 0.39993)
+>> ACC! s => sys (0.39993 => 0.29289)
+>> NOACC! aix => AIX (0.29289 => 0.29289)
+>> SNT! aix => AIX (0.29289 => 0.29289)
+>> ACC! palindromic_squares => palindromic_squests (0.29289 => 0.27293)
+>> NOACC! bix =>  bica (0.27293 => 0.27293)
+>> NOSNT!
+>> NOACC! p => j (0.26896 => 0.27293)
+>> SNT! p => j (0.27293 => 0.27691)
+>> SUC! stdin => putin (0.27691 => 0.09011)
+Example time cost:  0.05 min
+ALL examples time cost:  85.54 min
+Query times in this attack:  125
+Greedy query times: 125
+Ga query times: 1259
+All Query times:  195758
+Success rate:  0.27358490566037735
+Successful items count:  29
+Total count:  106
+Index:  124
+
+>> ACC! S => P (0.65435 => 0.65425)
+>> ACC! p => l (0.65425 => 0.64697)
+>> ACC! i => chi (0.64697 => 0.61866)
+>> ACC! n => ot (0.61866 => 0.61547)
+>> ACC! z => exp (0.61547 => 0.57992)
+>> NOACC! N => Q (0.57712 => 0.57992)
+>> NOSNT!
+>> ACC! h => log (0.57992 => 0.57433)
+>> ACC! ns => ins (0.57433 => 0.57064)
+>> NOACC! T => TS (0.56343 => 0.57064)
+>> NOSNT!
+>> ACC! INSERT ;h = 0 0.57064=>0.55012
+Example time cost:  0.63 min
+ALL examples time cost:  86.17 min
+Query times in this attack:  1578
+Greedy query times: 181
+Ga query times: 1397
+All Query times:  197336
+Success rate:  0.27102803738317754
+Successful items count:  29
+Total count:  107
+Index:  125
+
+>> SUC! fin => lines (0.89599 => 0.18111)
+Example time cost:  0.01 min
+ALL examples time cost:  86.18 min
+Query times in this attack:  50
+Greedy query times: 50
+Ga query times: 1397
+All Query times:  197386
+Success rate:  0.2777777777777778
+Successful items count:  30
+Total count:  108
+Index:  126
+
+>> ACC! fin => min (0.92633 => 0.39530)
+>> SUC! case => step (0.39530 => 0.16283)
+Example time cost:  0.02 min
+ALL examples time cost:  86.2 min
+Query times in this attack:  47
+Greedy query times: 47
+Ga query times: 1397
+All Query times:  197433
+Success rate:  0.28440366972477066
+Successful items count:  31
+Total count:  109
+Index:  127
+
+>> ACC! Ti => ip (0.90348 => 0.90160)
+>> ACC! answer => uit (0.90160 => 0.90107)
+>> ACC! T => P (0.90107 => 0.90059)
+>> ACC! B => IO (0.90059 => 0.89999)
+>> ACC! fasappend => faosend (0.89999 => 0.89902)
+>> ACC! A => API (0.89902 => 0.89805)
+>> ACC! i => ai (0.89805 => 0.89700)
+>> ACC! base => shape (0.89700 => 0.89603)
+>> ACC! d => dc (0.89603 => 0.89587)
+>> ACC! max => size (0.89587 => 0.89492)
+>> ACC! MAX => RAW (0.89492 => 0.89384)
+>> ACC! square => dim (0.89384 => 0.89291)
+>> NOACC! fas => fingas (0.89263 => 0.89291)
+>> NOSNT!
+>> ACC! s => features (0.89291 => 0.89092)
+>> ACC! n => j (0.89092 => 0.88450)
+>> ACC! INSERT ;n = 0 0.88450=>0.88154
+>> ACC! INSERT ;print(n) 0.88154=>0.87199
+>> ACC! INSERT ;s = 0 0.87199=>0.86970
+>> ACC! INSERT ;print(s) 0.86970=>0.86808
+>> ACC! INSERT ;print(fas) 0.86808=>0.86485
+>> ACC! INSERT ;i = 0 0.86485=>0.86329
+Example time cost:  1.06 min
+ALL examples time cost:  87.26 min
+Query times in this attack:  2549
+Greedy query times: 304
+Ga query times: 2245
+All Query times:  199982
+Success rate:  0.2818181818181818
+Successful items count:  31
+Total count:  110
+Index:  128
+
+>> ACC! t => tc (0.90322 => 0.90055)
+>> ACC! p => P (0.90055 => 0.89907)
+>> ACC! m => j (0.89907 => 0.89775)
+>> ACC! i => Is (0.89775 => 0.89476)
+>> NOACC! S => D (0.89472 => 0.89476)
+>> NOSNT!
+>> ACC! curr_S => curr_T (0.89476 => 0.89450)
+>> ACC! N => Na (0.89450 => 0.89440)
+>> ACC! totals => tfatales (0.89440 => 0.89437)
+>> NOACC! a => l (0.89435 => 0.89437)
+>> NOSNT!
+>> ACC! numbers => monats (0.89437 => 0.89210)
+>> ACC! Ti => IO (0.89210 => 0.89132)
+>> ACC! T => TS (0.89132 => 0.88808)
+>> ACC! INSERT ;print(T) 0.88808=>0.88415
+>> ACC! INSERT ;Ti = 0 0.88415=>0.87705
+>> ACC! INSERT ;print(Ti) 0.87705=>0.87166
+>> ACC! INSERT ;numbers = 0 0.87166=>0.86944
+>> ACC! INSERT ;print(numbers) 0.86944=>0.86733
+>> ACC! INSERT ;N = 0 0.86733=>0.86185
+>> ACC! INSERT ;totals = 0 0.86185=>0.85981
+>> ACC! INSERT ;IO = 0 0.85981=>0.85856
+>> ACC! INSERT ;print(IO) 0.85856=>0.85343
+>> ACC! INSERT ;lo = 0 0.85343=>0.85107
+>> ACC! INSERT ;Wi = 0 0.85107=>0.84475
+Example time cost:  0.86 min
+ALL examples time cost:  88.12 min
+Query times in this attack:  2155
+Greedy query times: 245
+Ga query times: 1910
+All Query times:  202137
+Success rate:  0.27927927927927926
+Successful items count:  31
+Total count:  111
+Index:  129
+
+>> ACC! number =>  result (0.89185 => 0.88952)
+>> ACC! x => z (0.88952 => 0.88888)
+>> NOACC! n => l (0.88886 => 0.88888)
+>> NOSNT!
+>> NOACC! num => loc (0.88888 => 0.88888)
+>> NOSNT!
+>> ACC! c => arc (0.88888 => 0.88771)
+>> NOACC! T => P (0.88771 => 0.88771)
+>> SNT! T => P (0.88771 => 0.88771)
+>> ACC! nt => out (0.88771 => 0.88549)
+>> NOACC! i => ai (0.88549 => 0.88549)
+>> SNT! i => ai (0.88549 => 0.88549)
+>> ACC! B => AR (0.88549 => 0.88385)
+>> ACC! total_column => total54layer (0.88385 => 0.88242)
+>> ACC! counter => master (0.88242 => 0.88192)
+>> ACC! A => Na (0.88192 => 0.88100)
+>> ACC! ret => fun (0.88100 => 0.87952)
+>> ACC! c_str => c7url (0.87952 => 0.87507)
+>> NOACC! check_len => key_pos (0.87507 => 0.87507)
+>> NOSNT!
+>> ACC! upper_limit => upperflowrow (0.87507 => 0.87360)
+>> ACC! t => art (0.87360 => 0.85307)
+Example time cost:  1.26 min
+ALL examples time cost:  89.38 min
+Query times in this attack:  3034
+Greedy query times: 366
+Ga query times: 2668
+All Query times:  205171
+Success rate:  0.2767857142857143
+Successful items count:  31
+Total count:  112
+Index:  130
+
+Example time cost:  0.0 min
+ALL examples time cost:  89.38 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 2668
+All Query times:  205172
+Success rate:  0.2767857142857143
+Successful items count:  31
+Total count:  112
+Index:  131
+

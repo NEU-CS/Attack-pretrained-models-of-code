@@ -1,0 +1,1 @@
+Index,Original Code,Program Length,Adversarial Code,True Label,Original Prediction,Adv Prediction,Is Success,Extracted Names,Importance Score,Greedy No. Changed Names,Greedy No. Changed Tokens,Replaced Names,GA No. Changed Names,GA No. Changed Tokens,Attack Type,Query Times,Time Cost,Suc Type,Insert Words,orig prob,current prob

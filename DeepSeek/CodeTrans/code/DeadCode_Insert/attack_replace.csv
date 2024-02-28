@@ -1,0 +1,652 @@
+Index,Original Code,Program Length,Adversarial Code,True Label,Original Prediction,Adv Prediction,Is Success,Extracted Names,Importance Score,Greedy No. Changed Names,Greedy No. Changed Tokens,Replaced Names,GA No. Changed Names,GA No. Changed Tokens,Attack Type,Query Times,Time Cost,Suc Type,Insert Words,orig prob,current prob
+0,"public void serialize(LittleEndianOutput out) {out.writeShort(field_1_vcenter);}
+",16,"public void store(LittleEndianOutput format) {format.writeShort(field_1_vcenter);}
+","public override void Serialize(ILittleEndianOutput out1){out1.WriteShort(field_1_vcenter);}
+","public override void Serialize(ILittleEndianOutput out1){out1.WriteShort(field_1_vcenter);}
+","public override void Store(ILittleEndianOutput bos){bos.WriteShort(field_1_vcenter);}
+",-1,"serialize,out","serialize:0.5305388886860805,out:0.5146283515139266,",0,0,"serialize:store,out:os,",0,0,Greedy,18,0.22486869096755982,failed,[],1.0,0.4785005519047641
+1,"public void addAll(BlockList<T> src) {if (src.size == 0)return;int srcDirIdx = 0;for (; srcDirIdx < src.tailDirIdx; srcDirIdx++)addAll(src.directory[srcDirIdx], 0, BLOCK_SIZE);if (src.tailBlkIdx != 0)addAll(src.tailBlock, 0, src.tailBlkIdx);}
+",75,"public void addAll(BlockList<T> shuffle) {if (shuffle.size == 0)return;int srcDirIdx = 0;for (; srcDirIdx < shuffle.tailDirIdx; srcDirIdx++)addAll(shuffle.directory[srcDirIdx], 0, BLOCK_SIZE);if (shuffle.tailBlkIdx != 0)addAll(shuffle.tailBlock, 0, shuffle.tailBlkIdx);}
+","public virtual void AddAll(NGit.Util.BlockList<T> src){if (src.size == 0){return;}int srcDirIdx = 0;for (; srcDirIdx < src.tailDirIdx; srcDirIdx++){AddAll(src.directory[srcDirIdx], 0, BLOCK_SIZE);}if (src.tailBlkIdx != 0){AddAll(src.tailBlock, 0, src.tailBlkIdx);}}
+","public virtual void AddAll(BlockList<T> src){if (src.m_size == 0){return;}int srcDirIdx = 0;for (; srcDirIdx < src.m_tailDirIdx; srcDirIdx++){AddAll(src.m_directory[srcDirIdx], 0, BLOCK_SIZE);}if (src.m_tailBlkIdx != 0){AddAll(src.m_tailBlock, 0, src.m_tailBlkIdx);}}
+","public virtual void AddAll(BlockList<T> process){if (process.Size == 0){return;}int srcDirIdx = 0;for (; srcDirIdx < process.TailDirIdx; srcDirIdx++){AddAll(process.Directory[srcDirIdx], 0, BLOCK_SIZE);}if (process.TailBlkIdx != 0){AddAll(process.TailBlock, 0, process.TailBlkIdx);}}
+",-1,"addAll,src,srcDirIdx","addAll:0.0,src:0.010415981878107994,srcDirIdx:-0.0406902383418728,",0,0,"src:shuffle,",0,0,Greedy,46,2.0058658997217815,failed,[],0.6685731536097567,0.4798483482022369
+2,"public void writeByte(byte b) {if (upto == blockSize) {if (currentBlock != null) {addBlock(currentBlock);}currentBlock = new byte[blockSize];upto = 0;}currentBlock[upto++] = b;}
+",52,"public void add(byte v) {if (this == blockSize) {if (v != null) {addBlock(v);}v = new byte[blockSize];this = 0;}v[this++] = v;}
+","public override void WriteByte(byte b){if (outerInstance.upto == outerInstance.blockSize){if (outerInstance.currentBlock != null){outerInstance.blocks.Add(outerInstance.currentBlock);outerInstance.blockEnd.Add(outerInstance.upto);}outerInstance.currentBlock = new byte[outerInstance.blockSize];outerInstance.upto = 0;}outerInstance.currentBlock[outerInstance.upto++] = (byte)b;}
+","public void WriteByte(byte b){if (upto == blockSize){if (currentBlock != null){AddBlock(currentBlock);}currentBlock = new byte[blockSize];upto = 0;}currentBlock[upto++] = b;}
+","public virtual void Add(byte v){if (this == blockSize){if (v != null){AddBlock(v);}v = new byte[blockSize];this = 0;}v[this++] = v;}
+",-1,"writeByte,b,currentBlock,upto","writeByte:0.023742606253616752,b:-0.03495684032681978,currentBlock:-0.008620689655172403,upto:0.0,",0,0,"writeByte:add,upto:this,currentBlock:buf,b:v,",0,0,Greedy,55,1.2027782599131267,failed,[],0.14281416546388329,0.09286181916139756
+3,"public ObjectId getObjectId() {return objectId;}
+",10,"public ObjectId Id() {return objectId;}
+","public virtual ObjectId GetObjectId(){return objectId;}
+","public virtual ObjectId GetObjectId(){return objectId;}
+","public virtual ObjectId Id(){return objectId;}
+",-1,getObjectId,"getObjectId:0.547144527082973,",0,0,"getObjectId:Id,",0,0,Greedy,6,0.041672436396280925,failed,[],0.75,0.3954739241427606
+4,"public DeleteDomainEntryResult deleteDomainEntry(DeleteDomainEntryRequest request) {request = beforeClientExecution(request);return executeDeleteDomainEntry(request);}
+",22,"public DeleteDomainEntryResult update(DeleteDomainEntryRequest execute) {execute = beforeClientExecution(execute);return executeDeleteDomainEntry(execute);}
+","public virtual DeleteDomainEntryResponse DeleteDomainEntry(DeleteDomainEntryRequest request){var options = new InvokeOptions();options.RequestMarshaller = DeleteDomainEntryRequestMarshaller.Instance;options.ResponseUnmarshaller = DeleteDomainEntryResponseUnmarshaller.Instance;return Invoke<DeleteDomainEntryResponse>(request, options);}
+","public virtual DeleteDomainEntryResponse DeleteDomainEntry(DeleteDomainEntryRequest request){var options = new InvokeOptions();options.RequestMarshaller = DeleteDomainEntryRequestMarshaller.Instance;options.ResponseUnmarshaller = DeleteDomainEntryResponseUnmarshaller.Instance;return Invoke<DeleteDomainEntryResponse>(request, options);}
+","public virtual DeleteDomainEntryResponse Update(DeleteDomainEntryRequest input){var options = new InvokeOptions();options.RequestMarshaller = UpdateRequestMarshaller;options.ResponseUnmarshaller = UpdateResponseUnmarshaller;return Invoke<DeleteDomainEntryResponse>(input, options);}
+",-1,"deleteDomainEntry,request","deleteDomainEntry:0.0,request:0.0,",0,0,"deleteDomainEntry:update,request:parent,",0,0,Greedy,20,0.5594232519467671,failed,[],1.0,0.1478631136068262
+5,"public long ramBytesUsed() {return ((termOffsets!=null)? termOffsets.ramBytesUsed() : 0) +((termsDictOffsets!=null)? termsDictOffsets.ramBytesUsed() : 0);}
+",40,"public long length() {return ((termOffsets!=null)? termOffsets.length() : 0) +((termsDictOffsets!=null)? termsDictOffsets.length() : 0);}
+","public virtual long RamBytesUsed(){return fst == null ? 0 : fst.GetSizeInBytes();}
+","public override long RamBytesUsed(){return ((TermOffsets != null) ? TermOffsets.RamBytesUsed() : 0) + ((TermsDictOffsets != null) ? TermsDictOffsets.RamBytesUsed() : 0);}
+","public override long Length(){return ((TermOffsets != null) ? TermOffsets.Length : 0) + ((TermsDictOffsets != null) ? TermsDictOffsets.Length : 0);}
+",-1,ramBytesUsed,"ramBytesUsed:-0.024663954574777713,",0,0,"ramBytesUsed:length,",0,0,Greedy,9,0.19655869801839193,failed,[],0.4040976380051231,0.35676134739263676
+6,"public final String getFullMessage() {byte[] raw = buffer;int msgB = RawParseUtils.tagMessage(raw, 0);if (msgB < 0) {return """"; }return RawParseUtils.decode(guessEncoding(), raw, msgB, raw.length);}
+",56,"public final String decode() {byte[] get = buffer;int buffer = RawParseUtils.tagMessage(get, 0);if (buffer < 0) {return """"; }return RawParseUtils.decode(guessEncoding(), get, buffer, get.length);}
+","public string GetFullMessage(){byte[] raw = buffer;int msgB = RawParseUtils.TagMessage(raw, 0);if (msgB < 0){return string.Empty;}Encoding enc = RawParseUtils.ParseEncoding(raw);return RawParseUtils.Decode(enc, raw, msgB, raw.Length);}
+","public string GetFullMessage(){byte[] raw = buffer;int msgB = RawParseUtils.TagMessage(raw, 0);if (msgB < 0){return """";}return RawParseUtils.Decode(GuessEncoding(), raw, msgB, raw.Length);}
+","public string Decode(){byte[] get = buffer;int buffer = RawParseUtils.TagMessage(get, 0);if (buffer < 0){return """";}return RawParseUtils.Decode(GuessEncoding(), get, buffer, get.Length);}
+",-1,"getFullMessage,raw,msgB","getFullMessage:0.0637768007632773,raw:0.20069336566882934,msgB:0.27923402674432357,",0,0,"msgB:buffer,raw:get,getFullMessage:get,",0,0,Greedy,33,0.8039609670639039,failed,[],0.6600977356922811,0.24355003825847577
+7,"public POIFSFileSystem() {this(true);_header.setBATCount(1);_header.setBATArray(new int[]{1});BATBlock bb = BATBlock.createEmptyBATBlock(bigBlockSize, false);bb.setOurBlockIndex(1);_bat_blocks.add(bb);setNextBlock(0, POIFSConstants.END_OF_CHAIN);setNextBlock(1, POIFSConstants.FAT_SECTOR_BLOCK);_property_table.setStartBlock(0);}
+",82,"public POIFSFileSystem() {this(true);_header.setBATCount(1);_header.setBATArray(new int[]{1});BATBlock synchronized = BATBlock.createEmptyBATBlock(bigBlockSize, false);synchronized.setOurBlockIndex(1);_bat_blocks.add(synchronized);setNextBlock(0, POIFSConstants.END_OF_CHAIN);setNextBlock(1, POIFSConstants.FAT_SECTOR_BLOCK);_property_table.setStartBlock(0);}
+","public POIFSFileSystem(){HeaderBlock headerBlock = new HeaderBlock(bigBlockSize);_property_table = new PropertyTable(headerBlock);_documents      = new ArrayList();_root           = null;}
+","public POIFSFileSystem(){this(true);_header.BATCount = 1;_header.BATArray = new int[]{1};BATBlock bb = BATBlock.CreateEmptyBATBlock(bigBlockSize, false);bb.OurBlockIndex = 1;_bat_blocks.Add(bb);SetNextBlock(0, POIFSConstants.END_OF_CHAIN);SetNextBlock(1, POIFSConstants.FAT_SECTOR_BLOCK);_property_table.StartBlock = 0;}
+","public POIFSFileSystem(){this(true);_header.BATCount = 1;_header.BATArray = new int[]{1};BATBlock initialize = BATBlock.CreateEmptyBATBlock(bigBlockSize, false);initialize.OurBlockIndex = 1;_bat_blocks.Add(initialize);SetNextBlock(0, POIFSConstants.END_OF_CHAIN);SetNextBlock(1, POIFSConstants.FAT_SECTOR_BLOCK);_property_table.StartBlock = 0;}
+",-1,"this,bb","this:0.02518030867236351,bb:0.04863433160623551,",0,0,"bb:synchronized,",0,0,Greedy,13,0.7544890761375427,failed,[],0.1956033194547314,0.18003839539775252
+8,"public void init(int address) {slice = pool.buffers[address >> ByteBlockPool.BYTE_BLOCK_SHIFT];assert slice != null;upto = address & ByteBlockPool.BYTE_BLOCK_MASK;offset0 = address;assert upto < slice.length;}
+",46,"public void free(int 0) {blocks = pool.buffers[0 >> ByteBlockPool.BYTE_BLOCK_SHIFT];assert blocks != null;address = 0 & ByteBlockPool.BYTE_BLOCK_MASK;offset0 = 0;assert address < blocks.length;}
+","public void Init(int address){slice = pool.Buffers[address >> ByteBlockPool.BYTE_BLOCK_SHIFT];Debug.Assert(slice != null);upto = address & ByteBlockPool.BYTE_BLOCK_MASK;offset0 = address;Debug.Assert(upto < slice.Length);}
+","public virtual void Init(int address){slice = pool.buffers[address >> ByteBlockPool.BYTE_BLOCK_SHIFT];Debug.Assert(slice != null);upto = address & ByteBlockPool.BYTE_BLOCK_MASK;offset0 = address;Debug.Assert(upto < slice.Length);}
+","public void Release(int index){blocks = pool.blocks[index >> ByteBlockPool.BYTE_BLOCK_SHIFT];Debug.Assert(blocks != null);address = index & ByteBlockPool.BYTE_BLOCK_MASK;offset0 = 0;Debug.Assert(address < blocks.Length);}
+",-1,"init,address,slice,upto,offset0","init:0.007174911078960511,address:0.23372787616144752,slice:0.2668479269535988,upto:0.22313754596961666,offset0:0.1723402444915022,",0,0,"slice:blocks,address:0,upto:buffers,init:free,",0,0,Greedy,92,2.8684924642244973,failed,[],0.8641327577154697,0.30900881965910315
+9,"public SubmoduleAddCommand setPath(String path) {this.path = path;return this;}
+",18,"public SubmoduleAddCommand paths(String paths) {this.paths = paths;return this;}
+","public virtual NGit.Api.SubmoduleAddCommand SetPath(string path){this.path = path;return this;}
+","public virtual NGit.Api.SubmoduleAddCommand SetPath(string path){this.path = path;return this;}
+","public virtual NGit.Api.SubmoduleAddCommand paths(string paths){this._paths = paths;return this;}
+",-1,"setPath,path","setPath:0.6012508148386037,path:0.4340997813902685,",0,0,"setPath:path,path:paths,",0,0,Greedy,15,0.18624072472254435,failed,[],1.0,0.4974123126148854
+10,"public ListIngestionsResult listIngestions(ListIngestionsRequest request) {request = beforeClientExecution(request);return executeListIngestions(request);}
+",22,"public ListIngestionsResult get(ListIngestionsRequest call) {call = beforeClientExecution(call);return executeListIngestions(call);}
+","public virtual ListIngestionsResponse ListIngestions(ListIngestionsRequest request){var options = new InvokeOptions();options.RequestMarshaller = ListIngestionsRequestMarshaller.Instance;options.ResponseUnmarshaller = ListIngestionsResponseUnmarshaller.Instance;return Invoke<ListIngestionsResponse>(request, options);}
+","public virtual ListIngestionsResponse ListIngestions(ListIngestionsRequest request){var options = new InvokeOptions();options.RequestMarshaller = ListIngestionsRequestMarshaller.Instance;options.ResponseUnmarshaller = ListIngestionsResponseUnmarshaller.Instance;return Invoke<ListIngestionsResponse>(request, options);}
+","public virtual ListIngestionsResponse Get(ListIngestionsRequest input){var options = new InvokeOptions();options.RequestMarshaller = ListIngestionsRequestMarshaller.Instance;options.ResponseUnmarshaller = ListIngestionsResponseUnmarshaller.Instance;return Invoke<ListIngestionsResponse>(input, options);}
+",-1,"listIngestions,request","listIngestions:0.23970819727955273,request:0.23970819727955273,",0,0,"listIngestions:get,request:req,",0,0,Greedy,19,0.5831417600313823,failed,[],1.0,0.11101779823773752
+11,"public QueryParserTokenManager(CharStream stream, int lexState){this(stream);SwitchTo(lexState);}
+",21,"public QueryParserTokenManager(CharStream input, int start){this(input);SwitchTo(start);}
+","public QueryParserTokenManager(ICharStream stream, int lexState): this(stream){SwitchTo(lexState);}
+","public QueryParserTokenManager(ICharStream stream, int lexState): base(stream){SwitchTo(lexState);}
+","public QueryParserTokenManager(ICharStream input, int s): base(input){SwitchTo(s);}
+",-1,"stream,lexState","stream:0.373417622203005,lexState:0.2718548879080609,",0,0,"stream:input,lexState:ch,",0,0,Greedy,17,0.2275821526845296,failed,[],0.6351270220691088,0.08510067234934053
+12,"public GetShardIteratorResult getShardIterator(GetShardIteratorRequest request) {request = beforeClientExecution(request);return executeGetShardIterator(request);}
+",22,"public GetShardIteratorResult get(GetShardIteratorRequest call) {call = beforeClientExecution(call);return executeGetShardIterator(call);}
+","public virtual GetShardIteratorResponse GetShardIterator(GetShardIteratorRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetShardIteratorRequestMarshaller.Instance;options.ResponseUnmarshaller = GetShardIteratorResponseUnmarshaller.Instance;return Invoke<GetShardIteratorResponse>(request, options);}
+","public virtual GetShardIteratorResponse GetShardIterator(GetShardIteratorRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetShardIteratorRequestMarshaller.Instance;options.ResponseUnmarshaller = GetShardIteratorResponseUnmarshaller.Instance;return Invoke<GetShardIteratorResponse>(request, options);}
+","public virtual GetShardIteratorResponse Get(GetShardIteratorRequest input){var options = new InvokeOptions();options.RequestMarshaller = GetShardIteratorRequestMarshaller.Instance;options.ResponseUnmarshaller = GetShardIteratorResponseUnmarshaller.Instance;return Invoke<GetShardIteratorResponse>(input, options);}
+",-1,"getShardIterator,request","getShardIterator:0.0,request:0.0,",0,0,"getShardIterator:get,request:resource,",0,0,Greedy,19,0.5309906244277954,failed,[],1.0,0.11101779823773752
+13,"public ModifyStrategyRequest() {super(""aegis"", ""2016-11-11"", ""ModifyStrategy"", ""vipaegis"");setMethod(MethodType.POST);}
+",25,,"public ModifyStrategyRequest(): base(""aegis"", ""2016-11-11"", ""ModifyStrategy"", ""vipaegis"", ""openAPI""){Method = MethodType.POST;}
+","public ModifyStrategyRequest(): base(""aegis"", ""2016-11-11"", ""ModifyStrategy"", ""vipaegis"", ""openAPI""){Method = MethodType.POST;}
+","public ModifyStrategyRequest(): base(""aegis"", ""2016-11-11"", ""ModifyStrategy"", ""vipaegis"", ""openAPI""){Method = MethodType.POST;}
+",-3,,,,,,0,0,Greedy,1,0.020725043614705403,,,1.0,1.0
+14,"public boolean ready() throws IOException {synchronized (lock) {if (in == null) {throw new IOException(""InputStreamReader is closed"");}try {return bytes.hasRemaining() || in.available() > 0;} catch (IOException e) {return false;}}}
+",60,"public boolean has() throws IOException {synchronized (lock) {if (in == null) {throw new IOException(""InputStreamReader is closed"");}try {return bytes.hasRemaining() || in.available() > 0;} catch (IOException e) {return false;}}}
+","public override bool ready(){lock (@lock){if (@in == null){throw new System.IO.IOException(""InputStreamReader is closed"");}try{return bytes.hasRemaining() || @in.available() > 0;}catch (System.IO.IOException){return false;}}}
+","public override bool ready(){lock (@lock){if (@in == null){throw new System.IO.IOException(""InputStreamReader is closed"");}try{return bytes.HasRemaining() || @in.Available() > 0;}catch (System.IO.IOException){return false;}}}
+","public override bool Next(){lock (@lock){if (@in == null){throw new System.IO.IOException(""InputStreamReader is closed"");}try{return bytes.HasRemaining() || @in.Available() > 0;}catch (System.IO.IOException){return false;}}}
+",-1,ready,"ready:0.1818812772395787,",0,0,"ready:has,",0,0,Greedy,7,0.17327988147735596,failed,[],0.8749321403029341,0.7639516991548829
+15,"public EscherOptRecord getOptRecord() {return _optRecord;}
+",10,"public EscherOptRecord get() {return _optRecord;}
+","protected internal EscherOptRecord GetOptRecord(){return _optRecord;}
+","public EscherOptRecord GetOptRecord(){return _optRecord;}
+","public EscherOptRecord Get(){return _optRecord;}
+",-1,getOptRecord,"getOptRecord:0.14023824030431808,",0,0,"getOptRecord:get,",0,0,Greedy,7,0.045853805541992185,failed,[],0.2860223939199411,0.1874318589350426
+16,"public synchronized int read(byte[] buffer, int offset, int length) {if (buffer == null) {throw new NullPointerException(""buffer == null"");}Arrays.checkOffsetAndCount(buffer.length, offset, length);if (length == 0) {return 0;}int copylen = count - pos < length ? count - pos : length;for (int i = 0; i < copylen; i++) {buffer[offset + i] = (byte) this.buffer.charAt(pos + i);}pos += copylen;return copylen;}
+",117,"public synchronized int read(byte[] write, int write, int input) {if (write == null) {throw new NullPointerException(""buffer == null"");}Arrays.checkOffsetAndCount(write.input, write, input);if (input == 0) {return 0;}int 1 = count - 1 < input ? count - 1 : input;for (int buff = 0; buff < 1; buff++) {write[write + buff] = (byte) this.write.charAt(1 + buff);}1 += 1;return 1;}
+","public override int read(byte[] buffer, int offset, int length){lock (this){if (buffer == null){throw new System.ArgumentNullException(""buffer == null"");}java.util.Arrays.checkOffsetAndCount(buffer.Length, offset, length);if (length == 0){return 0;}int copylen = count - pos < length ? count - pos : length;{for (int i = 0; i < copylen; i++){buffer[offset + i] = unchecked((byte)this.buffer[pos + i]);}}pos += copylen;return copylen;}}
+","public override int read(byte[] buffer, int offset, int length){if (buffer == null){throw new System.ArgumentNullException(""buffer == null"");}java.util.Arrays.checkOffsetAndCount(buffer.Length, offset, length);if (length == 0){return 0;}int copylen = count - pos < length ? count - pos : length;for (int i = 0; i < copylen; i++){buffer[offset + i] = (byte)this.buffer[pos + i];}pos += copylen;return copylen;}
+","public override int Read(byte[] write, int write, int input){if (write == null){throw new ArgumentNullException(""write"");}java.util.Arrays.CheckOffsetAndCount(write, input, write.Length);if (input == 0){return 0;}int data = 0;for (; data < input; data++){write[write + data] = (byte)this.write[1 + data];}data += 1;return data;}
+",-1,"read,buffer,offset,length,copylen,i,pos","read:0.03726414690355728,buffer:0.242125406135151,offset:0.2183519936843933,length:0.288248598372957,copylen:0.3889903584153689,i:0.2183519936843933,pos:0.3583465147544298,",0,0,"copylen:pos,pos:1,length:input,buffer:buffer,offset:write,i:index,",0,0,Greedy,162,7.764633858203888,failed,[],0.8517949341582096,0.24191544094850204
+17,"public OpenNLPSentenceBreakIterator(NLPSentenceDetectorOp sentenceOp) {this.sentenceOp = sentenceOp;}
+",14,"public OpenNLPSentenceBreakIterator(NLPSentenceDetectorOp open) {this.open = open;}
+","public OpenNLPSentenceBreakIterator(NLPSentenceDetectorOp sentenceOp){this.sentenceOp = sentenceOp;}
+","public OpenNLPSentenceBreakIterator(NLPSentenceDetectorOp sentenceOp){this.sentenceOp = sentenceOp;}
+","public OpenNLPSentenceBreakIterator(NLPSentenceDetectorOp open){this.open = open;}
+",-1,sentenceOp,"sentenceOp:0.6660520469373088,",0,0,"sentenceOp:open,",0,0,Greedy,9,0.11500100294748943,failed,[],1.0,0.5649787723081164
+18,"public void print(String str) {write(str != null ? str : String.valueOf((Object) null));}
+",28,"public void write(String line) {write(line != null ? line : String.valueOf((Object) null));}
+","public virtual void print(string str){write(str != null ? str : Sharpen.StringHelper.GetValueOf((object)null));}
+","public virtual void print(string str){write(str != null ? str : (object)null);}
+","public virtual void Add(string line){Write(line != null ? line : (object)null);}
+",-1,"print,str","print:0.20915501428978456,str:0.26987941427514484,",0,0,"str:line,print:write,",0,0,Greedy,20,0.20766566197077432,failed,[],0.7748138999744721,0.326283462863863
+19,"public NotImplementedFunctionException(String functionName, NotImplementedException cause) {super(functionName, cause);this.functionName = functionName;}
+",24,"public NotImplementedFunctionException(String null, NotImplementedException null) {super(null, null);this.null = null;}
+","public NotImplementedFunctionException(string functionName, NotImplementedException cause): base(functionName,cause){this.functionName = functionName;}
+","public NotImplementedFunctionException(String functionName, NotImplementedException cause): base(functionName, cause){this.functionName = functionName;}
+","public NotImplementedFunctionException(String method, NotImplementedException method): base(method, method){this.method = method;}
+",-1,"functionName,cause","functionName:0.24919559064686625,cause:0.1588880352680173,",0,0,"functionName:cause,cause:null,",0,0,Greedy,23,0.3446185111999512,failed,[],0.5854868942093372,0.3269191218394943
+20,"public V next() {return super.nextEntry().getValue();}
+",18,"public V peek() {return super.nextEntry().getValue();}
+","public override V next(){return this.nextEntry().value;}
+","public override V next(){return this.nextEntry().value;}
+","public override V next(){return this.nextEntry().value;}
+",-1,next,"next:0.4206721936677255,",0,0,"next:peek,",0,0,Greedy,7,0.049614874521891277,failed,[],0.75,0.29276962129420897
+21,"public final void readBytes(byte[] b, int offset, int len, boolean useBuffer) throws IOException {int available = bufferLength - bufferPosition;if(len <= available){if(len>0) System.arraycopy(buffer, bufferPosition, b, offset, len);bufferPosition+=len;} else {if(available > 0){System.arraycopy(buffer, bufferPosition, b, offset, available);offset += available;len -= available;bufferPosition += available;}if (useBuffer && len<bufferSize){refill();if(bufferLength<len){System.arraycopy(buffer, 0, b, offset, bufferLength);throw new EOFException(""read past EOF: "" + this);} else {System.arraycopy(buffer, 0, b, offset, len);bufferPosition=len;}} else {long after = bufferStart+bufferPosition+len;if(after > length())throw new EOFException(""read past EOF: "" + this);readInternal(b, offset, len);bufferStart = after;bufferPosition = 0;bufferLength = 0;                    }}}
+",224,"public final void fill(byte[] b, int offset, int offset, boolean useBuffer) throws IOException {int offset = partial - b;if(offset <= offset){if(offset>0) System.arraycopy(buffer, b, b, offset, offset);b+=offset;} else {if(offset > 0){System.arraycopy(buffer, b, b, offset, offset);offset += offset;offset -= offset;b += offset;}if (useBuffer && offset<bufferSize){refill();if(partial<offset){System.arraycopy(buffer, 0, b, offset, partial);throw new EOFException(""read past EOF: "" + this);} else {System.arraycopy(buffer, 0, b, offset, offset);b=offset;}} else {long capacity = bufferStart+b+offset;if(capacity > length())throw new EOFException(""read past EOF: "" + this);readInternal(b, offset, offset);bufferStart = capacity;b = 0;partial = 0;                    }}}
+","public override sealed void ReadBytes(byte[] b, int offset, int len, bool useBuffer){int available = bufferLength - bufferPosition;if (len <= available){if (len > 0) {Buffer.BlockCopy(m_buffer, bufferPosition, b, offset, len);}bufferPosition += len;}else{if (available > 0){Buffer.BlockCopy(m_buffer, bufferPosition, b, offset, available);offset += available;len -= available;bufferPosition += available;}if (useBuffer && len < bufferSize){Refill();if (bufferLength < len){Buffer.BlockCopy(m_buffer, 0, b, offset, bufferLength);throw new EndOfStreamException(""read past EOF: "" + this);}else{Buffer.BlockCopy(m_buffer, 0, b, offset, len);bufferPosition = len;}}else{long after = bufferStart + bufferPosition + len;if (after > Length){throw new EndOfStreamException(""read past EOF: "" + this);}ReadInternal(b, offset, len);bufferStart = after;bufferPosition = 0;bufferLength = 0; }}}
+","public void ReadBytes(byte[] b, int offset, int len, bool useBuffer){int available = bufferLength - bufferPosition;if (len <= available){if (len > 0) Array.Copy(buffer, bufferPosition, b, offset, len);bufferPosition += len;}else{if (available > 0){Array.Copy(buffer, bufferPosition, b, offset, available);offset += available;len -= available;bufferPosition += available;}if (useBuffer && len < bufferSize){Refill();if (bufferLength < len){Array.Copy(buffer, 0, b, offset, bufferLength);throw new EndOfStreamException(""read past EOF: "" + this);}else{Array.Copy(buffer, 0, b, offset, len);bufferPosition = len;}}else{long after = bufferStart + bufferPosition + len;if (after > length){throw new EndOfStreamException(""read past EOF: "" + this);}ReadInternal(b, offset, len);bufferStart = after;bufferPosition = 0;bufferLength = 0;}}}
+","public virtual void fill(byte[] b, int offset, int count, bool useBuffer){if (count == 0){return;}if (partial == 0){if (useBuffer){if (bufferStart + count > length){throw new java.io.EOFException(""read past EOF: "" + this);}bufferStart += count;partial = count;}else{long data = bufferStart + count;if (data > length){throw new java.io.EOFException(""read past EOF: "" + this);}bufferStart = data;partial = count;}}else{if (useBuffer){if (bufferStart + count > length){throw new java.io.EOFException(""read past EOF: "" + this);}bufferStart += count;partial = count;}else{long data = bufferStart + count;if (data > length){throw new java.io.EOFException(""read past EOF: "" + this);}bufferStart = data;partial = count;}}}
+",-1,"readBytes,b,offset,len,useBuffer,available,bufferPosition,after,bufferStart,bufferLength","readBytes:0.69466424489063,b:0.19423792518944305,offset:0.2520725872971372,len:0.34480218576779964,useBuffer:0.15146603973875905,available:0.2750952511146174,bufferPosition:0.3087364991690653,after:0.1851779482387711,bufferStart:0.09950965019142699,bufferLength:0.2889896054498078,",0,0,"readBytes:fill,len:0,bufferPosition:full,bufferLength:off,available:0,after:capacity,",0,0,Greedy,284,26.092657220363616,failed,[],0.8736292586610104,0.10676068168727645
+22,"public TagQueueResult tagQueue(TagQueueRequest request) {request = beforeClientExecution(request);return executeTagQueue(request);}
+",22,"public TagQueueResult create(TagQueueRequest req) {req = beforeClientExecution(req);return executeTagQueue(req);}
+","public virtual TagQueueResponse TagQueue(TagQueueRequest request){var options = new InvokeOptions();options.RequestMarshaller = TagQueueRequestMarshaller.Instance;options.ResponseUnmarshaller = TagQueueResponseUnmarshaller.Instance;return Invoke<TagQueueResponse>(request, options);}
+","public virtual TagQueueResponse TagQueue(TagQueueRequest request){var options = new InvokeOptions();options.RequestMarshaller = TagQueueRequestMarshaller.Instance;options.ResponseUnmarshaller = TagQueueResponseUnmarshaller.Instance;return Invoke<TagQueueResponse>(request, options);}
+","public virtual CreateTagQueueResponse Create(CreateTagQueueRequest request){var options = new InvokeOptions();options.RequestMarshaller = CreateTagQueueRequestMarshaller.Instance;options.ResponseUnmarshaller = CreateTagQueueResponseUnmarshaller.Instance;return Invoke<CreateTagQueueResponse>(request, options);}
+",-1,"tagQueue,request","tagQueue:0.0,request:0.0,",0,0,"tagQueue:create,request:query,",0,0,Greedy,22,0.6436651905377706,failed,[],1.0,0.6223676901056054
+23,"public void remove() {throw new UnsupportedOperationException();}
+",13,"public void remove() {throw new UnsupportedOperationException();}
+","public override void Remove(){throw new NotSupportedException();}
+","public virtual void remove(){throw new System.NotSupportedException();}
+","public virtual void remove(){throw new System.NotSupportedException();}
+",-1,remove,"remove:-0.133993552848924,",0,0,,0,0,Greedy,7,0.05438161293665568,failed,[],0.12794720103425145,0.12794720103425145
+24,"public CacheSubnetGroup modifyCacheSubnetGroup(ModifyCacheSubnetGroupRequest request) {request = beforeClientExecution(request);return executeModifyCacheSubnetGroup(request);}
+",22,"public CacheSubnetGroup modify(ModifyCacheSubnetGroupRequest update) {update = beforeClientExecution(update);return executeModifyCacheSubnetGroup(update);}
+","public virtual ModifyCacheSubnetGroupResponse ModifyCacheSubnetGroup(ModifyCacheSubnetGroupRequest request){var options = new InvokeOptions();options.RequestMarshaller = ModifyCacheSubnetGroupRequestMarshaller.Instance;options.ResponseUnmarshaller = ModifyCacheSubnetGroupResponseUnmarshaller.Instance;return Invoke<ModifyCacheSubnetGroupResponse>(request, options);}
+","public virtual ModifyCacheSubnetGroupResponse ModifyCacheSubnetGroup(ModifyCacheSubnetGroupRequest request){var options = new InvokeOptions();options.RequestMarshaller = ModifyCacheSubnetGroupRequestMarshaller.Instance;options.ResponseUnmarshaller = ModifyCacheSubnetGroupResponseUnmarshaller.Instance;return Invoke<ModifyCacheSubnetGroupResponse>(request, options);}
+","public virtual ModifyCacheSubnetGroupResponse Modify(ModifyCacheSubnetGroupRequest request){var options = new InvokeOptions();options.RequestMarshaller = ModifyCacheSubnetGroupRequestMarshaller.Instance;options.ResponseUnmarshaller = ModifyCacheSubnetGroupResponseUnmarshaller.Instance;return Invoke<ModifyCacheSubnetGroupResponse>(request, options);}
+",-1,"modifyCacheSubnetGroup,request","modifyCacheSubnetGroup:0.23970819727955273,request:0.23970819727955273,",0,0,"modifyCacheSubnetGroup:modify,request:update,",0,0,Greedy,21,0.8019279917081197,failed,[],1.0,0.1478631136068262
+25,"public void setParams(String params) {super.setParams(params);language = country = variant = """";StringTokenizer st = new StringTokenizer(params, "","");if (st.hasMoreTokens())language = st.nextToken();if (st.hasMoreTokens())country = st.nextToken();if (st.hasMoreTokens())variant = st.nextToken();}
+",83,"public void initialize(String param) {super.initialize(param);language = country = variant = """";StringTokenizer st = new StringTokenizer(param, "","");if (st.hasMoreTokens())language = st.nextToken();if (st.hasMoreTokens())country = st.nextToken();if (st.hasMoreTokens())variant = st.nextToken();}
+","public override void SetParams(string @params){base.SetParams(@params);culture = """";string ignore;StringTokenizer st = new StringTokenizer(@params, "","");if (st.MoveNext())culture = st.Current;if (st.MoveNext())culture += ""-"" + st.Current;if (st.MoveNext())ignore = st.Current;}
+","public override void SetParams(string @params){base.SetParams(@params);language = country = variant = string.Empty;StringTokenizer st = new StringTokenizer(@params, "","");if (st.HasMoreTokens()){language = st.NextToken();}if (st.HasMoreTokens()){country = st.NextToken();}if (st.HasMoreTokens()){variant = st.NextToken();}}
+","public override void Parse(string param_1){base.Parse(param_1);language = country = variant = string.Empty;StringTokenizer st = new StringTokenizer(param_1, "","");if (st.HasMoreTokens()){language = st.NextToken();}if (st.HasMoreTokens()){country = st.NextToken();}if (st.HasMoreTokens()){variant = st.NextToken();}}
+",-1,"setParams,params,language,country,st,variant","setParams:0.025751147284272857,params:0.05345648764747596,language:0.0,country:0.0,st:0.025751147284272857,variant:0.0,",0,0,"params:param,setParams:initialize,",0,0,Greedy,118,5.049081293741862,failed,[],0.37959872056661303,0.1913912767807774
+26,"public DeleteDocumentationVersionResult deleteDocumentationVersion(DeleteDocumentationVersionRequest request) {request = beforeClientExecution(request);return executeDeleteDocumentationVersion(request);}
+",22,"public DeleteDocumentationVersionResult execute(DeleteDocumentationVersionRequest update) {update = beforeClientExecution(update);return executeDeleteDocumentationVersion(update);}
+","public virtual DeleteDocumentationVersionResponse DeleteDocumentationVersion(DeleteDocumentationVersionRequest request){var options = new InvokeOptions();options.RequestMarshaller = DeleteDocumentationVersionRequestMarshaller.Instance;options.ResponseUnmarshaller = DeleteDocumentationVersionResponseUnmarshaller.Instance;return Invoke<DeleteDocumentationVersionResponse>(request, options);}
+","public virtual DeleteDocumentationVersionResponse DeleteDocumentationVersion(DeleteDocumentationVersionRequest request){var options = new InvokeOptions();options.RequestMarshaller = DeleteDocumentationVersionRequestMarshaller.Instance;options.ResponseUnmarshaller = DeleteDocumentationVersionResponseUnmarshaller.Instance;return Invoke<DeleteDocumentationVersionResponse>(request, options);}
+","public virtual DeleteDocumentationVersionResponse Begin(DeleteDocumentationVersionRequest request){var options = new InvokeOptions();options.RequestMarshaller = DeleteDocumentationVersionRequestMarshaller.Instance;options.ResponseUnmarshaller = DeleteDocumentationVersionResponseUnmarshaller.Instance;return Invoke<DeleteDocumentationVersionResponse>(request, options);}
+",-1,"deleteDocumentationVersion,request","deleteDocumentationVersion:0.0,request:0.23970819727955273,",0,0,"request:update,deleteDocumentationVersion:begin,",0,0,Greedy,19,0.5948352018992106,failed,[],1.0,0.1478631136068262
+27,"public boolean equals(Object obj) {if (!(obj instanceof FacetLabel)) {return false;}FacetLabel other = (FacetLabel) obj;if (length != other.length) {return false; }for (int i = length - 1; i >= 0; i--) {if (!components[i].equals(other.components[i])) {return false;}}return true;}
+",90,"public boolean equals(Object other) {if (!(other instanceof FacetLabel)) {return false;}FacetLabel equals = (FacetLabel) other;if (length != equals.length) {return false; }for (int object = length - 1; object >= 0; object--) {if (!components[object].equals(equals.components[object])) {return false;}}return true;}
+","public override bool Equals(object obj){if (!(obj is FacetLabel)){return false;}FacetLabel other = (FacetLabel)obj;if (Length != other.Length){return false; }for (int i = Length - 1; i >= 0; i--){if (!Components[i].Equals(other.Components[i], StringComparison.Ordinal)){return false;}}return true;}
+","public override bool Equals(object obj){if (!(obj is FacetLabel)){return false;}FacetLabel other = (FacetLabel)obj;if (Length != other.Length){return false;}for (int i = Length - 1; i >= 0; i--){if (!components[i].Equals(other.components[i])){return false;}}return true;}
+","public override bool Equals(object other){if (!(other is FacetLabel)){return false;}FacetLabel equals = (FacetLabel)other;if (length != equals.length){return false;}for (int object = length - 1; object >= 0; object--){if (!components[object].Equals(equals.components[object])){return false;}}return true;}
+",-1,"equals,obj,other,i","equals:0.06533464058786498,obj:0.17210656047939932,other:0.23055465688086907,i:0.0,",0,0,"other:equals,obj:other,i:object,",0,0,Greedy,57,2.0027359167734784,failed,[],0.8350945497872,0.396892236284509
+28,"public GetInstanceAccessDetailsResult getInstanceAccessDetails(GetInstanceAccessDetailsRequest request) {request = beforeClientExecution(request);return executeGetInstanceAccessDetails(request);}
+",22,"public GetInstanceAccessDetailsResult get(GetInstanceAccessDetailsRequest list) {list = beforeClientExecution(list);return executeGetInstanceAccessDetails(list);}
+","public virtual GetInstanceAccessDetailsResponse GetInstanceAccessDetails(GetInstanceAccessDetailsRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetInstanceAccessDetailsRequestMarshaller.Instance;options.ResponseUnmarshaller = GetInstanceAccessDetailsResponseUnmarshaller.Instance;return Invoke<GetInstanceAccessDetailsResponse>(request, options);}
+","public virtual GetInstanceAccessDetailsResponse GetInstanceAccessDetails(GetInstanceAccessDetailsRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetInstanceAccessDetailsRequestMarshaller.Instance;options.ResponseUnmarshaller = GetInstanceAccessDetailsResponseUnmarshaller.Instance;return Invoke<GetInstanceAccessDetailsResponse>(request, options);}
+","public virtual GetInstanceAccessDetailsResponse Get(GetInstanceAccessDetailsRequest input){var client = new AmazonRedshift(credentials);return Get(client, input);}
+",-1,"getInstanceAccessDetails,request","getInstanceAccessDetails:0.23970819727955273,request:0.23970819727955273,",0,0,"getInstanceAccessDetails:get,request:argument,",0,0,Greedy,18,0.7688084840774536,failed,[],1.0,0.1478631136068262
+29,"public HSSFPolygon createPolygon(HSSFChildAnchor anchor) {HSSFPolygon shape = new HSSFPolygon(this, anchor);shape.setParent(this);shape.setAnchor(anchor);shapes.add(shape);onCreate(shape);return shape;}
+",49,"public HSSFPolygon createPolygon(HSSFChildAnchor this) {HSSFPolygon build = new HSSFPolygon(this, this);build.setParent(this);build.setAnchor(this);shapes.add(build);onCreate(build);return build;}
+","public HSSFPolygon CreatePolygon(HSSFChildAnchor anchor){HSSFPolygon shape = new HSSFPolygon(this, anchor);shape.Parent = this;shape.Anchor = anchor;shapes.Add(shape);OnCreate(shape);return shape;}
+","public HSSFPolygon CreatePolygon(HSSFChildAnchor anchor){HSSFPolygon shape = new HSSFPolygon(this, anchor);shape.SetParent(this);shape.Anchor = anchor;shapes.Add(shape);OnCreate(shape);return shape;}
+","public HSSFPolygon CreatePolygon(HSSFChildAnchor create){HSSFPolygon build = new HSSFPolygon(this, create);build.SetParent(this);build.SetAnchor(create);shapes.Add(build);OnCreate(build);return build;}
+",-1,"createPolygon,anchor,shape","createPolygon:0.2350805622404265,anchor:0.24708595434409875,shape:0.26328220872976615,",0,0,"shape:build,anchor:c,",0,0,Greedy,35,1.0235858996709188,failed,[],0.7704109805806191,0.30213032571304826
+30,"public String getSheetName(int sheetIndex) {return getBoundSheetRec(sheetIndex).getSheetname();}
+",19,"public String getSheetName(int sheet) {return getBoundSheetRec(sheet).getSheetname();}
+","public String GetSheetName(int sheetIndex){return GetBoundSheetRec(sheetIndex).Sheetname;}
+","public String GetSheetName(int sheetIndex){return GetBoundSheetRec(sheetIndex).Sheetname;}
+","public String GetSheetName(int get){return GetBoundSheetRec(get).Sheetname;}
+",-1,"getSheetName,sheetIndex","getSheetName:0.46380981060577053,sheetIndex:0.6321181854071785,",0,0,"sheetIndex:sheet,",0,0,Greedy,14,0.16393466393152872,failed,[],1.0,0.5332467064778329
+31,"public GetDashboardResult getDashboard(GetDashboardRequest request) {request = beforeClientExecution(request);return executeGetDashboard(request);}
+",22,"public GetDashboardResult get(GetDashboardRequest execute) {execute = beforeClientExecution(execute);return executeGetDashboard(execute);}
+","public virtual GetDashboardResponse GetDashboard(GetDashboardRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetDashboardRequestMarshaller.Instance;options.ResponseUnmarshaller = GetDashboardResponseUnmarshaller.Instance;return Invoke<GetDashboardResponse>(request, options);}
+","public virtual GetDashboardResponse GetDashboard(GetDashboardRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetDashboardRequestMarshaller.Instance;options.ResponseUnmarshaller = GetDashboardResponseUnmarshaller.Instance;return Invoke<GetDashboardResponse>(request, options);}
+","public virtual GetDashboardResponse Get(GetDashboardRequest input){var options = new InvokeOptions();options.RequestMarshaller = GetDashboardRequestMarshaller.Instance;options.ResponseUnmarshaller = GetDashboardResponseUnmarshaller.Instance;return Invoke<GetDashboardResponse>(input, options);}
+",-1,"getDashboard,request","getDashboard:0.23970819727955273,request:0.23970819727955273,",0,0,"getDashboard:get,request:parent,",0,0,Greedy,19,0.6383517821629842,failed,[],1.0,0.1478631136068262
+32,"public AssociateSigninDelegateGroupsWithAccountResult associateSigninDelegateGroupsWithAccount(AssociateSigninDelegateGroupsWithAccountRequest request) {request = beforeClientExecution(request);return executeAssociateSigninDelegateGroupsWithAccount(request);}
+",22,"public AssociateSigninDelegateGroupsWithAccountResult create(AssociateSigninDelegateGroupsWithAccountRequest update) {update = beforeClientExecution(update);return executeAssociateSigninDelegateGroupsWithAccount(update);}
+","public virtual AssociateSigninDelegateGroupsWithAccountResponse AssociateSigninDelegateGroupsWithAccount(AssociateSigninDelegateGroupsWithAccountRequest request){var options = new InvokeOptions();options.RequestMarshaller = AssociateSigninDelegateGroupsWithAccountRequestMarshaller.Instance;options.ResponseUnmarshaller = AssociateSigninDelegateGroupsWithAccountResponseUnmarshaller.Instance;return Invoke<AssociateSigninDelegateGroupsWithAccountResponse>(request, options);}
+","public virtual AssociateSigninDelegateGroupsWithAccountResponse AssociateSigninDelegateGroupsWithAccount(AssociateSigninDelegateGroupsWithAccountRequest request){var options = new InvokeOptions();options.RequestMarshaller = AssociateSigninDelegateGroupsWithAccountRequestMarshaller.Instance;options.ResponseUnmarshaller = AssociateSigninDelegateGroupsWithAccountResponseUnmarshaller.Instance;return Invoke<AssociateSigninDelegateGroupsWithAccountResponse>(request, options);}
+","public virtual AssociateSigninDelegateGroupsWithAccountResponse Create(AssociateSigninDelegateGroupsWithAccountRequest update){update = BeforeClientExecution(update);return ExecuteCreate(update);}
+",-1,"associateSigninDelegateGroupsWithAccount,request","associateSigninDelegateGroupsWithAccount:0.0,request:0.23077931296134635,",0,0,"request:update,associateSigninDelegateGroupsWithAccount:create,",0,0,Greedy,17,0.645034913221995,failed,[],1.0,0.1478631136068262
+33,"public void addMultipleBlanks(MulBlankRecord mbr) {for (int j = 0; j < mbr.getNumColumns(); j++) {BlankRecord br = new BlankRecord();br.setColumn(( short ) (j + mbr.getFirstColumn()));br.setRow(mbr.getRow());br.setXFIndex(mbr.getXFAt(j));insertCell(br);}}
+",85,"public void addMultipleBlanks(MulBlankRecord process) {for (int column = 0; column < process.getNumColumns(); column++) {BlankRecord 1 = new BlankRecord();1.setColumn(( short ) (column + process.getFirstColumn()));1.setRow(process.getRow());1.setXFIndex(process.getXFAt(column));insertCell(1);}}
+","public void AddMultipleBlanks(MulBlankRecord mbr){for (int j = 0; j < mbr.NumColumns; j++){BlankRecord br = new BlankRecord();br.Column = j + mbr.FirstColumn;br.Row = mbr.Row;br.XFIndex = (mbr.GetXFAt(j));InsertCell(br);}}
+","public void AddMultipleBlanks(MulBlankRecord mbr){for (int j = 0; j < mbr.NumColumns; j++){BlankRecord br = new BlankRecord();br.Column = (short)(j + mbr.FirstColumn);br.Row = mbr.Row;br.XFIndex = mbr.XFAt(j);InsertCell(br);}}
+","public void AddMultipleBlanks(MulBlankRecord process){for (int column = 0; column < process.NumColumns; column++){BlankRecord 1 = new BlankRecord();1.Column = (short)(column + process.FirstColumn);1.Row = process.Row;1.XFIndex = process.XFAt(column);InsertCell(1);}}
+",-1,"addMultipleBlanks,mbr,j,br","addMultipleBlanks:0.05369371986121352,mbr:0.25722040197624096,j:0.18711480299399696,br:0.21917120762524855,",0,0,"mbr:process,br:0,j:process,",0,0,Greedy,61,2.070286178588867,failed,[],0.7477340149807571,0.32495331302890207
+34,"public static String quote(String string) {StringBuilder sb = new StringBuilder();sb.append(""\\Q"");int apos = 0;int k;while ((k = string.indexOf(""\\E"", apos)) >= 0) {sb.append(string.substring(apos, k + 2)).append(""\\\\E\\Q"");apos = k + 2;}return sb.append(string.substring(apos)).append(""\\E"").toString();}
+",101,"public static String quote(String line) {StringBuilder s = new StringBuilder();s.append(""\\Q"");int start = 0;int value;while ((value = line.indexOf(""\\E"", start)) >= 0) {s.append(line.substring(start, value + 2)).append(""\\\\E\\Q"");start = value + 2;}return s.append(line.substring(start)).append(""\\E"").toString();}
+","public static string quote(string @string){java.lang.StringBuilder sb = new java.lang.StringBuilder();sb.append(""\\Q"");int apos = 0;int k;while ((k = @string.IndexOf(""\\E"", apos)) >= 0){sb.append(Sharpen.StringHelper.Substring(@string, apos, k + 2)).append(""\\\\E\\Q"");apos = k + 2;}return sb.append(Sharpen.StringHelper.Substring(@string, apos)).append(""\\E"").ToString();}
+","public static string Quote(string @string){StringBuilder sb = new StringBuilder();sb.Append(""\\Q"");int apos = 0;int k;while ((k = @string.IndexOf(""\\E"", apos)) >= 0){sb.Append(@string.Substring(apos, k + 2)).Append(""\\\\E\\Q"");apos = k + 2;}return sb.Append(@string.Substring(apos)).Append(""\\E"").ToString();}
+","public static string Quote(string line){StringBuilder s = new StringBuilder();s.Append(""\\Q"");int start = 0;int value;while ((value = line.IndexOf(""\\E"", start)) >= 0){s.Append(line.Substring(start, value + 2)).Append(""\\\\E\\Q"");start = value + 2;}return s.Append(line.Substring(start)).Append(""\\E"").ToString();}
+",-1,"quote,string,sb,apos,k","quote:0.05416152577388056,string:0.05416152577388056,sb:0.011321224211675918,apos:0.05921713806801254,k:0.1527522016548425,",0,0,"k:value,apos:value,string:line,sb:line,",0,0,Greedy,82,3.4205411195755007,failed,[],0.4818723679792141,0.2641292326948214
+35,"public ByteBuffer putInt(int value) {throw new ReadOnlyBufferException();}
+",15,"public ByteBuffer allocate(int value) {throw new ReadOnlyBufferException();}
+","public override java.nio.ByteBuffer putInt(int value){throw new java.nio.ReadOnlyBufferException();}
+","public override java.nio.ByteBuffer putInt(int value){throw new System.NotImplementedException();}
+","public override java.nio.ByteBuffer wrap(int value){throw new java.nio.ReadOnlyBufferException();}
+",-1,"putInt,value","putInt:0.19554358945737194,value:-0.10183800284592115,",0,0,"putInt:allocate,",0,0,Greedy,17,0.22445557514826456,failed,[],0.5596783415809894,0.2423066949255656
+36,"public ArrayPtg(Object[][] values2d) {int nColumns = values2d[0].length;int nRows = values2d.length;_nColumns = (short) nColumns;_nRows = (short) nRows;Object[] vv = new Object[_nColumns * _nRows];for (int r=0; r<nRows; r++) {Object[] rowData = values2d[r];for (int c=0; c<nColumns; c++) {vv[getValueIndex(c, r)] = rowData[c];}}_arrayValues = vv;_reserved0Int = 0;_reserved1Short = 0;_reserved2Byte = 0;}
+",131,"public ArrayPtg(Object[][] data) {int size = data[0].length;int nRows = data.length;2 = (short) size;4 = (short) nRows;Object[] vv = new Object[2 * 4];for (int col=0; col<nRows; col++) {Object[] rows = data[col];for (int col=0; col<size; col++) {vv[0(col, col)] = rows[col];}}_ = vv;_ = 0;_reserved1Short = 0;_reserved2Byte = 0;}
+","public ArrayPtg(Object[][] values2d){int nColumns = values2d[0].Length;int nRows = values2d.Length;_nColumns = (short)nColumns;_nRows = (short)nRows;Object[] vv = new Object[_nColumns * _nRows];for (int r = 0; r < nRows; r++){Object[] rowData = values2d[r];for (int c = 0; c < nColumns; c++){vv[GetValueIndex(c, r)] = rowData[c];}}_arrayValues = vv;_reserved0Int = 0;_reserved1Short = 0;_reserved2Byte = 0;}
+","public ArrayPtg(Object[][] values2d){int nColumns = values2d[0].Length;int nRows = values2d.Length;_nColumns = (short)nColumns;_nRows = (short)nRows;Object[] vv = new Object[_nColumns * _nRows];for (int r = 0; r < nRows; r++){Object[] rowData = values2d[r];for (int c = 0; c < nColumns; c++){vv[GetValueIndex(c, r)] = rowData[c];}}_arrayValues = vv;_reserved0Int = 0;_reserved1Short = 0;_reserved2Byte = 0;}
+","public ArrayPtg(Object[][] data){int size = data[0].Length;int nRows = data.Length;_2 = (short)size;_4 = (short)nRows;Object[] vv = new Object[2 * 4];for (int col = 0; col < nRows; col++){Object[] rows = data[col];for (int n = 0; n < size; n++){vv[0 + (n * 4) + (col * 2)] = rows[n];}}_ = vv;_ = 0;_reserved1Short = 0;_reserved2Byte = 0;}
+",-1,"values2d,nColumns,nRows,_nColumns,_nRows,vv,r,rowData,c,getValueIndex,_arrayValues,_reserved0Int,_reserved1Short,_reserved2Byte","values2d:0.13252792477079256,nColumns:0.02383016897370871,nRows:0.02383016897370871,_nColumns:0.18136734256366893,_nRows:0.17072904469132855,vv:0.16112388689421597,r:0.02383016897370871,rowData:0.14443212860239707,c:0.02383016897370871,getValueIndex:0.0809167011766071,_arrayValues:0.05128074696279783,_reserved0Int:0.03502447156236754,_reserved1Short:0.03502447156236754,_reserved2Byte:0.03223141532251961,",0,0,"_nColumns:2,_nRows:c,rowData:rows,values2d:data,getValueIndex:array,_arrayValues:result,_reserved0Int:result,nColumns:row,r:stride,c:rows,",0,0,Greedy,327,17.573095166683196,failed,[],1.0,0.25841297101899696
+37,"public GetIceServerConfigResult getIceServerConfig(GetIceServerConfigRequest request) {request = beforeClientExecution(request);return executeGetIceServerConfig(request);}
+",22,"public GetIceServerConfigResult result(GetIceServerConfigRequest get) {get = beforeClientExecution(get);return executeGetIceServerConfig(get);}
+","public virtual GetIceServerConfigResponse GetIceServerConfig(GetIceServerConfigRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetIceServerConfigRequestMarshaller.Instance;options.ResponseUnmarshaller = GetIceServerConfigResponseUnmarshaller.Instance;return Invoke<GetIceServerConfigResponse>(request, options);}
+","public virtual GetIceServerConfigResponse GetIceServerConfig(GetIceServerConfigRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetIceServerConfigRequestMarshaller.Instance;options.ResponseUnmarshaller = GetIceServerConfigResponseUnmarshaller.Instance;return Invoke<GetIceServerConfigResponse>(request, options);}
+","public virtual GetIceServerConfigResponse Result(GetIceServerConfigRequest input){var options = new InvokeOptions();options.RequestMarshaller = GetIceServerConfigRequestMarshaller.Instance;options.ResponseUnmarshaller = GetIceServerConfigResponseUnmarshaller.Instance;return Invoke<GetIceServerConfigResponse>(input, options);}
+",-1,"getIceServerConfig,request","getIceServerConfig:0.23970819727955273,request:0.0,",0,0,"getIceServerConfig:result,request:input,",0,0,Greedy,19,0.5702746192614238,failed,[],1.0,0.1478631136068262
+38,"public String toString() {return getClass().getName() + "" ["" +getValueAsString() +""]"";}
+",24,"public String value() {return getClass().getName() + "" ["" +getValueAsString() +""]"";}
+","public override String ToString(){StringBuilder sb = new StringBuilder(64);sb.Append(GetType().Name).Append("" ["");sb.Append(GetValueAsString());sb.Append(""]"");return sb.ToString();}
+","public override String ToString(){StringBuilder sb = new StringBuilder(64);sb.Append(GetType().Name).Append("" ["");sb.Append(ValueAsString);sb.Append(""]"");return sb.ToString();}
+","public override string Get(){return this.GetType().Name + "" ["" + GetValueAsString() + ""]"";}
+",-1,toString,"toString:0.7728375606831146,",0,0,"toString:value,",0,0,Greedy,7,0.0893652081489563,failed,[],0.8487156940347949,0.07323671807974534
+39,"public String toString(String field) {return ""ToChildBlockJoinQuery (""+parentQuery.toString()+"")"";}
+",20,"public String get(String id) {return ""ToChildBlockJoinQuery (""+parentQuery.get()+"")"";}
+","public override string ToString(string field){return ""ToChildBlockJoinQuery ("" + _parentQuery + "")"";}
+","public override string ToString(string field){return ""ToChildBlockJoinQuery ("" + parentQuery.ToString() + "")"";}
+","public override string Get(string id){return ""ToChildBlockJoinQuery ("" + parentQuery.Get() + "")"";}
+",-1,"toString,field","toString:0.1813721916386436,field:0.23259977550926836,",0,0,"field:id,toString:get,",0,0,Greedy,24,0.30532171328862506,failed,[],0.4887303866544812,0.20655843356587675
+40,"public final void incRef() {refCount.incrementAndGet();}
+",14,"public final void clear() {refCount.incrementAndGet();}
+","public void IncRef(){refCount.IncrementAndGet();}
+","public void IncRef(){refCount.IncrementAndGet();}
+","public void Release(){refCount.IncrementAndGet();}
+",-1,incRef,"incRef:0.3842691263707692,",0,0,"incRef:clear,",0,0,Greedy,7,0.060101866722106934,failed,[],0.5311706625951745,0.23538955562800784
+41,"public UpdateConfigurationSetSendingEnabledResult updateConfigurationSetSendingEnabled(UpdateConfigurationSetSendingEnabledRequest request) {request = beforeClientExecution(request);return executeUpdateConfigurationSetSendingEnabled(request);}
+",22,"public UpdateConfigurationSetSendingEnabledResult update(UpdateConfigurationSetSendingEnabledRequest instruction) {instruction = beforeClientExecution(instruction);return executeUpdateConfigurationSetSendingEnabled(instruction);}
+","public virtual UpdateConfigurationSetSendingEnabledResponse UpdateConfigurationSetSendingEnabled(UpdateConfigurationSetSendingEnabledRequest request){var options = new InvokeOptions();options.RequestMarshaller = UpdateConfigurationSetSendingEnabledRequestMarshaller.Instance;options.ResponseUnmarshaller = UpdateConfigurationSetSendingEnabledResponseUnmarshaller.Instance;return Invoke<UpdateConfigurationSetSendingEnabledResponse>(request, options);}
+","public virtual UpdateConfigurationSetSendingEnabledResponse UpdateConfigurationSetSendingEnabled(UpdateConfigurationSetSendingEnabledRequest request){var options = new InvokeOptions();options.RequestMarshaller = UpdateConfigurationSetSendingEnabledRequestMarshaller.Instance;options.ResponseUnmarshaller = UpdateConfigurationSetSendingEnabledResponseUnmarshaller.Instance;return Invoke<UpdateConfigurationSetSendingEnabledResponse>(request, options);}
+","public virtual UpdateConfigurationSetSendingEnabledResponse Update(UpdateConfigurationSetSendingEnabledRequest instruction){instruction = BeforeClientExecution(instruction);return ExecuteUpdateConfigurationSetSendingEnabled(instruction);}
+",-1,"updateConfigurationSetSendingEnabled,request","updateConfigurationSetSendingEnabled:0.0,request:0.23970819727955273,",0,0,"request:instruction,updateConfigurationSetSendingEnabled:update,",0,0,Greedy,22,0.7405498703320821,failed,[],1.0,0.1478631136068262
+42,"public int getNextXBATChainOffset() {return getXBATEntriesPerBlock() * LittleEndianConsts.INT_SIZE;}
+",16,"public int size() {return getXBATEntriesPerBlock() * LittleEndianConsts.INT_SIZE;}
+","public int GetNextXBATChainOffset(){return GetXBATEntriesPerBlock() * LittleEndianConsts.INT_SIZE;}
+","public int GetNextXBATChainOffset(){return GetXBATEntriesPerBlock() * LittleEndianConsts.INT_SIZE;}
+","public int Length(){return XBATEntriesPerBlock * LittleEndianConsts.INT_SIZE;}
+",-1,getNextXBATChainOffset,"getNextXBATChainOffset:0.6637467749819056,",0,0,"getNextXBATChainOffset:size,",0,0,Greedy,7,0.08306008179982503,failed,[],0.75,0.11628099221607749
+43,"public void multiplyByPowerOfTen(int pow10) {TenPower tp = TenPower.getInstance(Math.abs(pow10));if (pow10 < 0) {mulShift(tp._divisor, tp._divisorShift);} else {mulShift(tp._multiplicand, tp._multiplierShift);}}
+",57,"public void multiply(int shift) {TenPower this = TenPower.getInstance(Math.abs(shift));if (shift < 0) {mulShift(this._divisor, this._divisorShift);} else {mulShift(this._multiplicand, this._multiplierShift);}}
+","public void multiplyByPowerOfTen(int pow10){TenPower tp = TenPower.GetInstance(Math.Abs(pow10));if (pow10 < 0){mulShift(tp._divisor, tp._divisorShift);}else{mulShift(tp._multiplicand, tp._multiplierShift);}}
+","public virtual void MultiplyByPowerOfTen(int pow10){TenPower tp = TenPower.GetInstance(Math.Abs(pow10));if (pow10 < 0){MulShift(tp._divisor, tp._divisorShift);}else{MulShift(tp._multiplicand, tp._multiplierShift);}}
+","public virtual void Pow(int shift){TenPower this1 = TenPower.GetInstance(Math.Abs(shift));if (shift < 0){MulShift(this1._divisor, this1._divisorShift);}else{MulShift(this1._multiplicand, this1._multiplierShift);}}
+",-1,"multiplyByPowerOfTen,pow10,tp","multiplyByPowerOfTen:0.0,pow10:0.1747037085483788,tp:0.2522282002674209,",0,0,"tp:this,pow10:shift,multiplyByPowerOfTen:pow,",0,0,Greedy,30,0.9478600700696309,failed,[],0.7041283528879904,0.3014498909340029
+44,"public String toString(){final StringBuilder b = new StringBuilder();final int          l = length();b.append(File.separatorChar);for (int i = 0; i < l; i++){b.append(getComponent(i));if (i < l - 1){b.append(File.separatorChar);}}return b.toString();}
+",86,"public String get(){final StringBuilder b = new StringBuilder();final int          l = length();b.append(File.separatorChar);for (int reverse = 0; reverse < l; reverse++){b.append(getComponent(reverse));if (reverse < l - 1){b.append(File.separatorChar);}}return b.get();}
+","public override string ToString(){StringBuilder builder = new StringBuilder();int length = this.Length;builder.Append(Path.DirectorySeparatorChar);for (int i = 0; i < length; i++){builder.Append(this.GetComponent(i));if (i < (length - 1)){builder.Append(Path.DirectorySeparatorChar);}}return builder.ToString();}
+","public override string ToString(){StringBuilder b = new StringBuilder();int l = Length;b.Append(Path.DirectorySeparatorChar);for (int i = 0; i < l; i++){b.Append(GetComponent(i));if (i < l - 1){b.Append(Path.DirectorySeparatorChar);}}return b.ToString();}
+","public virtual string Get(){StringBuilder b = new StringBuilder();int l = Length;b.Append(Path.DirectorySeparatorChar);for (int component = 0; component < l; component++){b.Append(GetComponent(component));if (component < l - 1){b.Append(Path.DirectorySeparatorChar);}}return b.ToString();}
+",-1,"toString,b,l,i","toString:0.4879045461495172,b:0.09615384615384615,l:0.0,i:0.0,",0,0,"toString:get,i:reverse,",0,0,Greedy,71,2.5042591094970703,failed,[],0.5886032898050407,0.23215007647868072
+45,"public InstanceProfileCredentialsProvider withFetcher(ECSMetadataServiceCredentialsFetcher fetcher) {this.fetcher = fetcher;this.fetcher.setRoleName(roleName);return this;}
+",27,"public InstanceProfileCredentialsProvider withFetcher(ECSMetadataServiceCredentialsFetcher create) {this.create = create;this.create.setRoleName(roleName);return this;}
+","public void withFetcher(ECSMetadataServiceCredentialsFetcher fetcher){this.fetcher = fetcher;this.fetcher.SetRoleName(roleName);}
+","public InstanceProfileCredentialsProvider WithFetcher(IECSMetadataServiceCredentialsFetcher fetcher){this.fetcher = fetcher;this.fetcher.RoleName = roleName;return this;}
+","public InstanceProfileCredentialsProvider WithFetcher(IECSMetadataServiceCredentialsFetcher create){this.create = create;this.create.RoleName = roleName;return this;}
+",-1,"withFetcher,fetcher","withFetcher:-0.01934578386978336,fetcher:0.1724681750425786,",0,0,"fetcher:create,",0,0,Greedy,18,0.3325199047724406,failed,[],0.37015346772113666,0.3522905558364528
+46,"public void setProgressMonitor(ProgressMonitor pm) {progressMonitor = pm;}
+",13,"public void setProgressMonitor(ProgressMonitor m) {progressMonitor = m;}
+","public virtual void SetProgressMonitor(ProgressMonitor pm){progressMonitor = pm;}
+","public virtual void SetProgressMonitor(IProgressMonitor pm){progressMonitor = pm;}
+","public virtual void SetProgressMonitor(IProgressMonitor m){progressMonitor = m;}
+",-1,"setProgressMonitor,pm,progressMonitor","setProgressMonitor:0.14507326117617603,pm:0.29152946743617436,progressMonitor:0.2823176699251946,",0,0,"pm:m,",0,0,Greedy,31,0.24092577695846557,failed,[],0.6392123257003388,0.5923066949255656
+47,"public void reset() {if (!first()) {ptr = 0;if (!eof())parseEntry();}}
+",31,"public void skip() {if (!first()) {ptr = 0;if (!eof())parseEntry();}}
+","public override void Reset(){if (!First){ptr = 0;if (!Eof){ParseEntry();}}}
+","public void Reset(){if (!First()){ptr = 0;if (!Eof()){ParseEntry();}}}
+","public void Next(){if (!First()){ptr = 0;if (!Eof()){ParseEntry();}}}
+",-1,"reset,ptr","reset:0.1425547398911428,ptr:0.026315789473684237,",0,0,"reset:skip,",0,0,Greedy,17,0.18161071538925172,failed,[],0.4263918069531467,0.4173200636525969
+48,"public E previous() {if (iterator.previousIndex() >= start) {return iterator.previous();}throw new NoSuchElementException();}
+",32,"public E next() {if (iterator.previousIndex() >= start) {return iterator.next();}throw new NoSuchElementException();}
+","public E previous(){if (iterator.previousIndex() >= start){return iterator.previous();}throw new java.util.NoSuchElementException();}
+","public virtual E previous(){if (iterator.previousIndex() >= start){return iterator.previous();}throw new java.util.NoSuchElementException();}
+","public virtual E next(){if (iterator.previousIndex() >= start){return iterator.next();}throw new java.util.NoSuchElementException();}
+",-1,previous,"previous:0.4247480129585226,",0,0,"previous:next,",0,0,Greedy,8,0.12365670601526896,failed,[],0.8822062130497406,0.5418875206508836
+49,"public String getNewPrefix() {return this.newPrefix;}
+",12,"public String suffix() {return this.newPrefix;}
+","public virtual string GetNewPrefix(){return this.newPrefix;}
+","public virtual string GetNewPrefix(){return this.newPrefix;}
+","public virtual string Suffix(){return this.NewPrefix;}
+",-1,getNewPrefix,"getNewPrefix:0.42254068252224386,",0,0,"getNewPrefix:suffix,",0,0,Greedy,6,0.038028780619303384,failed,[],0.75,0.3896861490546798
+50,"public int indexOfValue(int value) {for (int i = 0; i < mSize; i++)if (mValues[i] == value)return i;return -1;}
+",40,"public int indexOfValue(int k) {for (int k = 0; k < mSize; k++)if (mValues[k] == k)return k;return -1;}
+","public virtual int indexOfValue(int value){{for (int i = 0; i < mSize; i++){if (mValues[i] == value){return i;}}}return -1;}
+","public int IndexOfValue(int value){for (int i = 0; i < mSize; i++){if (mValues[i] == value){return i;}}return -1;}
+","public int IndexOfValue(int k){for (int k = 0; k < mSize; k++){if (mValues[k] == k){return k;}}return -1;}
+",-1,"indexOfValue,value,i","indexOfValue:0.13815606013349357,value:0.25415769900960145,i:0.23190606013349357,",0,0,"value:i,i:k,",0,0,Greedy,32,0.6417980392773946,failed,[],0.7527236931097129,0.25138769592105425
+51,"public List<CharsRef> uniqueStems(char word[], int length) {List<CharsRef> stems = stem(word, length);if (stems.size() < 2) {return stems;}CharArraySet terms = new CharArraySet(8, dictionary.ignoreCase);List<CharsRef> deduped = new ArrayList<>();for (CharsRef s : stems) {if (!terms.contains(s)) {deduped.add(s);terms.add(s);}}return deduped;}
+",108,"public List<CharsRef> uniqueStems(char char[], int stem) {List<CharsRef> null = stem(char, stem);if (null.size() < 2) {return null;}CharArraySet null = new CharArraySet(8, dictionary.ignoreCase);List<CharsRef> deduped = new ArrayList<>();for (CharsRef null : null) {if (!terms.contains(null)) {deduped.add(null);null.add(null);}}return deduped;}
+","public IList<CharsRef> UniqueStems(char[] word, int length){IList<CharsRef> stems = Stem(word, length);if (stems.Count < 2){return stems;}CharArraySet terms = new CharArraySet(LuceneVersion.LUCENE_CURRENT, 8, dictionary.ignoreCase); IList<CharsRef> deduped = new List<CharsRef>();foreach (CharsRef s in stems){if (!terms.Contains(s)){deduped.Add(s);terms.Add(s);}}return deduped;}
+","public virtual ICollection<CharsRef> UniqueStems(char[] word, int length){var stems = Stem(word, length);if (stems.Count < 2){return stems;}var terms = new CharArraySet(8, dictionary.IgnoreCase);var deduped = new List<CharsRef>();foreach (CharsRef s in stems){if (!terms.Contains(s)){deduped.Add(s);terms.Add(s);}}return deduped;}
+","public virtual ICollection<CharsRef> UniqueStems(char[] @char, int stem){var null_ = Stem(@char, stem);if (null_.Count < 2){return null_;}var stems = new CharArraySet(8, dictionary.IgnoreCase);var deduped = new List<CharsRef>();foreach (CharsRef null_ in null_){if (!terms.Contains(null_)){deduped.Add(null_);stems.Add(null_);}}return deduped;}
+",-1,"uniqueStems,word,length,stems,terms,deduped,s","uniqueStems:0.05997220670871661,word:0.12095040251030947,length:0.12060242766362134,stems:0.17758262302859273,terms:0.10013520911959878,deduped:0.11430769574672422,s:0.10261931086840637,",0,0,"stems:s,word:char,length:s,s:unique,terms:stem,",0,0,Greedy,170,8.458081297079723,failed,[],0.5848181299542891,0.3248069480922803
+52,"public GetGatewayResponsesResult getGatewayResponses(GetGatewayResponsesRequest request) {request = beforeClientExecution(request);return executeGetGatewayResponses(request);}
+",22,"public GetGatewayResponsesResult get(GetGatewayResponsesRequest execute) {execute = beforeClientExecution(execute);return executeGetGatewayResponses(execute);}
+","public virtual GetGatewayResponsesResponse GetGatewayResponses(GetGatewayResponsesRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetGatewayResponsesRequestMarshaller.Instance;options.ResponseUnmarshaller = GetGatewayResponsesResponseUnmarshaller.Instance;return Invoke<GetGatewayResponsesResponse>(request, options);}
+","public virtual GetGatewayResponsesResponse GetGatewayResponses(GetGatewayResponsesRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetGatewayResponsesRequestMarshaller.Instance;options.ResponseUnmarshaller = GetGatewayResponsesResponseUnmarshaller.Instance;return Invoke<GetGatewayResponsesResponse>(request, options);}
+","public virtual GetGatewayResponsesResponse Get(GetGatewayResponsesRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetGatewayResponsesRequestMarshaller.Instance;options.ResponseUnmarshaller = GetGatewayResponsesResponseUnmarshaller.Instance;return Invoke<GetGatewayResponsesResponse>(request, options);}
+",-1,"getGatewayResponses,request","getGatewayResponses:0.23970819727955273,request:0.23970819727955273,",0,0,"getGatewayResponses:get,request:response,",0,0,Greedy,20,0.7768439769744873,failed,[],1.0,0.11101779823773752
+53,"public void setPosition(long pos) {currentBlockIndex = (int) (pos >> blockBits);currentBlock = blocks[currentBlockIndex];currentBlockUpto = (int) (pos & blockMask);}
+",38,"public void update(long i) {i = (int) (i >> blockBits);blocks = blocks[i];currentBlockUpto = (int) (i & blockMask);}
+","public void SetPosition(long position){currentBlockIndex = (int)(position >> outerInstance.blockBits);currentBlock = outerInstance.blocks[currentBlockIndex];currentBlockUpto = (int)(position & outerInstance.blockMask);}
+","public override void SetPosition(long pos){currentBlockIndex = (int)(pos >> blockBits);currentBlock = blocks[currentBlockIndex];currentBlockUpto = (int)(pos & blockMask);}
+","public override void Update(long index){index = (int)(index >> blockBits);blocks = blocks[(int)index];currentBlockUpto = (int)(index & blockMask);}
+",-1,"setPosition,pos,currentBlockIndex,currentBlock,currentBlockUpto","setPosition:-0.011459257818893953,pos:-0.03004835114616905,currentBlockIndex:0.039737762999657256,currentBlock:-0.013381684479502387,currentBlockUpto:-0.03004835114616905,",0,0,"currentBlockIndex:pos,setPosition:update,currentBlock:value,pos:pos,",0,0,Greedy,58,1.1078372478485108,failed,[],0.20932114398099816,0.16522307836961697
+54,"public long skip(long n) {int s = (int) Math.min(available(), Math.max(0, n));ptr += s;return s;}
+",41,"public long fill(long available) {int cap = (int) Math.min(available(), Math.max(0, available));cap += cap;return cap;}
+","public override long Skip(long n){int s = (int)Math.Min(Available(), Math.Max(0, n));ptr += s;return s;}
+","public override long Skip(long n){int s = (int)Math.Min(Available(), Math.Max(0, n));ptr += s;return s;}
+","public virtual long Fill(long skip){int cap = (int)Math.Min(Available(), Math.Max(0, skip));cap += cap;return cap;}
+",-1,"skip,n,s,ptr","skip:0.18975060198845017,n:0.0,s:0.2058758752162494,ptr:0.1692688315525004,",0,0,"s:ptr,skip:fill,ptr:cap,n:available,",0,0,Greedy,50,0.78800950050354,failed,[],1.0,0.41591772493837864
+55,"public BootstrapActionDetail(BootstrapActionConfig bootstrapActionConfig) {setBootstrapActionConfig(bootstrapActionConfig);}
+",13,"public BootstrapActionDetail(BootstrapActionConfig info) {setBootstrapActionConfig(info);}
+","public BootstrapActionDetail(BootstrapActionConfig bootstrapActionConfig){_bootstrapActionConfig = bootstrapActionConfig;}
+","public BootstrapActionDetail(BootstrapActionConfig bootstrapActionConfig){_bootstrapActionConfig = bootstrapActionConfig;}
+","public BootstrapActionDetail(BootstrapActionConfig info){_bootstrapActionConfig = info;}
+",-1,bootstrapActionConfig,"bootstrapActionConfig:0.2559630039415385,",0,0,"bootstrapActionConfig:info,",0,0,Greedy,7,0.07509924968083699,failed,[],1.0,0.5649787723081164
+56,"public void serialize(LittleEndianOutput out) {out.writeShort(field_1_row);out.writeShort(field_2_col);out.writeShort(field_3_flags);out.writeShort(field_4_shapeid);out.writeShort(field_6_author.length());out.writeByte(field_5_hasMultibyte ? 0x01 : 0x00);if (field_5_hasMultibyte) {StringUtil.putUnicodeLE(field_6_author, out);} else {StringUtil.putCompressedUnicode(field_6_author, out);}if (field_7_padding != null) {out.writeByte(field_7_padding.intValue());}}
+",105,"public void store(LittleEndianOutput flush) {flush.writeShort(field_1_row);flush.writeShort(field_2_col);flush.writeShort(field_3_flags);flush.writeShort(field_4_shapeid);flush.writeShort(field_6_author.length());flush.writeByte(field_5_hasMultibyte ? 0x01 : 0x00);if (field_5_hasMultibyte) {StringUtil.putUnicodeLE(field_6_author, flush);} else {StringUtil.putCompressedUnicode(field_6_author, flush);}if (field_7_padding != null) {flush.writeByte(field_7_padding.intValue());}}
+","public override void Serialize(ILittleEndianOutput out1){out1.WriteShort(field_1_row);out1.WriteShort(field_2_col);out1.WriteShort(field_3_flags);out1.WriteShort(field_4_shapeid);out1.WriteShort(field_6_author.Length);out1.WriteByte(field_5_hasMultibyte ? 0x01 : 0x00);if (field_5_hasMultibyte) {StringUtil.PutUnicodeLE(field_6_author, out1);} else {StringUtil.PutCompressedUnicode(field_6_author, out1);}if (field_7_padding != null) {out1.WriteByte(Convert.ToInt32(field_7_padding, CultureInfo.InvariantCulture));}}
+","public override void Serialize(ILittleEndianOutput out1){out1.WriteShort(field_1_row);out1.WriteShort(field_2_col);out1.WriteShort(field_3_flags);out1.WriteShort(field_4_shapeid);out1.WriteShort(field_6_author.Length);out1.WriteByte(field_5_hasMultibyte ? (byte)0x01 : (byte)0x00);if (field_5_hasMultibyte){StringUtil.PutUnicodeLE(field_6_author, out1);}else{StringUtil.PutCompressedUnicode(field_6_author, out1);}if (field_7_padding != null){out1.WriteByte(field_7_padding.Value);}}
+","public void Write(ILittleEndianOutput out1){out1.WriteShort(field_1_row);out1.WriteShort(field_2_col);out1.WriteShort(field_3_flags);out1.WriteShort(field_4_shapeid);out1.WriteShort(field_6_author.Length);out1.WriteByte(field_5_hasMultibyte ? (byte)0x01 : (byte)0x00);if (field_5_hasMultibyte){StringUtil.PutUnicodeLE(field_6_author, out1);}else{StringUtil.PutCompressedUnicode(field_6_author, out1);}if (field_7_padding != null){out1.WriteByte(field_7_padding.Value);}}
+",-1,"serialize,out","serialize:0.1232425176538487,out:0.14017288014897278,",0,0,"out:flush,serialize:store,",0,0,Greedy,18,1.324096969763438,failed,[],0.5952306139349939,0.45202959166718426
+57,"public int lastIndexOf(String string) {return lastIndexOf(string, count);}
+",17,"public int lastIndexOf(String length) {return lastIndexOf(length, count);}
+","public virtual int lastIndexOf(string @string){return lastIndexOf(@string, count);}
+","public virtual int LastIndexOf(string @string){return LastIndexOf(@string, m_count);}
+","public virtual int LastIndexOf(string length){return LastIndexOf(length, _count);}
+",-1,"lastIndexOf,string","lastIndexOf:0.13461538461538464,string:0.04056689047274642,",0,0,"string:length,",0,0,Greedy,22,0.20304903984069825,failed,[],0.5923066949255656,0.5884845294124772
+58,"public boolean add(E object) {return addLastImpl(object);}
+",15,"public boolean adds(E s) {return addLastImpl(s);}
+","public override bool add(E @object){return addLastImpl(@object);}
+","public virtual bool add(E @object){return addLastImpl(@object);}
+","public virtual bool add(E s){return addLastImpl(s);}
+",-1,"add,object","add:0.2650279810426056,object:0.35384121447276695,",0,0,"object:s,add:adds,",0,0,Greedy,18,0.14266183773676555,failed,[],0.7639220528525453,0.5259279231245451
+59,"public void unsetSection(String section, String subsection) {ConfigSnapshot src, res;do {src = state.get();res = unsetSection(src, section, subsection);} while (!state.compareAndSet(src, res));}
+",52,"public void unsetSection(String copy, String name) {ConfigSnapshot copy, target;do {copy = state.get();target = unsetSection(copy, copy, name);} while (!state.compareAndSet(copy, target));}
+","public virtual void UnsetSection(string section, string subsection){ConfigSnapshot src;ConfigSnapshot res;do{src = state.Get();res = UnsetSection(src, section, subsection);}while (!state.CompareAndSet(src, res));}
+","public void UnsetSection(string section, string subsection){ConfigSnapshot src, res;do{src = state.Value;res = UnsetSection(src, section, subsection);} while (!state.CompareAndSet(src, res));}
+","public void UnsetSection(string copy, string update){ConfigSnapshot copy, target;do{copy = state.Get();target = UnsetSection(copy, copy, update);} while (!state.CompareAndSet(copy, target));}
+",-1,"unsetSection,section,subsection,src,res","unsetSection:-0.2553243943420981,section:0.07243742910148943,subsection:-0.10274113068918234,src:0.14111936624147692,res:-0.09246922544095593,",0,0,"src:section,section:copy,res:target,subsection:clone,",0,0,Greedy,96,1.9918103774388631,failed,[],0.48515383121590605,0.2631089621939647
+60,"public final String getTagName() {return tagName;}
+",11,"public final String tag() {return tagName;}
+","public string GetTagName(){return tagName;}
+","public virtual string GetTagName(){return tagName;}
+","public string Key(){return tagName;}
+",-1,getTagName,"getTagName:0.041151754307378996,",0,0,"getTagName:tag,",0,0,Greedy,6,0.031753047307332354,failed,[],0.32111490519867136,0.18832906855132966
+61,"public void addSubRecord(int index, SubRecord element) {subrecords.add(index, element);}
+",21,"public void add(int id, SubRecord set) {subrecords.add(id, set);}
+","public void AddSubRecord(int index, SubRecord element){subrecords.Insert(index, element);}
+","public void AddSubRecord(int index, SubRecord element){subrecords.Add(index, element);}
+","public void Add(int id, SubRecord index){subrecords.Add(id, index);}
+",-1,"addSubRecord,index,element","addSubRecord:0.30434858423442757,index:0.2742296086258097,element:0.2582273166277549,",0,0,"addSubRecord:add,index:id,element:insert,",0,0,Greedy,30,0.33301275968551636,failed,[],0.8251908791628888,0.4679974212335175
+62,"public boolean remove(Object o) {synchronized (mutex) {return delegate().remove(o);}}
+",25,"public boolean equals(Object id) {synchronized (mutex) {return delegate().equals(id);}}
+","public virtual bool remove(object @object){lock (mutex){return c.remove(@object);}}
+","public virtual bool remove(object o){lock (mutex){return c.remove(o);}}
+","public override bool Equals(object id){lock (mutex){return delegate().Equals(id);}}
+",-1,"remove,o","remove:0.17294283016227374,o:0.2970643659846274,",0,0,"o:id,remove:equals,",0,0,Greedy,21,0.22599254051844278,failed,[],0.7236559914567413,0.2142513657500822
+63,"public DoubleMetaphoneFilter create(TokenStream input) {return new DoubleMetaphoneFilter(input, maxCodeLength, inject);}
+",20,"public DoubleMetaphoneFilter apply(TokenStream wrap) {return new DoubleMetaphoneFilter(wrap, maxCodeLength, inject);}
+","public override TokenStream Create(TokenStream input){return new DoubleMetaphoneFilter(input, maxCodeLength, inject);}
+","public override TokenStream Create(TokenStream input){return new DoubleMetaphoneFilter(input, maxCodeLength, inject);}
+","public override TokenStream Apply(TokenStream @in){return new DoubleMetaphoneFilter(@in, maxCodeLength, inject);}
+",-1,"create,input","create:0.7039571220243355,input:0.38053656232844313,",0,0,"create:apply,input:wrap,",0,0,Greedy,17,0.23941455284754434,failed,[],1.0,0.5806306203097971
+64,"public long length() {return inCoreLength();}
+",12,"public long size() {return inCoreLength();}
+","public virtual long Length(){return InCoreLength();}
+","public override long Length(){return inCoreLength;}
+","public override long Length(){return inCoreLength;}
+",-1,length,"length:-0.03585053864752066,",0,0,"length:size,",0,0,Greedy,7,0.04430074294408162,failed,[],0.1384707185221477,0.10856394733451133
+65,"public void setValue(boolean newValue) {value = newValue;}
+",13,"public void setValue(boolean value) {value = value;}
+","public virtual void SetValue(bool newValue){value = newValue;}
+","public virtual void SetValue(bool newValue){value = newValue;}
+","public virtual void SetValue(bool update){value = update;}
+",-1,"setValue,newValue,value","setValue:0.5058609354758372,newValue:0.5577254021081385,value:0.5415139586033926,",0,0,"newValue:value,",0,0,Greedy,29,0.21106194655100505,failed,[],1.0,0.5039590217597717
+66,"public Pair(ContentSource oldSource, ContentSource newSource) {this.oldSource = oldSource;this.newSource = newSource;}
+",23,"public Pair(ContentSource parent, ContentSource source) {this.parent = parent;this.source = source;}
+","public Pair(ContentSource oldSource, ContentSource newSource){this.oldSource = oldSource;this.newSource = newSource;}
+","public Pair(ContentSource oldSource, ContentSource newSource){this.oldSource = oldSource;this.newSource = newSource;}
+","public Pair(ContentSource parent, ContentSource source){this.parent = parent;this.source = source;}
+",-1,"oldSource,newSource","oldSource:0.16457581141872668,newSource:0.5169574224107564,",0,0,"newSource:source,oldSource:source,",0,0,Greedy,19,0.2377400557200114,failed,[],1.0,0.5327851976169589
+67,"public int get(int i) {if (count <= i)throw new ArrayIndexOutOfBoundsException(i);return entries[i];}
+",28,"public int get(int entry) {if (count <= entry)throw new ArrayIndexOutOfBoundsException(entry);return entries[entry];}
+","public virtual int Get(int i){if (count <= i){throw Sharpen.Extensions.CreateIndexOutOfRangeException(i);}return entries[i];}
+","public int get(int i){if (count <= i){throw new System.IndexOutOfRangeException(i);}return entries[i];}
+","public int get(int entry){if (count <= entry){throw new System.IndexOutOfRangeException(entry);}return entries[entry];}
+",-1,"get,i","get:0.07659396976281219,i:0.25056346995812706,",0,0,"i:entry,",0,0,Greedy,20,0.30889192819595335,failed,[],0.531525816665526,0.40856076542023584
+68,"public CreateRepoRequest() {super(""cr"", ""2016-06-07"", ""CreateRepo"", ""cr"");setUriPattern(""/repos"");setMethod(MethodType.PUT);}
+",30,,"public CreateRepoRequest(): base(""cr"", ""2016-06-07"", ""CreateRepo"", ""cr"", ""openAPI""){UriPattern = ""/repos"";Method = MethodType.PUT;}
+","public CreateRepoRequest(): base(""cr"", ""2016-06-07"", ""CreateRepo"", ""cr"", ""openAPI""){UriPattern = ""/repos"";Method = MethodType.PUT;}
+","public CreateRepoRequest(): base(""cr"", ""2016-06-07"", ""CreateRepo"", ""cr"", ""openAPI""){UriPattern = ""/repos"";Method = MethodType.PUT;}
+",-3,,,,,,0,0,Greedy,1,0.020437355836232504,,,1.0,1.0
+69,"public boolean isDeltaBaseAsOffset() {return deltaBaseAsOffset;}
+",10,"public boolean get() {return deltaBaseAsOffset;}
+","public virtual bool IsDeltaBaseAsOffset(){return deltaBaseAsOffset;}
+","public virtual bool IsDeltaBaseAsOffset(){return deltaBaseAsOffset;}
+","public virtual bool Get(){return deltaBaseAsOffset;}
+",-1,isDeltaBaseAsOffset,"isDeltaBaseAsOffset:0.4249682156747855,",0,0,"isDeltaBaseAsOffset:get,",0,0,Greedy,7,0.04554632504781087,failed,[],0.75,0.39583421659869744
+70,"public void remove() {if (expectedModCount == list.modCount) {if (lastLink != null) {Link<ET> next = lastLink.next;Link<ET> previous = lastLink.previous;next.previous = previous;previous.next = next;if (lastLink == link) {pos--;}link = previous;lastLink = null;expectedModCount++;list.size--;list.modCount++;} else {throw new IllegalStateException();}} else {throw new ConcurrentModificationException();}}
+",111,"public void remove() {if (0 == this.previous) {if (current != null) {Link<ET> next = current.next;Link<ET> previous = current.previous;next.previous = previous;previous.next = next;if (current == null) {pos--;}null = previous;current = null;0++;this.size--;this.previous++;} else {throw new IllegalStateException();}} else {throw new ConcurrentModificationException();}}
+","public void remove(){if (expectedModCount == list.modCount){if (lastLink != null){java.util.LinkedList.Link<ET> next_1 = lastLink.next;java.util.LinkedList.Link<ET> previous_1 = lastLink.previous;next_1.previous = previous_1;previous_1.next = next_1;if (lastLink == link){pos--;}link = previous_1;lastLink = null;expectedModCount++;list._size--;list.modCount++;}else{throw new System.InvalidOperationException();}}else{throw new java.util.ConcurrentModificationException();}}
+","public virtual void remove(){if (expectedModCount == list.modCount){if (lastLink != null){Link<ET> next = lastLink.next;Link<ET> previous = lastLink.previous;next.previous = previous;previous.next = next;if (lastLink == link){pos--;}link = previous;lastLink = null;expectedModCount++;list.size--;list.modCount++;}else{throw new System.InvalidOperationException();}}else{throw new java.util.ConcurrentModificationException();}}
+","public override void remove(){if (0 == this._enumerator._link){if (this._enumerator.current != null){java.util.LinkedList.Link<E> next = this._enumerator.current.next;java.util.LinkedList.Link<E> previous = this._enumerator.current.previous;next.previous = previous;previous.next = next;if (this._enumerator.current == null){this._enumerator._pos--;}this._enumerator.current = null;this._enumerator._link++;this._enumerator._size--;}else{throw new java.lang.IllegalStateException();}}else{throw new java.util.ConcurrentModificationException();}}
+<|end_of_c-sharp_code|>",-1,"remove,next,previous,pos,link,lastLink,expectedModCount,list,size,modCount","remove:0.10747158892322972,next:0.3273074601689797,previous:0.25606148462305317,pos:0.2538241332400718,link:0.25383239199268726,lastLink:0.19472071835314286,expectedModCount:0.19602225470153284,list:0.203625619414246,size:0.203625619414246,modCount:0.09597393493761192,",0,0,"link:null,list:this,expectedModCount:0,lastLink:current,modCount:position,",0,0,Greedy,199,10.777500851949055,failed,[],0.4787028451284312,0.12954805395612123
+71,"public MergeShardsResult mergeShards(MergeShardsRequest request) {request = beforeClientExecution(request);return executeMergeShards(request);}
+",22,"public MergeShardsResult update(MergeShardsRequest execute) {execute = beforeClientExecution(execute);return executeMergeShards(execute);}
+","public virtual MergeShardsResponse MergeShards(MergeShardsRequest request){var options = new InvokeOptions();options.RequestMarshaller = MergeShardsRequestMarshaller.Instance;options.ResponseUnmarshaller = MergeShardsResponseUnmarshaller.Instance;return Invoke<MergeShardsResponse>(request, options);}
+","public virtual MergeShardsResponse MergeShards(MergeShardsRequest request){var options = new InvokeOptions();options.RequestMarshaller = MergeShardsRequestMarshaller.Instance;options.ResponseUnmarshaller = MergeShardsResponseUnmarshaller.Instance;return Invoke<MergeShardsResponse>(request, options);}
+","public virtual MergeShardsResponse Update(MergeShardsRequest request){var options = new InvokeOptions();options.RequestMarshaller = MergeShardsRequestMarshaller.Instance;options.ResponseUnmarshaller = MergeShardsResponseUnmarshaller.Instance;return Invoke<MergeShardsResponse>(request, options);}
+",-1,"mergeShards,request","mergeShards:0.23970819727955273,request:0.23970819727955273,",0,0,"mergeShards:update,request:merge,",0,0,Greedy,21,0.7051377455393474,failed,[],1.0,0.1478631136068262
+72,"public AllocateHostedConnectionResult allocateHostedConnection(AllocateHostedConnectionRequest request) {request = beforeClientExecution(request);return executeAllocateHostedConnection(request);}
+",22,"public AllocateHostedConnectionResult allocate(AllocateHostedConnectionRequest complete) {complete = beforeClientExecution(complete);return executeAllocateHostedConnection(complete);}
+","public virtual AllocateHostedConnectionResponse AllocateHostedConnection(AllocateHostedConnectionRequest request){var options = new InvokeOptions();options.RequestMarshaller = AllocateHostedConnectionRequestMarshaller.Instance;options.ResponseUnmarshaller = AllocateHostedConnectionResponseUnmarshaller.Instance;return Invoke<AllocateHostedConnectionResponse>(request, options);}
+","public virtual AllocateHostedConnectionResponse AllocateHostedConnection(AllocateHostedConnectionRequest request){var options = new InvokeOptions();options.RequestMarshaller = AllocateHostedConnectionRequestMarshaller.Instance;options.ResponseUnmarshaller = AllocateHostedConnectionResponseUnmarshaller.Instance;return Invoke<AllocateHostedConnectionResponse>(request, options);}
+","public virtual AllocateHostedConnectionResponse Allocate(AllocateHostedConnectionRequest request){var options = new InvokeOptions();options.RequestMarshaller = AllocateHostedConnectionRequestMarshaller.Instance;options.ResponseUnmarshaller = AllocateHostedConnectionResponseUnmarshaller.Instance;return Invoke<AllocateHostedConnectionResponse>(request, options);}
+",-1,"allocateHostedConnection,request","allocateHostedConnection:0.0,request:0.0,",0,0,"allocateHostedConnection:allocate,request:p,",0,0,Greedy,18,0.627391004562378,failed,[],1.0,0.1478631136068262
+73,"public int getBeginIndex() {return start;}
+",10,"public int size() {return start;}
+","public int getBeginIndex(){return start;}
+","public int GetBeginIndex(){return start;}
+","public int get(){return start;}
+",-1,getBeginIndex,"getBeginIndex:0.0664703412270064,",0,0,"getBeginIndex:size,",0,0,Greedy,7,0.03254472017288208,failed,[],0.34643349211829877,0.18832906855132966
+74,"public static final WeightedTerm[] getTerms(Query query){return getTerms(query,false);}
+",21,"public static final WeightedTerm[] filter(Query weights){return filter(weights,false);}
+","public static WeightedTerm[] GetTerms(Query query){return GetTerms(query, false);}
+","public static WeightedTerm[] GetTerms(Query query){return GetTerms(query, false);}
+","public static WeightedTerm[] Filter(Query weights){return Filter(weights, false);}
+",-1,"getTerms,query","getTerms:0.4468065866057781,query:0.3545660106929278,",0,0,"getTerms:filter,query:filter,",0,0,Greedy,16,0.1614857316017151,failed,[],1.0,0.5916901527087881
+75,"public ByteBuffer compact() {throw new ReadOnlyBufferException();}
+",13,"public ByteBuffer create() {throw new ReadOnlyBufferException();}
+","public override java.nio.ByteBuffer compact(){throw new java.nio.ReadOnlyBufferException();}
+","public override java.nio.ByteBuffer compact(){throw new java.nio.ReadOnlyBufferException();}
+","public override java.nio.ByteBuffer create(){throw new java.nio.ReadOnlyBufferException();}
+",-1,compact,"compact:0.5339651690266747,",0,0,"compact:create,",0,0,Greedy,7,0.08665180206298828,failed,[],1.0,0.6290520930089296
+76,"public void decode(byte[] blocks, int blocksOffset, long[] values, int valuesOffset, int iterations) {for (int i = 0; i < iterations; ++i) {final long byte0 = blocks[blocksOffset++] & 0xFF;values[valuesOffset++] = byte0 >>> 2;final long byte1 = blocks[blocksOffset++] & 0xFF;values[valuesOffset++] = ((byte0 & 3) << 4) | (byte1 >>> 4);final long byte2 = blocks[blocksOffset++] & 0xFF;values[valuesOffset++] = ((byte1 & 15) << 2) | (byte2 >>> 6);values[valuesOffset++] = byte2 & 63;}}
+",155,"public void shuffle(byte[] length, int blocks, long[] length, int length, int update) {for (int length = 0; length < update; ++length) {final long length = length[blocks++] & 0xFF;length[length++] = length >>> 2;final long position = length[blocks++] & 0xFF;length[length++] = ((length & 3) << 4) | (position >>> 4);final long length = length[blocks++] & 0xFF;length[length++] = ((position & 15) << 2) | (length >>> 6);length[length++] = length & 63;}}
+","public override void Decode(byte[] blocks, int blocksOffset, int[] values, int valuesOffset, int iterations){for (int i = 0; i < iterations; ++i){int byte0 = blocks[blocksOffset++] & 0xFF;values[valuesOffset++] = (int)((uint)byte0 >> 2);int byte1 = blocks[blocksOffset++] & 0xFF;values[valuesOffset++] = ((byte0 & 3) << 4) | ((int)((uint)byte1 >> 4));int byte2 = blocks[blocksOffset++] & 0xFF;values[valuesOffset++] = ((byte1 & 15) << 2) | ((int)((uint)byte2 >> 6));values[valuesOffset++] = byte2 & 63;}}
+","public override void Decode(byte[] blocks, int blocksOffset, long[] values, int valuesOffset, int iterations){for (int i = 0; i < iterations; ++i){long byte0 = blocks[blocksOffset++] & 0xFF;values[valuesOffset++] = byte0 >> 2;long byte1 = blocks[blocksOffset++] & 0xFF;values[valuesOffset++] = ((byte0 & 3) << 4) | (byte1 >> 4);long byte2 = blocks[blocksOffset++] & 0xFF;values[valuesOffset++] = ((byte1 & 15) << 2) | (byte2 >> 6);values[valuesOffset++] = byte2 & 63;}}
+","public virtual void Shuffle(byte[] length, int process, long[] length, int length, int update){for (int length = 0; length < update; ++length){long length = length[process++] & 0xFF;length[length++] = (byte)((length >> 2) & 0xFF);long position = length[process++] & 0xFF;length[length++] = (byte)(((position >> 4) & 0xFF) | ((length & 3) << 4));long length = length[process++] & 0xFF;length[length++] = (byte)(((position & 15) << 2) | ((length >> 6) & 0xFF));length[length++] = (byte)(length & 63);}}
+",-1,"decode,blocks,blocksOffset,values,valuesOffset,iterations,i,byte0,byte1,byte2","decode:0.3070358014971078,blocks:0.2654046029312227,blocksOffset:0.13501789692527977,values:0.2654046029312227,valuesOffset:0.28238187287023164,iterations:0.2761952259860763,i:0.25476630505888226,byte0:0.3083909740766592,byte1:0.2738480934852773,byte2:0.2658561764842276,",0,0,"byte0:blocks,decode:shuffle,valuesOffset:buffer,iterations:update,byte1:blocks,byte2:value,blocks:blocks,values:result,i:x,blocksOffset:generate,",0,0,Greedy,257,17.164382378260296,failed,[],0.6588038158122457,0.25543731075825377
+77,"public String getHumanishName() throws IllegalArgumentException {String s = getPath();if (""/"".equals(s) || """".equals(s)) s = getHost();if (s == null) throw new IllegalArgumentException();String[] elements;if (""file"".equals(scheme) || LOCAL_FILE.matcher(s).matches()) elements = s.split(""[\\"" + File.separatorChar + ""/]""); elseelements = s.split(""/+""); if (elements.length == 0)throw new IllegalArgumentException();String result = elements[elements.length - 1];if (Constants.DOT_GIT.equals(result))result = elements[elements.length - 2];else if (result.endsWith(Constants.DOT_GIT_EXT))result = result.substring(0, result.length()- Constants.DOT_GIT_EXT.length());return result;}
+",187,"public String getHumanishName() throws IllegalArgumentException {String split = getPath();if (""/"".equals(split) || """".equals(split)) split = getHost();if (split == null) throw new IllegalArgumentException();String[] split;if (""file"".equals(scheme) || LOCAL_FILE.matcher(split).matches()) split = split.split(""[\\"" + File.separatorChar + ""/]""); Elements = split.split(""/+""); if (split.length == 0)throw new IllegalArgumentException();String split = split[split.length - 1];if (Constants.DOT_GIT.equals(split))split = split[split.length - 2];else if (split.endsWith(Constants.DOT_GIT_EXT))split = split.substring(0, split.length()- Constants.DOT_GIT_EXT.length());return split;}
+","public virtual string GetHumanishName(){if (string.Empty.Equals(GetPath()) || GetPath() == null){throw new ArgumentException();}string s = GetPath();string[] elements;if (""file"".Equals(scheme) || LOCAL_FILE.Matcher(s).Matches()){elements = s.Split(""[\\"" + FilePath.separatorChar + ""/]"");}else{elements = s.Split(""/"");}if (elements.Length == 0){throw new ArgumentException();}string result = elements[elements.Length - 1];if (Constants.DOT_GIT.Equals(result)){result = elements[elements.Length - 2];}else{if (result.EndsWith(Constants.DOT_GIT_EXT)){result = Sharpen.Runtime.Substring(result, 0, result.Length - Constants.DOT_GIT_EXT.Length);}}return result;}
+","public virtual string GetHumanishName(){string s = GetPath();if (""/"".Equals(s) || """".Equals(s))s = GetHost();if (s == null){throw new ArgumentException();}string[] elements;if (""file"".Equals(scheme) || LOCAL_FILE.Match(s).Success){elements = s.Split(new char[] { File.PathSeparator });}else{elements = s.Split('/');}if (elements.Length == 0){throw new ArgumentException();}string result = elements[elements.Length - 1];if (Constants.DOT_GIT.Equals(result)){result = elements[elements.Length - 2];}else if (result.EndsWith(Constants.DOT_GIT_EXT)){result = result.Substring(0, result.Length - Constants.DOT_GIT_EXT.Length);}return result;}
+","public virtual string GetHumanishName(){string split = GetPath();if (""/"".Equals(split) || """".Equals(split))split = GetHost();if (split == null){throw new ArgumentException();}string[] split;if (""file"".Equals(scheme) || LOCAL_FILE.Matches(split)){split = split.Split(new char[] { File.PathSeparator });}element = split.Split('/');if (split.Length == 0){throw new ArgumentException();}string split = split[split.Length - 1];if (Constants.DOT_GIT.Equals(split)){split = split[split.Length - 2];}else if (split.EndsWith(Constants.DOT_GIT_EXT)){split = split.Substring(0, split.Length - Constants.DOT_GIT_EXT.Length);}return split;}
+",-1,"getHumanishName,s,elements,elseelements,result","getHumanishName:0.07190784108106973,s:0.07241641184833647,elements:0.3212209969372619,elseelements:0.0633754046804641,result:0.1293830140393425,",0,0,"elements:result,result:s,s:split,elseelements:Elements,",0,0,Greedy,69,5.9016752203305565,failed,[],0.526724427390098,0.3262969275847287
+78,"public DescribeNotebookInstanceLifecycleConfigResult describeNotebookInstanceLifecycleConfig(DescribeNotebookInstanceLifecycleConfigRequest request) {request = beforeClientExecution(request);return executeDescribeNotebookInstanceLifecycleConfig(request);}
+",22,"public DescribeNotebookInstanceLifecycleConfigResult request(DescribeNotebookInstanceLifecycleConfigRequest request) {request = beforeClientExecution(request);return executeDescribeNotebookInstanceLifecycleConfig(request);}
+","public virtual DescribeNotebookInstanceLifecycleConfigResponse DescribeNotebookInstanceLifecycleConfig(DescribeNotebookInstanceLifecycleConfigRequest request){var options = new InvokeOptions();options.RequestMarshaller = DescribeNotebookInstanceLifecycleConfigRequestMarshaller.Instance;options.ResponseUnmarshaller = DescribeNotebookInstanceLifecycleConfigResponseUnmarshaller.Instance;return Invoke<DescribeNotebookInstanceLifecycleConfigResponse>(request, options);}
+","public virtual DescribeNotebookInstanceLifecycleConfigResponse DescribeNotebookInstanceLifecycleConfig(DescribeNotebookInstanceLifecycleConfigRequest request){var options = new InvokeOptions();options.RequestMarshaller = DescribeNotebookInstanceLifecycleConfigRequestMarshaller.Instance;options.ResponseUnmarshaller = DescribeNotebookInstanceLifecycleConfigResponseUnmarshaller.Instance;return Invoke<DescribeNotebookInstanceLifecycleConfigResponse>(request, options);}
+","public virtual DescribeNotebookInstanceLifecycleConfigResponse DescribeNotebookInstanceLifecycleConfig(DescribeNotebookInstanceLifecycleConfigRequest request){var options = new InvokeOptions();options.RequestMarshaller = DescribeNotebookInstanceLifecycleConfigRequestMarshaller.Instance;options.ResponseUnmarshaller = DescribeNotebookInstanceLifecycleConfigResponseUnmarshaller.Instance;return Invoke<DescribeNotebookInstanceLifecycleConfigResponse>(request, options);}
+",-1,"describeNotebookInstanceLifecycleConfig,request","describeNotebookInstanceLifecycleConfig:0.23970819727955273,request:0.7317815028629331,",0,0,"describeNotebookInstanceLifecycleConfig:request,",0,0,Greedy,17,0.8533331871032714,failed,[],1.0,0.9017295359335316
+79,"public String getAccessKeySecret() {return this.accessKeySecret;}
+",12,"public String name() {return this.accessKeySecret;}
+","public string GetAccessKeySecret(){return AccessSecret;}
+","public string GetAccessKeySecret(){return this.accessKeySecret;}
+","public string Name(){return this.accessKeySecret;}
+",-1,getAccessKeySecret,"getAccessKeySecret:-0.07781600430527569,",0,0,"getAccessKeySecret:name,",0,0,Greedy,6,0.04016519784927368,failed,[],0.27536057822679394,0.1621668519367607
+80,"public CreateVpnConnectionResult createVpnConnection(CreateVpnConnectionRequest request) {request = beforeClientExecution(request);return executeCreateVpnConnection(request);}
+",22,"public CreateVpnConnectionResult connect(CreateVpnConnectionRequest resource) {resource = beforeClientExecution(resource);return executeCreateVpnConnection(resource);}
+","public virtual CreateVpnConnectionResponse CreateVpnConnection(CreateVpnConnectionRequest request){var options = new InvokeOptions();options.RequestMarshaller = CreateVpnConnectionRequestMarshaller.Instance;options.ResponseUnmarshaller = CreateVpnConnectionResponseUnmarshaller.Instance;return Invoke<CreateVpnConnectionResponse>(request, options);}
+","public virtual CreateVpnConnectionResponse CreateVpnConnection(CreateVpnConnectionRequest request){var options = new InvokeOptions();options.RequestMarshaller = CreateVpnConnectionRequestMarshaller.Instance;options.ResponseUnmarshaller = CreateVpnConnectionResponseUnmarshaller.Instance;return Invoke<CreateVpnConnectionResponse>(request, options);}
+","public virtual CreateVpnConnectionResponse Create(CreateVpnConnectionRequest resource){var resources = new VpnConnectionResource();resources.VpnConnectionConfig = resource;return Create(resources);}
+",-1,"createVpnConnection,request","createVpnConnection:0.0,request:0.23970819727955273,",0,0,"request:resource,createVpnConnection:connect,",0,0,Greedy,20,0.6316941261291504,failed,[],1.0,0.24558772609968524
+81,"public DescribeVoicesResult describeVoices(DescribeVoicesRequest request) {request = beforeClientExecution(request);return executeDescribeVoices(request);}
+",22,"public DescribeVoicesResult parent(DescribeVoicesRequest parent) {parent = beforeClientExecution(parent);return executeDescribeVoices(parent);}
+","public virtual DescribeVoicesResponse DescribeVoices(DescribeVoicesRequest request){var options = new InvokeOptions();options.RequestMarshaller = DescribeVoicesRequestMarshaller.Instance;options.ResponseUnmarshaller = DescribeVoicesResponseUnmarshaller.Instance;return Invoke<DescribeVoicesResponse>(request, options);}
+","public virtual DescribeVoicesResponse DescribeVoices(DescribeVoicesRequest request){var options = new InvokeOptions();options.RequestMarshaller = DescribeVoicesRequestMarshaller.Instance;options.ResponseUnmarshaller = DescribeVoicesResponseUnmarshaller.Instance;return Invoke<DescribeVoicesResponse>(request, options);}
+","public virtual DescribeVoicesResponse Input(DescribeVoicesRequest input){var options = new InvokeOptions();options.RequestMarshaller = DescribeVoicesRequestMarshaller.Instance;options.ResponseUnmarshaller = DescribeVoicesResponseUnmarshaller.Instance;return Invoke<DescribeVoicesResponse>(input, options);}
+",-1,"describeVoices,request","describeVoices:0.23970819727955273,request:0.0,",0,0,"describeVoices:request,request:parent,",0,0,Greedy,17,0.5826984127362569,failed,[],1.0,0.1478631136068262
+82,"public ListMonitoringExecutionsResult listMonitoringExecutions(ListMonitoringExecutionsRequest request) {request = beforeClientExecution(request);return executeListMonitoringExecutions(request);}
+",22,"public ListMonitoringExecutionsResult run(ListMonitoringExecutionsRequest execute) {execute = beforeClientExecution(execute);return executeListMonitoringExecutions(execute);}
+","public virtual ListMonitoringExecutionsResponse ListMonitoringExecutions(ListMonitoringExecutionsRequest request){var options = new InvokeOptions();options.RequestMarshaller = ListMonitoringExecutionsRequestMarshaller.Instance;options.ResponseUnmarshaller = ListMonitoringExecutionsResponseUnmarshaller.Instance;return Invoke<ListMonitoringExecutionsResponse>(request, options);}
+","public virtual ListMonitoringExecutionsResponse ListMonitoringExecutions(ListMonitoringExecutionsRequest request){var options = new InvokeOptions();options.RequestMarshaller = ListMonitoringExecutionsRequestMarshaller.Instance;options.ResponseUnmarshaller = ListMonitoringExecutionsResponseUnmarshaller.Instance;return Invoke<ListMonitoringExecutionsResponse>(request, options);}
+","public virtual ListMonitoringExecutionsResponse Get(ListMonitoringExecutionsRequest execute){execute = BeforeClientExecution(execute);return ListMonitoringExecutions(execute);}
+",-1,"listMonitoringExecutions,request","listMonitoringExecutions:0.0,request:0.23970819727955273,",0,0,"request:execute,listMonitoringExecutions:lists,",0,0,Greedy,21,0.6285757064819336,failed,[],1.0,0.12338394694015953
+83,"public DescribeJobRequest(String vaultName, String jobId) {setVaultName(vaultName);setJobId(jobId);}
+",21,"public DescribeJobRequest(String account, String identifier) {setVaultName(account);setJobId(identifier);}
+","public DescribeJobRequest(string vaultName, string jobId){_vaultName = vaultName;_jobId = jobId;}
+","public DescribeJobRequest(string vaultName, string jobId){_vaultName = vaultName;_jobId = jobId;}
+","public DescribeJobRequest(string account, string id){_vaultName = account;_jobId = id;}
+",-1,"vaultName,jobId","vaultName:0.6812504246333608,jobId:0.19571676525874981,",0,0,"vaultName:account,jobId:identifier,",0,0,Greedy,17,0.1907691796620687,failed,[],1.0,0.3665425960232924
+84,"public EscherRecord getEscherRecord(int index){return escherRecords.get(index);}
+",17,"public EscherRecord record(int get){return escherRecords.get(get);}
+","public EscherRecord GetEscherRecord(int index){return escherRecords[index];}
+","public EscherRecord GetEscherRecord(int index){return escherRecords[index];}
+","public EscherRecord Record(int get){return escherRecords[get];}
+",-1,"getEscherRecord,index","getEscherRecord:0.5733632998679308,index:0.17452361000214445,",0,0,"getEscherRecord:record,index:get,",0,0,Greedy,16,0.17069654862085978,failed,[],1.0,0.5606803453800826
+85,"public GetApisResult getApis(GetApisRequest request) {request = beforeClientExecution(request);return executeGetApis(request);}
+",22,"public GetApisResult get(GetApisRequest execute) {execute = beforeClientExecution(execute);return executeGetApis(execute);}
+","public virtual GetApisResponse GetApis(GetApisRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetApisRequestMarshaller.Instance;options.ResponseUnmarshaller = GetApisResponseUnmarshaller.Instance;return Invoke<GetApisResponse>(request, options);}
+","public virtual GetApisResponse GetApis(GetApisRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetApisRequestMarshaller.Instance;options.ResponseUnmarshaller = GetApisResponseUnmarshaller.Instance;return Invoke<GetApisResponse>(request, options);}
+","public virtual GetApisResponse Get(GetApisRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetApisRequestMarshaller.Instance;options.ResponseUnmarshaller = GetApisResponseUnmarshaller.Instance;return Invoke<GetApisResponse>(request, options);}
+",-1,"getApis,request","getApis:0.23970819727955273,request:0.23970819727955273,",0,0,"getApis:get,request:argument,",0,0,Greedy,20,0.5766571799914042,failed,[],1.0,0.1478631136068262
+86,"public DeleteSmsChannelResult deleteSmsChannel(DeleteSmsChannelRequest request) {request = beforeClientExecution(request);return executeDeleteSmsChannel(request);}
+",22,"public DeleteSmsChannelResult execute(DeleteSmsChannelRequest call) {call = beforeClientExecution(call);return executeDeleteSmsChannel(call);}
+","public virtual DeleteSmsChannelResponse DeleteSmsChannel(DeleteSmsChannelRequest request){var options = new InvokeOptions();options.RequestMarshaller = DeleteSmsChannelRequestMarshaller.Instance;options.ResponseUnmarshaller = DeleteSmsChannelResponseUnmarshaller.Instance;return Invoke<DeleteSmsChannelResponse>(request, options);}
+","public virtual DeleteSmsChannelResponse DeleteSmsChannel(DeleteSmsChannelRequest request){var options = new InvokeOptions();options.RequestMarshaller = DeleteSmsChannelRequestMarshaller.Instance;options.ResponseUnmarshaller = DeleteSmsChannelResponseUnmarshaller.Instance;return Invoke<DeleteSmsChannelResponse>(request, options);}
+","public virtual DeleteSmsChannelResponse Execute(DeleteSmsChannelRequest input){var options = new InvokeOptions();options.RequestMarshaller = DeleteSmsChannelRequestMarshaller.Instance;options.ResponseUnmarshaller = DeleteSmsChannelResponseUnmarshaller.Instance;return Invoke<DeleteSmsChannelResponse>(input, options);}
+",-1,"deleteSmsChannel,request","deleteSmsChannel:0.23970819727955273,request:0.0,",0,0,"deleteSmsChannel:execute,request:request,",0,0,Greedy,20,0.6052669286727905,failed,[],1.0,0.11101779823773752
+87,"public TrackingRefUpdate getTrackingRefUpdate() {return trackingRefUpdate;}
+",10,"public TrackingRefUpdate copy() {return trackingRefUpdate;}
+","public virtual TrackingRefUpdate GetTrackingRefUpdate(){return trackingRefUpdate;}
+","public virtual TrackingRefUpdate GetTrackingRefUpdate(){return trackingRefUpdate;}
+","public virtual TrackingRefUpdate Update(){return trackingRefUpdate;}
+",-1,getTrackingRefUpdate,"getTrackingRefUpdate:0.547144527082973,",0,0,"getTrackingRefUpdate:copy,",0,0,Greedy,7,0.07250792980194092,failed,[],0.75,0.221942851816312
+88,"public void print(boolean b) {print(String.valueOf(b));}
+",19,"public void println(boolean println) {println(String.valueOf(println));}
+","public virtual void print(bool b){print(b.ToString());}
+","public virtual void print(bool b){print(b.ToString());}
+","public virtual void Output(bool output){Output(output.ToString());}
+",-1,"print,b","print:0.5701355657763065,b:0.27687627766817,",0,0,"print:b,b:println,",0,0,Greedy,19,0.15947015682856241,failed,[],1.0,0.33135281572134645
+89,"public QueryNode getChild() {return getChildren().get(0);}
+",17,"public QueryNode last() {return getChildren().get(0);}
+","public virtual IQueryNode GetChild(){return GetChildren()[0];}
+","public virtual QueryNode GetChild(){return GetChildren()[0];}
+","public virtual QueryNode Get(){return GetChildren()[0];}
+",-1,getChild,"getChild:0.2295051978003419,",0,0,"getChild:last,",0,0,Greedy,7,0.05218594868977865,failed,[],0.3318059992830803,0.15800973376133104
+90,"public NotIgnoredFilter(int workdirTreeIndex) {this.index = workdirTreeIndex;}
+",14,"public NotIgnoredFilter(int indices) {this.0 = indices;}
+","public NotIgnoredFilter(int workdirTreeIndex){this.index = workdirTreeIndex;}
+","public NotIgnoredFilter(int workdirTreeIndex){this.index = workdirTreeIndex;}
+","public NotIgnoredFilter(int index){this.m0 = index;}
+",-1,"workdirTreeIndex,index","workdirTreeIndex:0.5552990827816447,index:0.6334526677486277,",0,0,"index:0,workdirTreeIndex:indexed,",0,0,Greedy,19,0.18770269950230917,failed,[],1.0,0.48164543897478307
+91,"public AreaRecord(RecordInputStream in) {field_1_formatFlags            = in.readShort();}
+",16,"public AreaRecord(RecordInputStream is) {is            = is.readShort();}
+","public AreaRecord(RecordInputStream in1){field_1_formatFlags = in1.ReadShort();}
+","public AreaRecord(RecordInputStream in1){field_1_formatFlags = in1.ReadShort();}
+","public AreaRecord(RecordInputStream ins){_reserved = ins.ReadShort();}
+",-1,"in,field_1_formatFlags","in:0.0,field_1_formatFlags:0.4185849790207694,",0,0,"field_1_formatFlags:in,in:in,",0,0,Greedy,17,0.14396897554397584,failed,[],1.0,0.43997877230811644
+92,"public GetThumbnailRequest() {super(""CloudPhoto"", ""2017-07-11"", ""GetThumbnail"", ""cloudphoto"");setProtocol(ProtocolType.HTTPS);}
+",25,,"public GetThumbnailRequest(): base(""CloudPhoto"", ""2017-07-11"", ""GetThumbnail"", ""cloudphoto"", ""openAPI""){Protocol = ProtocolType.HTTPS;}
+","public GetThumbnailRequest(): base(""CloudPhoto"", ""2017-07-11"", ""GetThumbnail"", ""cloudphoto"", ""openAPI""){Protocol = ProtocolType.HTTPS;}
+","public GetThumbnailRequest(): base(""CloudPhoto"", ""2017-07-11"", ""GetThumbnail"", ""cloudphoto"", ""openAPI""){Protocol = ProtocolType.HTTPS;}
+",-3,,,,,,0,0,Greedy,1,0.020598248640696207,,,1.0,1.0
+93,"public DescribeTransitGatewayVpcAttachmentsResult describeTransitGatewayVpcAttachments(DescribeTransitGatewayVpcAttachmentsRequest request) {request = beforeClientExecution(request);return executeDescribeTransitGatewayVpcAttachments(request);}
+",22,"public DescribeTransitGatewayVpcAttachmentsResult list(DescribeTransitGatewayVpcAttachmentsRequest query) {query = beforeClientExecution(query);return executeDescribeTransitGatewayVpcAttachments(query);}
+","public virtual DescribeTransitGatewayVpcAttachmentsResponse DescribeTransitGatewayVpcAttachments(DescribeTransitGatewayVpcAttachmentsRequest request){var options = new InvokeOptions();options.RequestMarshaller = DescribeTransitGatewayVpcAttachmentsRequestMarshaller.Instance;options.ResponseUnmarshaller = DescribeTransitGatewayVpcAttachmentsResponseUnmarshaller.Instance;return Invoke<DescribeTransitGatewayVpcAttachmentsResponse>(request, options);}
+","public virtual DescribeTransitGatewayVpcAttachmentsResponse DescribeTransitGatewayVpcAttachments(DescribeTransitGatewayVpcAttachmentsRequest request){var options = new InvokeOptions();options.RequestMarshaller = DescribeTransitGatewayVpcAttachmentsRequestMarshaller.Instance;options.ResponseUnmarshaller = DescribeTransitGatewayVpcAttachmentsResponseUnmarshaller.Instance;return Invoke<DescribeTransitGatewayVpcAttachmentsResponse>(request, options);}
+","public virtual DescribeTransitGatewayVpcAttachmentsResponse List(DescribeTransitGatewayVpcAttachmentsRequest input){var options = new InvokeOptions();options.RequestMarshaller = DescribeTransitGatewayVpcAttachmentsRequestMarshaller.Instance;options.ResponseUnmarshaller = DescribeTransitGatewayVpcAttachmentsResponseUnmarshaller.Instance;return Invoke<DescribeTransitGatewayVpcAttachmentsResponse>(input, options);}
+",-1,"describeTransitGatewayVpcAttachments,request","describeTransitGatewayVpcAttachments:0.23970819727955273,request:0.23970819727955273,",0,0,"describeTransitGatewayVpcAttachments:list,request:instruction,",0,0,Greedy,18,0.9117139538129171,failed,[],1.0,0.11101779823773752
+94,"public PutVoiceConnectorStreamingConfigurationResult putVoiceConnectorStreamingConfiguration(PutVoiceConnectorStreamingConfigurationRequest request) {request = beforeClientExecution(request);return executePutVoiceConnectorStreamingConfiguration(request);}
+",22,"public PutVoiceConnectorStreamingConfigurationResult execute(PutVoiceConnectorStreamingConfigurationRequest call) {call = beforeClientExecution(call);return executePutVoiceConnectorStreamingConfiguration(call);}
+","public virtual PutVoiceConnectorStreamingConfigurationResponse PutVoiceConnectorStreamingConfiguration(PutVoiceConnectorStreamingConfigurationRequest request){var options = new InvokeOptions();options.RequestMarshaller = PutVoiceConnectorStreamingConfigurationRequestMarshaller.Instance;options.ResponseUnmarshaller = PutVoiceConnectorStreamingConfigurationResponseUnmarshaller.Instance;return Invoke<PutVoiceConnectorStreamingConfigurationResponse>(request, options);}
+","public virtual PutVoiceConnectorStreamingConfigurationResponse PutVoiceConnectorStreamingConfiguration(PutVoiceConnectorStreamingConfigurationRequest request){var options = new InvokeOptions();options.RequestMarshaller = PutVoiceConnectorStreamingConfigurationRequestMarshaller.Instance;options.ResponseUnmarshaller = PutVoiceConnectorStreamingConfigurationResponseUnmarshaller.Instance;return Invoke<PutVoiceConnectorStreamingConfigurationResponse>(request, options);}
+","public virtual PutVoiceConnectorStreamingConfigurationResponse Execute(PutVoiceConnectorStreamingConfigurationRequest input){var options = new InvokeOptions();options.RequestMarshaller = PutVoiceConnectorStreamingConfigurationRequestMarshaller.Instance;options.ResponseUnmarshaller = PutVoiceConnectorStreamingConfigurationResponseUnmarshaller.Instance;return Invoke<PutVoiceConnectorStreamingConfigurationResponse>(input, options);}
+",-1,"putVoiceConnectorStreamingConfiguration,request","putVoiceConnectorStreamingConfiguration:0.23970819727955273,request:0.0,",0,0,"putVoiceConnectorStreamingConfiguration:execute,request:execute,",0,0,Greedy,17,0.7194664478302002,failed,[],1.0,0.11101779823773752
+95,"public OrdRange getOrdRange(String dim) {return prefixToOrdRange.get(dim);}
+",17,"public OrdRange getOrdRange(String dim) {return prefixToOrdRange.get(dim);}
+","public override OrdRange GetOrdRange(string dim){OrdRange result;prefixToOrdRange.TryGetValue(dim, out result);return result;}
+","public OrdRange GetOrdRange(String dim){return prefixToOrdRange[dim];}
+","public OrdRange GetOrdRange(String dim){return prefixToOrdRange[dim];}
+",-1,"getOrdRange,dim","getOrdRange:-0.20410988614324066,dim:-0.23184803183845126,",0,0,,0,0,Greedy,19,0.20422541697820026,failed,[],0.14175320303732375,0.14175320303732375
+96,"public String toString() {String symbol = """";if (startIndex >= 0 && startIndex < getInputStream().size()) {symbol = getInputStream().getText(Interval.of(startIndex,startIndex));symbol = Utils.escapeWhitespace(symbol, false);}return String.format(Locale.getDefault(), ""%s('%s')"", LexerNoViableAltException.class.getSimpleName(), symbol);}
+",84,"public String generate() {String input = """";if (startIndex >= 0 && startIndex < getInputStream().size()) {input = getInputStream().getText(Interval.of(startIndex,startIndex));input = Utils.escapeWhitespace(input, false);}return String.format(Locale.getDefault(), ""%s('%s')"", LexerNoViableAltException.class.getSimpleName(), input);}
+","public override string ToString(){string symbol = string.Empty;if (startIndex >= 0 && startIndex < ((ICharStream)InputStream).Size){symbol = ((ICharStream)InputStream).GetText(Interval.Of(startIndex, startIndex));symbol = Utils.EscapeWhitespace(symbol, false);}return string.Format(CultureInfo.CurrentCulture, ""{0}('{1}')"", typeof(Antlr4.Runtime.LexerNoViableAltException).Name, symbol);}
+","public override string ToString(){string symbol = """";if (startIndex >= 0 && startIndex < InputStream.Size){symbol = InputStream.GetText(Interval.Of(startIndex, startIndex));symbol = Utils.EscapeWhitespace(symbol, false);}return string.Format(CultureInfo.InvariantCulture, ""{0}('{1}')"", this.GetType().Name, symbol);}
+","public override string Get(){string input = """";if (startIndex >= 0 && startIndex < InputStream.Size){input = InputStream.GetText(Interval.Of(startIndex, startIndex));input = Utils.EscapeWhitespace(input, false);}return string.Format(CultureInfo.InvariantCulture, ""{0}('{1}')"", typeof(LexerNoViableAltException).Name, input);}
+",-1,"toString,symbol","toString:0.08507366320053505,symbol:0.18208307349956143,",0,0,"symbol:input,toString:generate,",0,0,Greedy,20,0.7884721795717875,failed,[],0.5056540164540886,0.37860940123794445
+97,"public E peek() {return peekFirstImpl();}
+",12,"public E pop() {return peekFirstImpl();}
+","public virtual E peek(){return peekFirstImpl();}
+","public virtual E peek(){return peekFirstImpl();}
+","public virtual E next(){return peekFirstImpl();}
+",-1,peek,"peek:0.5303915062095693,",0,0,"peek:pop,",0,0,Greedy,7,0.04711822668711344,failed,[],0.75,0.3889234674480551
+98,"public CreateWorkspacesResult createWorkspaces(CreateWorkspacesRequest request) {request = beforeClientExecution(request);return executeCreateWorkspaces(request);}
+",22,"public CreateWorkspacesResult create(CreateWorkspacesRequest instruction) {instruction = beforeClientExecution(instruction);return executeCreateWorkspaces(instruction);}
+","public virtual CreateWorkspacesResponse CreateWorkspaces(CreateWorkspacesRequest request){var options = new InvokeOptions();options.RequestMarshaller = CreateWorkspacesRequestMarshaller.Instance;options.ResponseUnmarshaller = CreateWorkspacesResponseUnmarshaller.Instance;return Invoke<CreateWorkspacesResponse>(request, options);}
+","public virtual CreateWorkspacesResponse CreateWorkspaces(CreateWorkspacesRequest request){var options = new InvokeOptions();options.RequestMarshaller = CreateWorkspacesRequestMarshaller.Instance;options.ResponseUnmarshaller = CreateWorkspacesResponseUnmarshaller.Instance;return Invoke<CreateWorkspacesResponse>(request, options);}
+","public virtual CreateWorkspacesResponse Create(CreateWorkspacesRequest request){var options = new InvokeOptions();options.RequestMarshaller = CreateWorkspacesRequestMarshaller.Instance;options.ResponseUnmarshaller = CreateWorkspacesResponseUnmarshaller.Instance;return Invoke<CreateWorkspacesResponse>(request, options);}
+",-1,"createWorkspaces,request","createWorkspaces:0.0,request:0.0,",0,0,"createWorkspaces:create,request:request,",0,0,Greedy,21,0.6065797328948974,failed,[],1.0,0.1478631136068262
+99,"public NumberFormatIndexRecord clone() {return copy();}
+",12,"public NumberFormatIndexRecord get() {return copy();}
+","public override Object Clone(){NumberFormatIndexRecord rec = new NumberFormatIndexRecord();rec.field_1_formatIndex = field_1_formatIndex;return rec;}
+","public override Object Clone(){return CloneViaReserialise();}
+","public NumberFormatIndexRecord Get(){return this;}
+",-1,clone,"clone:-0.05668695408647334,",0,0,"clone:get,",0,0,Greedy,7,0.04994541009267171,failed,[],0.10241843642840687,0.051017307096485484
+100,"public DescribeRepositoriesResult describeRepositories(DescribeRepositoriesRequest request) {request = beforeClientExecution(request);return executeDescribeRepositories(request);}
+",22,"public DescribeRepositoriesResult list(DescribeRepositoriesRequest query) {query = beforeClientExecution(query);return executeDescribeRepositories(query);}
+","public virtual DescribeRepositoriesResponse DescribeRepositories(DescribeRepositoriesRequest request){var options = new InvokeOptions();options.RequestMarshaller = DescribeRepositoriesRequestMarshaller.Instance;options.ResponseUnmarshaller = DescribeRepositoriesResponseUnmarshaller.Instance;return Invoke<DescribeRepositoriesResponse>(request, options);}
+","public virtual DescribeRepositoriesResponse DescribeRepositories(DescribeRepositoriesRequest request){var options = new InvokeOptions();options.RequestMarshaller = DescribeRepositoriesRequestMarshaller.Instance;options.ResponseUnmarshaller = DescribeRepositoriesResponseUnmarshaller.Instance;return Invoke<DescribeRepositoriesResponse>(request, options);}
+","public virtual DescribeRepositoriesResponse List(DescribeRepositoriesRequest input){var options = new InvokeOptions();options.RequestMarshaller = DescribeRepositoriesRequestMarshaller.Instance;options.ResponseUnmarshaller = DescribeRepositoriesResponseUnmarshaller.Instance;return Invoke<DescribeRepositoriesResponse>(input, options);}
+",-1,"describeRepositories,request","describeRepositories:0.23970819727955273,request:0.23970819727955273,",0,0,"describeRepositories:list,request:call,",0,0,Greedy,18,0.662422243754069,failed,[],1.0,0.11101779823773752
+101,"public SparseIntArray(int initialCapacity) {initialCapacity = ArrayUtils.idealIntArraySize(initialCapacity);mKeys = new int[initialCapacity];mValues = new int[initialCapacity];mSize = 0;}
+",37,"public SparseIntArray(int 0) {0 = ArrayUtils.idealIntArraySize(0);capacity = new int[0];mValues = new int[0];mSize = 0;}
+","public SparseIntArray(int initialCapacity){initialCapacity = android.util.@internal.ArrayUtils.idealIntArraySize(initialCapacity);mKeys = new int[initialCapacity];mValues = new int[initialCapacity];mSize = 0;}
+","public SparseIntArray(int initialCapacity){initialCapacity = ArrayUtils.IdealIntArraySize(initialCapacity);mKeys = new int[initialCapacity];mValues = new int[initialCapacity];mSize = 0;}
+","public SparseIntArray(int n){n = ArrayUtils.IdealIntArraySize(n);length = new int[n];mValues = new int[n];mSize = 0;}
+",-1,"initialCapacity,mKeys,mValues,mSize","initialCapacity:0.37149141229270755,mKeys:0.33270318406298394,mValues:0.20114782891886152,mSize:0.21375151299517026,",0,0,"initialCapacity:0,mKeys:capacity,",0,0,Greedy,64,1.211328117052714,failed,[],0.7133376593197106,0.25474861821322736
+102,"public HyphenatedWordsFilter create(TokenStream input) {return new HyphenatedWordsFilter(input);}
+",16,"public HyphenatedWordsFilter filter(TokenStream input) {return new HyphenatedWordsFilter(input);}
+","public override TokenStream Create(TokenStream input){return new HyphenatedWordsFilter(input);}
+","public override TokenStream Create(TokenStream input){return new HyphenatedWordsFilter(input);}
+","public override TokenStream Create(TokenStream input){return new HyphenatedWordsFilter(input);}
+",-1,"create,input","create:0.6936809884494899,input:0.16272765644675302,",0,0,"create:filter,",0,0,Greedy,17,0.21375612020492554,failed,[],1.0,0.7316620636843809
+103,"public CreateDistributionWithTagsResult createDistributionWithTags(CreateDistributionWithTagsRequest request) {request = beforeClientExecution(request);return executeCreateDistributionWithTags(request);}
+",22,"public CreateDistributionWithTagsResult describe(CreateDistributionWithTagsRequest create) {create = beforeClientExecution(create);return executeCreateDistributionWithTags(create);}
+","public virtual CreateDistributionWithTagsResponse CreateDistributionWithTags(CreateDistributionWithTagsRequest request){var options = new InvokeOptions();options.RequestMarshaller = CreateDistributionWithTagsRequestMarshaller.Instance;options.ResponseUnmarshaller = CreateDistributionWithTagsResponseUnmarshaller.Instance;return Invoke<CreateDistributionWithTagsResponse>(request, options);}
+","public virtual CreateDistributionWithTagsResponse CreateDistributionWithTags(CreateDistributionWithTagsRequest request){var options = new InvokeOptions();options.RequestMarshaller = CreateDistributionWithTagsRequestMarshaller.Instance;options.ResponseUnmarshaller = CreateDistributionWithTagsResponseUnmarshaller.Instance;return Invoke<CreateDistributionWithTagsResponse>(request, options);}
+","public virtual CreateDistributionWithTagsResponse CreateDistributionWithTags(CreateDistributionWithTagsRequest create){var options = new InvokeOptions();options.RequestMarshaller = CreateDistributionWithTagsRequestMarshaller.Instance;options.ResponseUnmarshaller = CreateDistributionWithTagsResponseUnmarshaller.Instance;return Invoke<CreateDistributionWithTagsResponse>(create, options);}
+",-1,"createDistributionWithTags,request","createDistributionWithTags:0.0,request:0.23970819727955273,",0,0,"request:create,createDistributionWithTags:run,",0,0,Greedy,21,0.7882784128189086,failed,[],1.0,0.7953006008130087
+104,"public RandomAccessFile(String fileName, String mode) throws FileNotFoundException {this(new File(fileName), mode);}
+",24,"public RandomAccessFile(String file, String content) throws FileNotFoundException {this(new File(file), content);}
+","public RandomAccessFile(string fileName, string mode) : this(new java.io.File(fileName), mode){throw new System.NotImplementedException();}
+","public RandomAccessFile(string fileName, string mode) : this(new FileInfo(fileName), mode){throw new System.NotImplementedException();}
+","public RandomAccessFile(string file, string filename) : this(new FileInfo(file), filename){throw new System.NotImplementedException();}
+",-1,"fileName,mode","fileName:0.4252965893251691,mode:0.24371363831094728,",0,0,"fileName:file,mode:encoding,",0,0,Greedy,16,0.24773629903793334,failed,[],0.77354317588984,0.2466343812595215
+105,"public DeleteWorkspaceImageResult deleteWorkspaceImage(DeleteWorkspaceImageRequest request) {request = beforeClientExecution(request);return executeDeleteWorkspaceImage(request);}
+",22,"public DeleteWorkspaceImageResult begin(DeleteWorkspaceImageRequest call) {call = beforeClientExecution(call);return executeDeleteWorkspaceImage(call);}
+","public virtual DeleteWorkspaceImageResponse DeleteWorkspaceImage(DeleteWorkspaceImageRequest request){var options = new InvokeOptions();options.RequestMarshaller = DeleteWorkspaceImageRequestMarshaller.Instance;options.ResponseUnmarshaller = DeleteWorkspaceImageResponseUnmarshaller.Instance;return Invoke<DeleteWorkspaceImageResponse>(request, options);}
+","public virtual DeleteWorkspaceImageResponse DeleteWorkspaceImage(DeleteWorkspaceImageRequest request){var options = new InvokeOptions();options.RequestMarshaller = DeleteWorkspaceImageRequestMarshaller.Instance;options.ResponseUnmarshaller = DeleteWorkspaceImageResponseUnmarshaller.Instance;return Invoke<DeleteWorkspaceImageResponse>(request, options);}
+","public virtual DeleteWorkspaceImageResponse Begin(DeleteWorkspaceImageRequest request){var options = new InvokeOptions();options.RequestMarshaller = DeleteWorkspaceImageRequestMarshaller.Instance;options.ResponseUnmarshaller = DeleteWorkspaceImageResponseUnmarshaller.Instance;return Invoke<DeleteWorkspaceImageResponse>(request, options);}
+",-1,"deleteWorkspaceImage,request","deleteWorkspaceImage:0.23970819727955273,request:0.23970819727955273,",0,0,"deleteWorkspaceImage:begin,request:req,",0,0,Greedy,21,0.6646063009897868,failed,[],1.0,0.11101779823773752
+106,"public static String toHex(long value) {StringBuilder sb = new StringBuilder(16);writeHex(sb, value, 16, """");return sb.toString();}
+",38,"public static String toHex(long value) {StringBuilder value = new StringBuilder(16);writeHex(value, value, 16, """");return value.toString();}
+","public static string ToHex(int value){return ToHex((long)value, 8);}
+","public static string ToHex(long value){StringBuilder sb = new StringBuilder(16);WriteHex(sb, value, 16, """");return sb.ToString();}
+","public static string ToHex(long value){StringBuilder result = new StringBuilder(16);WriteHex(result, value, 16, """");return result.ToString();}
+",-1,"toHex,value,sb","toHex:0.0,value:0.0,sb:0.0,",0,0,"sb:value,",0,0,Greedy,37,0.6473561763763428,failed,[],0.40612413723812546,0.34362413723812546
+107,"public UpdateDistributionResult updateDistribution(UpdateDistributionRequest request) {request = beforeClientExecution(request);return executeUpdateDistribution(request);}
+",22,"public UpdateDistributionResult update(UpdateDistributionRequest execute) {execute = beforeClientExecution(execute);return executeUpdateDistribution(execute);}
+","public virtual UpdateDistributionResponse UpdateDistribution(UpdateDistributionRequest request){var options = new InvokeOptions();options.RequestMarshaller = UpdateDistributionRequestMarshaller.Instance;options.ResponseUnmarshaller = UpdateDistributionResponseUnmarshaller.Instance;return Invoke<UpdateDistributionResponse>(request, options);}
+","public virtual UpdateDistributionResponse UpdateDistribution(UpdateDistributionRequest request){var options = new InvokeOptions();options.RequestMarshaller = UpdateDistributionRequestMarshaller.Instance;options.ResponseUnmarshaller = UpdateDistributionResponseUnmarshaller.Instance;return Invoke<UpdateDistributionResponse>(request, options);}
+","public virtual UpdateDistributionResponse Update(UpdateDistributionRequest execute){execute = BeforeClientExecution(execute);return ExecuteUpdateDistribution(execute);}
+",-1,"updateDistribution,request","updateDistribution:0.0,request:0.23970819727955273,",0,0,"request:execute,updateDistribution:update,",0,0,Greedy,21,0.5778418223063151,failed,[],1.0,0.1478631136068262
+108,"public HSSFColor getColor(short index){if (index == HSSFColorPredefined.AUTOMATIC.getIndex()) {return HSSFColorPredefined.AUTOMATIC.getColor();}byte[] b = _palette.getColor(index);return (b == null) ? null : new CustomColor(index, b);}
+",61,"public HSSFColor rgb(short create){if (create == HSSFColorPredefined.AUTOMATIC.getIndex()) {return HSSFColorPredefined.AUTOMATIC.rgb();}byte[] create = _palette.rgb(create);return (create == null) ? null : new CustomColor(create, create);}
+","public HSSFColor GetColor(short index){if (index == HSSFColor.Automatic.Index)return HSSFColor.Automatic.GetInstance();else{byte[] b = palette.GetColor(index);if (b != null){return new CustomColor(index, b);}}return null;}
+","public HSSFColor GetColor(short index){if (index == HSSFColorPredefined.AUTOMATIC.Index){return HSSFColorPredefined.AUTOMATIC.Color;}byte[] b = _palette.GetColor(index);return (b == null) ? null : new CustomColor(index, b);}
+","public HSSFColor RGB(short create){if (create == HSSFColorPredefined.AUTOMATIC.Index){return HSSFColorPredefined.AUTOMATIC.RGB();}byte[] create = _palette.RGB(create);return (create == null) ? null : new CustomColor(create, create);}
+",-1,"getColor,index,b","getColor:0.15205516173776146,index:0.022158788037346444,b:0.07028965820980171,",0,0,"getColor:rgb,b:index,index:rgb,",0,0,Greedy,49,1.6723991990089417,failed,[],0.5052540883266547,0.3619420557085431

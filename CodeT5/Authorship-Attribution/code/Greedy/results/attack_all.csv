@@ -1,0 +1,1822 @@
+Index,Original Code,Program Length,Adversarial Code,True Label,Original Prediction,Adv Prediction,Is Success,Extracted Names,Importance Score,Greedy No. Changed Names,Greedy No. Changed Tokens,Replaced Names,GA No. Changed Names,GA No. Changed Tokens,Attack Type,Query Times,Time Cost,Suc Type,Insert Words
+0," 
+  def is_sym( number ):
+  	num_str = str( number )
+  	num_len = len( num_str )
+  	half_len = int( num_len / 2 )
+  	end = num_str[-half_len:]
+  	rev_end = end[::-1]
+  	start = num_str[:half_len]
+  	equal = rev_end == start 
+  	return equal
+  
+  f = open( 'palindromes.out' )
+  
+  numbers = [ int(x) for x in f.read().split() ]
+  
+  numCases = input()
+  for case in range( 1, numCases + 1 ):
+  	min, max = [ int(x) for x in raw_input().split() ]
+  	count = 0
+  	for number in numbers:
+  		if min <= number and max >= number:
+  			count += 1
+  
+  	print 'Case #' + str( case ) + ': ' + str( count )
+",154," 
+  def is_sym( number ):
+  	num_str = str( number )
+  	num_len = len( num_str )
+  	half_len = int( num_len / 2 )
+  	end = num_str[-half_len:]
+  	rev_end = end[::-1]
+  	start = num_str[:half_len]
+  	equal = rev_end == start 
+  	return equal
+  
+  f = open( 'palindromes.out' )
+  
+  numbers = [ int(x) for x in f.read().split() ]
+  
+  nbCase = input()
+  for case in range( 1, nbCase + 1 ):
+  	min, max = [ int(x) for x in raw_input().split() ]
+  	count = 0
+  	for number in numbers:
+  		if min <= number and max >= number:
+  			count += 1
+  
+  	print 'Case #' + str( case ) + ': ' + str( count )
+",LABEL_0,LABEL_0,LABEL_10,1,"number,num_str,num_len,half_len,end,rev_end,start,equal,f,numbers,x,numCases,case,min,max,count","number:-0.03598123788833618,num_str:-0.01460886001586914,num_len:-0.0031166374683380127,half_len:0.005389124155044556,end:0.006937861442565918,rev_end:-0.00326693058013916,start:-0.0028120577335357666,equal:0.07366874814033508,f:0.02064359188079834,numbers:0.08968624472618103,x:-0.02539229393005371,numCases:0.16006892919540405,case:-0.0967058539390564,min:0.016792088747024536,max:0.0014416873455047607,count:-0.023540616035461426,",1,2,"numCases:nbCase,",0,0,Greedy,63,0.016081058979034425,replace,[]
+1,"def build_table():
+  	table = []
+  	for i in range( 0, 31 ):
+  		table.append( ( get_max_score( i ), get_max_surprise_score( i ) ) )
+  
+  	return table
+  
+  
+  def get_max_score( i ):
+  	return max( 0, min( 10, ( i + 2 ) / 3 ) )
+  
+  def get_max_surprise_score( i ):
+  	return min( i, max( 0, min( 10, ( i + 4 ) / 3 ) ) )
+  
+  def get_max( x, scores, score_needed, num_surprises ):
+  	scores = sorted( scores, reverse=True )
+  	numPass = 0
+  	i = 0;
+  	while ( i < len(scores) ):
+  		if ( x[scores[i]][0] >= score_needed ):
+  			numPass += 1
+  		else:
+  			break
+  		i += 1
+  
+  	while ( i < len(scores) and num_surprises > 0 ):
+  		if ( x[scores[i]][1] >= score_needed ):
+  			numPass += 1
+  			num_surprises -= 1
+  			
+  		i += 1
+  
+  	return numPass
+  
+  x = build_table()
+  
+  num_cases = input()
+  
+  for i in range( 1, num_cases + 1 ):
+  	line = raw_input().split()
+  	num_surprises = int(line[1])
+  	score_needed = int(line[2])
+  	scores_raw = line[3:]
+  
+  	scores = [ int(y) for y in scores_raw ]
+  
+  	print 'Case #' + str( i ) + ': ' + str( get_max( x, scores, score_needed, num_surprises ) )
+",286,"def build_table():
+  	model = []
+  	for i in range( 0, 31 ):
+  		model.append( ( get_max_score( i ), get_max_surprise_score( i ) ) )
+  
+  	return model
+  
+  
+  def get_max_score( i ):
+  	return max( 0, min( 10, ( i + 2 ) / 3 ) )
+  
+  def get_max_surprise_score( i ):
+  	return min( i, max( 0, min( 10, ( i + 4 ) / 3 ) ) )
+  
+  def get_max( rx, scores, score_needed, num_surprises ):
+  	scores = sorted( scores, reverse=True )
+  	numPass = 0
+  	i = 0;
+  	while ( i < len(scores) ):
+  		if ( rx[scores[i]][0] >= score_needed ):
+  			numPass += 1
+  		else:
+  			break
+  		i += 1
+  
+  	while ( i < len(scores) and num_surprises > 0 ):
+  		if ( rx[scores[i]][1] >= score_needed ):
+  			numPass += 1
+  			num_surprises -= 1
+  			
+  		i += 1
+  
+  	return numPass
+  
+  rx = build_table()
+  
+  num_rows = input()
+  
+  for i in range( 1, num_rows + 1 ):
+  	feed = raw_input().split()
+  	num_surprises = int(feed[1])
+  	score_needed = int(feed[2])
+  	scores_raw = feed[3:]
+  
+  	scores = [ int(y) for y in scores_raw ]
+  
+  	print 'Case #' + str( i ) + ': ' + str( get_max( rx, scores, score_needed, num_surprises ) )
+",LABEL_0,LABEL_0,LABEL_65,1,"table,i,x,scores,score_needed,num_surprises,numPass,num_cases,line,scores_raw,y","table:0.016495555639266968,i:-0.02742418646812439,x:0.004784673452377319,scores:0.0028745532035827637,score_needed:-0.13585981726646423,num_surprises:-0.20186614990234375,numPass:-0.14371967315673828,num_cases:0.03852018713951111,line:0.003820866346359253,scores_raw:-0.0069727301597595215,y:-0.0006944537162780762,",4,14,"num_cases:num_rows,table:model,x:rx,line:feed,",0,0,Greedy,140,0.019777325789133708,replace,[]
+2," 
+  
+  def is_palindrome(num):
+      s = str(num)
+      end_idx = len(s)-1
+      for i in range(len(s)//2):
+          if s[i] != s[end_idx-i]:
+              return False
+      return True
+  
+  def is_valid_base(base):
+      return is_palindrome(base) and is_palindrome(base*base)
+  
+  def process_case(lo, hi):
+      cnt = 0
+      base_lo = math.ceil(math.sqrt(lo))
+      base_hi = math.floor(math.sqrt(hi))
+      for base in range(base_lo, base_hi+1):
+          if is_valid_base(base):
+              cnt += 1
+      return cnt
+  
+  def result_gen(lines):
+      ncases = int(next(lines))
+      for ci in range(1,ncases+1):
+          lo,hi = line_of_numbers(next(lines))
+          result = process_case(lo, hi)
+          yield 'Case #{0}: {1}
+'.format(ci, result)
+      
+  def line_of_numbers(s):
+      return [int(sub) for sub in s.split()]
+  
+  def input_gen(f_in):
+      for line in f_in:
+          if line.endswith('
+'):
+              line = line[:-1]
+          yield line
+  
+  def start(basename):
+      infile = basename + '.in'
+      outfile = basename + '.out'
+      f_in = open(infile, 'r')
+      f_out = open(outfile, 'w')
+      f_out.writelines(result_gen(input_gen(f_in)))
+      f_in.close()
+      f_out.close()
+  
+  start('C-small-attempt0')
+",293," 
+  
+  def is_palindrome(dim):
+      cells = str(dim)
+      end_idy = len(cells)-1
+      for  ii in range(len(cells)//2):
+          if cells[ ii] != cells[end_idy- ii]:
+              return False
+      return True
+  
+  def is_valid_base(file):
+      return is_palindrome(file) and is_palindrome(file*file)
+  
+  def process_case(lab, chi):
+      count = 0
+      base_loc = math.ceil(math.sqrt(lab))
+      root_hel = math.floor(math.sqrt(chi))
+      for file in range(base_loc, root_hel+1):
+          if is_valid_base(file):
+              count += 1
+      return count
+  
+  def result_gen(lim):
+      nase = int(next(lim))
+      for co in range(1,nase+1):
+          lab,chi = line_of_numbers(next(lim))
+          case = process_case(lab, chi)
+          yield 'Case #{0}: {1}
+'.format(co, case)
+      
+  def line_of_numbers(cells):
+      return [int(sec) for sec in cells.split()]
+  
+  def input_gen(fFileint):
+      for line in fFileint:
+          if line.endswith('
+'):
+              line = line[:-1]
+          yield line
+  
+  def start(basename):
+      uppath = basename + '.in'
+      outfile = basename + '.out'
+      fFileint = open(uppath, 'r')
+      f_out = open(outfile, 'w')
+      f_out.writelines(result_gen(input_gen(fFileint)))
+      fFileint.close()
+      f_out.close()
+  
+  start('C-small-attempt0')
+",LABEL_1,LABEL_1,LABEL_47,1,"num,s,end_idx,i,base,lo,hi,cnt,base_lo,base_hi,lines,ncases,ci,result,sub,f_in,line,basename,infile,outfile,f_out","num:-0.0014466643333435059,s:-0.031933754682540894,end_idx:0.1745072901248932,i:0.002849787473678589,base:-0.038785696029663086,lo:-0.03865119814872742,hi:-0.03992152214050293,cnt:0.0038564205169677734,base_lo:0.09689611196517944,base_hi:0.10222867131233215,lines:-0.009296625852584839,ncases:-0.15334150195121765,ci:-0.010828554630279541,result:-0.016723036766052246,sub:-0.01777726411819458,f_in:0.24304741621017456,line:0.015308976173400879,basename:0.15565818548202515,infile:0.09177127480506897,outfile:0.05253028869628906,f_out:0.14066898822784424,",17,53,"f_in:fFileint,end_idx:end_idy,basename:basename,f_out:f_out,base_hi:root_hel,base_lo:base_loc,infile:uppath,outfile:outfile,line:line,cnt:count,i: ii,num:dim,lines:lim,ci:co,result:case,sub:sec,s:cells,lo:lab,base:file,hi:chi,ncases:nase,",0,0,Greedy,474,0.07024956544240316,replace,[]
+3," 
+  def threshold(p, maxdiff):
+      minval = max(p - maxdiff, 0)
+      return p + minval + minval
+  
+  def process_case(numdata):
+      N,S,p = numdata[0:3]
+      scores = numdata[3:]
+      thre_normal = threshold(p, 1)
+      thre_surprise = threshold(p, 2)
+      result = 0
+      for tot in scores:
+          if tot >= thre_normal:
+              result += 1
+          elif S > 0 and tot >= thre_surprise:
+              result += 1
+              S -= 1
+      return result
+  
+  def result_gen(lines):
+      ncases = int(next(lines))
+      for ci in range(1,ncases+1):
+          result = process_case(line_of_numbers(next(lines)))
+          yield 'Case #{0}: {1}
+'.format(ci, result)
+      
+  def line_of_numbers(s):
+      return [int(sub) for sub in s.split()]
+  
+  def input_gen(f_in):
+      for line in f_in:
+          if line.endswith('
+'):
+              line = line[:-1]
+          yield line
+  
+  def start(basename):
+      infile = basename + '.in'
+      outfile = basename + '.out'
+      f_in = open(infile, 'r')
+      f_out = open(outfile, 'w')
+      f_out.writelines(result_gen(input_gen(f_in)))
+      f_in.close()
+      f_out.close()
+  
+  start('B-small-attempt0')
+",256," 
+  def threshold(phi, MaxDiff):
+      miMinvalue max(phi - MaxDiff, 0)
+      return phi + Minvalue + Minvalue
+  
+  def process_case(smallfiles):
+      N,S,pIiS= smallfiles[0:3]
+      scodescalessmallfiles[3:]
+      ththbre_norm threshold(phi, 1)
+      ththre_Surmetic threshold(phi, 2)
+      name = 0
+      for tottoton descales:
+          ifttotot >= thbre_norm:
+              name += 1
+          elif S > 0 and ttoto >= thre_Surmetic:
+              name += 1
+              S -= 1
+      return name
+  
+  def result_gen(ines):
+     necatss = int(next(ines))
+      for dc in range(1,necats+1):
+          name = process_case(line_of_numbers(next(ines)))
+          yield 'Case #{0}: {1}
+'.formadcci, name)
+      
+  def line_of_numbers(slice):
+      return [int(sub)srcr sub srcslice.split()]
+  
+  def input_gen(fockagain):
+      for line strokeockagain:
+          if stroke.endswith('
+'):
+              stroke = stroke[:-1]
+          yield stroke
+  
+  def start(basename):
+      infile = basename + '.in'
+       outline = basename + '.out'
+      fockagain = open(infile, 'r')
+      f f_write= open( outline, 'w')
+      f_out f_writeelines(result_gen(input_gen(fockagain)))
+      fockagain.close()
+       f_write.close()
+  
+  start('B-small-attempt0')
+",LABEL_1,LABEL_1,LABEL_24,1,"p,maxdiff,minval,numdata,N,S,scores,thre_normal,thre_surprise,result,tot,lines,ncases,ci,s,sub,f_in,line,basename,infile,outfile,f_out",,20,59,"p:phi,maxdiff:MaxDiff,minval:Minvalue,numdata:smallfiles,N:I,S:S,scores:descales,thre_normal:thbre_norm,thre_surprise:thre_Surmetic,result:name,tot:ttoto,lines:ines,ncases:necats,ci:dc,s:slice,sub:src,f_in:fockagain,line:stroke,basename:basename,infile:infile,outfile: outline,f_out: f_write,",3,8,GA,1607,0.25349043210347494,GA,[';p = 0']
+4," 
+  '''
+  Limits
+  
+  Small dataset       1 <= T <= 100, 1 <= A <= B <= 1000.
+  First large dataset 1 <= T <= 10000. 1 <= A <= B <= 1014.
+  Second large dataset    1 <= T <= 1000. 1 <= A <= B <= 10100.
+  
+  Sample
+  *** Input 
+  3
+  1 4
+  10 120
+  100 1000
+   	
+  *** Output 
+  Case #1: 2
+  Case #2: 0
+  Case #3: 2
+  
+  
+  '''
+  
+  
+  
+  inf = open(sys.argv[1])
+  def input(): return inf.readline().strip()
+  
+  pal_sqr_roots = '''1 
+  2 
+  3 
+  11 
+  22 
+  26 
+  101 
+  111 
+  121 
+  202 
+  212 
+  264 
+  307 
+  836 
+  1001 
+  1111 
+  2002 
+  2285 
+  2636 
+  10001 
+  10101 
+  10201 
+  11011 
+  11111 
+  11211 
+  20002 
+  20102 
+  22865 
+  24846 
+  30693 
+  100001 
+  101101 
+  110011 
+  111111 
+  200002 
+  798644 
+  1000001 
+  1001001 
+  1002001 
+  1010101 
+  1011101 
+  1012101 
+  1042151 
+  1100011 
+  1101011 
+  1102011 
+  1109111 
+  1110111 
+  1111111 
+  1270869 
+  2000002 
+  2001002 
+  2012748 
+  2294675 
+  3069307 
+  10000001 
+  10011001 
+  10100101 
+  10111101 
+  11000011 
+  11011011 
+  11100111 
+  11111111 
+  11129361 
+  12028229 
+  12866669 
+  20000002 
+  30001253 
+  64030648 
+  100000001 
+  100010001 
+  100020001 
+  100101001 
+  100111001 
+  100121001 
+  101000101 
+  101010101 
+  101020101 
+  101101101 
+  101111101 
+  110000011 
+  110010011 
+  110020011 
+  110091011 
+  110101011 
+  110111011 
+  111000111 
+  111010111 
+  111091111 
+  111101111 
+  111111111 
+  200000002 
+  200010002 
+  306930693 
+  1000000001 
+  1000110001 
+  1001001001 
+  1001111001 
+  1010000101 
+  1010110101 
+  1011001101 
+  1011111101 
+  1100000011 
+  1100110011 
+  1101001011 
+  1101111011 
+  1110000111 
+  1110110111 
+  1111001111 
+  2000000002 
+  2062386218 
+  2481623254 
+  10000000001 
+  10000100001 
+  10000200001 
+  10001010001 
+  10001110001 
+  10001210001 
+  10010001001 
+  10010101001 
+  10010201001 
+  10011011001 
+  10011111001 
+  10100000101 
+  10100100101 
+  10100200101 
+  10101010101 
+  10101110101 
+  10106064399 
+  10109901101 
+  10110001101 
+  10110101101 
+  10110911101 
+  10111011101 
+  10111111101 
+  10207355549 
+  11000000011 
+  11000100011 
+  11000200011 
+  11000910011 
+  11001010011 
+  11001110011 
+  11010001011 
+  11010101011 
+  11010911011 
+  11011011011 
+  11011111011 
+  11100000111 
+  11100100111 
+  11100910111 
+  11101010111 
+  11101110111 
+  11110001111 
+  11110101111 
+  13579355059 
+  20000000002 
+  20000100002 
+  22865150135 
+  30101273647 
+  30693069307 
+  83163115486 
+  100000000001 
+  100001100001 
+  100010010001 
+  100011110001 
+  100100001001 
+  100101101001 
+  100110011001 
+  100111111001 
+  101000000101 
+  101001100101 
+  101010010101 
+  101011110101 
+  101100001101 
+  101101101101 
+  101110011101 
+  101116809851 
+  110000000011 
+  110001100011 
+  110010010011 
+  110011110011 
+  110100001011 
+  110101101011 
+  110110011011 
+  111000000111 
+  111001100111 
+  111010010111 
+  111100001111 
+  111283619361 
+  112247658961 
+  128817084669 
+  200000000002 
+  1000000000001 
+  1000001000001 
+  1000002000001 
+  1000010100001 
+  1000011100001 
+  1000012100001 
+  1000100010001 
+  1000101010001 
+  1000102010001 
+  1000110110001 
+  1000111110001 
+  1001000001001 
+  1001001001001 
+  1001002001001 
+  1001010101001 
+  1001011101001 
+  1001100011001 
+  1001101011001 
+  1001110111001 
+  1001111111001 
+  1010000000101 
+  1010001000101 
+  1010002000101 
+  1010010100101 
+  1010011100101 
+  1010099010101 
+  1010100010101 
+  1010101010101 
+  1010109110101 
+  1010110110101 
+  1010111110101 
+  1011000001101 
+  1011001001101 
+  1011010101101 
+  1011011101101 
+  1011099011101 
+  1011100011101 
+  1011101011101 
+  1100000000011 
+  1100001000011 
+  1100002000011 
+  1100009100011 
+  1100010100011 
+  1100011100011 
+  1100100010011 
+  1100101010011 
+  1100110110011 
+  1100111110011 
+  1101000001011 
+  1101001001011 
+  1101009101011 
+  1101010101011 
+  1101011101011 
+  1101100011011 
+  1101101011011 
+  1110000000111 
+  1110001000111 
+  1110009100111 
+  1110010100111 
+  1110011100111 
+  1110100010111 
+  1110101010111 
+  1111000001111 
+  1111001001111 
+  1349465117841 
+  2000000000002 
+  2000001000002 
+  2149099165358 
+  2634812417864 
+  3069306930693 
+  6360832925898 
+  10000000000001 
+  10000011000001 
+  10000100100001 
+  10000111100001 
+  10001000010001 
+  10001011010001 
+  10001100110001 
+  10001111110001 
+  10010000001001 
+  10010011001001 
+  10010100101001 
+  10010111101001 
+  10011000011001 
+  10011011011001 
+  10011100111001 
+  10100000000101 
+  10100011000101 
+  10100100100101 
+  10100111100101 
+  10101000010101 
+  10101011010101 
+  10101100110101 
+  10110000001101 
+  10110011001101 
+  10110100101101 
+  10111000011101 
+  11000000000011 
+  11000011000011 
+  11000100100011 
+  11000111100011 
+  11001000010011 
+  11001011010011 
+  11001100110011 
+  11010000001011 
+  11010011001011 
+  11010100101011 
+  11011000011011 
+  11100000000111 
+  11100011000111 
+  11100100100111 
+  11101000010111 
+  11110000001111 
+  20000000000002 
+  30395080190573 
+  69800670077028 
+  98275825201587 
+  100000000000001 
+  100000010000001 
+  100000020000001 
+  100000101000001 
+  100000111000001 
+  100000121000001 
+  100001000100001 
+  100001010100001 
+  100001020100001 
+  100001101100001 
+  100001111100001 
+  100010000010001 
+  100010010010001 
+  100010020010001 
+  100010101010001 
+  100010111010001 
+  100011000110001 
+  100011010110001 
+  100011101110001 
+  100011111110001 
+  100100000001001 
+  100100010001001 
+  100100020001001 
+  100100101001001 
+  100100111001001 
+  100101000101001 
+  100101010101001 
+  100101101101001 
+  100101111101001 
+  100109990011001 
+  100110000011001 
+  100110010011001 
+  100110091011001 
+  100110101011001 
+  100110111011001 
+  100110990111001 
+  100111000111001 
+  100111010111001 
+  101000000000101 
+  101000010000101 
+  101000020000101 
+  101000101000101 
+  101000111000101 
+  101000990100101 
+  101001000100101 
+  101001010100101 
+  101001091100101 
+  101001101100101 
+  101001111100101 
+  101010000010101 
+  101010010010101 
+  101010101010101 
+  101010111010101 
+  101010990110101 
+  101011000110101 
+  101011010110101 
+  101100000001101 
+  101100010001101 
+  101100101001101 
+  101100111001101 
+  101101000101101 
+  101101010101101 
+  101110000011101 
+  101110010011101 
+  110000000000011 
+  110000010000011 
+  110000020000011 
+  110000091000011 
+  110000101000011 
+  110000111000011 
+  110001000100011 
+  110001010100011 
+  110001101100011 
+  110001111100011 
+  110010000010011 
+  110010010010011 
+  110010091010011 
+  110010101010011 
+  110010111010011 
+  110011000110011 
+  110011010110011 
+  110100000001011 
+  110100010001011 
+  110100101001011 
+  110100111001011 
+  110101000101011 
+  110101010101011 
+  110110000011011 
+  110110010011011 
+  111000000000111 
+  111000010000111 
+  111000091000111 
+  111000101000111 
+  111000111000111 
+  111001000100111 
+  111001010100111 
+  111010000010111 
+  111010010010111 
+  111100000001111 
+  111100010001111 
+  129610990752569 
+  200000000000002 
+  200000010000002 
+  210786628549538 
+  314155324482867 
+  1000000000000000 
+  1000000110000000 
+  1000001001000000 
+  1000001111000000 
+  1000010000100000 
+  1000010110100000 
+  1000011001100000 
+  1000011111100000 
+  1000100000010000 
+  1000100110010000 
+  1000101001010000 
+  1000101111010000 
+  1000110000110000 
+  1000110110110000 
+  1000111001110000 
+  1001000000001000 
+  1001000110001000 
+  1001001001001000 
+  1001001111001000 
+  1001010000101000 
+  1001010110101000 
+  1001011001101000 
+  1001100000011000 
+  1001100110011000 
+  1001101001011000 
+  1001110000111000 
+  1010000000000100 
+  1010000110000100 
+  1010001001000100 
+  1010001111000100 
+  1010010000100100 
+  1010010110100100 
+  1010011001100100 
+  1010100000010100 
+  1010100110010100 
+  1010101001010100 
+  1010110000110100 
+  1011000000001100 
+  1011000110001100 
+  1011001001001100 
+  1011010000101100 
+  1011100000011100 
+  1100000000000010 
+  1100000110000010 
+  1100001001000010 
+  1100001111000010 
+  1100010000100010 
+  1100010110100010 
+  1100011001100010 
+  1100100000010010 
+  1100100110010010 
+  1100101001010010 
+  1100110000110010 
+  1101000000001010 
+  1101000110001010 
+  1101001001001010 
+  1101010000101010 
+  1101100000011010 
+  1110000000000110 
+  1110000110000110 
+  1110001001000110 
+  1110010000100110 
+  1110100000010110 
+  1111000000001110 
+  2000000000000000 
+  2201019508986470 
+  2564053868197730 
+  3066446727654240 
+  3107974295870660 
+  3138199296186060'''
+  pal_sqr_roots = map(int, pal_sqr_roots.split())
+  
+  
+  
+  def is_palindrome(n):
+      return str(n)[::-1] == str(n)
+  
+  palindromic_roots = [x for x in pal_sqr_roots if is_palindrome(x)]
+  
+  fair_and_square = [x*x for x in palindromic_roots]
+  
+  
+  def get_num_fair_and_square(a, b):
+      return len([x for x in fair_and_square if a <= x <= b])
+  
+  for caseNo in range(1, int(input())+1):
+      a,b = map(int, input().split())
+      print 'Case #%d:' % caseNo, get_num_fair_and_square(a, b)
+  
+",157,,LABEL_2,LABEL_2,LABEL_2,-1,"inf,pal_sqr_roots",,2,6,,0,0,GA,464,0.10596384207407633,failed,[]
+5," 
+  '''
+  Limits: T in [1,100], S in [0,N], p in [0,10], Ti in [0, 30]
+  At least S of the ti values will be between 2 and 28, inclusive.
+  
+  Small dataset 1 = N = 3.
+  Large dataset 1 = N = 100.
+  
+  Sample Input 
+  4
+  3 1 5 15 13 11
+  3 0 8 23 22 21
+  2 1 1 8 0
+  6 2 8 29 20 8 18 18 21
+  
+  Output 
+  Case #1: 3
+  Case #2: 2
+  Case #3: 1
+  Case #4: 3
+  '''
+  
+  
+  
+  inf = open(sys.argv[1])
+  def input(): return inf.readline().strip()
+  
+  def maxBestDancers(N, S, p, *Ti):
+      cnt = 0
+      for score in Ti:
+          mx = (score + 2) // 3
+          if mx >= p:
+              cnt += 1
+          elif mx >= p-1 > 0 and S>0:
+              S -= 1
+              cnt += 1
+      return cnt
+  
+  for caseNo in range(1, int(input())+1):
+      print 'Case #%d:' % caseNo,
+      lst = map(int, input().split())
+      print maxBestDancers(*lst)
+  
+",127,,LABEL_2,LABEL_2,LABEL_2,-1,"inf,N,S,p,cnt,score,mx,caseNo,lst",,7,17,,0,0,GA,1119,0.165336537361145,failed,"[';cnt = 0', ';caseNo = 0', ';print(caseNo)', ';zin = 0', ';iter = 0', ';input = 0', '; caseNumber = 0', ';CaseNum = 0', ';trialno = 0', ';matchNO = 0', ';CaseNo = 0']"
+6," 
+  def generateTable(N):
+      msq = range(1, 4) + [11, 22] + [101, 111, 121, 202, 212]
+      nums = revnums = [1, 2]
+  
+      digsums = [1, 4]
+  
+      for i in xrange(2, N+1):
+          a, b, d = [], [], []
+          p = 10**(i-1)
+          for j in xrange(len(nums)):
+              for k in xrange(3):
+                  n, rn, ds = 10*nums[j] + k, revnums[j] + k*p, digsums[j] + k*k
+                  if ds < 5:
+                      a.append(n)
+                      b.append(rn)
+                      d.append(ds)
+                      msq.append(10*p*n + rn) # even length
+                      if i == N:
+                          continue
+                      for l in xrange(3): # odd length
+                          if 2*ds + l*l < 10:
+                              msq.append(100*p*n + 10*p*l + rn)
+          nums, revnums, digsums = a, b, d
+  
+      msq.sort()
+      return msq
+  
+  def getNum(A, B):
+      return bisect_right(tab2, B) - bisect_right(tab2, A-1)
+  
+  N = 10
+  tab = generateTable(N)
+  tab2 = map(lambda n: n**2, tab)
+  
+  T = int(raw_input())
+  for z in xrange(T):
+      A, B = map(int, raw_input().split())
+      print ""Case #%d: %d"" % (z+1, getNum(A, B))
+",323,,LABEL_3,LABEL_27,,-4,"N,msq,nums,revnums,digsums,i,a,b,d,p,j,k,n,rn,ds,l,A,B,tab,tab2,T,z",,,,,0,0,Greedy,1,0.00041300058364868164,,
+7,"T = int(raw_input())
+  
+  for z in xrange(1, T+1):
+      a = map(int, raw_input().split())
+      s, p = a[1:3]
+      a = a[3:]
+      A = 0 if p == 0 else 3*p - 2
+      B = 0 if p == 0 else 1 if p == 1 else 3*p-4
+      x = len(filter(lambda x: x >= A, a))
+      y = len(filter(lambda x: x >= B, a)) - x
+      res = x + min(s, y)
+      print ""Case #%d:"" % z, res
+",133,,LABEL_3,LABEL_8,,-4,"T,z,a,s,p,A,B,x,y,res",,,,,0,0,Greedy,1,0.0002472201983133952,,
+8," 
+  
+  f = open(sys.argv[1],'r')
+  
+  num = int(f.readline())
+  
+  def pal(x):
+      l = list(str(x))
+      l2 = copy.copy(l)
+      l2.reverse()
+      return l == l2
+  
+  for i in range(num):
+      count = 0
+      line = f.readline()
+      a,b = line.split()
+      a = int(a)
+      b = int(b)
+      ma = int(math.sqrt(a))
+      mb = int(math.sqrt(b))+1
+      for j in range(ma,mb+1):
+          q = j*j
+          if q < a or q > b:
+              continue
+          if pal(j) and pal(q):
+              count += 1
+      print 'Case #{}:'.format(i+1), count
+",170," 
+  
+  folder = open(sys.argv[1],'r')
+  
+  month = int(folder.readline())
+  
+  def pal(v):
+      r = list(str(v))
+      line1 = copy.copy(r)
+      line1.reverse()
+      return r == line1
+  
+  for page in range(month):
+      case = 0
+      LINE = folder.readline()
+      a,b = LINE.split()
+      a = int(a)
+      b = int(b)
+      ms = int(math.sqrt(a))
+      kb = int(math.sqrt(b))+1
+      for n in range(ms,kb+1):
+          range = n*n
+          if range < a or range > b:
+              continue
+          if pal(n) and pal(range):
+              case += 1
+      print 'Case #{}:'.format(page+1), case
+;ma = 0",LABEL_4,LABEL_4,LABEL_4,1,"f,num,x,l,l2,i,count,line,a,b,ma,mb,j,q","f:-0.0022944211959838867,num:0.1512952446937561,x:0.0038204193115234375,l:0.011414825916290283,l2:0.008901476860046387,i:0.015356659889221191,count:0.012150764465332031,line:0.018536031246185303,a:-0.0012369751930236816,b:-0.0006186366081237793,ma:-0.009860992431640625,mb:-0.008626878261566162,j:-6.979703903198242e-05,q:-0.004992544651031494,",12,32,"num:month,line:LINE,i:page,count:case,l:r,l2:line1,x:v,j:n,b:b,a:a,f:folder,q:range,mb:kb,ma:ms,",0,0,Greedy,335,0.04605875015258789,insert,[';ma = 0']
+9," 
+  
+  f = open(sys.argv[1],'r')
+  
+  num = int(f.readline())
+  
+  for i in range(num):
+      res = [int(x) for x in f.readline().split()]
+      nrg, nrsup, score = res[0:3]
+      del res[0:3]
+      nrpass = 0
+      nrsuppass = 0
+      for x in res:
+          if score > 1:
+              if x >= 3*score-2:
+                  nrpass += 1
+              elif x >= 3*score-4:
+                  nrsuppass += 1
+          elif score == 1:
+              if x > 0:
+                  nrpass += 1
+          else:
+              nrpass +=1
+      print 'Case #{}:'.format(i+1), nrpass + min(nrsup, nrsuppass)
+",146,,LABEL_4,LABEL_4,LABEL_4,-1,"f,num,i,res,x,nrg,nrsup,score,nrpass,nrsuppass",,10,33,,0,0,GA,2082,0.29471970001856485,failed,"[';i = 0', ';res = 0', ';print(res)', ';score = 0', ';out = 0', ';print(out)', ';out = 0', ';print(out)', ';rate = 0', '; nrsupe = 0', ';print( nrsupe)', ';name = 0', ';print(name)', ';y = 0', ';case = 0', ';print(case)']"
+10," 
+  def ss(t, amap, bmap):
+      s = 0
+      for m in amap:
+          if len(m) == 1 and t == m.keys()[0]:
+              s += m[t]
+              for b in bmap:
+                  if t in b:
+                      b[t] -= 1
+                      if b[t] == 0:
+                          b.pop(t)
+              m.clear()
+      return s           
+  
+  
+  def solve(case, in_lines):
+      out = 'Case #%d: '%case
+   
+      rn, cn = [int(x) for x in in_lines[0].split()]
+      mtx = []
+      for i in xrange(rn):
+          mtx.append([int(x) for x in in_lines[i+1].split()])
+      rmap = [{} for x in xrange(rn)]
+      cmap = [{} for x in xrange(cn)]
+      td = {}
+      
+      for i in xrange(rn):
+          for j in range(cn):
+              k = mtx[i][j]
+              if k in rmap[i]:
+                  rmap[i][k] += 1
+              else:
+                  rmap[i][k] = 1
+              if k in cmap[j]:
+                  cmap[j][k] += 1
+              else:
+                  cmap[j][k] = 1
+              if k in td:
+                  td[k] += 1
+              else:
+                  td[k] = 1
+                  
+      while len(td):
+          k = min(td.keys())
+          sb = ss(k, rmap, cmap)
+          sb += ss(k, cmap, rmap)
+          if sb == 0:
+              break;
+          td[k] -= sb
+          if td[k] == 0:
+              td.pop(k)
+  
+      return out + ('YES' if sb else 'NO')
+  
+  
+  def main(raw):
+      lines = raw.split('
+')
+      n = int(lines[0])
+      ln = 1
+      outs = []
+      for case in xrange(1, n+1):
+          buff = []
+          cl = int(lines[ln].split()[0]) + ln + 1
+          while ln < cl and lines[ln]:
+              buff.append(lines[ln])
+              ln += 1
+          s = solve(case, buff)
+          print s
+          outs.append(s)
+      return '
+'.join(outs)
+      pass
+  
+  if __name__ == '__main__':
+      test_input = """"""4
+  4 3
+  2 5 2
+  1 1 1
+  2 4 2
+  2 3 2
+  3 3
+  2 1 2
+  1 1 1
+  2 1 2
+  5 5
+  2 2 2 2 2
+  2 1 1 1 2
+  2 1 2 1 2
+  2 1 1 1 2
+  2 2 2 2 2
+  1 3
+  1 2 1""""""
+      force_no_file = False
+      in_file_name = '' if force_no_file else 'B-large.in'
+      base_path = 'G:/workspace/py/codejam2013/RQ/'
+      if in_file_name:
+          with open(base_path + in_file_name) as f:
+              raw = f.read()
+      else:
+          raw = test_input
+      out = main(raw)
+      if in_file_name:
+          with open(base_path + in_file_name + '.out', 'w') as f:
+              f.write(out)
+      pass
+",541," 
+  def ss(rt, ramaps, cbarray):
+      s = 0
+      for ab in ramaps:
+          if len(ab) == 1 and rt == ab.keys()[0]:
+              s += ab[rt]
+              for rb in cbarray:
+                  if rt in rb:
+                      rb[rt] -= 1
+                      if rb[rt] == 0:
+                          rb.pop(rt)
+              ab.clear()
+      return s           
+  
+  
+  def solve(l,  inxfiles):
+      new = 'Case #%d: '%l
+   
+      nc, ron = [int(bit) for bit in  inxfiles[0].split()]
+      rtax = []
+      for I in xrange(nc):
+          rtax.append([int(bit) for bit in  inxfiles[I+1].split()])
+      mMap = [{} for bit in xrange(nc)]
+      duse = [{} for bit in xrange(ron)]
+      TD = {}
+      
+      for I in xrange(nc):
+          for js in range(ron):
+              right = rtax[I][js]
+              if right in mMap[I]:
+                  mMap[I][right] += 1
+              else:
+                  mMap[I][right] = 1
+              if right in duse[js]:
+                  duse[js][right] += 1
+              else:
+                  duse[js][right] = 1
+              if right in TD:
+                  TD[right] += 1
+              else:
+                  TD[right] = 1
+                  
+      while len(TD):
+          right = min(TD.keys())
+          sb = ss(right, mMap, duse)
+          sb += ss(right, duse, mMap)
+          if sb == 0:
+              break;
+          TD[right] -= sb
+          if TD[right] == 0:
+              TD.pop(right)
+  
+      return new + ('YES' if sb else 'NO')
+  
+  
+  def main(small):
+      lines = small.split('
+')
+      n = int(lines[0])
+      ln = 1
+      outs = []
+      for l in xrange(1, n+1):
+          buff = []
+          rl = int(lines[ln].split()[0]) + ln + 1
+          while ln < rl and lines[ln]:
+              buff.append(lines[ln])
+              ln += 1
+          s = solve(l, buff)
+          print s
+          outs.append(s)
+      return '
+'.join(outs)
+      pass
+  
+  if __name__ == '__main__':
+      test_input = """"""4
+  4 3
+  2 5 2
+  1 1 1
+  2 4 2
+  2 3 2
+  3 3
+  2 1 2
+  1 1 1
+  2 1 2
+  5 5
+  2 2 2 2 2
+  2 1 1 1 2
+  2 1 2 1 2
+  2 1 1 1 2
+  2 2 2 2 2
+  1 3
+  1 2 1""""""
+      force_no_file = False
+      in_file_name = '' if force_no_file else 'B-large.in'
+      base_path = 'G:/workspace/py/codejam2013/RQ/'
+      if in_file_name:
+          with open(base_path + in_file_name) as f:
+              small = f.read()
+      else:
+          small = test_input
+      new = main(small)
+      if in_file_name:
+          with open(base_path + in_file_name + '.out', 'w') as f:
+              f.write(new)
+      pass
+",LABEL_5,LABEL_5,LABEL_24,1,"t,amap,bmap,s,m,b,case,in_lines,out,rn,cn,x,mtx,i,rmap,cmap,td,j,k,sb,raw,lines,n,ln,outs,buff,cl","t:0.007497906684875488,amap:-0.005628898739814758,bmap:-0.003898538649082184,s:-0.07194016873836517,m:0.001971922814846039,b:0.0026747211813926697,case:-0.050539180636405945,in_lines:-0.008275285363197327,out:-0.09276916086673737,rn:-0.050932928919792175,cn:-7.787346839904785e-05,x:-0.0006049126386642456,mtx:0.001321457326412201,i:-0.017468281090259552,rmap:0.009225279092788696,cmap:0.008607640862464905,td:0.007170319557189941,j:-0.006285667419433594,k:0.005337357521057129,sb:-0.0023396164178848267,raw:0.021499142050743103,lines:-0.006870388984680176,n:0.004340857267379761,ln:0.0007982552051544189,outs:-0.006049402058124542,buff:-0.010414190590381622,cl:0.0005520358681678772,",20,104,"raw:small,rmap:mMap,cmap:duse,t:rt,td:TD,k:right,n:n,b:rb,m:ab,mtx:rtax,ln:ln,cl:rl,cn:ron,x:bit,sb:sb,bmap:cbarray,amap:ramaps,outs:outs,j:js,lines:lines,in_lines: inxfiles,buff:buff,i:I,case:l,rn:nc,s:s,out:new,",0,0,Greedy,677,0.11838291088740031,replace,[]
+11," 
+  def solve(icase, case_input):
+      case_output = 'Case #%i: '%icase
+      
+      result = 0
+      raw = [int(x) for x in case_input[0].split()]
+      ts = raw[3:]
+      ct = raw[1]
+      n = raw[2]
+      cc = 0
+      for i in ts:
+          if i > 3*n-3:
+              result += 1
+          elif i > max(3*n-5, 0):
+              cc += 1
+      result += min(cc, ct)
+  
+      case_output += '%d'%result
+      
+      return case_output
+  
+  
+  def main():
+      global use_test_data
+      global test_data
+      global input_file
+      global output_file
+      
+      if use_test_data:
+          data = [x.strip() for x in test_data.split('
+')]
+      else:
+          data = [x.strip() for x in input_file.readlines()]
+      
+      T = int(data[0])
+      iLine = 1
+      caseLineNum = 1
+      for icase in range(1, T + 1):
+          input = []
+          for i in range(caseLineNum):
+              input.append(data[iLine])
+              iLine += 1
+          rslt = solve(icase, input)
+          print rslt
+          if not use_test_data:
+              print >> output_file, rslt
+      
+      if not use_test_data:
+          input_file.close()
+          output_file.close()
+      
+      
+  if __name__ == '__main__':
+      test_data = """"""4
+  3 1 5 15 13 11
+  3 0 8 23 22 21
+  2 1 1 8 0
+  6 2 8 29 20 8 18 18 21
+  """"""
+      use_test_data = False
+      
+      test_file = 'B-small-attempt0.in'
+      if not use_test_data and '' != test_file:
+          input_file = open(test_file)
+          output_file = open(test_file + '.out', 'w')
+      
+      main()
+",284,,LABEL_5,LABEL_5,LABEL_5,-1,"icase,case_input,case_output,result,raw,x,ts,ct,n,cc,i,data,T,iLine,caseLineNum,input,rslt,test_data,use_test_data,test_file,input_file,output_file",,20,69,,0,0,GA,4407,0.7169293443361918,failed,[]
+12," 
+  T = input()
+  
+  for n in range(1, T+1):
+  
+      A, B = raw_input().split()
+      A, B = int(A), int(B)
+  
+      j = 0
+      for i in range(A, B+1):
+          s = str(i)
+          m = int(i**.5)
+          if s[-1] in [""1"", ""4"", ""5"", ""6"", ""9""] and \
+                  (s == """".join(reversed(s))) and \
+                  m**2 == i:
+              s = str(m)
+              if s == """".join(reversed(s)):
+                  j += 1
+  
+  
+      print ""Case #%d: %d"" % (n, j)
+",139," 
+  Test = input()
+  
+  for pn in range(1, Test+1):
+  
+      A, B = raw_input().split()
+      A, B = int(A), int(B)
+  
+      job = 0
+      for i in range(A, B+1):
+          g = str(i)
+          l = int(i**.5)
+          if g[-1] in [""1"", ""4"", ""5"", ""6"", ""9""] and \
+                  (g == """".join(reversed(g))) and \
+                  l**2 == i:
+              g = str(l)
+              if g == """".join(reversed(g)):
+                  job += 1
+  
+  
+      print ""Case #%d: %d"" % (pn, job)
+",LABEL_6,LABEL_6,LABEL_20,1,"T,n,A,B,j,i,s,m","T:0.10868042707443237,n:0.05327346920967102,A:-0.038048744201660156,B:-0.00908118486404419,j:-0.0016865730285644531,i:-0.009537935256958008,s:0.01722729206085205,m:-0.002385377883911133,",5,17,"T:Test,n:pn,s:g,j:job,m:l,",0,0,Greedy,131,0.017739526430765786,replace,[]
+13," 
+  T=0 #no. of Test cases
+  for line in fileinput.input():
+      if fileinput.isfirstline():
+          T=int(line)
+          print ""no. of test cases:"", T
+          continue
+      
+      nums=[int(x) for x in line.split()]
+      N=nums[0] #no. of googlers
+      S=nums[1] #no. of surprising triplets
+      p=nums[2] #max value
+      
+      del nums[:3]
+      count=0
+      for num in nums:
+          quo=num//3
+          rem=num%3
+          if quo >= p:
+              count += 1
+              continue
+          elif quo+1 == p and rem > 0:
+              count += 1
+              continue
+          elif quo+1 ==p and rem == 0 and quo > 0 and S > 0:
+              count += 1
+              S -= 1
+              continue
+          elif quo+2 >= p and rem == 2 and S > 0:
+              count += 1
+              S -= 1
+      
+      print ""Case #%(k)i: %(count)i"" % {""k"":fileinput.lineno()-1,""count"":count}
+",177," 
+  Test=0 #no. of Test cases
+  for case in fileinput.input():
+      if fileinput.isfirstline():
+          Test=int(case)
+          print ""no. of test cases:"", Test
+          continue
+      
+      rnumbers=[int(out) for out in case.split()]
+      NN=rnumbers[0] #no. of googlers
+      u=rnumbers[1] #no. of surprising triplets
+      v=rnumbers[2] #max value
+      
+      del rnumbers[:3]
+      cond=0
+      for t in rnumbers:
+           quoo=t//3
+          right=t%3
+          if  quoo >= v:
+              cond += 1
+              continue
+          elif  quoo+1 == v and right > 0:
+              cond += 1
+              continue
+          elif  quoo+1 ==v and right == 0 and  quoo > 0 and u > 0:
+              cond += 1
+              u -= 1
+              continue
+          elif  quoo+2 >= v and right == 2 and u > 0:
+              cond += 1
+              u -= 1
+      
+      print ""Case #%(k)i: %(count)i"" % {""k"":fileinput.lineno()-1,""count"":cond}
+",LABEL_6,LABEL_6,LABEL_25,1,"T,line,nums,x,N,S,p,count,num,quo,rem","T:0.02592003345489502,line:-0.01732979714870453,nums:0.010334581136703491,x:0.0027320832014083862,N:-0.008726030588150024,S:-0.04070901870727539,p:-0.007931366562843323,count:-0.0054551661014556885,num:-0.0066307783126831055,quo:-0.03169356286525726,rem:0.0041449666023254395,",11,44,"T:Test,nums:rnumbers,rem:right,x:out,count:cond,num:t,p:v,N:NN,line:case,quo: quoo,S:u,",0,0,Greedy,266,0.03797197341918945,replace,[]
+14," 
+  fin = open('C-small-attempt0.in', 'r')
+  fout = open('ass3.out', 'w')
+  
+  T = int(fin.readline())
+  
+  def perfsq(n):
+      sq = int(math.sqrt(n))
+      if n == sq * sq:
+          return sq
+      return 0
+  
+  def palindrome(n):
+      s = str(n)
+      return (s == s[::-1])
+  
+  def getpal(n):
+      if n == 1:
+          for i in range(10):
+              yield i
+      else:
+          n2 = n / 2
+          for x in xrange(10 ** (n2 - 1), 10 ** n2):
+              s = str(x)
+              if n % 2:
+                  for i in range(10):
+                      ns = s + str(i) + s[::-1]
+                      yield int(ns)
+              else:
+                  ns = s + s[::-1]
+                  yield int(ns)
+  
+  for i in range(T):
+      A, B = map(int, fin.readline().split())
+  
+      ret = 0
+      for j in range(len(str(A)), len(str(B)) + 1):
+          for x in getpal(j):
+              if x < A:
+                  continue
+              if x > B:
+                  break
+              sq = perfsq(x)
+              if sq and palindrome(sq):
+                  ret += 1
+      fout.write('Case #%i: %i
+' % (i + 1, ret))
+",288,,LABEL_7,LABEL_7,LABEL_7,-1,"fin,fout,T,n,sq,s,i,n2,x,ns,A,B,ret,j",,14,61,,0,0,GA,2830,0.44759427309036254,failed,[]
+15,"input_file = 'B-small-attempt1.in'
+  output_file = 'b.out'
+  
+  
+  def solvecase(inp):
+  	data = [int(n) for n in inp.split()]
+  	N, S, p = data[0:3]
+  	if p == 0:
+  		return N
+  	t = data[3:]
+  	ret = 0
+  	for br in t:
+  		d, r = br / 3, br % 3
+  		if br == 0 or p - d > 2:
+  			continue
+  		if (d >= p) or (r and (d + 1) >= p):
+  			ret += 1
+  		elif S and (d + max(r, 1)) >= p:
+  			ret += 1
+  			S -= 1
+  	return ret
+  
+  lines = open(input_file, 'r').readlines()
+  out = open(output_file, 'w')
+  
+  for i, l in enumerate(lines[1:]):
+  	sout = 'Case #%i: %i' % (i + 1, solvecase(l))
+  	print sout
+  	out.write(sout + '
+')
+  
+  out.close()
+",194,,LABEL_7,LABEL_7,LABEL_7,-1,"input_file,output_file,inp,data,n,N,S,p,t,ret,br,d,r,lines,out,i,l,sout",,17,50,,0,0,GA,3653,0.5345470825831096,failed,"[';output_file = 0', ';br = 0', ';lines = 0', ';inputodefile = 0', ';data_files = 0', ';inputmingfile = 0', ';output_base = 0', ';print(output_base)', ';inputingfile = 0', ';outputChanemail = 0', ';print(outputChanemail)', ';input_filename = 0']"
+16," a = [1, 4, 9, 121, 484, 10201, 12321, 14641, 40804, 44944, 1002001, 1234321, 4008004, 100020001, 102030201, 104060401, 121242121, 123454321, 125686521, 400080004, 404090404, 10000200001, 10221412201, 12102420121, 12345654321, 40000800004, 1000002000001, 1002003002001, 1004006004001, 1020304030201, 1022325232201, 1024348434201, 1210024200121, 1212225222121, 1214428244121, 1232346432321, 1234567654321, 4000008000004, 4004009004004, 100000020000001]
+  A = a[:10]
+  def subdfs(pre, mid, d, t, n):
+      if d == t:
+          k = long(''.join([pre, mid, pre[::-1]]))
+          k = k * k
+          if k > n:
+              return [1, 0]
+          sqk = str(k)
+          if sqk == sqk[::-1]:
+              A.append(k)
+              return [0, 1]
+          else:
+              return [0, 0]
+      res = subdfs(pre + '0', mid, d + 1, t, n)
+      if res[0]: return res
+      if not res[1]: return res
+      res2 = subdfs(pre + '1', mid, d + 1, t, n)
+      if res2[0]: return [1, res[1] + res2[1]]
+      return [0, res[1] + res2[1]]
+  
+  def dfs(d, n):
+      subdfs('1', '', 0, d, n)
+      subdfs('2' + '0' * d, '', d, d, n)
+      subdfs('1', '0', 0, d, n)
+      subdfs('1', '1', 0, d, n)
+      subdfs('1', '2', 0, d, n)
+      subdfs('2' + '0' * d, '0', d, d, n)
+      subdfs('2' + '0' * d, '1', d, d, n)
+  
+  def solve(pre):
+      read_ints = lambda: map(int, raw_input().split())
+      l, r = read_ints()
+      cl = bisect_left(A, l)
+      cr = bisect_right(A, r)
+      cl_ = cr_ = 0
+      for i in xrange(40):
+          if a[i] < l: cl_ += 1
+      for i in xrange(40):
+          if a[i] <= r: cr_ += 1
+      print pre, cr - cl
+  
+  for k in xrange(1, 48):
+      dfs(k, 10 ** 100 + 1)
+  A.sort()
+  N = int(raw_input())
+  for i in xrange(1, N + 1):
+      solve(""Case #%d:"" % i)
+",521,,LABEL_8,LABEL_51,,-4,"a,A,pre,mid,d,t,n,k,sqk,res,res2",,,,,0,0,Greedy,1,0.0004592259724934896,,
+17,"T = int(raw_input())
+  for t in xrange(T):
+      line = map(int, raw_input().split())
+      N, S, p = line[0:3]
+      a = line[3:]
+      cnt = 0
+      a.sort(reverse=True)
+      for x in a:
+          if (x + 2) / 3 >= p:
+              cnt += 1
+          elif S > 0 and 2 <= x <= 28 and (x + 4) / 3 >= p:
+              cnt += 1
+              S -= 1
+          else:
+              break
+      print ""Case #%d: %d"" % (t + 1, cnt)
+",119,"Time = int(raw_input())
+  for section in xrange(Time):
+      LINE = map(int, raw_input().split())
+      A, Size, M = LINE[0:3]
+       A = LINE[3:]
+      ncount = 0
+       A.sort(reverse=True)
+      for case in  A:
+          if (case + 2) / 3 >= M:
+              ncount += 1
+          elif Size > 0 and 2 <= case <= 28 and (case + 4) / 3 >= M:
+              ncount += 1
+              Size -= 1
+          else:
+              break
+      print ""Case #%d: %d"" % (section + 1, ncount)
+;T = 0",LABEL_8,LABEL_8,LABEL_8,1,"T,t,line,N,S,p,a,cnt,x","T:-0.01226910948753357,t:-0.0014466345310211182,line:-0.0030434727668762207,N:0.012187361717224121,S:-0.0006710588932037354,p:0.0017533302307128906,a:0.002355128526687622,cnt:-0.021919310092926025,x:0.0063693225383758545,",9,25,"N:A,x:case,a: A,p:M,S:Size,t:section,line:LINE,T:Time,cnt:ncount,",0,0,Greedy,208,0.027960888544718423,insert,[';T = 0']
+18,"def isPalindrome(number):
+      strNum = str(number)
+      for i in range(len(strNum)/2 + 1):
+          if strNum[i] != strNum[-1*(i+1)]:
+              return False
+      return True
+  
+  '''for i in range(40):
+      if isPalindrome(i) and isPalindrome(i*i):
+          print i*i
+  '''
+  
+  
+  filename = ""C-small-attempt0.in""
+  outputname = filename + ""out.txt""
+  
+  inFile = open(filename, 'r')
+  outFile = open(outputname, 'w')
+  
+  
+  fairAndSquareNums = [1,4,9,121,484]
+  
+  numTests = int(inFile.readline())
+  
+  for i in range(numTests):
+      line = inFile.readline().split()
+      count = 0
+      for j in range(int(line[0]), int(line[1])+1):
+          if j in fairAndSquareNums:
+              count += 1
+      outFile.write(""Case #"" + str(i+1) + "": "" + str(count) + '
+')
+      print ""Case #"" + str(i+1) + "": "" + str(count)
+  
+  inFile.close()
+  outFile.close()
+",199,"def isPalindrome(python):
+      striVal = str(python)
+      for io in range(len(striVal)/2 + 1):
+          if striVal[io] != striVal[-1*(io+1)]:
+              return False
+      return True
+  
+  '''for i in range(40):
+      if isPalindrome(i) and isPalindrome(i*i):
+          print i*i
+  '''
+  
+  
+  dll = ""C-small-attempt0.in""
+  outfile = dll + ""out.txt""
+  
+  ninLine = open(dll, 'r')
+  OUTLock = open(outfile, 'w')
+  
+  
+  fairAndsquarenumbers = [1,4,9,121,484]
+  
+  numbertesters = int(ninLine.readline())
+  
+  for io in range(numbertesters):
+      unit = ninLine.readline().split()
+      id = 0
+      for ij in range(int(unit[0]), int(unit[1])+1):
+          if ij in fairAndsquarenumbers:
+              id += 1
+      OUTLock.write(""Case #"" + str(io+1) + "": "" + str(id) + '
+')
+      print ""Case #"" + str(io+1) + "": "" + str(id)
+  
+  ninLine.close()
+  OUTLock.close()
+",LABEL_9,LABEL_9,LABEL_17,1,"number,strNum,i,filename,outputname,inFile,outFile,fairAndSquareNums,numTests,line,count,j","number:-0.010703742504119873,strNum:0.01599067449569702,i:-0.023379504680633545,filename:0.018084466457366943,outputname:0.06275486946105957,inFile:-0.07021409273147583,outFile:0.002363145351409912,fairAndSquareNums:-0.017103731632232666,numTests:0.05783504247665405,line:-0.01754838228225708,count:-0.004509627819061279,j:0.004302382469177246,",12,38,"outputname:outfile,numTests:numbertesters,filename:dll,strNum:striVal,j:ij,outFile:OUTLock,count:id,number:python,fairAndSquareNums:fairAndsquarenumbers,line:unit,i:io,inFile:ninLine,",0,0,Greedy,280,0.040328737099965414,replace,[]
+19,"inputFile = open(""B-small-attempt0 (3).in"", 'r')
+  outputFile = open(""dancingOutSmall.txt"", 'w')
+  numTests = int(inputFile.readline())
+  
+  def countDancers(n,s,p,totals):
+      guaranteed = 0
+      needSurprise = 0
+      if p == 1:
+          for total in totals:
+              if total != 0:
+                  guaranteed += 1
+          return guaranteed
+      for total in totals:
+          if total >= p*3 - 2:
+              guaranteed += 1
+          elif total >= p*3 - 4:
+              needSurprise += 1
+      if needSurprise > s:
+          return guaranteed + s
+      else:
+          return guaranteed + needSurprise
+  
+  for i in range(numTests):
+      line = inputFile.readline().split()
+      n = int(line[0])
+      s = int(line[1])
+      p = int(line[2])
+      totals = []
+      for j in range(n):
+          totals += [int(line[3+j])]
+      outputFile.write('Case #' + str(i+1) + ': ' + str(countDancers(n,s,p,totals)) + '
+')
+  
+  outputFile.close()
+",215,"InputLine = open(""B-small-attempt0 (3).in"", 'r')
+  returnStream = open(""dancingOutSmall.txt"", 'w')
+  NumFcases = int(InputLine.readline())
+  
+  def countDancers(node,ans,ap,totals):
+      guarantees = 0
+      needSuperprise = 0
+      if ap == 1:
+          for active in totals:
+              if active != 0:
+                  guarantees += 1
+          return guarantees
+      for active in totals:
+          if active >= ap*3 - 2:
+              guarantees += 1
+          elif active >= ap*3 - 4:
+              needSuperprise += 1
+      if needSuperprise > ans:
+          return guarantees + ans
+      else:
+          return guarantees + needSuperprise
+  
+  for uri in range(NumFcases):
+      lf = InputLine.readline().split()
+      node = int(lf[0])
+      ans = int(lf[1])
+      ap = int(lf[2])
+      totals = []
+      for job in range(node):
+          totals += [int(lf[3+job])]
+      returnStream.write('Case #' + str(uri+1) + ': ' + str(countDancers(node,ans,ap,totals)) + '
+')
+  
+  returnStream.close()
+",LABEL_9,LABEL_9,LABEL_45,1,"inputFile,outputFile,numTests,n,s,p,totals,guaranteed,needSurprise,total,i,line,j","inputFile:-0.046079039573669434,outputFile:0.007651031017303467,numTests:0.044420480728149414,n:-0.0027474164962768555,s:0.002358376979827881,p:-0.009089350700378418,totals:-0.005793154239654541,guaranteed:-0.0136832594871521,needSurprise:-0.023331403732299805,total:-0.008179426193237305,i:-0.007703840732574463,line:-0.004493415355682373,j:0.00011175870895385742,",12,47,"numTests:NumFcases,outputFile:returnStream,s:ans,j:job,n:node,line:lf,totals:totals,i:uri,total:active,p:ap,guaranteed:guarantees,needSurprise:needSuperprise,inputFile:InputLine,",0,0,Greedy,315,0.045367507139841716,replace,[]
+20," 
+  n_cases = input()
+  
+  def to_ints(s):
+      return map(int, s.split())
+  
+  def is_palindrome(n):
+      s = str(n)
+      return s == s[::-1]
+  
+  for case in xrange(1, n_cases + 1):
+      a, b = to_ints(raw_input())
+  
+      nums = range(int(b ** .5) + 2)
+      palins = filter(is_palindrome, nums)
+      squares = [x**2 for x in palins]
+      palin_squares = filter(is_palindrome, squares)
+      range_squares = [x for x in palin_squares if a <= x <= b]
+  
+      print ""Case #%d: %s"" % (case, len(range_squares))
+",132," 
+  nxtests = input()
+  
+  def to_ints(speech):
+      return map(int, speech.split())
+  
+  def is_palindrome(l):
+      speech = str(l)
+      return speech == speech[::-1]
+  
+  for count in xrange(1, nxtests + 1):
+      p, rb = to_ints(raw_input())
+  
+      nums = range(int(rb ** .5) + 2)
+      palouts = filter(is_palindrome, nums)
+      quashes = [ross**2 for ross in palouts]
+      palin_quares = filter(is_palindrome, quashes)
+      range_squeries = [ross for ross in palin_quares if p <= ross <= rb]
+  
+      print ""Case #%d: %s"" % (count, len(range_squeries))
+;s = 0;n__tests = 0; nxtimes = 0;print( nxtimes);nxtests = 0;print(nxtests);speech = 0;print(speech)",LABEL_10,LABEL_10,LABEL_10,1,"n_cases,s,n,case,a,b,nums,palins,squares,x,palin_squares,range_squares","n_cases:0.030933499336242676,s:-0.010727345943450928,n:-0.0003504157066345215,case:0.01274561882019043,a:0.0023876428604125977,b:0.006254732608795166,nums:0.003115057945251465,palins:0.0005167722702026367,squares:0.002889871597290039,x:0.0031366348266601562,palin_squares:0.000652015209197998,range_squares:-0.003117680549621582,",11,29,"n_cases:nxtests,case:count,b:rb,x:ross,nums:nums,squares:quashes,a:p,palin_squares:palin_quares,palins:palouts,n:l,range_squares:range_squeries,s:speech,",0,0,Greedy,329,0.046566418806711835,insert,"[';s = 0', ';n__tests = 0', '; nxtimes = 0', ';print( nxtimes)', ';nxtests = 0', ';print(nxtests)', ';speech = 0', ';print(speech)']"
+21,"n_cases = input()
+  
+  for case in xrange(1, n_cases + 1):
+      ins = map(int, raw_input().strip().split())
+      n = ins[0]
+      s = ins[1]
+      p = ins[2]
+      t = ins[3:]
+  
+      out = 0
+      for x in t:
+          if (x + 2) / 3 >= p:
+              out += 1
+          elif s and x > p and p - ((x - p) / 2) <= 2:
+              out += 1
+              s -= 1
+              
+      print ""Case #%d: %s"" % (case, out)
+",117,"nxtests = input()
+  
+  for exc in xrange(1, nxtests + 1):
+      ins = map(int, raw_input().strip().split())
+      n = ins[0]
+      s = ins[1]
+      p = ins[2]
+      t = ins[3:]
+  
+      out = 0
+      for x in t:
+          if (x + 2) / 3 >= p:
+              out += 1
+          elif s and x > p and p - ((x - p) / 2) <= 2:
+              out += 1
+              s -= 1
+              
+      print ""Case #%d: %s"" % (exc, out)
+",LABEL_10,LABEL_10,LABEL_9,1,"n_cases,case,ins,n,s,p,t,out,x","n_cases:0.08347034454345703,case:0.025186598300933838,ins:0.00457000732421875,n:-0.0005155801773071289,s:0.000912010669708252,p:-0.00046062469482421875,t:-0.0011917948722839355,out:-0.009685158729553223,x:-0.0005192756652832031,",2,4,"n_cases:nxtests,case:exc,",0,0,Greedy,68,0.009043284257253011,replace,[]

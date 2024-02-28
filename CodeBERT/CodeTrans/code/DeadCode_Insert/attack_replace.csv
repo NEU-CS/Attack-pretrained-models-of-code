@@ -1,0 +1,136 @@
+Index,Original Code,Program Length,Adversarial Code,True Label,Original Prediction,Adv Prediction,Is Success,Extracted Names,Importance Score,Greedy No. Changed Names,Greedy No. Changed Tokens,Replaced Names,GA No. Changed Names,GA No. Changed Tokens,Attack Type,Query Times,Time Cost,Suc Type,Insert Words,orig prob,current prob
+0,"public void serialize(LittleEndianOutput out) {out.writeShort(field_1_vcenter);}
+",16,"public void serialize(LittleEndianOutput out) {out.writeShort(field_1_vcenter);}
+","public override void Serialize(ILittleEndianOutput out1){out1.WriteShort(field_1_vcenter);}
+",,,-1,"serialize,out","serialize:0,out:0,",0,0,,0,0,Greedy,19,1.1130677700042724,failed,[],0,0
+1,"public void addAll(BlockList<T> src) {if (src.size == 0)return;int srcDirIdx = 0;for (; srcDirIdx < src.tailDirIdx; srcDirIdx++)addAll(src.directory[srcDirIdx], 0, BLOCK_SIZE);if (src.tailBlkIdx != 0)addAll(src.tailBlock, 0, src.tailBlkIdx);}
+",75,"public void addAll(BlockList<T> src) {if (src.size == 0)return;int srcDirIdx = 0;for (; srcDirIdx < src.tailDirIdx; srcDirIdx++)addAll(src.directory[srcDirIdx], 0, BLOCK_SIZE);if (src.tailBlkIdx != 0)addAll(src.tailBlock, 0, src.tailBlkIdx);}
+","public virtual void AddAll(NGit.Util.BlockList<T> src){if (src.size == 0){return;}int srcDirIdx = 0;for (; srcDirIdx < src.tailDirIdx; srcDirIdx++){AddAll(src.directory[srcDirIdx], 0, BLOCK_SIZE);}if (src.tailBlkIdx != 0){AddAll(src.tailBlock, 0, src.tailBlkIdx);}}
+",,,-1,"addAll,src,srcDirIdx","addAll:0,src:0,srcDirIdx:0,",0,0,,0,0,Greedy,48,1.8779274980227152,failed,[],0,0
+2,"public void writeByte(byte b) {if (upto == blockSize) {if (currentBlock != null) {addBlock(currentBlock);}currentBlock = new byte[blockSize];upto = 0;}currentBlock[upto++] = b;}
+",52,"public void writeByte(byte b) {if (upto == blockSize) {if (currentBlock != null) {addBlock(currentBlock);}currentBlock = new byte[blockSize];upto = 0;}currentBlock[upto++] = b;}
+","public override void WriteByte(byte b){if (outerInstance.upto == outerInstance.blockSize){if (outerInstance.currentBlock != null){outerInstance.blocks.Add(outerInstance.currentBlock);outerInstance.blockEnd.Add(outerInstance.upto);}outerInstance.currentBlock = new byte[outerInstance.blockSize];outerInstance.upto = 0;}outerInstance.currentBlock[outerInstance.upto++] = (byte)b;}
+",,,-1,"writeByte,b,currentBlock,upto","writeByte:0,b:0,currentBlock:0,upto:0,",0,0,,0,0,Greedy,59,2.889942097663879,failed,[],0,0
+3,"public ObjectId getObjectId() {return objectId;}
+",10,"public ObjectId getObjectId() {return objectId;}
+","public virtual ObjectId GetObjectId(){return objectId;}
+",,,-1,getObjectId,"getObjectId:0,",0,0,,0,0,Greedy,6,0.3630458196004232,failed,[],0,0
+4,"public DeleteDomainEntryResult deleteDomainEntry(DeleteDomainEntryRequest request) {request = beforeClientExecution(request);return executeDeleteDomainEntry(request);}
+",22,"public DeleteDomainEntryResult deleteDomainEntry(DeleteDomainEntryRequest request) {request = beforeClientExecution(request);return executeDeleteDomainEntry(request);}
+","public virtual DeleteDomainEntryResponse DeleteDomainEntry(DeleteDomainEntryRequest request){var options = new InvokeOptions();options.RequestMarshaller = DeleteDomainEntryRequestMarshaller.Instance;options.ResponseUnmarshaller = DeleteDomainEntryResponseUnmarshaller.Instance;return Invoke<DeleteDomainEntryResponse>(request, options);}
+",,,-1,"deleteDomainEntry,request","deleteDomainEntry:0,request:0,",0,0,,0,0,Greedy,21,1.1445611437161765,failed,[],0,0
+5,"public long ramBytesUsed() {return ((termOffsets!=null)? termOffsets.ramBytesUsed() : 0) +((termsDictOffsets!=null)? termsDictOffsets.ramBytesUsed() : 0);}
+",40,"public long ramBytesUsed() {return ((termOffsets!=null)? termOffsets.ramBytesUsed() : 0) +((termsDictOffsets!=null)? termsDictOffsets.ramBytesUsed() : 0);}
+","public virtual long RamBytesUsed(){return fst == null ? 0 : fst.GetSizeInBytes();}
+",,,-1,ramBytesUsed,"ramBytesUsed:0,",0,0,,0,0,Greedy,9,0.4596937974294027,failed,[],0,0
+6,"public final String getFullMessage() {byte[] raw = buffer;int msgB = RawParseUtils.tagMessage(raw, 0);if (msgB < 0) {return """"; }return RawParseUtils.decode(guessEncoding(), raw, msgB, raw.length);}
+",56,"public final String getFullMessage() {byte[] raw = buffer;int msgB = RawParseUtils.tagMessage(raw, 0);if (msgB < 0) {return """"; }return RawParseUtils.decode(guessEncoding(), raw, msgB, raw.length);}
+","public string GetFullMessage(){byte[] raw = buffer;int msgB = RawParseUtils.TagMessage(raw, 0);if (msgB < 0){return string.Empty;}Encoding enc = RawParseUtils.ParseEncoding(raw);return RawParseUtils.Decode(enc, raw, msgB, raw.Length);}
+",,,-1,"getFullMessage,raw,msgB","getFullMessage:0,raw:0,msgB:0,",0,0,,0,0,Greedy,36,1.5433502435684203,failed,[],0,0
+7,"public POIFSFileSystem() {this(true);_header.setBATCount(1);_header.setBATArray(new int[]{1});BATBlock bb = BATBlock.createEmptyBATBlock(bigBlockSize, false);bb.setOurBlockIndex(1);_bat_blocks.add(bb);setNextBlock(0, POIFSConstants.END_OF_CHAIN);setNextBlock(1, POIFSConstants.FAT_SECTOR_BLOCK);_property_table.setStartBlock(0);}
+",82,"public POIFSFileSystem() {this(true);_header.setBATCount(1);_header.setBATArray(new int[]{1});BATBlock bb = BATBlock.createEmptyBATBlock(bigBlockSize, false);bb.setOurBlockIndex(1);_bat_blocks.add(bb);setNextBlock(0, POIFSConstants.END_OF_CHAIN);setNextBlock(1, POIFSConstants.FAT_SECTOR_BLOCK);_property_table.setStartBlock(0);}
+","public POIFSFileSystem(){HeaderBlock headerBlock = new HeaderBlock(bigBlockSize);_property_table = new PropertyTable(headerBlock);_documents      = new ArrayList();_root           = null;}
+",,,-1,"this,bb","this:0,bb:0,",0,0,,0,0,Greedy,14,0.43612921237945557,failed,[],0,0
+8,"public void init(int address) {slice = pool.buffers[address >> ByteBlockPool.BYTE_BLOCK_SHIFT];assert slice != null;upto = address & ByteBlockPool.BYTE_BLOCK_MASK;offset0 = address;assert upto < slice.length;}
+",46,"public void init(int address) {slice = pool.buffers[address >> ByteBlockPool.BYTE_BLOCK_SHIFT];assert slice != null;upto = address & ByteBlockPool.BYTE_BLOCK_MASK;offset0 = address;assert upto < slice.length;}
+","public void Init(int address){slice = pool.Buffers[address >> ByteBlockPool.BYTE_BLOCK_SHIFT];Debug.Assert(slice != null);upto = address & ByteBlockPool.BYTE_BLOCK_MASK;offset0 = address;Debug.Assert(upto < slice.Length);}
+",,,-1,"init,address,slice,upto,offset0","init:0,address:0,slice:0,upto:0,offset0:0,",0,0,,0,0,Greedy,97,4.4838055292765295,failed,[],0,0
+9,"public SubmoduleAddCommand setPath(String path) {this.path = path;return this;}
+",18,"public SubmoduleAddCommand setPath(String path) {this.path = path;return this;}
+","public virtual NGit.Api.SubmoduleAddCommand SetPath(string path){this.path = path;return this;}
+",,,-1,"setPath,path","setPath:0,path:0,",0,0,,0,0,Greedy,16,0.9198654691378275,failed,[],0,0
+10,"public ListIngestionsResult listIngestions(ListIngestionsRequest request) {request = beforeClientExecution(request);return executeListIngestions(request);}
+",22,"public ListIngestionsResult listIngestions(ListIngestionsRequest request) {request = beforeClientExecution(request);return executeListIngestions(request);}
+","public virtual ListIngestionsResponse ListIngestions(ListIngestionsRequest request){var options = new InvokeOptions();options.RequestMarshaller = ListIngestionsRequestMarshaller.Instance;options.ResponseUnmarshaller = ListIngestionsResponseUnmarshaller.Instance;return Invoke<ListIngestionsResponse>(request, options);}
+",,,-1,"listIngestions,request","listIngestions:0,request:0,",0,0,,0,0,Greedy,20,1.0609082102775573,failed,[],0,0
+11,"public QueryParserTokenManager(CharStream stream, int lexState){this(stream);SwitchTo(lexState);}
+",21,"public QueryParserTokenManager(CharStream stream, int lexState){this(stream);SwitchTo(lexState);}
+","public QueryParserTokenManager(ICharStream stream, int lexState): this(stream){SwitchTo(lexState);}
+",,,-1,"stream,lexState","stream:0,lexState:0,",0,0,,0,0,Greedy,18,1.0225754340489706,failed,[],0,0
+12,"public GetShardIteratorResult getShardIterator(GetShardIteratorRequest request) {request = beforeClientExecution(request);return executeGetShardIterator(request);}
+",22,"public GetShardIteratorResult getShardIterator(GetShardIteratorRequest request) {request = beforeClientExecution(request);return executeGetShardIterator(request);}
+","public virtual GetShardIteratorResponse GetShardIterator(GetShardIteratorRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetShardIteratorRequestMarshaller.Instance;options.ResponseUnmarshaller = GetShardIteratorResponseUnmarshaller.Instance;return Invoke<GetShardIteratorResponse>(request, options);}
+",,,-1,"getShardIterator,request","getShardIterator:0,request:0,",0,0,,0,0,Greedy,20,0.9317553242047628,failed,[],0,0
+13,"public ModifyStrategyRequest() {super(""aegis"", ""2016-11-11"", ""ModifyStrategy"", ""vipaegis"");setMethod(MethodType.POST);}
+",25,,"public ModifyStrategyRequest(): base(""aegis"", ""2016-11-11"", ""ModifyStrategy"", ""vipaegis"", ""openAPI""){Method = MethodType.POST;}
+",,,-3,,,,,,0,0,Greedy,1,0.05484366019566854,,,0,0
+14,"public boolean ready() throws IOException {synchronized (lock) {if (in == null) {throw new IOException(""InputStreamReader is closed"");}try {return bytes.hasRemaining() || in.available() > 0;} catch (IOException e) {return false;}}}
+",60,"public boolean ready() throws IOException {synchronized (lock) {if (in == null) {throw new IOException(""InputStreamReader is closed"");}try {return bytes.hasRemaining() || in.available() > 0;} catch (IOException e) {return false;}}}
+","public override bool ready(){lock (@lock){if (@in == null){throw new System.IO.IOException(""InputStreamReader is closed"");}try{return bytes.hasRemaining() || @in.available() > 0;}catch (System.IO.IOException){return false;}}}
+",,,-1,ready,"ready:0,",0,0,,0,0,Greedy,7,0.3287559429804484,failed,[],0,0
+15,"public EscherOptRecord getOptRecord() {return _optRecord;}
+",10,"public EscherOptRecord getOptRecord() {return _optRecord;}
+","protected internal EscherOptRecord GetOptRecord(){return _optRecord;}
+",,,-1,getOptRecord,"getOptRecord:0,",0,0,,0,0,Greedy,7,0.4131742556889852,failed,[],0,0
+16,"public synchronized int read(byte[] buffer, int offset, int length) {if (buffer == null) {throw new NullPointerException(""buffer == null"");}Arrays.checkOffsetAndCount(buffer.length, offset, length);if (length == 0) {return 0;}int copylen = count - pos < length ? count - pos : length;for (int i = 0; i < copylen; i++) {buffer[offset + i] = (byte) this.buffer.charAt(pos + i);}pos += copylen;return copylen;}
+",117,"public synchronized int read(byte[] buffer, int offset, int length) {if (buffer == null) {throw new NullPointerException(""buffer == null"");}Arrays.checkOffsetAndCount(buffer.length, offset, length);if (length == 0) {return 0;}int copylen = count - pos < length ? count - pos : length;for (int i = 0; i < copylen; i++) {buffer[offset + i] = (byte) this.buffer.charAt(pos + i);}pos += copylen;return copylen;}
+","public override int read(byte[] buffer, int offset, int length){lock (this){if (buffer == null){throw new System.ArgumentNullException(""buffer == null"");}java.util.Arrays.checkOffsetAndCount(buffer.Length, offset, length);if (length == 0){return 0;}int copylen = count - pos < length ? count - pos : length;{for (int i = 0; i < copylen; i++){buffer[offset + i] = unchecked((byte)this.buffer[pos + i]);}}pos += copylen;return copylen;}}
+",,,-1,"read,buffer,offset,length,copylen,i,pos","read:0,buffer:0,offset:0,length:0,copylen:0,i:0,pos:0,",0,0,,0,0,Greedy,170,5.268937281767527,failed,[],0,0
+17,"public OpenNLPSentenceBreakIterator(NLPSentenceDetectorOp sentenceOp) {this.sentenceOp = sentenceOp;}
+",14,"public OpenNLPSentenceBreakIterator(NLPSentenceDetectorOp sentenceOp) {this.sentenceOp = sentenceOp;}
+","public OpenNLPSentenceBreakIterator(NLPSentenceDetectorOp sentenceOp){this.sentenceOp = sentenceOp;}
+",,,-1,sentenceOp,"sentenceOp:0,",0,0,,0,0,Greedy,9,0.5048107941945393,failed,[],0,0
+18,"public void print(String str) {write(str != null ? str : String.valueOf((Object) null));}
+",28,"public void print(String str) {write(str != null ? str : String.valueOf((Object) null));}
+","public virtual void print(string str){write(str != null ? str : Sharpen.StringHelper.GetValueOf((object)null));}
+",,,-1,"print,str","print:0,str:0,",0,0,,0,0,Greedy,20,1.1186998645464579,failed,[],0,0
+19,"public NotImplementedFunctionException(String functionName, NotImplementedException cause) {super(functionName, cause);this.functionName = functionName;}
+",24,"public NotImplementedFunctionException(String functionName, NotImplementedException cause) {super(functionName, cause);this.functionName = functionName;}
+","public NotImplementedFunctionException(string functionName, NotImplementedException cause): base(functionName,cause){this.functionName = functionName;}
+",,,-1,"functionName,cause","functionName:0,cause:0,",0,0,,0,0,Greedy,24,1.312198785940806,failed,[],0,0
+20,"public V next() {return super.nextEntry().getValue();}
+",18,"public V next() {return super.nextEntry().getValue();}
+","public override V next(){return this.nextEntry().value;}
+",,,-1,next,"next:0,",0,0,,0,0,Greedy,7,0.34508980909983317,failed,[],0,0
+21,"public final void readBytes(byte[] b, int offset, int len, boolean useBuffer) throws IOException {int available = bufferLength - bufferPosition;if(len <= available){if(len>0) System.arraycopy(buffer, bufferPosition, b, offset, len);bufferPosition+=len;} else {if(available > 0){System.arraycopy(buffer, bufferPosition, b, offset, available);offset += available;len -= available;bufferPosition += available;}if (useBuffer && len<bufferSize){refill();if(bufferLength<len){System.arraycopy(buffer, 0, b, offset, bufferLength);throw new EOFException(""read past EOF: "" + this);} else {System.arraycopy(buffer, 0, b, offset, len);bufferPosition=len;}} else {long after = bufferStart+bufferPosition+len;if(after > length())throw new EOFException(""read past EOF: "" + this);readInternal(b, offset, len);bufferStart = after;bufferPosition = 0;bufferLength = 0;                    }}}
+",224,"public final void readBytes(byte[] b, int offset, int len, boolean useBuffer) throws IOException {int available = bufferLength - bufferPosition;if(len <= available){if(len>0) System.arraycopy(buffer, bufferPosition, b, offset, len);bufferPosition+=len;} else {if(available > 0){System.arraycopy(buffer, bufferPosition, b, offset, available);offset += available;len -= available;bufferPosition += available;}if (useBuffer && len<bufferSize){refill();if(bufferLength<len){System.arraycopy(buffer, 0, b, offset, bufferLength);throw new EOFException(""read past EOF: "" + this);} else {System.arraycopy(buffer, 0, b, offset, len);bufferPosition=len;}} else {long after = bufferStart+bufferPosition+len;if(after > length())throw new EOFException(""read past EOF: "" + this);readInternal(b, offset, len);bufferStart = after;bufferPosition = 0;bufferLength = 0;                    }}}
+","public override sealed void ReadBytes(byte[] b, int offset, int len, bool useBuffer){int available = bufferLength - bufferPosition;if (len <= available){if (len > 0) {Buffer.BlockCopy(m_buffer, bufferPosition, b, offset, len);}bufferPosition += len;}else{if (available > 0){Buffer.BlockCopy(m_buffer, bufferPosition, b, offset, available);offset += available;len -= available;bufferPosition += available;}if (useBuffer && len < bufferSize){Refill();if (bufferLength < len){Buffer.BlockCopy(m_buffer, 0, b, offset, bufferLength);throw new EndOfStreamException(""read past EOF: "" + this);}else{Buffer.BlockCopy(m_buffer, 0, b, offset, len);bufferPosition = len;}}else{long after = bufferStart + bufferPosition + len;if (after > Length){throw new EndOfStreamException(""read past EOF: "" + this);}ReadInternal(b, offset, len);bufferStart = after;bufferPosition = 0;bufferLength = 0; }}}
+",,,-1,"readBytes,b,offset,len,useBuffer,available,bufferPosition,after,bufferStart,bufferLength","readBytes:0,b:0,offset:0,len:0,useBuffer:0,available:0,bufferPosition:0,after:0,bufferStart:0,bufferLength:0,",0,0,,0,0,Greedy,312,0.0950329860051473,failed,[],0,0
+22,"public TagQueueResult tagQueue(TagQueueRequest request) {request = beforeClientExecution(request);return executeTagQueue(request);}
+",22,"public TagQueueResult tagQueue(TagQueueRequest request) {request = beforeClientExecution(request);return executeTagQueue(request);}
+","public virtual TagQueueResponse TagQueue(TagQueueRequest request){var options = new InvokeOptions();options.RequestMarshaller = TagQueueRequestMarshaller.Instance;options.ResponseUnmarshaller = TagQueueResponseUnmarshaller.Instance;return Invoke<TagQueueResponse>(request, options);}
+",,,-1,"tagQueue,request","tagQueue:0,request:0,",0,0,,0,0,Greedy,23,1.211051634947459,failed,[],0,0
+23,"public void remove() {throw new UnsupportedOperationException();}
+",13,"public void remove() {throw new UnsupportedOperationException();}
+","public override void Remove(){throw new NotSupportedException();}
+",,,-1,remove,"remove:0,",0,0,,0,0,Greedy,7,0.4111705700556437,failed,[],0,0
+24,"public CacheSubnetGroup modifyCacheSubnetGroup(ModifyCacheSubnetGroupRequest request) {request = beforeClientExecution(request);return executeModifyCacheSubnetGroup(request);}
+",22,"public CacheSubnetGroup modifyCacheSubnetGroup(ModifyCacheSubnetGroupRequest request) {request = beforeClientExecution(request);return executeModifyCacheSubnetGroup(request);}
+","public virtual ModifyCacheSubnetGroupResponse ModifyCacheSubnetGroup(ModifyCacheSubnetGroupRequest request){var options = new InvokeOptions();options.RequestMarshaller = ModifyCacheSubnetGroupRequestMarshaller.Instance;options.ResponseUnmarshaller = ModifyCacheSubnetGroupResponseUnmarshaller.Instance;return Invoke<ModifyCacheSubnetGroupResponse>(request, options);}
+",,,-1,"modifyCacheSubnetGroup,request","modifyCacheSubnetGroup:0,request:0,",0,0,,0,0,Greedy,22,1.1463715155919394,failed,[],0,0
+25,"public void setParams(String params) {super.setParams(params);language = country = variant = """";StringTokenizer st = new StringTokenizer(params, "","");if (st.hasMoreTokens())language = st.nextToken();if (st.hasMoreTokens())country = st.nextToken();if (st.hasMoreTokens())variant = st.nextToken();}
+",83,"public void setParams(String params) {super.setParams(params);language = country = variant = """";StringTokenizer st = new StringTokenizer(params, "","");if (st.hasMoreTokens())language = st.nextToken();if (st.hasMoreTokens())country = st.nextToken();if (st.hasMoreTokens())variant = st.nextToken();}
+","public override void SetParams(string @params){base.SetParams(@params);culture = """";string ignore;StringTokenizer st = new StringTokenizer(@params, "","");if (st.MoveNext())culture = st.Current;if (st.MoveNext())culture += ""-"" + st.Current;if (st.MoveNext())ignore = st.Current;}
+",,,-1,"setParams,params,language,country,st,variant","setParams:0,params:0,language:0,country:0,st:0,variant:0,",0,0,,0,0,Greedy,126,5.088562393188477,failed,[],0,0
+26,"public DeleteDocumentationVersionResult deleteDocumentationVersion(DeleteDocumentationVersionRequest request) {request = beforeClientExecution(request);return executeDeleteDocumentationVersion(request);}
+",22,"public DeleteDocumentationVersionResult deleteDocumentationVersion(DeleteDocumentationVersionRequest request) {request = beforeClientExecution(request);return executeDeleteDocumentationVersion(request);}
+","public virtual DeleteDocumentationVersionResponse DeleteDocumentationVersion(DeleteDocumentationVersionRequest request){var options = new InvokeOptions();options.RequestMarshaller = DeleteDocumentationVersionRequestMarshaller.Instance;options.ResponseUnmarshaller = DeleteDocumentationVersionResponseUnmarshaller.Instance;return Invoke<DeleteDocumentationVersionResponse>(request, options);}
+",,,-1,"deleteDocumentationVersion,request","deleteDocumentationVersion:0,request:0,",0,0,,0,0,Greedy,20,1.0575087745984395,failed,[],0,0
+27,"public boolean equals(Object obj) {if (!(obj instanceof FacetLabel)) {return false;}FacetLabel other = (FacetLabel) obj;if (length != other.length) {return false; }for (int i = length - 1; i >= 0; i--) {if (!components[i].equals(other.components[i])) {return false;}}return true;}
+",90,"public boolean equals(Object obj) {if (!(obj instanceof FacetLabel)) {return false;}FacetLabel other = (FacetLabel) obj;if (length != other.length) {return false; }for (int i = length - 1; i >= 0; i--) {if (!components[i].equals(other.components[i])) {return false;}}return true;}
+","public override bool Equals(object obj){if (!(obj is FacetLabel)){return false;}FacetLabel other = (FacetLabel)obj;if (Length != other.Length){return false; }for (int i = Length - 1; i >= 0; i--){if (!Components[i].Equals(other.Components[i], StringComparison.Ordinal)){return false;}}return true;}
+",,,-1,"equals,obj,other,i","equals:0,obj:0,other:0,i:0,",0,0,,0,0,Greedy,61,2.3191749612490336,failed,[],0,0
+28,"public GetInstanceAccessDetailsResult getInstanceAccessDetails(GetInstanceAccessDetailsRequest request) {request = beforeClientExecution(request);return executeGetInstanceAccessDetails(request);}
+",22,"public GetInstanceAccessDetailsResult getInstanceAccessDetails(GetInstanceAccessDetailsRequest request) {request = beforeClientExecution(request);return executeGetInstanceAccessDetails(request);}
+","public virtual GetInstanceAccessDetailsResponse GetInstanceAccessDetails(GetInstanceAccessDetailsRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetInstanceAccessDetailsRequestMarshaller.Instance;options.ResponseUnmarshaller = GetInstanceAccessDetailsResponseUnmarshaller.Instance;return Invoke<GetInstanceAccessDetailsResponse>(request, options);}
+",,,-1,"getInstanceAccessDetails,request","getInstanceAccessDetails:0,request:0,",0,0,,0,0,Greedy,19,1.016900090376536,failed,[],0,0
+29,"public HSSFPolygon createPolygon(HSSFChildAnchor anchor) {HSSFPolygon shape = new HSSFPolygon(this, anchor);shape.setParent(this);shape.setAnchor(anchor);shapes.add(shape);onCreate(shape);return shape;}
+",49,"public HSSFPolygon createPolygon(HSSFChildAnchor anchor) {HSSFPolygon shape = new HSSFPolygon(this, anchor);shape.setParent(this);shape.setAnchor(anchor);shapes.add(shape);onCreate(shape);return shape;}
+","public HSSFPolygon CreatePolygon(HSSFChildAnchor anchor){HSSFPolygon shape = new HSSFPolygon(this, anchor);shape.Parent = this;shape.Anchor = anchor;shapes.Add(shape);OnCreate(shape);return shape;}
+",,,-1,"createPolygon,anchor,shape","createPolygon:0,anchor:0,shape:0,",0,0,,0,0,Greedy,37,1.6544296344121296,failed,[],0,0
+30,"public String getSheetName(int sheetIndex) {return getBoundSheetRec(sheetIndex).getSheetname();}
+",19,"public String getSheetName(int sheetIndex) {return getBoundSheetRec(sheetIndex).getSheetname();}
+","public String GetSheetName(int sheetIndex){return GetBoundSheetRec(sheetIndex).Sheetname;}
+",,,-1,"getSheetName,sheetIndex","getSheetName:0,sheetIndex:0,",0,0,,0,0,Greedy,15,0.8268406867980957,failed,[],0,0
+31,"public GetDashboardResult getDashboard(GetDashboardRequest request) {request = beforeClientExecution(request);return executeGetDashboard(request);}
+",22,"public GetDashboardResult getDashboard(GetDashboardRequest request) {request = beforeClientExecution(request);return executeGetDashboard(request);}
+","public virtual GetDashboardResponse GetDashboard(GetDashboardRequest request){var options = new InvokeOptions();options.RequestMarshaller = GetDashboardRequestMarshaller.Instance;options.ResponseUnmarshaller = GetDashboardResponseUnmarshaller.Instance;return Invoke<GetDashboardResponse>(request, options);}
+",,,-1,"getDashboard,request","getDashboard:0,request:0,",0,0,,0,0,Greedy,20,1.0755069255828857,failed,[],0,0
+32,"public AssociateSigninDelegateGroupsWithAccountResult associateSigninDelegateGroupsWithAccount(AssociateSigninDelegateGroupsWithAccountRequest request) {request = beforeClientExecution(request);return executeAssociateSigninDelegateGroupsWithAccount(request);}
+",22,"public AssociateSigninDelegateGroupsWithAccountResult associateSigninDelegateGroupsWithAccount(AssociateSigninDelegateGroupsWithAccountRequest request) {request = beforeClientExecution(request);return executeAssociateSigninDelegateGroupsWithAccount(request);}
+","public virtual AssociateSigninDelegateGroupsWithAccountResponse AssociateSigninDelegateGroupsWithAccount(AssociateSigninDelegateGroupsWithAccountRequest request){var options = new InvokeOptions();options.RequestMarshaller = AssociateSigninDelegateGroupsWithAccountRequestMarshaller.Instance;options.ResponseUnmarshaller = AssociateSigninDelegateGroupsWithAccountResponseUnmarshaller.Instance;return Invoke<AssociateSigninDelegateGroupsWithAccountResponse>(request, options);}
+",,,-1,"associateSigninDelegateGroupsWithAccount,request","associateSigninDelegateGroupsWithAccount:0,request:0,",0,0,,0,0,Greedy,18,0.8593805154164632,failed,[],0,0
+33,"public void addMultipleBlanks(MulBlankRecord mbr) {for (int j = 0; j < mbr.getNumColumns(); j++) {BlankRecord br = new BlankRecord();br.setColumn(( short ) (j + mbr.getFirstColumn()));br.setRow(mbr.getRow());br.setXFIndex(mbr.getXFAt(j));insertCell(br);}}
+",85,"public void addMultipleBlanks(MulBlankRecord mbr) {for (int j = 0; j < mbr.getNumColumns(); j++) {BlankRecord br = new BlankRecord();br.setColumn(( short ) (j + mbr.getFirstColumn()));br.setRow(mbr.getRow());br.setXFIndex(mbr.getXFAt(j));insertCell(br);}}
+","public void AddMultipleBlanks(MulBlankRecord mbr){for (int j = 0; j < mbr.NumColumns; j++){BlankRecord br = new BlankRecord();br.Column = j + mbr.FirstColumn;br.Row = mbr.Row;br.XFIndex = (mbr.GetXFAt(j));InsertCell(br);}}
+",,,-1,"addMultipleBlanks,mbr,j,br","addMultipleBlanks:0,mbr:0,j:0,br:0,",0,0,,0,0,Greedy,65,2.474621506532033,failed,[],0,0

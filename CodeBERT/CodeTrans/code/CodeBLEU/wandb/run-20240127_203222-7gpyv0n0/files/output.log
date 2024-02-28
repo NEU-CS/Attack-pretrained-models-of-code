@@ -1,0 +1,31 @@
+
+You're using a RobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'BLEU': 0.16788895522398398, 'Weighted_BLEU': 0.264881557577412, 'Syntax Match accuracy': 0.21702255639097745, 'Dataflow_match accuracy': 0.06910946196660482, 'CodeBLEU': 0.17972563278974457}
+{'BLEU': 0.17410464991646177, 'Weighted_BLEU': 0.27498670881505, 'Syntax Match accuracy': 0.22075187969924812, 'Dataflow_match accuracy': 0.06833642547928262, 'CodeBLEU': 0.18454491597751063}
+{'BLEU': 0.17655269773708288, 'Weighted_BLEU': 0.2794505699821845, 'Syntax Match accuracy': 0.21954887218045113, 'Dataflow_match accuracy': 0.06771799628942486, 'CodeBLEU': 0.18581753404728585}
+{'BLEU': 0.17896400422463646, 'Weighted_BLEU': 0.2831551099110266, 'Syntax Match accuracy': 0.21936842105263157, 'Dataflow_match accuracy': 0.06771799628942486, 'CodeBLEU': 0.18730138286942988}
+{'BLEU': 0.17967778170203705, 'Weighted_BLEU': 0.28454932504624536, 'Syntax Match accuracy': 0.21990977443609022, 'Dataflow_match accuracy': 0.06802721088435375, 'CodeBLEU': 0.1880410230171816}
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+{'BLEU': 0.17454341011039404, 'Weighted_BLEU': 0.27688955157556394, 'Syntax Match accuracy': 0.21894736842105264, 'Dataflow_match accuracy': 0.06818181818181818, 'CodeBLEU': 0.18464053707220718}
+{'BLEU': 0.17934887565179408, 'Weighted_BLEU': 0.2834817123851554, 'Syntax Match accuracy': 0.22099248120300752, 'Dataflow_match accuracy': 0.06725417439703155, 'CodeBLEU': 0.18776931090924712}
+{'BLEU': 0.18322357691986213, 'Weighted_BLEU': 0.28940527940382554, 'Syntax Match accuracy': 0.22075187969924812, 'Dataflow_match accuracy': 0.06586270871985157, 'CodeBLEU': 0.18981086118569684}
+{'BLEU': 0.18555647824180005, 'Weighted_BLEU': 0.2927523719910584, 'Syntax Match accuracy': 0.2230375939849624, 'Dataflow_match accuracy': 0.06694495980210266, 'CodeBLEU': 0.1920728510049809}
+{'BLEU': 0.18492652657116737, 'Weighted_BLEU': 0.29327241597043274, 'Syntax Match accuracy': 0.22261654135338346, 'Dataflow_match accuracy': 0.06617192331478046, 'CodeBLEU': 0.19174685180244103}
+{'BLEU': 0.18335635067005518, 'Weighted_BLEU': 0.2919320409782095, 'Syntax Match accuracy': 0.22297744360902255, 'Dataflow_match accuracy': 0.06617192331478046, 'CodeBLEU': 0.19110943964301694}
+{'BLEU': 0.1849552216522859, 'Weighted_BLEU': 0.2939046459673134, 'Syntax Match accuracy': 0.22147368421052632, 'Dataflow_match accuracy': 0.06648113790970933, 'CodeBLEU': 0.19170367243495876}
+{'BLEU': 0.1841174206170917, 'Weighted_BLEU': 0.29356997106040106, 'Syntax Match accuracy': 0.22057142857142858, 'Dataflow_match accuracy': 0.06570810142238713, 'CodeBLEU': 0.1909917304178271}
+{'BLEU': 0.184986069200051, 'Weighted_BLEU': 0.2939374470403457, 'Syntax Match accuracy': 0.22345864661654136, 'Dataflow_match accuracy': 0.06694495980210266, 'CodeBLEU': 0.19233178066476017}
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+{'BLEU': 0.16227462101527013, 'Weighted_BLEU': 0.2547654338737003, 'Syntax Match accuracy': 0.2144360902255639, 'Dataflow_match accuracy': 0.06802721088435375, 'CodeBLEU': 0.174875838999722}
+{'BLEU': 0.16947536082209858, 'Weighted_BLEU': 0.26501095692419474, 'Syntax Match accuracy': 0.2161203007518797, 'Dataflow_match accuracy': 0.0663265306122449, 'CodeBLEU': 0.17923328727760449}
+{'BLEU': 0.17071992170394654, 'Weighted_BLEU': 0.26879353770363873, 'Syntax Match accuracy': 0.2181654135338346, 'Dataflow_match accuracy': 0.0670995670995671, 'CodeBLEU': 0.18119461001024673}
+{'BLEU': 0.17263896356018313, 'Weighted_BLEU': 0.2717404838378375, 'Syntax Match accuracy': 0.21900751879699248, 'Dataflow_match accuracy': 0.06833642547928262, 'CodeBLEU': 0.18293084791857395}
+{'BLEU': 0.1734474912996683, 'Weighted_BLEU': 0.273930783090066, 'Syntax Match accuracy': 0.21882706766917293, 'Dataflow_match accuracy': 0.06880024737167595, 'CodeBLEU': 0.18375139735764578}
+{'BLEU': 0.17476811230793746, 'Weighted_BLEU': 0.2755592177472278, 'Syntax Match accuracy': 0.22003007518796994, 'Dataflow_match accuracy': 0.06972789115646258, 'CodeBLEU': 0.18502132409989944}
+{'BLEU': 0.17636232775958738, 'Weighted_BLEU': 0.2788778312198252, 'Syntax Match accuracy': 0.218406015037594, 'Dataflow_match accuracy': 0.06771799628942486, 'CodeBLEU': 0.18534104257660786}
+{'BLEU': 0.17824527426282596, 'Weighted_BLEU': 0.28213132131140795, 'Syntax Match accuracy': 0.2194887218045113, 'Dataflow_match accuracy': 0.0678726035868893, 'CodeBLEU': 0.18693448024140863}
+{'BLEU': 0.17792163619555468, 'Weighted_BLEU': 0.28137159474277007, 'Syntax Match accuracy': 0.21930827067669173, 'Dataflow_match accuracy': 0.0678726035868893, 'CodeBLEU': 0.18661852630047643}
+{'BLEU': 0.17794561094378297, 'Weighted_BLEU': 0.2818379826407843, 'Syntax Match accuracy': 0.21876691729323308, 'Dataflow_match accuracy': 0.06756338899196042, 'CodeBLEU': 0.1865284749674402}
+{'BLEU': 0.17945436780418492, 'Weighted_BLEU': 0.2840380065309166, 'Syntax Match accuracy': 0.21972932330827066, 'Dataflow_match accuracy': 0.06740878169449598, 'CodeBLEU': 0.18765761983446702}
+{'BLEU': 0.17835152370548504, 'Weighted_BLEU': 0.28262834360004013, 'Syntax Match accuracy': 0.2194887218045113, 'Dataflow_match accuracy': 0.06725417439703155, 'CodeBLEU': 0.186930690876767}
+{'BLEU': 0.1790320116334277, 'Weighted_BLEU': 0.2832940053608256, 'Syntax Match accuracy': 0.21930827067669173, 'Dataflow_match accuracy': 0.06756338899196042, 'CodeBLEU': 0.18729941916572637}

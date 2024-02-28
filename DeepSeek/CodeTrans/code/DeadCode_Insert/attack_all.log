@@ -1,0 +1,6 @@
+INFO 02-28 17:10:48 llm_engine.py:72] Initializing an LLM engine with config: model='deepseek-ai/deepseek-coder-6.7b-base', tokenizer='deepseek-ai/deepseek-coder-6.7b-base', tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=512, download_dir=None, load_format=auto, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, seed=0)
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+INFO 02-28 17:10:50 weight_utils.py:164] Using model weights format ['*.bin']
+INFO 02-28 17:10:58 llm_engine.py:322] # GPU blocks: 669, # CPU blocks: 512
+INFO 02-28 17:10:59 model_runner.py:632] Capturing the model for CUDA graphs. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI.
+INFO 02-28 17:10:59 model_runner.py:636] CUDA graphs can take additional 1~3 GiB memory per GPU. If you are running out of memory, consider decreasing `gpu_memory_utilization` or enforcing eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.

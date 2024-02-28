@@ -1,0 +1,3474 @@
+enter
+LABEL_0 LABEL_0 0.127025306224823
+ACC! start => now prob: 0.127025306224823 => 0.11222612857818604
+NOACC! min => core prob: 0.11222612857818604 => 0.12631742656230927
+ACC! numbers => Nums prob: 0.11222612857818604 => 0.10244613885879517
+ACC! end => all prob: 0.10244613885879517 => 0.09513366222381592
+SUC! numCases => numPases prob: 0.09513366222381592 => 0.07189662754535675 label LABEL_40
+Example time cost:  0.27 min
+ALL examples time cost:  0.27 min
+Query times in this attack:  82
+Greedy query times: 82
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  82
+All sub index: 0
+Avg sub index 0
+Success rate:  1.0
+Successful items count:  1
+Total count:  1
+Index:  0
+
+enter
+LABEL_0 LABEL_0 0.33858633041381836
+ACC! num_cases =>  num67sections prob: 0.33858633041381836 => 0.18712638318538666
+NOACC! scores_raw => scorer_Raw prob: 0.18712638318538666 => 0.18843971192836761
+ACC! numPass =>  numPASS prob: 0.18712638318538666 => 0.17462250590324402
+ACC! scores =>  score prob: 0.17462250590324402 => 0.15477187931537628
+ACC! line => l prob: 0.15477187931537628 => 0.15401475131511688
+SUC! table => file prob: 0.15401475131511688 => 0.17204289138317108 label LABEL_26
+Example time cost:  0.29 min
+ALL examples time cost:  0.56 min
+Query times in this attack:  90
+Greedy query times: 90
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  172
+All sub index: 0
+Avg sub index 0
+Success rate:  1.0
+Successful items count:  2
+Total count:  2
+Index:  1
+
+enter
+LABEL_1 LABEL_1 0.9718116521835327
+ACC! outfile =>  outformat prob: 0.9718116521835327 => 0.9167633056640625
+ACC! result => error prob: 0.9167633056640625 => 0.908267617225647
+ACC! f_in =>  f__again prob: 0.908267617225647 => 0.8191295862197876
+ACC! base_hi =>  base_hu prob: 0.8191295862197876 => 0.8061009645462036
+ACC! base => name prob: 0.8061009645462036 => 0.7579259872436523
+NOACC! num => node prob: 0.7579259872436523 => 0.7587690949440002
+ACC! ncases => necases prob: 0.7579259872436523 => 0.7477598786354065
+NOACC! s => h prob: 0.7477598786354065 => 0.7525631189346313
+ACC! end_idx => end_Idz prob: 0.7477598786354065 => 0.7413269281387329
+ACC! hi => wa prob: 0.7413269281387329 => 0.7176100015640259
+NOACC! f_out => f_again prob: 0.7176100015640259 => 0.7454943656921387
+NOACC! sub => section prob: 0.7176100015640259 => 0.7290666103363037
+NOACC! lines => codes prob: 0.7176100015640259 => 0.7479274868965149
+NOACC! ci => le prob: 0.7176100015640259 => 0.7188003063201904
+ACC! cnt => Cno prob: 0.7176100015640259 => 0.7171486020088196
+NOACC! base_lo => base_low prob: 0.7171486020088196 => 0.7272403836250305
+ACC! line => key prob: 0.7171486020088196 => 0.7069897651672363
+ACC! infile =>  infilename prob: 0.7069897651672363 => 0.6497699022293091
+ACC! lo => ri prob: 0.6497699022293091 => 0.6182761788368225
+ACC! basename => baseeless prob: 0.6182761788368225 => 0.5892130732536316
+ACC! i => col prob: 0.5892130732536316 => 0.5812063813209534
+Example time cost:  0.91 min
+ALL examples time cost:  1.47 min
+Query times in this attack:  290
+Greedy query times: 290
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  462
+All sub index: 0
+Avg sub index 0
+Success rate:  0.6666666666666666
+Successful items count:  2
+Total count:  3
+Index:  2
+
+enter
+LABEL_1 LABEL_1 0.9755975008010864
+ACC! outfile =>  outfilename prob: 0.9755975008010864 => 0.9422532916069031
+ACC! thre_surprise => thre_Survey prob: 0.9422532916069031 => 0.9383743405342102
+ACC! result => grade prob: 0.9383743405342102 => 0.9346923828125
+ACC! S => size prob: 0.9346923828125 => 0.9297507405281067
+ACC! p => pl prob: 0.9297507405281067 => 0.9288449883460999
+ACC! tot =>  tota prob: 0.9288449883460999 => 0.9228740930557251
+ACC! maxdiff =>  maxref prob: 0.9228740930557251 => 0.9124091863632202
+NOACC! ci => case prob: 0.9124091863632202 => 0.9136056303977966
+ACC! f_out =>  f_err prob: 0.9124091863632202 => 0.7414583563804626
+NOACC! s => services prob: 0.7414583563804626 => 0.7558935284614563
+NOACC! f_in => f_again prob: 0.7414583563804626 => 0.7624585628509521
+NOACC! sub => division prob: 0.7414583563804626 => 0.7485576868057251
+NOACC! ncases => ncales prob: 0.7414583563804626 => 0.7575593590736389
+NOACC! lines => tests prob: 0.7414583563804626 => 0.7599264979362488
+NOACC! numdata => tempdata prob: 0.7414583563804626 => 0.765824556350708
+NOACC! thre_normal => thre_norm prob: 0.7414583563804626 => 0.7575168013572693
+NOACC! minval => maxVal prob: 0.7414583563804626 => 0.753476083278656
+ACC! scores => Scales prob: 0.7414583563804626 => 0.7363504767417908
+ACC! N => D prob: 0.7363504767417908 => 0.73561030626297
+ACC! basename => bineme prob: 0.73561030626297 => 0.6586103439331055
+ACC! line => stroke prob: 0.6586103439331055 => 0.6098352074623108
+ACC! infile => outfilename prob: 0.6098352074623108 => 0.5369888544082642
+Example time cost:  0.98 min
+ALL examples time cost:  2.44 min
+Query times in this attack:  309
+Greedy query times: 309
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  771
+All sub index: 0
+Avg sub index 0
+Success rate:  0.5
+Successful items count:  2
+Total count:  4
+Index:  3
+
+enter
+LABEL_37 LABEL_2 0.05573917180299759
+Example time cost:  0.0 min
+ALL examples time cost:  2.45 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  772
+All sub index: 0
+Avg sub index 0
+Success rate:  0.5
+Successful items count:  2
+Total count:  4
+Index:  4
+
+enter
+LABEL_2 LABEL_2 0.9157934188842773
+ACC! caseNo => trialno prob: 0.9157934188842773 => 0.87903892993927
+ACC! score => fee prob: 0.87903892993927 => 0.8589126467704773
+NOACC! N => D prob: 0.8589126467704773 => 0.8643234372138977
+NOACC! mx => cp prob: 0.8589126467704773 => 0.8669670224189758
+ACC! cnt => cno prob: 0.8589126467704773 => 0.8500540852546692
+ACC! S => s prob: 0.8500540852546692 => 0.8453323245048523
+NOACC! lst =>  lbl prob: 0.8453323245048523 => 0.8503534197807312
+ACC! p => b prob: 0.8453323245048523 => 0.843222975730896
+ACC! inf => lo prob: 0.843222975730896 => 0.7554146647453308
+Example time cost:  0.4 min
+ALL examples time cost:  2.85 min
+Query times in this attack:  127
+Greedy query times: 127
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  899
+All sub index: 0
+Avg sub index 0
+Success rate:  0.4
+Successful items count:  2
+Total count:  5
+Index:  5
+
+enter
+LABEL_3 LABEL_3 0.3279275894165039
+ACC! z => ZZ prob: 0.3279275894165039 => 0.18066368997097015
+NOACC! B => BT prob: 0.18066368997097015 => 0.20854592323303223
+NOACC! tab2 =>  tab3 prob: 0.18066368997097015 => 0.1940852850675583
+NOACC! d => vd prob: 0.18066368997097015 => 0.22162984311580658
+NOACC! digsums => digsummies prob: 0.18066368997097015 => 0.1828005015850067
+NOACC! j => ij prob: 0.18066368997097015 => 0.21646325290203094
+ACC! T => Ti prob: 0.18066368997097015 => 0.13818863034248352
+ACC! i => P prob: 0.13818863034248352 => 0.0933036059141159
+NOACC! k => ki prob: 0.0933036059141159 => 0.11246676743030548
+SUC! N => P prob: 0.0933036059141159 => 0.1160513162612915 label LABEL_62
+Example time cost:  0.48 min
+ALL examples time cost:  3.33 min
+Query times in this attack:  151
+Greedy query times: 151
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  1050
+All sub index: 0
+Avg sub index 0
+Success rate:  0.5
+Successful items count:  3
+Total count:  6
+Index:  6
+
+enter
+LABEL_3 LABEL_3 0.6077573299407959
+ACC! B => AR prob: 0.6077573299407959 => 0.517540693283081
+NOACC! A => AB prob: 0.517540693283081 => 0.5557738542556763
+ACC! z => exp prob: 0.517540693283081 => 0.3754742741584778
+ACC! s => v prob: 0.3754742741584778 => 0.34561994671821594
+NOACC! p => pp prob: 0.34561994671821594 => 0.3493085503578186
+NOACC! y => n prob: 0.34561994671821594 => 0.3985075056552887
+NOACC! x => rx prob: 0.34561994671821594 => 0.3626866936683655
+SUC! res => vec prob: 0.34561994671821594 => 0.3326454162597656 label LABEL_22
+Example time cost:  0.35 min
+ALL examples time cost:  3.69 min
+Query times in this attack:  112
+Greedy query times: 112
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  1162
+All sub index: 0
+Avg sub index 0
+Success rate:  0.5714285714285714
+Successful items count:  4
+Total count:  7
+Index:  7
+
+enter
+LABEL_4 LABEL_4 0.8866150379180908
+ACC! i => ib prob: 0.8866150379180908 => 0.685032844543457
+ACC! q => mm prob: 0.685032844543457 => 0.6301066875457764
+NOACC! l2 =>  l4 prob: 0.6301066875457764 => 0.6739593744277954
+ACC! num => mn prob: 0.6301066875457764 => 0.5888923406600952
+ACC! a => aa prob: 0.5888923406600952 => 0.5183437466621399
+ACC! b => bar prob: 0.5183437466621399 => 0.4959467947483063
+ACC! j => J prob: 0.4959467947483063 => 0.45629119873046875
+ACC! x => n prob: 0.45629119873046875 => 0.44478827714920044
+ACC! l => bl prob: 0.44478827714920044 => 0.39307093620300293
+NOACC! line => lines prob: 0.39307093620300293 => 0.4843939244747162
+NOACC! mb => mag prob: 0.39307093620300293 => 0.39959555864334106
+NOACC! ma => Ma prob: 0.39307093620300293 => 0.406570702791214
+NOACC! count => max prob: 0.39307093620300293 => 0.4466823637485504
+ACC! f => feed prob: 0.39307093620300293 => 0.18002834916114807
+Example time cost:  0.57 min
+ALL examples time cost:  4.26 min
+Query times in this attack:  182
+Greedy query times: 182
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  1344
+All sub index: 0
+Avg sub index 0
+Success rate:  0.5
+Successful items count:  4
+Total count:  8
+Index:  8
+
+enter
+LABEL_4 LABEL_4 0.8967311382293701
+ACC! nrpass => mrPASS prob: 0.8967311382293701 => 0.8691168427467346
+ACC! nrsuppass => nroppasses prob: 0.8691168427467346 => 0.8362865447998047
+ACC! res => vals prob: 0.8362865447998047 => 0.8194769620895386
+ACC! x =>  cx prob: 0.8194769620895386 => 0.7424473762512207
+ACC! i => ti prob: 0.7424473762512207 => 0.5718070864677429
+ACC! nrg => pngin prob: 0.5718070864677429 => 0.4867195785045624
+ACC! nrsup =>  nrsupe prob: 0.4867195785045624 => 0.37255364656448364
+NOACC! score => scale prob: 0.37255364656448364 => 0.4032866060733795
+ACC! f => df prob: 0.37255364656448364 => 0.1933329999446869
+NOACC! num => count prob: 0.1933329999446869 => 0.1936185359954834
+Example time cost:  0.44 min
+ALL examples time cost:  4.7 min
+Query times in this attack:  141
+Greedy query times: 141
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  1485
+All sub index: 0
+Avg sub index 0
+Success rate:  0.4444444444444444
+Successful items count:  4
+Total count:  9
+Index:  9
+
+enter
+LABEL_5 LABEL_5 0.9601860642433167
+ACC! raw => path prob: 0.9601860642433167 => 0.9410175681114197
+ACC! in_lines =>  in_cells prob: 0.9410175681114197 => 0.9316118955612183
+ACC! s => stats prob: 0.9316118955612183 => 0.9250447154045105
+ACC! b => xb prob: 0.9250447154045105 => 0.9238170385360718
+NOACC! i => u prob: 0.9238170385360718 => 0.934909999370575
+ACC! outs => charges prob: 0.9238170385360718 => 0.9229817986488342
+ACC! buff => bash prob: 0.9229817986488342 => 0.9047552347183228
+NOACC! n => size prob: 0.9047552347183228 => 0.9076050519943237
+ACC! cl => lo prob: 0.9047552347183228 => 0.9040767550468445
+ACC! out => IN prob: 0.9040767550468445 => 0.8697460293769836
+ACC! bmap => bcap prob: 0.8697460293769836 => 0.8690690994262695
+ACC! ln => line prob: 0.8690690994262695 => 0.8650102615356445
+ACC! td => pt prob: 0.8650102615356445 => 0.8589624762535095
+NOACC! lines => cells prob: 0.8589624762535095 => 0.8766123652458191
+NOACC! x => r prob: 0.8589624762535095 => 0.8701674342155457
+NOACC! amap => pmaps prob: 0.8589624762535095 => 0.8830760717391968
+NOACC! cn => oa prob: 0.8589624762535095 => 0.8727230429649353
+NOACC! j => ri prob: 0.8589624762535095 => 0.8652597665786743
+ACC! m => sm prob: 0.8589624762535095 => 0.851063072681427
+NOACC! t => ot prob: 0.851063072681427 => 0.8670960664749146
+NOACC! rn =>  cx prob: 0.851063072681427 => 0.8520970940589905
+NOACC! sb => sh prob: 0.851063072681427 => 0.8798044323921204
+NOACC! k => l prob: 0.851063072681427 => 0.8779336810112
+NOACC! cmap => rapper prob: 0.851063072681427 => 0.8628917932510376
+NOACC! case => int prob: 0.851063072681427 => 0.8646859526634216
+NOACC! mtx => MTx prob: 0.851063072681427 => 0.866956889629364
+NOACC! rmap => cmaps prob: 0.851063072681427 => 0.8734861612319946
+Example time cost:  1.19 min
+ALL examples time cost:  5.89 min
+Query times in this attack:  375
+Greedy query times: 375
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  1860
+All sub index: 0
+Avg sub index 0
+Success rate:  0.4
+Successful items count:  4
+Total count:  10
+Index:  10
+
+enter
+LABEL_5 LABEL_5 0.9522733092308044
+ACC! data => lines prob: 0.9522733092308044 => 0.9439461827278137
+ACC! input_file =>  input_log prob: 0.9439461827278137 => 0.9326448440551758
+ACC! icase => ikases prob: 0.9326448440551758 => 0.9127055406570435
+ACC! test_file =>  testingdata prob: 0.9127055406570435 => 0.8570483922958374
+ACC! raw => null prob: 0.8570483922958374 => 0.8568724989891052
+ACC! case_input =>  case_file prob: 0.8568724989891052 => 0.8551295399665833
+ACC! n => j prob: 0.8551295399665833 => 0.8464309573173523
+ACC! T => TS prob: 0.8464309573173523 => 0.8458690047264099
+ACC! x => sex prob: 0.8458690047264099 => 0.8414182066917419
+ACC! ct => uc prob: 0.8414182066917419 => 0.8407856822013855
+ACC! iLine =>  iPage prob: 0.8407856822013855 => 0.8226354122161865
+ACC! input => text prob: 0.8226354122161865 => 0.7770165205001831
+NOACC! rslt => srgt prob: 0.7770165205001831 => 0.8121598362922668
+NOACC! caseLineNum => caseRowLen prob: 0.7770165205001831 => 0.8019026517868042
+NOACC! result => counter prob: 0.7770165205001831 => 0.7843328714370728
+NOACC! i => ip prob: 0.7770165205001831 => 0.7781739830970764
+NOACC! ts => lines prob: 0.7770165205001831 => 0.8184143304824829
+NOACC! use_test_data => use_case_Data prob: 0.7770165205001831 => 0.8139686584472656
+NOACC! cc => co prob: 0.7770165205001831 => 0.8123164176940918
+NOACC! test_data =>  test_string prob: 0.7770165205001831 => 0.7887766361236572
+NOACC! case_output => case2output prob: 0.7770165205001831 => 0.8035180568695068
+NOACC! output_file => output_data prob: 0.7770165205001831 => 0.8019835948944092
+Example time cost:  0.94 min
+ALL examples time cost:  6.84 min
+Query times in this attack:  299
+Greedy query times: 299
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  2159
+All sub index: 0
+Avg sub index 0
+Success rate:  0.36363636363636365
+Successful items count:  4
+Total count:  11
+Index:  11
+
+enter
+LABEL_6 LABEL_6 0.2418227344751358
+SUC! B => Z prob: 0.2418227344751358 => 0.19210222363471985 label LABEL_10
+Example time cost:  0.07 min
+ALL examples time cost:  6.91 min
+Query times in this attack:  22
+Greedy query times: 22
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  2181
+All sub index: 0
+Avg sub index 0
+Success rate:  0.4166666666666667
+Successful items count:  5
+Total count:  12
+Index:  12
+
+enter
+LABEL_6 LABEL_6 0.7342588305473328
+ACC! rem => nom prob: 0.7342588305473328 => 0.6971406936645508
+ACC! x => u prob: 0.6971406936645508 => 0.6359268426895142
+ACC! S => SEC prob: 0.6359268426895142 => 0.6325907111167908
+ACC! num => un prob: 0.6325907111167908 => 0.6313190460205078
+NOACC! p => j prob: 0.6313190460205078 => 0.6535243988037109
+ACC! N => k prob: 0.6313190460205078 => 0.6207850575447083
+ACC! line => l prob: 0.6207850575447083 => 0.5313715934753418
+NOACC! quo => QuO prob: 0.5313715934753418 => 0.557510256767273
+NOACC! nums => Nrams prob: 0.5313715934753418 => 0.5761685967445374
+ACC! T => LINE prob: 0.5313715934753418 => 0.5044217109680176
+ACC! count => id prob: 0.5044217109680176 => 0.45039185881614685
+Example time cost:  0.48 min
+ALL examples time cost:  7.39 min
+Query times in this attack:  152
+Greedy query times: 152
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  2333
+All sub index: 0
+Avg sub index 0
+Success rate:  0.38461538461538464
+Successful items count:  5
+Total count:  13
+Index:  13
+
+enter
+LABEL_7 LABEL_7 0.7328755259513855
+ACC! fout =>  finner prob: 0.7328755259513855 => 0.5094729661941528
+ACC! T => Len prob: 0.5094729661941528 => 0.39358142018318176
+ACC! ret => iter prob: 0.39358142018318176 => 0.3628358244895935
+ACC! n2 => nb3 prob: 0.3628358244895935 => 0.33929744362831116
+ACC! A => Ca prob: 0.33929744362831116 => 0.3194115459918976
+ACC! j => adj prob: 0.3194115459918976 => 0.3003288805484772
+ACC! i => l prob: 0.3003288805484772 => 0.28617992997169495
+NOACC! B => QB prob: 0.28617992997169495 => 0.2992737293243408
+NOACC! sq => qi prob: 0.28617992997169495 => 0.30638769268989563
+SUC! fin => fun prob: 0.28617992997169495 => 0.30237236618995667 label LABEL_53
+Example time cost:  0.46 min
+ALL examples time cost:  7.85 min
+Query times in this attack:  144
+Greedy query times: 144
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  2477
+All sub index: 0
+Avg sub index 0
+Success rate:  0.42857142857142855
+Successful items count:  6
+Total count:  14
+Index:  14
+
+enter
+LABEL_7 LABEL_7 0.8060513138771057
+ACC! input_file => output_base prob: 0.8060513138771057 => 0.5740612745285034
+ACC! t => set prob: 0.5740612745285034 => 0.563585102558136
+ACC! N => Q prob: 0.563585102558136 => 0.5581161975860596
+ACC! inp =>  INfile prob: 0.5581161975860596 => 0.4842866361141205
+ACC! data => valid prob: 0.4842866361141205 => 0.47356733679771423
+ACC! br => j prob: 0.47356733679771423 => 0.46936506032943726
+NOACC! i => ai prob: 0.46936506032943726 => 0.4698258340358734
+ACC! sout =>  supdate prob: 0.46936506032943726 => 0.42950350046157837
+ACC! d => fd prob: 0.42950350046157837 => 0.40884894132614136
+ACC! output_file => outputingbase prob: 0.40884894132614136 => 0.3170657157897949
+ACC! l => sol prob: 0.3170657157897949 => 0.3035111129283905
+ACC! ret => b prob: 0.3035111129283905 => 0.3002100884914398
+ACC! n => z prob: 0.3002100884914398 => 0.27565115690231323
+NOACC! p => api prob: 0.27565115690231323 => 0.30222493410110474
+NOACC! S => Q prob: 0.27565115690231323 => 0.2921091914176941
+ACC! out =>  output prob: 0.27565115690231323 => 0.20964400470256805
+ACC! r => P prob: 0.20964400470256805 => 0.18672676384449005
+ACC! lines => elines prob: 0.18672676384449005 => 0.18132151663303375
+Example time cost:  0.75 min
+ALL examples time cost:  8.6 min
+Query times in this attack:  239
+Greedy query times: 239
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  2716
+All sub index: 0
+Avg sub index 0
+Success rate:  0.4
+Successful items count:  6
+Total count:  15
+Index:  15
+
+enter
+LABEL_37 LABEL_8 0.09231877326965332
+Example time cost:  0.0 min
+ALL examples time cost:  8.6 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  2717
+All sub index: 0
+Avg sub index 0
+Success rate:  0.4
+Successful items count:  6
+Total count:  15
+Index:  16
+
+enter
+LABEL_3 LABEL_8 0.5012869834899902
+Example time cost:  0.0 min
+ALL examples time cost:  8.61 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  2718
+All sub index: 0
+Avg sub index 0
+Success rate:  0.4
+Successful items count:  6
+Total count:  15
+Index:  17
+
+enter
+LABEL_9 LABEL_9 0.6569390296936035
+ACC! inFile => insLoop prob: 0.6569390296936035 => 0.5129507184028625
+ACC! filename => management prob: 0.5129507184028625 => 0.37329837679862976
+ACC! outputname => Outputfile prob: 0.37329837679862976 => 0.3267603814601898
+NOACC! j => note prob: 0.3267603814601898 => 0.3379357159137726
+ACC! count => nb prob: 0.3267603814601898 => 0.3154028356075287
+SUC! outFile => OUTFolder prob: 0.3154028356075287 => 0.27227267622947693 label LABEL_49
+Example time cost:  0.29 min
+ALL examples time cost:  8.9 min
+Query times in this attack:  91
+Greedy query times: 91
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  2809
+All sub index: 0
+Avg sub index 0
+Success rate:  0.4375
+Successful items count:  7
+Total count:  16
+Index:  18
+
+enter
+LABEL_9 LABEL_9 0.36441749334335327
+ACC! guaranteed => guantees prob: 0.36441749334335327 => 0.28377705812454224
+ACC! line => l prob: 0.28377705812454224 => 0.2612841725349426
+ACC! p => y prob: 0.2612841725349426 => 0.23711377382278442
+NOACC! j => z prob: 0.23711377382278442 => 0.24633143842220306
+ACC! i => chi prob: 0.23711377382278442 => 0.2163059115409851
+NOACC! total => otal prob: 0.2163059115409851 => 0.2251770794391632
+ACC! s => steps prob: 0.2163059115409851 => 0.20226134359836578
+NOACC! totals => totalities prob: 0.20226134359836578 => 0.21306350827217102
+NOACC! needSurprise => needSurception prob: 0.20226134359836578 => 0.2102726548910141
+ACC! numTests =>  numTrial prob: 0.20226134359836578 => 0.1935582011938095
+NOACC! n => b prob: 0.1935582011938095 => 0.20880168676376343
+SUC! outputFile => inputStream prob: 0.1935582011938095 => 0.11500494927167892 label LABEL_15
+Example time cost:  0.52 min
+ALL examples time cost:  9.42 min
+Query times in this attack:  166
+Greedy query times: 166
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  2975
+All sub index: 0
+Avg sub index 0
+Success rate:  0.47058823529411764
+Successful items count:  8
+Total count:  17
+Index:  19
+
+enter
+LABEL_10 LABEL_10 0.8683835864067078
+ACC! palin_squares => palin_sharing prob: 0.8683835864067078 => 0.8516403436660767
+ACC! a =>  A prob: 0.8516403436660767 => 0.8328126668930054
+ACC! palins =>  palIns prob: 0.8328126668930054 => 0.7219787240028381
+ACC! case => Case prob: 0.7219787240028381 => 0.6437010765075684
+ACC! range_squares => range_Square prob: 0.6437010765075684 => 0.5894494652748108
+NOACC! squares => squared prob: 0.5894494652748108 => 0.598199188709259
+ACC! n => t prob: 0.5894494652748108 => 0.5655827522277832
+ACC! x => rax prob: 0.5655827522277832 => 0.5589858293533325
+NOACC! b => j prob: 0.5589858293533325 => 0.5650395154953003
+NOACC! nums => enumbers prob: 0.5589858293533325 => 0.5675963759422302
+ACC! s => t prob: 0.5589858293533325 => 0.5106357336044312
+ACC! n_cases =>  n_sections prob: 0.5106357336044312 => 0.36269694566726685
+Example time cost:  0.52 min
+ALL examples time cost:  9.94 min
+Query times in this attack:  167
+Greedy query times: 167
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  3142
+All sub index: 0
+Avg sub index 0
+Success rate:  0.4444444444444444
+Successful items count:  8
+Total count:  18
+Index:  20
+
+enter
+LABEL_10 LABEL_10 0.665420413017273
+ACC! out => o prob: 0.665420413017273 => 0.5096777677536011
+ACC! case => shape prob: 0.5096777677536011 => 0.3787339925765991
+ACC! p => j prob: 0.3787339925765991 => 0.31044813990592957
+ACC! n => j prob: 0.31044813990592957 => 0.2987625002861023
+NOACC! s => l prob: 0.2987625002861023 => 0.3058225214481354
+ACC! ins => IN prob: 0.2987625002861023 => 0.24935382604599
+ACC! t => i prob: 0.24935382604599 => 0.20840056240558624
+ACC! x => u prob: 0.20840056240558624 => 0.1480180025100708
+SUC! n_cases =>  n_times prob: 0.1480180025100708 => 0.11149191856384277 label LABEL_6
+Example time cost:  0.39 min
+ALL examples time cost:  10.33 min
+Query times in this attack:  123
+Greedy query times: 123
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  3265
+All sub index: 0
+Avg sub index 0
+Success rate:  0.47368421052631576
+Successful items count:  9
+Total count:  19
+Index:  21
+
+enter
+LABEL_11 LABEL_11 0.8524314165115356
+ACC! T => Size prob: 0.8524314165115356 => 0.8162462711334229
+ACC! i => multi prob: 0.8162462711334229 => 0.7827668786048889
+ACC! f =>  r prob: 0.7827668786048889 => 0.681759238243103
+ACC! _ => __ prob: 0.681759238243103 => 0.6626591682434082
+ACC! B => BT prob: 0.6626591682434082 => 0.6446647047996521
+ACC! num => nom prob: 0.6446647047996521 => 0.6166839599609375
+NOACC! ls => lines prob: 0.6166839599609375 => 0.6405089497566223
+NOACC! a => wa prob: 0.6166839599609375 => 0.6543603539466858
+NOACC! half_digits => half_milists prob: 0.6166839599609375 => 0.6550461649894714
+NOACC! digits => divests prob: 0.6166839599609375 => 0.6370180249214172
+NOACC! p => api prob: 0.6166839599609375 => 0.6362344026565552
+NOACC! b => l prob: 0.6166839599609375 => 0.6270514130592346
+NOACC! str_a => raw___aaa prob: 0.6166839599609375 => 0.6622939705848694
+NOACC! A => TA prob: 0.6166839599609375 => 0.6507189869880676
+NOACC! root => name prob: 0.6166839599609375 => 0.6500850915908813
+NOACC! next_root =>  next_seed prob: 0.6166839599609375 => 0.6202064156532288
+NOACC! power => chi prob: 0.6166839599609375 => 0.6657530665397644
+NOACC! outLine => againLine prob: 0.6166839599609375 => 0.6403504610061646
+NOACC! rlt => rLT prob: 0.6166839599609375 => 0.6276116967201233
+Example time cost:  0.84 min
+ALL examples time cost:  11.17 min
+Query times in this attack:  264
+Greedy query times: 264
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  3529
+All sub index: 0
+Avg sub index 0
+Success rate:  0.45
+Successful items count:  9
+Total count:  20
+Index:  22
+
+enter
+LABEL_11 LABEL_11 0.879844605922699
+ACC! inputLines =>  inputLites prob: 0.879844605922699 => 0.7971221804618835
+ACC! p => api prob: 0.7971221804618835 => 0.7824982404708862
+ACC! i => id prob: 0.7824982404708862 => 0.7750974297523499
+NOACC! N => D prob: 0.7750974297523499 => 0.8065299987792969
+ACC! e =>  E prob: 0.7750974297523499 => 0.7668700218200684
+ACC! rslt =>  rsitt prob: 0.7668700218200684 => 0.7262442708015442
+ACC! S => Socket prob: 0.7262442708015442 => 0.704188883304596
+ACC! r => u prob: 0.704188883304596 => 0.7022586464881897
+NOACC! s => size prob: 0.7022586464881897 => 0.716589093208313
+ACC! outputLines => responseCLelines prob: 0.7022586464881897 => 0.6976264715194702
+ACC! T => J prob: 0.6976264715194702 => 0.6258684396743774
+ACC! args => dates prob: 0.6258684396743774 => 0.5303524732589722
+ACC! inputFile =>  inputDirectory prob: 0.5303524732589722 => 0.41087624430656433
+Example time cost:  0.57 min
+ALL examples time cost:  11.74 min
+Query times in this attack:  182
+Greedy query times: 182
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  3711
+All sub index: 0
+Avg sub index 0
+Success rate:  0.42857142857142855
+Successful items count:  9
+Total count:  21
+Index:  23
+
+enter
+LABEL_12 LABEL_12 0.8880658745765686
+ACC! i => chi prob: 0.8880658745765686 => 0.8553062677383423
+ACC! n => nor prob: 0.8553062677383423 => 0.835189163684845
+NOACC! line => l prob: 0.835189163684845 => 0.8383195996284485
+NOACC! stream => object prob: 0.835189163684845 => 0.8381465077400208
+ACC! x => xb prob: 0.835189163684845 => 0.8193919658660889
+ACC! rt =>  ret prob: 0.8193919658660889 => 0.6928777694702148
+ACC! r => hr prob: 0.6928777694702148 => 0.6290034055709839
+ACC! case => core prob: 0.6290034055709839 => 0.6253688931465149
+NOACC! cnt =>  cnn prob: 0.6253688931465149 => 0.6363775134086609
+Example time cost:  0.4 min
+ALL examples time cost:  12.14 min
+Query times in this attack:  127
+Greedy query times: 127
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  3838
+All sub index: 0
+Avg sub index 0
+Success rate:  0.4090909090909091
+Successful items count:  9
+Total count:  22
+Index:  24
+
+enter
+LABEL_12 LABEL_12 0.5942592620849609
+ACC! s => l prob: 0.5942592620849609 => 0.5725006461143494
+ACC! S => Results prob: 0.5725006461143494 => 0.5571108460426331
+NOACC! res => max prob: 0.5571108460426331 => 0.5723147988319397
+ACC! line => ln prob: 0.5571108460426331 => 0.5431481599807739
+NOACC! totals => tottalities prob: 0.5431481599807739 => 0.5532333254814148
+ACC! N => Z prob: 0.5431481599807739 => 0.5427539944648743
+ACC! n => max prob: 0.5427539944648743 => 0.527555525302887
+NOACC! p => tp prob: 0.527555525302887 => 0.5514500737190247
+ACC! m => u prob: 0.527555525302887 => 0.5186738967895508
+NOACC! b => j prob: 0.5186738967895508 => 0.5391473174095154
+NOACC! total => otal prob: 0.5186738967895508 => 0.552710235118866
+Example time cost:  0.47 min
+ALL examples time cost:  12.61 min
+Query times in this attack:  149
+Greedy query times: 149
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  3987
+All sub index: 0
+Avg sub index 0
+Success rate:  0.391304347826087
+Successful items count:  9
+Total count:  23
+Index:  25
+
+enter
+LABEL_13 LABEL_13 0.9596561789512634
+ACC! B => QB prob: 0.9596561789512634 => 0.9512553215026855
+ACC! inf => int prob: 0.9512553215026855 => 0.9305378794670105
+ACC! A => P prob: 0.9305378794670105 => 0.9270932674407959
+ACC! out => written prob: 0.9270932674407959 => 0.9262519478797913
+ACC! fslst =>  fSlsts prob: 0.9262519478797913 => 0.9146883487701416
+ACC! ans => AU prob: 0.9146883487701416 => 0.9068335890769958
+ACC! v => n prob: 0.9068335890769958 => 0.8840221166610718
+NOACC! X => int prob: 0.8840221166610718 => 0.8906480669975281
+ACC! outf => OUTf prob: 0.8840221166610718 => 0.8590375185012817
+ACC! cnt => connd prob: 0.8590375185012817 => 0.8137540221214294
+ACC! fs => BF prob: 0.8137540221214294 => 0.7879745960235596
+ACC! f => stream prob: 0.7879745960235596 => 0.7572142481803894
+ACC! s => es prob: 0.7572142481803894 => 0.7460264563560486
+ACC! infname =>  infnames prob: 0.7460264563560486 => 0.42895981669425964
+ACC! i => uri prob: 0.42895981669425964 => 0.3562025725841522
+NOACC! T => Z prob: 0.3562025725841522 => 0.38153916597366333
+NOACC! squere => iquere prob: 0.3562025725841522 => 0.39678704738616943
+NOACC! MAX => P prob: 0.3562025725841522 => 0.39786794781684875
+ACC! outfname =>  outFsize prob: 0.3562025725841522 => 0.33585625886917114
+Example time cost:  0.83 min
+ALL examples time cost:  13.44 min
+Query times in this attack:  262
+Greedy query times: 262
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  4249
+All sub index: 0
+Avg sub index 0
+Success rate:  0.375
+Successful items count:  9
+Total count:  24
+Index:  26
+
+enter
+LABEL_13 LABEL_13 0.8967369198799133
+ACC! X => Work prob: 0.8967369198799133 => 0.8448418378829956
+ACC! T => GT prob: 0.8448418378829956 => 0.8201951384544373
+ACC! t => j prob: 0.8201951384544373 => 0.812970757484436
+NOACC! y => g prob: 0.812970757484436 => 0.8340845108032227
+ACC! N => NT prob: 0.812970757484436 => 0.7781888246536255
+NOACC! d => u prob: 0.7781888246536255 => 0.8264840245246887
+NOACC! m => z prob: 0.7781888246536255 => 0.789097011089325
+NOACC! S => D prob: 0.7781888246536255 => 0.7969244122505188
+NOACC! p => j prob: 0.7781888246536255 => 0.8041933178901672
+Example time cost:  0.39 min
+ALL examples time cost:  13.83 min
+Query times in this attack:  123
+Greedy query times: 123
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  4372
+All sub index: 0
+Avg sub index 0
+Success rate:  0.36
+Successful items count:  9
+Total count:  25
+Index:  27
+
+enter
+LABEL_14 LABEL_14 0.6632596254348755
+ACC! n => v prob: 0.6632596254348755 => 0.6003010272979736
+ACC! j => note prob: 0.6003010272979736 => 0.589570164680481
+ACC! IN => PIN prob: 0.589570164680481 => 0.5003519058227539
+ACC! MAX_X => RAW_XX prob: 0.5003519058227539 => 0.4635208249092102
+NOACC! i => ti prob: 0.4635208249092102 => 0.47988903522491455
+ACC! x => function prob: 0.4635208249092102 => 0.45737266540527344
+ACC! shift => case prob: 0.45737266540527344 => 0.4114587903022766
+ACC! heap => HEamp prob: 0.4114587903022766 => 0.4025275707244873
+ACC! k => ki prob: 0.4025275707244873 => 0.4020116627216339
+ACC! RES => URN prob: 0.4020116627216339 => 0.3470826745033264
+NOACC! s => sh prob: 0.3470826745033264 => 0.40276241302490234
+NOACC! MAX => MIN prob: 0.3470826745033264 => 0.3904940187931061
+NOACC! DB => db prob: 0.3470826745033264 => 0.38179638981819153
+Example time cost:  0.58 min
+ALL examples time cost:  14.41 min
+Query times in this attack:  183
+Greedy query times: 183
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  4555
+All sub index: 0
+Avg sub index 0
+Success rate:  0.34615384615384615
+Successful items count:  9
+Total count:  26
+Index:  28
+
+enter
+LABEL_14 LABEL_14 0.8335517644882202
+ACC! b => abb prob: 0.8335517644882202 => 0.8297781944274902
+NOACC! N => Q prob: 0.8297781944274902 => 0.838084876537323
+NOACC! res_s =>  res_p prob: 0.8297781944274902 => 0.8315442204475403
+NOACC! i => im prob: 0.8297781944274902 => 0.8465357422828674
+ACC! nums =>  num prob: 0.8297781944274902 => 0.818976640701294
+ACC! D2 => D8 prob: 0.818976640701294 => 0.7934980392456055
+ACC! fout => flist prob: 0.7934980392456055 => 0.6012477874755859
+NOACC! c => cd prob: 0.6012477874755859 => 0.609899640083313
+NOACC! res_n => Res_nc prob: 0.6012477874755859 => 0.6014955043792725
+NOACC! P => H prob: 0.6012477874755859 => 0.6099077463150024
+ACC! fin => fail prob: 0.6012477874755859 => 0.486452579498291
+ACC! S => TS prob: 0.486452579498291 => 0.4703636169433594
+ACC! T => NT prob: 0.4703636169433594 => 0.4472494125366211
+NOACC! D1 => Fb prob: 0.4472494125366211 => 0.47035762667655945
+NOACC! ts => TR prob: 0.4472494125366211 => 0.46242812275886536
+NOACC! a => z prob: 0.4472494125366211 => 0.4758857786655426
+ACC! t => o prob: 0.4472494125366211 => 0.44684872031211853
+Example time cost:  0.75 min
+ALL examples time cost:  15.16 min
+Query times in this attack:  238
+Greedy query times: 238
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  4793
+All sub index: 0
+Avg sub index 0
+Success rate:  0.3333333333333333
+Successful items count:  9
+Total count:  27
+Index:  29
+
+enter
+LABEL_15 LABEL_15 0.8661731481552124
+ACC! H =>  h prob: 0.8661731481552124 => 0.8304656147956848
+ACC! Num => Mu prob: 0.8304656147956848 => 0.8181195259094238
+NOACC! case => path prob: 0.8181195259094238 => 0.8205918073654175
+ACC! ub => ib prob: 0.8181195259094238 => 0.8121551275253296
+ACC! L =>  Li prob: 0.8121551275253296 => 0.7307899594306946
+ACC! lb => ib prob: 0.7307899594306946 => 0.6892345547676086
+NOACC! i => o prob: 0.6892345547676086 => 0.7096931338310242
+ACC! caseCnt =>  caseCst prob: 0.6892345547676086 => 0.4491618573665619
+ACC! out => file prob: 0.4491618573665619 => 0.12440823018550873
+ACC! f => sys prob: 0.12440823018550873 => 0.05854668840765953
+Example time cost:  0.44 min
+ALL examples time cost:  15.61 min
+Query times in this attack:  140
+Greedy query times: 140
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  4933
+All sub index: 0
+Avg sub index 0
+Success rate:  0.32142857142857145
+Successful items count:  9
+Total count:  28
+Index:  30
+
+enter
+LABEL_15 LABEL_15 0.835211992263794
+ACC! cnt =>  cnn prob: 0.835211992263794 => 0.6573729515075684
+ACC! w => log prob: 0.6573729515075684 => 0.5636361241340637
+ACC! f => feed prob: 0.5636361241340637 => 0.4311301112174988
+ACC! c => u prob: 0.4311301112174988 => 0.39685460925102234
+ACC! no => error prob: 0.39685460925102234 => 0.3498445749282837
+ACC! T => TS prob: 0.3498445749282837 => 0.342972069978714
+ACC! l => log prob: 0.342972069978714 => 0.2454947829246521
+ACC! s => sets prob: 0.2454947829246521 => 0.22145996987819672
+NOACC! ts => ins prob: 0.22145996987819672 => 0.23875069618225098
+ACC! p => per prob: 0.22145996987819672 => 0.2164144366979599
+NOACC! ss => uss prob: 0.2164144366979599 => 0.22367259860038757
+NOACC! ns => cs prob: 0.2164144366979599 => 0.23675525188446045
+Example time cost:  0.51 min
+ALL examples time cost:  16.12 min
+Query times in this attack:  164
+Greedy query times: 164
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  5097
+All sub index: 0
+Avg sub index 0
+Success rate:  0.3103448275862069
+Successful items count:  9
+Total count:  29
+Index:  31
+
+enter
+LABEL_38 LABEL_16 0.47176626324653625
+Example time cost:  0.0 min
+ALL examples time cost:  16.12 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  5098
+All sub index: 0
+Avg sub index 0
+Success rate:  0.3103448275862069
+Successful items count:  9
+Total count:  29
+Index:  32
+
+enter
+LABEL_59 LABEL_16 0.4496399462223053
+Example time cost:  0.0 min
+ALL examples time cost:  16.13 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  5099
+All sub index: 0
+Avg sub index 0
+Success rate:  0.3103448275862069
+Successful items count:  9
+Total count:  29
+Index:  33
+
+enter
+LABEL_17 LABEL_17 0.3055169880390167
+ACC! num => name prob: 0.3055169880390167 => 0.276612251996994
+ACC! case => max prob: 0.276612251996994 => 0.22712305188179016
+ACC! a => am prob: 0.22712305188179016 => 0.21522611379623413
+NOACC! b => br prob: 0.21522611379623413 => 0.2180182933807373
+NOACC! top => loc prob: 0.21522611379623413 => 0.21942676603794098
+ACC! line => strip prob: 0.21522611379623413 => 0.20087173581123352
+ACC! count => n prob: 0.20087173581123352 => 0.17009583115577698
+NOACC! bot => loc prob: 0.17009583115577698 => 0.18491040170192719
+NOACC! res => rate prob: 0.17009583115577698 => 0.17039529979228973
+ACC! i => loc prob: 0.17009583115577698 => 0.1573202759027481
+Example time cost:  0.43 min
+ALL examples time cost:  16.56 min
+Query times in this attack:  138
+Greedy query times: 138
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  5237
+All sub index: 0
+Avg sub index 0
+Success rate:  0.3
+Successful items count:  9
+Total count:  30
+Index:  34
+
+enter
+LABEL_32 LABEL_17 0.0314590185880661
+Example time cost:  0.0 min
+ALL examples time cost:  16.57 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  5238
+All sub index: 0
+Avg sub index 0
+Success rate:  0.3
+Successful items count:  9
+Total count:  30
+Index:  35
+
+enter
+LABEL_18 LABEL_18 0.7541738152503967
+ACC! i => ti prob: 0.7541738152503967 => 0.5759519934654236
+ACC! sqrt => qnorm prob: 0.5759519934654236 => 0.49701958894729614
+ACC! min_num =>  min_number prob: 0.49701958894729614 => 0.47741928696632385
+ACC! max_num => maxWmun prob: 0.47741928696632385 => 0.4132281243801117
+ACC! count => add prob: 0.4132281243801117 => 0.3443540632724762
+ACC! num_of_cases => num_ofxsections prob: 0.3443540632724762 => 0.27619725465774536
+NOACC! a => mac prob: 0.27619725465774536 => 0.29127633571624756
+Example time cost:  0.31 min
+ALL examples time cost:  16.88 min
+Query times in this attack:  99
+Greedy query times: 99
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  5337
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2903225806451613
+Successful items count:  9
+Total count:  31
+Index:  36
+
+enter
+LABEL_18 LABEL_18 0.9266507625579834
+ACC! desired_score => desired·score prob: 0.9266507625579834 => 0.9197171926498413
+NOACC! scores => cores prob: 0.9197171926498413 => 0.9229345917701721
+ACC! k => b prob: 0.9197171926498413 => 0.9141218066215515
+NOACC! normal => unit prob: 0.9141218066215515 => 0.9195114374160767
+NOACC! surprising => surprise prob: 0.9141218066215515 => 0.922636866569519
+NOACC! results => weights prob: 0.9141218066215515 => 0.9216427803039551
+NOACC! result => data prob: 0.9141218066215515 => 0.9218761920928955
+NOACC! num_of_surprising => num_of_Surprisingly prob: 0.9141218066215515 => 0.9243296980857849
+NOACC! possible => Possible prob: 0.9141218066215515 => 0.9179320335388184
+NOACC! i => u prob: 0.9141218066215515 => 0.9161733984947205
+NOACC! possible_scores => possible_scored prob: 0.9141218066215515 => 0.9201450347900391
+ACC! case => error prob: 0.9141218066215515 => 0.9041550755500793
+NOACC! combinations => clinos prob: 0.9041550755500793 => 0.908554196357727
+NOACC! n => ne prob: 0.9041550755500793 => 0.9050121307373047
+NOACC! num_of_googlers => num_of_googsler prob: 0.9041550755500793 => 0.9098709225654602
+NOACC! number_of_cases => number_ofxpoints prob: 0.9041550755500793 => 0.9068031311035156
+Example time cost:  0.69 min
+ALL examples time cost:  17.57 min
+Query times in this attack:  219
+Greedy query times: 219
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  5556
+All sub index: 0
+Avg sub index 0
+Success rate:  0.28125
+Successful items count:  9
+Total count:  32
+Index:  37
+
+enter
+LABEL_19 LABEL_19 0.9703694581985474
+ACC! ABmax =>  ABorig prob: 0.9703694581985474 => 0.9643614292144775
+ACC! IN => HTTP prob: 0.9643614292144775 => 0.9382323622703552
+NOACC! solution => Solution prob: 0.9382323622703552 => 0.9438897967338562
+ACC! OUT => RAW prob: 0.9382323622703552 => 0.9356570243835449
+NOACC! A => Int prob: 0.9356570243835449 => 0.9391167759895325
+ACC! T => H prob: 0.9356570243835449 => 0.9319470524787903
+ACC! index => j prob: 0.9319470524787903 => 0.9301149249076843
+NOACC! m => min prob: 0.9301149249076843 => 0.9369235038757324
+NOACC! B => b prob: 0.9301149249076843 => 0.9340511560440063
+NOACC! n => i prob: 0.9301149249076843 => 0.9347707033157349
+Example time cost:  0.44 min
+ALL examples time cost:  18.01 min
+Query times in this attack:  139
+Greedy query times: 139
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  5695
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2727272727272727
+Successful items count:  9
+Total count:  33
+Index:  38
+
+enter
+LABEL_19 LABEL_19 0.721673309803009
+ACC! data => missing prob: 0.721673309803009 => 0.7152813673019409
+NOACC! index => page prob: 0.7152813673019409 => 0.7238064408302307
+ACC! avg => evp prob: 0.7152813673019409 => 0.7124093174934387
+ACC! consider => respect prob: 0.7124093174934387 => 0.7027833461761475
+ACC! mod => progress prob: 0.7027833461761475 => 0.6942006945610046
+NOACC! tlist => atlist prob: 0.6942006945610046 => 0.6994687914848328
+NOACC! t => ti prob: 0.6942006945610046 => 0.7132184505462646
+NOACC! S => POS prob: 0.6942006945610046 => 0.6945624947547913
+NOACC! above => outside prob: 0.6942006945610046 => 0.709696352481842
+ACC! OUT => Python prob: 0.6942006945610046 => 0.6714674830436707
+NOACC! p => i prob: 0.6714674830436707 => 0.6874380707740784
+NOACC! N => n prob: 0.6714674830436707 => 0.6982672214508057
+ACC! IN => input prob: 0.6714674830436707 => 0.6080573797225952
+Example time cost:  0.58 min
+ALL examples time cost:  18.58 min
+Query times in this attack:  183
+Greedy query times: 183
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  5878
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2647058823529412
+Successful items count:  9
+Total count:  34
+Index:  39
+
+enter
+LABEL_20 LABEL_20 0.4531285762786865
+ACC! fair_and_square_palindromes => fair_and_square_palindramals prob: 0.4531285762786865 => 0.4111715257167816
+NOACC! palindrome_squares => palindrome_scers prob: 0.4111715257167816 => 0.4233979880809784
+ACC! A => El prob: 0.4111715257167816 => 0.4076484739780426
+ACC! s => states prob: 0.4076484739780426 => 0.38873711228370667
+NOACC! n => node prob: 0.38873711228370667 => 0.4057556092739105
+ACC! test_case_id => test_section_index prob: 0.38873711228370667 => 0.2196563333272934
+ACC! B => GB prob: 0.2196563333272934 => 0.21281318366527557
+ACC! i => ai prob: 0.21281318366527557 => 0.2084399163722992
+ACC! palindromes => palindrosues prob: 0.2084399163722992 => 0.193680539727211
+ACC! N_MAX => NAMmax prob: 0.193680539727211 => 0.18973881006240845
+ACC! x => input prob: 0.18973881006240845 => 0.14391766488552094
+SUC! T => Q prob: 0.14391766488552094 => 0.13898879289627075 label LABEL_10
+Example time cost:  0.53 min
+ALL examples time cost:  19.12 min
+Query times in this attack:  170
+Greedy query times: 170
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  6048
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2857142857142857
+Successful items count:  10
+Total count:  35
+Index:  40
+
+enter
+LABEL_20 LABEL_20 0.7304208278656006
+ACC! poss =>  pense prob: 0.7304208278656006 => 0.632895827293396
+ACC! sa => SA prob: 0.632895827293396 => 0.6076709628105164
+ACC! T => Size prob: 0.6076709628105164 => 0.26207906007766724
+ACC! b => aa prob: 0.26207906007766724 => 0.2513251006603241
+NOACC! c => col prob: 0.2513251006603241 => 0.2562248408794403
+ACC! na => ne prob: 0.2513251006603241 => 0.2219104915857315
+ACC! nb => bb prob: 0.2219104915857315 => 0.20666976273059845
+NOACC! nc => cp prob: 0.20666976273059845 => 0.22307395935058594
+SUC! case => section prob: 0.20666976273059845 => 0.13095590472221375 label LABEL_6
+Example time cost:  0.43 min
+ALL examples time cost:  19.55 min
+Query times in this attack:  134
+Greedy query times: 134
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  6182
+All sub index: 0
+Avg sub index 0
+Success rate:  0.3055555555555556
+Successful items count:  11
+Total count:  36
+Index:  41
+
+enter
+LABEL_21 LABEL_21 0.9458128213882446
+ACC! INPUT => AINLINE prob: 0.9458128213882446 => 0.8250314593315125
+ACC! f => z prob: 0.8250314593315125 => 0.7238538861274719
+NOACC! self => co prob: 0.7238538861274719 => 0.7370522618293762
+NOACC! v => qv prob: 0.7238538861274719 => 0.745340883731842
+NOACC! A => And prob: 0.7238538861274719 => 0.7529311776161194
+NOACC! MAX_N =>  MAXIDS prob: 0.7238538861274719 => 0.7256320714950562
+ACC! p => out prob: 0.7238538861274719 => 0.7054612040519714
+ACC! T => H prob: 0.7054612040519714 => 0.684357762336731
+ACC! B => OA prob: 0.684357762336731 => 0.6312206983566284
+NOACC! s => ores prob: 0.6312206983566284 => 0.6709152460098267
+NOACC! max_N => Max_n prob: 0.6312206983566284 => 0.7065178751945496
+NOACC! cache => image prob: 0.6312206983566284 => 0.6821679472923279
+NOACC! function => value prob: 0.6312206983566284 => 0.6782692074775696
+NOACC! x => l prob: 0.6312206983566284 => 0.6892532110214233
+NOACC! _callable => ___variation prob: 0.6312206983566284 => 0.6772987842559814
+NOACC! cachedValue => cryptedvalue prob: 0.6312206983566284 => 0.6704627871513367
+NOACC! ss => pl prob: 0.6312206983566284 => 0.6576908826828003
+NOACC! count => max prob: 0.6312206983566284 => 0.689925491809845
+NOACC! i => b prob: 0.6312206983566284 => 0.6342976093292236
+NOACC! _cache => workingcache prob: 0.6312206983566284 => 0.6746739149093628
+NOACC! N => D prob: 0.6312206983566284 => 0.6876196265220642
+NOACC! SQUARE_SET => SQUARE_READ prob: 0.6312206983566284 => 0.7109439373016357
+NOACC! key => fee prob: 0.6312206983566284 => 0.6838399171829224
+Example time cost:  1.0 min
+ALL examples time cost:  20.55 min
+Query times in this attack:  318
+Greedy query times: 318
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  6500
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2972972972972973
+Successful items count:  11
+Total count:  37
+Index:  42
+
+enter
+LABEL_21 LABEL_21 0.9273061752319336
+ACC! INPUT => inInput prob: 0.9273061752319336 => 0.7917487621307373
+ACC! f => fi prob: 0.7917487621307373 => 0.40749412775039673
+ACC! i => phi prob: 0.40749412775039673 => 0.3665151298046112
+ACC! T => size prob: 0.3665151298046112 => 0.2804313898086548
+ACC! l =>  L prob: 0.2804313898086548 => 0.26673468947410583
+ACC! s => b prob: 0.26673468947410583 => 0.2286880761384964
+ACC! p => pp prob: 0.2286880761384964 => 0.21546919643878937
+ACC! d => u prob: 0.21546919643878937 => 0.2123052179813385
+ACC! x => u prob: 0.2123052179813385 => 0.20602978765964508
+NOACC! N => P prob: 0.20602978765964508 => 0.21149462461471558
+ACC! S => M prob: 0.20602978765964508 => 0.17094700038433075
+NOACC! low_p =>  low_s prob: 0.17094700038433075 => 0.20171155035495758
+NOACC! v => t prob: 0.17094700038433075 => 0.19320406019687653
+Example time cost:  0.57 min
+ALL examples time cost:  21.12 min
+Query times in this attack:  180
+Greedy query times: 180
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  6680
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2894736842105263
+Successful items count:  11
+Total count:  38
+Index:  43
+
+enter
+LABEL_22 LABEL_22 0.8246767520904541
+ACC! T => NT prob: 0.8246767520904541 => 0.7647236585617065
+ACC! rev =>  prev prob: 0.7647236585617065 => 0.7335507273674011
+ACC! srb => isra prob: 0.7335507273674011 => 0.6928368806838989
+NOACC! x => xs prob: 0.6928368806838989 => 0.7073795795440674
+ACC! sra =>  sha prob: 0.6928368806838989 => 0.6762836575508118
+ACC! seen => finished prob: 0.6762836575508118 => 0.660410463809967
+ACC! dig => cd prob: 0.660410463809967 => 0.6225936412811279
+ACC! n => s prob: 0.6225936412811279 => 0.5786384344100952
+NOACC! b => rb prob: 0.5786384344100952 => 0.6264503598213196
+ACC! tot =>  tott prob: 0.5786384344100952 => 0.5098549127578735
+ACC! a => aa prob: 0.5098549127578735 => 0.5067386627197266
+ACC! r =>  R prob: 0.5067386627197266 => 0.24178317189216614
+ACC! i => l prob: 0.24178317189216614 => 0.1932341456413269
+Example time cost:  0.58 min
+ALL examples time cost:  21.7 min
+Query times in this attack:  183
+Greedy query times: 183
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  6863
+All sub index: 0
+Avg sub index 0
+Success rate:  0.28205128205128205
+Successful items count:  11
+Total count:  39
+Index:  44
+
+enter
+LABEL_22 LABEL_22 0.9452927112579346
+ACC! i => ti prob: 0.9452927112579346 => 0.7868399024009705
+NOACC! p => pp prob: 0.7868399024009705 => 0.8104063868522644
+NOACC! s => b prob: 0.7868399024009705 => 0.7908360362052917
+ACC! T => Note prob: 0.7868399024009705 => 0.7330344319343567
+ACC! answer => Answer prob: 0.7330344319343567 => 0.6479366421699524
+ACC! note => study prob: 0.6479366421699524 => 0.489776611328125
+NOACC! N => Z prob: 0.489776611328125 => 0.4929512143135071
+NOACC! values => eps prob: 0.489776611328125 => 0.5146104693412781
+NOACC! t => ot prob: 0.489776611328125 => 0.5102652311325073
+ACC! n => pn prob: 0.489776611328125 => 0.46654489636421204
+Example time cost:  0.43 min
+ALL examples time cost:  22.13 min
+Query times in this attack:  137
+Greedy query times: 137
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7000
+All sub index: 0
+Avg sub index 0
+Success rate:  0.275
+Successful items count:  11
+Total count:  40
+Index:  45
+
+enter
+LABEL_23 LABEL_23 0.9643692374229431
+ACC! numCases => numCakes prob: 0.9643692374229431 => 0.9605090022087097
+NOACC! MEM_LIMIT_GB => MEM_LIMIT_GW prob: 0.9605090022087097 => 0.9607554078102112
+ACC! out => connection prob: 0.9605090022087097 => 0.9521878957748413
+NOACC! c => t prob: 0.9521878957748413 => 0.9560492038726807
+ACC! l1 =>  l13 prob: 0.9521878957748413 => 0.9512358903884888
+ACC! l2 => Lone prob: 0.9512358903884888 => 0.9510875940322876
+ACC! FILE_NAME_BASE => FILE_NAME__BASH prob: 0.9510875940322876 => 0.891311526298523
+ACC! results => forms prob: 0.891311526298523 => 0.8900529146194458
+NOACC! case => mode prob: 0.8900529146194458 => 0.8944330811500549
+ACC! hard => small prob: 0.8900529146194458 => 0.8872680068016052
+NOACC! b => abb prob: 0.8872680068016052 => 0.8910442590713501
+NOACC! r => ir prob: 0.8872680068016052 => 0.8893457651138306
+NOACC! x => y prob: 0.8872680068016052 => 0.8978946805000305
+ACC! NUM_PROCESSES => NUM_PROCOCKS prob: 0.8872680068016052 => 0.825471818447113
+NOACC! value => example prob: 0.825471818447113 => 0.8268300294876099
+ACC! result => val prob: 0.825471818447113 => 0.8138848543167114
+ACC! _ => ing prob: 0.8138848543167114 => 0.7996116280555725
+NOACC! i => ip prob: 0.7996116280555725 => 0.8034718036651611
+NOACC! RECURSION_LIMIT => RECURSION_LIGit prob: 0.7996116280555725 => 0.8052130937576294
+NOACC! soft => ib prob: 0.7996116280555725 => 0.8233398795127869
+NOACC! pool => page prob: 0.7996116280555725 => 0.8197675347328186
+ACC! inp =>  inv prob: 0.7996116280555725 => 0.7330055832862854
+NOACC! a => ab prob: 0.7330055832862854 => 0.7641016244888306
+Example time cost:  1.02 min
+ALL examples time cost:  23.14 min
+Query times in this attack:  322
+Greedy query times: 322
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7322
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2682926829268293
+Successful items count:  11
+Total count:  41
+Index:  46
+
+enter
+LABEL_23 LABEL_23 0.9200690388679504
+ACC! inp =>  inP prob: 0.9200690388679504 => 0.8550387024879456
+ACC! _ =>  new prob: 0.8550387024879456 => 0.8233745098114014
+ACC! results => values prob: 0.8233745098114014 => 0.7986705303192139
+NOACC! surprises => urprising prob: 0.7986705303192139 => 0.805083692073822
+NOACC! result => complete prob: 0.7986705303192139 => 0.8180583119392395
+ACC! data => aa prob: 0.7986705303192139 => 0.7896891236305237
+ACC! countSurprise => countSusprising prob: 0.7896891236305237 => 0.7858583927154541
+NOACC! total => lat prob: 0.7858583927154541 => 0.8120694756507874
+NOACC! case => Case prob: 0.7858583927154541 => 0.811155378818512
+ACC! NUM_PROCESSES => NUM_PRCCESSes prob: 0.7858583927154541 => 0.7598941326141357
+ACC! pool => job prob: 0.7598941326141357 => 0.6915014982223511
+ACC! s => i prob: 0.6915014982223511 => 0.6674072742462158
+NOACC! countCertain => sumEverything prob: 0.6674072742462158 => 0.6683677434921265
+NOACC! totals => tigrases prob: 0.6674072742462158 => 0.6864140629768372
+NOACC! points => steps prob: 0.6674072742462158 => 0.6677508354187012
+ACC! x => i prob: 0.6674072742462158 => 0.6438508629798889
+ACC! FILE_NAME_BASE => FILE_NAME_BRC prob: 0.6438508629798889 => 0.6353874802589417
+NOACC! value => example prob: 0.6353874802589417 => 0.6483208537101746
+NOACC! b => nb prob: 0.6353874802589417 => 0.6378713846206665
+ACC! out => error prob: 0.6353874802589417 => 0.5944148898124695
+ACC! dancers => adancing prob: 0.5944148898124695 => 0.5512675642967224
+Example time cost:  0.93 min
+ALL examples time cost:  24.07 min
+Query times in this attack:  292
+Greedy query times: 292
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7614
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2619047619047619
+Successful items count:  11
+Total count:  42
+Index:  47
+
+enter
+LABEL_24 LABEL_24 0.1116994246840477
+SUC! n => ln prob: 0.1116994246840477 => 0.06186265870928764 label LABEL_51
+Example time cost:  0.12 min
+ALL examples time cost:  24.19 min
+Query times in this attack:  36
+Greedy query times: 36
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7650
+All sub index: 0
+Avg sub index 0
+Success rate:  0.27906976744186046
+Successful items count:  12
+Total count:  43
+Index:  48
+
+enter
+LABEL_24 LABEL_24 0.39584022760391235
+ACC! scores =>  Scors prob: 0.39584022760391235 => 0.38998258113861084
+ACC! score => rank prob: 0.38998258113861084 => 0.3877437710762024
+ACC! isurprise =>  isurcise prob: 0.3877437710762024 => 0.3129066526889801
+ACC! i => ai prob: 0.3129066526889801 => 0.26747608184814453
+SUC! n => j prob: 0.26747608184814453 => 0.24849706888198853 label LABEL_28
+Example time cost:  0.25 min
+ALL examples time cost:  24.44 min
+Query times in this attack:  78
+Greedy query times: 78
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7728
+All sub index: 0
+Avg sub index 0
+Success rate:  0.29545454545454547
+Successful items count:  13
+Total count:  44
+Index:  49
+
+enter
+LABEL_25 LABEL_25 0.8866512179374695
+ACC! lines_used =>  lines_needed prob: 0.8866512179374695 => 0.8621271252632141
+ACC! c => b prob: 0.8621271252632141 => 0.8564570546150208
+ACC! case => ce prob: 0.8564570546150208 => 0.8530680537223816
+ACC! dims =>  ddim prob: 0.8530680537223816 => 0.8122409582138062
+ACC! phash =>  phat prob: 0.8122409582138062 => 0.6002025604248047
+ACC! p => alpha prob: 0.6002025604248047 => 0.5679574012756348
+ACC! answer =>  answers prob: 0.5679574012756348 => 0.4543958902359009
+ACC! small_p => smalliandata prob: 0.4543958902359009 => 0.40069296956062317
+NOACC! big_p => significant25op prob: 0.40069296956062317 => 0.4149070382118225
+NOACC! square => pixel prob: 0.40069296956062317 => 0.42049816250801086
+ACC! cNum =>  cnum prob: 0.40069296956062317 => 0.3286206126213074
+ACC! fands => xfando prob: 0.3286206126213074 => 0.30511388182640076
+ACC! i => phi prob: 0.30511388182640076 => 0.26852285861968994
+ACC! lines => steps prob: 0.26852285861968994 => 0.23578082025051117
+Example time cost:  0.6 min
+ALL examples time cost:  25.04 min
+Query times in this attack:  189
+Greedy query times: 189
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7917
+All sub index: 0
+Avg sub index 0
+Success rate:  0.28888888888888886
+Successful items count:  13
+Total count:  45
+Index:  50
+
+enter
+LABEL_25 LABEL_25 0.22845405340194702
+ACC! cls => methodS prob: 0.22845405340194702 => 0.06997228413820267
+NOACC! data => model prob: 0.06997228413820267 => 0.07242732495069504
+NOACC! result => url prob: 0.06997228413820267 => 0.0709720253944397
+SUC! nCases => nCrakes prob: 0.06997228413820267 => 0.103276327252388 label LABEL_15
+Example time cost:  0.22 min
+ALL examples time cost:  25.27 min
+Query times in this attack:  72
+Greedy query times: 72
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7989
+All sub index: 0
+Avg sub index 0
+Success rate:  0.30434782608695654
+Successful items count:  14
+Total count:  46
+Index:  51
+
+enter
+LABEL_26 LABEL_26 0.2935256361961365
+ACC! s => ments prob: 0.2935256361961365 => 0.2536088228225708
+NOACC! rev => min prob: 0.2536088228225708 => 0.25577566027641296
+ACC! t => ot prob: 0.2536088228225708 => 0.22541363537311554
+NOACC! orig => good prob: 0.22541363537311554 => 0.2263915091753006
+NOACC! line => LINE prob: 0.22541363537311554 => 0.23272350430488586
+ACC! b => u prob: 0.22541363537311554 => 0.21178112924098969
+ACC! intpalin => ntpparin prob: 0.21178112924098969 => 0.20845073461532593
+NOACC! num => col prob: 0.20845073461532593 => 0.22456806898117065
+ACC! ii => II prob: 0.20845073461532593 => 0.17379067838191986
+NOACC! a => ama prob: 0.17379067838191986 => 0.18174761533737183
+ACC! count => log prob: 0.17379067838191986 => 0.17045673727989197
+ACC! palin =>  palli prob: 0.17045673727989197 => 0.166359543800354
+ACC! i => u prob: 0.166359543800354 => 0.16393440961837769
+ACC! all_fair_and_square => all_fair_andxsquare prob: 0.16393440961837769 => 0.14215557277202606
+Example time cost:  0.6 min
+ALL examples time cost:  25.87 min
+Query times in this attack:  191
+Greedy query times: 191
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  8180
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2978723404255319
+Successful items count:  14
+Total count:  47
+Index:  52
+
+enter
+LABEL_26 LABEL_26 0.529984176158905
+ACC! validcount =>  validscore prob: 0.529984176158905 => 0.47478511929512024
+ACC! p => pl prob: 0.47478511929512024 => 0.4534090459346771
+ACC! j => note prob: 0.4534090459346771 => 0.4400143623352051
+NOACC! s => b prob: 0.4400143623352051 => 0.447313517332077
+ACC! i => v prob: 0.4400143623352051 => 0.4149468243122101
+NOACC! score => py prob: 0.4149468243122101 => 0.4301597476005554
+NOACC! n => count prob: 0.4149468243122101 => 0.4298242926597595
+NOACC! inputparams => outputparams prob: 0.4149468243122101 => 0.428737610578537
+ACC! inputline => outputpage prob: 0.4149468243122101 => 0.3927971124649048
+NOACC! surprisingcount => Surprisec prob: 0.3927971124649048 => 0.39358657598495483
+ACC! t => target prob: 0.3927971124649048 => 0.26522722840309143
+Example time cost:  0.48 min
+ALL examples time cost:  26.35 min
+Query times in this attack:  153
+Greedy query times: 153
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  8333
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2916666666666667
+Successful items count:  14
+Total count:  48
+Index:  53
+
+enter
+LABEL_27 LABEL_27 0.9479758739471436
+ACC! result => source prob: 0.9479758739471436 => 0.9266499280929565
+ACC! i => ih prob: 0.9266499280929565 => 0.9172201156616211
+ACC! x => example prob: 0.9172201156616211 => 0.9080705642700195
+ACC! count_b =>  count_B prob: 0.9080705642700195 => 0.8990644216537476
+ACC! count_a => countJf prob: 0.8990644216537476 => 0.896469235420227
+ACC! count => error prob: 0.896469235420227 => 0.8302773833274841
+NOACC! left => list prob: 0.8302773833274841 => 0.8338426351547241
+ACC! f => inf prob: 0.8302773833274841 => 0.8192747831344604
+ACC! part => connection prob: 0.8192747831344604 => 0.7823007702827454
+ACC! T => TS prob: 0.7823007702827454 => 0.7354535460472107
+ACC! fairsquares => farmssquare prob: 0.7354535460472107 => 0.7172017693519592
+ACC! data => error prob: 0.7172017693519592 => 0.6713748574256897
+ACC! B => D prob: 0.6713748574256897 => 0.6475426554679871
+ACC! right => rew prob: 0.6475426554679871 => 0.6364594101905823
+NOACC! middle => between prob: 0.6364594101905823 => 0.6418773531913757
+NOACC! A => L prob: 0.6364594101905823 => 0.6660661101341248
+Example time cost:  0.69 min
+ALL examples time cost:  27.04 min
+Query times in this attack:  218
+Greedy query times: 218
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  8551
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2857142857142857
+Successful items count:  14
+Total count:  49
+Index:  54
+
+enter
+LABEL_55 LABEL_27 0.1415320485830307
+Example time cost:  0.0 min
+ALL examples time cost:  27.04 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  8552
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2857142857142857
+Successful items count:  14
+Total count:  49
+Index:  55
+
+enter
+LABEL_28 LABEL_28 0.5636933445930481
+SUC! second_half => secondOquarter prob: 0.5636933445930481 => 0.061302732676267624 label LABEL_24
+Example time cost:  0.08 min
+ALL examples time cost:  27.12 min
+Query times in this attack:  24
+Greedy query times: 24
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  8576
+All sub index: 0
+Avg sub index 0
+Success rate:  0.3
+Successful items count:  15
+Total count:  50
+Index:  56
+
+enter
+LABEL_28 LABEL_28 0.9042413234710693
+ACC! t => trial prob: 0.9042413234710693 => 0.8776496648788452
+NOACC! S => i prob: 0.8776496648788452 => 0.8787345886230469
+NOACC! p => P prob: 0.8776496648788452 => 0.8792580366134644
+ACC! N => H prob: 0.8776496648788452 => 0.8723551630973816
+NOACC! surprising_scores => surprising_suffurs prob: 0.8723551630973816 => 0.8762789368629456
+ACC! scores =>  scorer prob: 0.8723551630973816 => 0.8660313487052917
+ACC! non_surprising_scores => non_surprising_scatters prob: 0.8660313487052917 => 0.8618916869163513
+ACC! temp =>  Temp prob: 0.8618916869163513 => 0.8129914402961731
+ACC! num_scores => num_SCorer prob: 0.8129914402961731 => 0.8077201843261719
+ACC! T => n prob: 0.8077201843261719 => 0.5632054805755615
+ACC! f => folder prob: 0.5632054805755615 => 0.2585579752922058
+Example time cost:  0.48 min
+ALL examples time cost:  27.6 min
+Query times in this attack:  153
+Greedy query times: 153
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  8729
+All sub index: 0
+Avg sub index 0
+Success rate:  0.29411764705882354
+Successful items count:  15
+Total count:  51
+Index:  57
+
+enter
+LABEL_29 LABEL_29 0.8640351295471191
+ACC! inF => outf prob: 0.8640351295471191 => 0.8331719040870667
+ACC! outfile => outfilename prob: 0.8331719040870667 => 0.7536225318908691
+ACC! outF =>  outFile prob: 0.7536225318908691 => 0.6702463030815125
+ACC! infile => Infile prob: 0.6702463030815125 => 0.5545408725738525
+NOACC! f => v prob: 0.5545408725738525 => 0.6193934679031372
+NOACC! B => I prob: 0.5545408725738525 => 0.58111572265625
+ACC! m => sm prob: 0.5545408725738525 => 0.5479620099067688
+ACC! i => uri prob: 0.5479620099067688 => 0.4922339618206024
+ACC! count => r prob: 0.4922339618206024 => 0.4643067717552185
+NOACC! temp => l prob: 0.4643067717552185 => 0.49472883343696594
+NOACC! A => AA prob: 0.4643067717552185 => 0.5465688705444336
+NOACC! S => String prob: 0.4643067717552185 => 0.5710582137107849
+NOACC! t => l prob: 0.4643067717552185 => 0.5130054354667664
+NOACC! s => services prob: 0.4643067717552185 => 0.518131673336029
+Example time cost:  0.61 min
+ALL examples time cost:  28.22 min
+Query times in this attack:  195
+Greedy query times: 195
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  8924
+All sub index: 0
+Avg sub index 0
+Success rate:  0.28846153846153844
+Successful items count:  15
+Total count:  52
+Index:  58
+
+enter
+LABEL_29 LABEL_29 0.29703041911125183
+ACC! infile => outfiles prob: 0.29703041911125183 => 0.22773371636867523
+ACC! linesA => blocksT prob: 0.22773371636867523 => 0.22112859785556793
+NOACC! fullA => FullB prob: 0.22112859785556793 => 0.22279444336891174
+ACC! data_dict => datajict prob: 0.22112859785556793 => 0.1969372183084488
+ACC! T => D prob: 0.1969372183084488 => 0.1506328284740448
+NOACC! i =>  I prob: 0.1506328284740448 => 0.18330466747283936
+ACC! outfile =>  outfilename prob: 0.1506328284740448 => 0.1497269719839096
+NOACC! a1 => A3 prob: 0.1497269719839096 => 0.15687240660190582
+NOACC! conv =>  trial prob: 0.1497269719839096 => 0.16514115035533905
+NOACC! caseA => catchAs prob: 0.1497269719839096 => 0.15613161027431488
+ACC! outA => OutA prob: 0.1497269719839096 => 0.1468028426170349
+ACC! over_norm => hard_normal prob: 0.1468028426170349 => 0.13583974540233612
+ACC! init => error prob: 0.13583974540233612 => 0.1345338523387909
+ACC! t => b prob: 0.1345338523387909 => 0.10925227403640747
+NOACC! N => J prob: 0.10925227403640747 => 0.10961955040693283
+ACC! lowest => lowests prob: 0.10925227403640747 => 0.10563428699970245
+NOACC! maxN => MaxP prob: 0.10563428699970245 => 0.10723244398832321
+ACC! a3 => alpha3 prob: 0.10563428699970245 => 0.0868350937962532
+NOACC! line => l prob: 0.0868350937962532 => 0.09582214802503586
+NOACC! S => D prob: 0.0868350937962532 => 0.09375511109828949
+NOACC! a2 => alpha4 prob: 0.0868350937962532 => 0.09186656773090363
+SUC! maxS => MaxH prob: 0.0868350937962532 => 0.09466103464365005 label LABEL_47
+Example time cost:  0.97 min
+ALL examples time cost:  29.19 min
+Query times in this attack:  306
+Greedy query times: 306
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  9230
+All sub index: 0
+Avg sub index 0
+Success rate:  0.3018867924528302
+Successful items count:  16
+Total count:  53
+Index:  59
+
+enter
+LABEL_30 LABEL_30 0.9497085809707642
+ACC! infile => outfiles prob: 0.9497085809707642 => 0.931386411190033
+ACC! P => Q prob: 0.931386411190033 => 0.9215399622917175
+ACC! x => h prob: 0.9215399622917175 => 0.918957531452179
+ACC! testcase => Testclass prob: 0.918957531452179 => 0.9025099277496338
+ACC! y => j prob: 0.9025099277496338 => 0.9000082612037659
+ACC! a => va prob: 0.9000082612037659 => 0.8930463790893555
+NOACC! n => o prob: 0.8930463790893555 => 0.8980567455291748
+NOACC! N => A prob: 0.8930463790893555 => 0.9021521806716919
+ACC! t => out prob: 0.8930463790893555 => 0.8741320371627808
+ACC! I => A prob: 0.8741320371627808 => 0.8737328052520752
+ACC! b => ba prob: 0.8737328052520752 => 0.8694071769714355
+NOACC! C => U prob: 0.8694071769714355 => 0.877872109413147
+ACC! S => M prob: 0.8694071769714355 => 0.8563248515129089
+NOACC! low => l prob: 0.8563248515129089 => 0.8826751112937927
+NOACC! i => ip prob: 0.8563248515129089 => 0.8583136200904846
+NOACC! res => es prob: 0.8563248515129089 => 0.8804073929786682
+NOACC! high => upper prob: 0.8563248515129089 => 0.8682126402854919
+ACC! T => TP prob: 0.8563248515129089 => 0.8511480689048767
+ACC! common => similar prob: 0.8511480689048767 => 0.7982609272003174
+Example time cost:  0.81 min
+ALL examples time cost:  30.0 min
+Query times in this attack:  256
+Greedy query times: 256
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  9486
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2962962962962963
+Successful items count:  16
+Total count:  54
+Index:  60
+
+enter
+LABEL_30 LABEL_30 0.9335320591926575
+ACC! S => n prob: 0.9335320591926575 => 0.9217642545700073
+NOACC! N => A prob: 0.9217642545700073 => 0.921841561794281
+NOACC! G => GA prob: 0.9217642545700073 => 0.9228363037109375
+ACC! P => pressure prob: 0.9217642545700073 => 0.9190164804458618
+ACC! testcase =>  testCase prob: 0.9190164804458618 => 0.9109476208686829
+ACC! p => lp prob: 0.9109476208686829 => 0.9045677185058594
+NOACC! s => size prob: 0.9045677185058594 => 0.9053293466567993
+ACC! infile => INFile prob: 0.9045677185058594 => 0.8888030648231506
+ACC! t => tip prob: 0.8888030648231506 => 0.8854750394821167
+ACC! r => pr prob: 0.8854750394821167 => 0.8593893051147461
+NOACC! g => tg prob: 0.8593893051147461 => 0.8796048164367676
+NOACC! T => M prob: 0.8593893051147461 => 0.8673914074897766
+ACC! self => function prob: 0.8593893051147461 => 0.8399020433425903
+ACC! cache => run prob: 0.8399020433425903 => 0.8215467929840088
+Example time cost:  0.6 min
+ALL examples time cost:  30.6 min
+Query times in this attack:  191
+Greedy query times: 191
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  9677
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2909090909090909
+Successful items count:  16
+Total count:  55
+Index:  61
+
+enter
+LABEL_31 LABEL_31 0.8493549823760986
+ACC! n => t prob: 0.8493549823760986 => 0.8431553244590759
+ACC! i => eni prob: 0.8431553244590759 => 0.7647997140884399
+NOACC! result => df prob: 0.7647997140884399 => 0.771313488483429
+ACC! index => out prob: 0.7647997140884399 => 0.7499823570251465
+NOACC! b => aa prob: 0.7499823570251465 => 0.7580352425575256
+ACC! a => oa prob: 0.7499823570251465 => 0.7156972289085388
+ACC! count => offset prob: 0.7156972289085388 => 0.6665911674499512
+ACC! root => loc prob: 0.6665911674499512 => 0.629363477230072
+Example time cost:  0.35 min
+ALL examples time cost:  30.96 min
+Query times in this attack:  112
+Greedy query times: 112
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  9789
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2857142857142857
+Successful items count:  16
+Total count:  56
+Index:  62
+
+enter
+LABEL_31 LABEL_31 0.7342057824134827
+ACC! surprise_max => surprising_max prob: 0.7342057824134827 => 0.6961867809295654
+ACC! max_score => max·score prob: 0.6961867809295654 => 0.6930122971534729
+ACC! case_count => casePindex prob: 0.6930122971534729 => 0.5497162342071533
+ACC! p => py prob: 0.5497162342071533 => 0.47945281863212585
+ACC! normal_max => normal·box prob: 0.47945281863212585 => 0.4183124899864197
+ACC! case_index =>  case_pos prob: 0.4183124899864197 => 0.35429415106773376
+ACC! scores_sum => scoresJloc prob: 0.35429415106773376 => 0.31324639916419983
+SUC! s => l prob: 0.31324639916419983 => 0.3010065257549286 label LABEL_54
+Example time cost:  0.36 min
+ALL examples time cost:  31.32 min
+Query times in this attack:  115
+Greedy query times: 115
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  9904
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2982456140350877
+Successful items count:  17
+Total count:  57
+Index:  63
+
+enter
+LABEL_32 LABEL_32 0.9449840188026428
+ACC! i => l prob: 0.9449840188026428 => 0.9238364696502686
+ACC! count_ => catch2 prob: 0.9238364696502686 => 0.919187605381012
+NOACC! root => null prob: 0.919187605381012 => 0.9235126376152039
+NOACC! s_half => s_part prob: 0.919187605381012 => 0.9218122959136963
+NOACC! end => END prob: 0.919187605381012 => 0.9206035733222961
+ACC! result => data prob: 0.919187605381012 => 0.9186419248580933
+ACC! f_half =>  f_partial prob: 0.9186419248580933 => 0.9156657457351685
+NOACC! output_str =>  output_string prob: 0.9156657457351685 => 0.9156685471534729
+ACC! word => function prob: 0.9156657457351685 => 0.9113881587982178
+ACC! n_test =>  n__match prob: 0.9113881587982178 => 0.8897850513458252
+ACC! f_w =>  f_rw prob: 0.8897850513458252 => 0.7124847769737244
+ACC! isPalin =>  isSpind prob: 0.7124847769737244 => 0.6845831871032715
+ACC! f_r => f24sr prob: 0.6845831871032715 => 0.580044686794281
+ACC! start => min prob: 0.580044686794281 => 0.5549663305282593
+ACC! range_ => range__ prob: 0.5549663305282593 => 0.5277119278907776
+Example time cost:  0.66 min
+ALL examples time cost:  31.98 min
+Query times in this attack:  210
+Greedy query times: 210
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  10114
+All sub index: 0
+Avg sub index 0
+Success rate:  0.29310344827586204
+Successful items count:  17
+Total count:  58
+Index:  64
+
+enter
+LABEL_32 LABEL_32 0.5856395959854126
+ACC! n => u prob: 0.5856395959854126 => 0.4984275698661804
+NOACC! j => ki prob: 0.4984275698661804 => 0.5104391574859619
+ACC! k => u prob: 0.4984275698661804 => 0.4932487905025482
+ACC! t => s prob: 0.4932487905025482 => 0.48826372623443604
+ACC! d => ld prob: 0.48826372623443604 => 0.4830986559391022
+NOACC! o => yo prob: 0.4830986559391022 => 0.4843336343765259
+ACC! N => NC prob: 0.4830986559391022 => 0.47679829597473145
+NOACC! sur_equ => sur_eq prob: 0.47679829597473145 => 0.5117619633674622
+ACC! sur_count => equ_length prob: 0.47679829597473145 => 0.4766238331794739
+NOACC! first_count => sec2counter prob: 0.4766238331794739 => 0.48347386717796326
+NOACC! h => ssh prob: 0.4766238331794739 => 0.4895070493221283
+NOACC! g => dr prob: 0.4766238331794739 => 0.4769935607910156
+NOACC! s_ => ionsDiv prob: 0.4766238331794739 => 0.47714468836784363
+ACC! p => r prob: 0.4766238331794739 => 0.4727250039577484
+NOACC! indcies => ndcies prob: 0.4727250039577484 => 0.4785310924053192
+ACC! i => l prob: 0.4727250039577484 => 0.45867058634757996
+NOACC! equ => adequ prob: 0.45867058634757996 => 0.4639398753643036
+NOACC! equ_count => equ_size prob: 0.45867058634757996 => 0.47078847885131836
+NOACC! total => size prob: 0.45867058634757996 => 0.4618191123008728
+ACC! sur => round prob: 0.45867058634757996 => 0.4580951929092407
+NOACC! noSu => noneSl prob: 0.4580951929092407 => 0.47216618061065674
+NOACC! S => I prob: 0.4580951929092407 => 0.4631492793560028
+NOACC! count => iter prob: 0.4580951929092407 => 0.4650336503982544
+ACC! both_count => two_len prob: 0.4580951929092407 => 0.45531830191612244
+NOACC! googlers => moogling prob: 0.45531830191612244 => 0.473345011472702
+NOACC! info => obj prob: 0.45531830191612244 => 0.45817211270332336
+ACC! f => rf prob: 0.45531830191612244 => 0.32809337973594666
+Example time cost:  1.12 min
+ALL examples time cost:  33.1 min
+Query times in this attack:  350
+Greedy query times: 350
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  10464
+All sub index: 0
+Avg sub index 0
+Success rate:  0.288135593220339
+Successful items count:  17
+Total count:  59
+Index:  65
+
+enter
+LABEL_33 LABEL_33 0.49415650963783264
+ACC! B => VB prob: 0.49415650963783264 => 0.3946526348590851
+ACC! A => One prob: 0.3946526348590851 => 0.25838661193847656
+ACC! i => ti prob: 0.25838661193847656 => 0.16191211342811584
+ACC! x => xxx prob: 0.16191211342811584 => 0.12965281307697296
+NOACC! T => NT prob: 0.12965281307697296 => 0.1370631754398346
+ACC! count => case prob: 0.12965281307697296 => 0.10999265313148499
+ACC! num => name prob: 0.10999265313148499 => 0.10265450179576874
+Example time cost:  0.31 min
+ALL examples time cost:  33.41 min
+Query times in this attack:  99
+Greedy query times: 99
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  10563
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2833333333333333
+Successful items count:  17
+Total count:  60
+Index:  66
+
+enter
+LABEL_33 LABEL_33 0.9241266250610352
+ACC! i =>  I prob: 0.9241266250610352 => 0.9168081283569336
+ACC! p => ip prob: 0.9168081283569336 => 0.8925551176071167
+NOACC! b => r prob: 0.8925551176071167 => 0.8968428373336792
+NOACC! s => v prob: 0.8925551176071167 => 0.9013819098472595
+ACC! T => I prob: 0.8925551176071167 => 0.8672094345092773
+ACC! scores =>  scorer prob: 0.8672094345092773 => 0.7911331653594971
+ACC! n => pn prob: 0.7911331653594971 => 0.786148726940155
+ACC! S => Ps prob: 0.786148726940155 => 0.7859761118888855
+ACC! nums =>  num prob: 0.7859761118888855 => 0.7786392569541931
+ACC! N => D prob: 0.7786392569541931 => 0.7552574276924133
+ACC! a => alpha prob: 0.7552574276924133 => 0.7312610149383545
+NOACC! t => u prob: 0.7312610149383545 => 0.755713701248169
+Example time cost:  0.53 min
+ALL examples time cost:  33.94 min
+Query times in this attack:  168
+Greedy query times: 168
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  10731
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2786885245901639
+Successful items count:  17
+Total count:  61
+Index:  67
+
+enter
+LABEL_34 LABEL_34 0.9411723613739014
+ACC! word => all prob: 0.9411723613739014 => 0.9380366802215576
+NOACC! root => rew prob: 0.9380366802215576 => 0.9383472800254822
+NOACC! x =>  X prob: 0.9380366802215576 => 0.9389028549194336
+NOACC! A_root =>  A_row prob: 0.9380366802215576 => 0.9426565170288086
+NOACC! t => j prob: 0.9380366802215576 => 0.9440810084342957
+ACC! T => int prob: 0.9380366802215576 => 0.934568464756012
+ACC! B => P prob: 0.934568464756012 => 0.9330452680587769
+NOACC! B_root =>  B_Root prob: 0.9330452680587769 => 0.9335839152336121
+NOACC! A => Na prob: 0.9330452680587769 => 0.9354700446128845
+NOACC! count => key prob: 0.9330452680587769 => 0.9380025267601013
+Example time cost:  0.44 min
+ALL examples time cost:  34.38 min
+Query times in this attack:  140
+Greedy query times: 140
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  10871
+All sub index: 0
+Avg sub index 0
+Success rate:  0.27419354838709675
+Successful items count:  17
+Total count:  62
+Index:  68
+
+enter
+LABEL_34 LABEL_34 0.9566299915313721
+ACC! count => case prob: 0.9566299915313721 => 0.9546869397163391
+ACC! p => P prob: 0.9546869397163391 => 0.9533408284187317
+ACC! x => dx prob: 0.9533408284187317 => 0.9520798325538635
+ACC! t => int prob: 0.9520798325538635 => 0.932525634765625
+ACC! S => Na prob: 0.932525634765625 => 0.9103829264640808
+ACC! N => NT prob: 0.9103829264640808 => 0.8932121396064758
+ACC! T => LT prob: 0.8932121396064758 => 0.8357403874397278
+ACC! line => rule prob: 0.8357403874397278 => 0.7991554737091064
+Example time cost:  0.34 min
+ALL examples time cost:  34.72 min
+Query times in this attack:  109
+Greedy query times: 109
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  10980
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2698412698412698
+Successful items count:  17
+Total count:  63
+Index:  69
+
+enter
+LABEL_50 LABEL_35 0.07688744366168976
+Example time cost:  0.0 min
+ALL examples time cost:  34.72 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  10981
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2698412698412698
+Successful items count:  17
+Total count:  63
+Index:  70
+
+enter
+LABEL_35 LABEL_35 0.25957152247428894
+ACC! caseI => CaseI prob: 0.25957152247428894 => 0.22822651267051697
+ACC! line => model prob: 0.22822651267051697 => 0.2242678999900818
+NOACC! surprise => surprising prob: 0.2242678999900818 => 0.22645360231399536
+NOACC! N => it prob: 0.2242678999900818 => 0.22561943531036377
+ACC! p => l prob: 0.2242678999900818 => 0.2166559249162674
+NOACC! make_surprise => make_serprising prob: 0.2166559249162674 => 0.22613400220870972
+NOACC! x => t prob: 0.2166559249162674 => 0.2281724363565445
+ACC! f => j prob: 0.2166559249162674 => 0.19829176366329193
+ACC! this_p => This_P prob: 0.19829176366329193 => 0.19033567607402802
+ACC! either => way prob: 0.19033567607402802 => 0.17724120616912842
+NOACC! maxp => Maxc prob: 0.17724120616912842 => 0.18116822838783264
+ACC! g => mg prob: 0.17724120616912842 => 0.11644134670495987
+ACC! points => format prob: 0.11644134670495987 => 0.1131281778216362
+Example time cost:  0.56 min
+ALL examples time cost:  35.29 min
+Query times in this attack:  179
+Greedy query times: 179
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11160
+All sub index: 0
+Avg sub index 0
+Success rate:  0.265625
+Successful items count:  17
+Total count:  64
+Index:  71
+
+enter
+LABEL_10 LABEL_36 0.15182597935199738
+Example time cost:  0.0 min
+ALL examples time cost:  35.29 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11161
+All sub index: 0
+Avg sub index 0
+Success rate:  0.265625
+Successful items count:  17
+Total count:  64
+Index:  72
+
+enter
+LABEL_36 LABEL_36 0.9673022031784058
+ACC! elems =>  elemas prob: 0.9673022031784058 => 0.9334251880645752
+ACC! i =>  I prob: 0.9334251880645752 => 0.9180688261985779
+ACC! start => size prob: 0.9180688261985779 => 0.8879458904266357
+Example time cost:  0.13 min
+ALL examples time cost:  35.43 min
+Query times in this attack:  43
+Greedy query times: 43
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11204
+All sub index: 0
+Avg sub index 0
+Success rate:  0.26153846153846155
+Successful items count:  17
+Total count:  65
+Index:  73
+
+enter
+LABEL_37 LABEL_37 0.9147330522537231
+SUC! lines_left => lines128below prob: 0.9147330522537231 => 0.14595049619674683 label LABEL_51
+Example time cost:  0.09 min
+ALL examples time cost:  35.51 min
+Query times in this attack:  27
+Greedy query times: 27
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11231
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2727272727272727
+Successful items count:  18
+Total count:  66
+Index:  74
+
+enter
+LABEL_37 LABEL_37 0.04034580662846565
+SUC! j => uj prob: 0.04034580662846565 => 0.03928087651729584 label LABEL_32
+Example time cost:  0.1 min
+ALL examples time cost:  35.62 min
+Query times in this attack:  31
+Greedy query times: 31
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11262
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2835820895522388
+Successful items count:  19
+Total count:  67
+Index:  75
+
+enter
+LABEL_38 LABEL_38 0.4001488983631134
+NOACC! ANS => Q prob: 0.4001488983631134 => 0.4031206965446472
+ACC! n => net prob: 0.4001488983631134 => 0.2543695867061615
+ACC! T => H prob: 0.2543695867061615 => 0.20476096868515015
+ACC! PP => Ps prob: 0.20476096868515015 => 0.1673663854598999
+SUC! i => list prob: 0.1673663854598999 => 0.1613578498363495 label LABEL_42
+Example time cost:  0.25 min
+ALL examples time cost:  35.87 min
+Query times in this attack:  78
+Greedy query times: 78
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11340
+All sub index: 0
+Avg sub index 0
+Success rate:  0.29411764705882354
+Successful items count:  20
+Total count:  68
+Index:  76
+
+enter
+LABEL_38 LABEL_38 0.9490795731544495
+ACC! S => I prob: 0.9490795731544495 => 0.9480167627334595
+ACC! N => D prob: 0.9480167627334595 => 0.943778395652771
+ACC! Data => Distance prob: 0.943778395652771 => 0.9303092956542969
+ACC! score =>  scores prob: 0.9303092956542969 => 0.9234697222709656
+ACC! p => P prob: 0.9234697222709656 => 0.9184446930885315
+ACC! Good =>  good prob: 0.9184446930885315 => 0.9023990631103516
+ACC! i => j prob: 0.9023990631103516 => 0.8817297220230103
+ACC! T => D prob: 0.8817297220230103 => 0.3866759240627289
+Example time cost:  0.33 min
+ALL examples time cost:  36.2 min
+Query times in this attack:  106
+Greedy query times: 106
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11446
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2898550724637681
+Successful items count:  20
+Total count:  69
+Index:  77
+
+enter
+LABEL_39 LABEL_39 0.8261433839797974
+ACC! i =>  ii prob: 0.8261433839797974 => 0.6466698050498962
+NOACC! s => o prob: 0.6466698050498962 => 0.6467923521995544
+NOACC! count => J prob: 0.6466698050498962 => 0.6675092577934265
+ACC! length => bb prob: 0.6466698050498962 => 0.6362994909286499
+NOACC! b => ab prob: 0.6362994909286499 => 0.6685640215873718
+NOACC! a => ama prob: 0.6362994909286499 => 0.6418901085853577
+ACC! n => r prob: 0.6362994909286499 => 0.6007323265075684
+ACC! j => uj prob: 0.6007323265075684 => 0.5811991095542908
+Example time cost:  0.35 min
+ALL examples time cost:  36.55 min
+Query times in this attack:  112
+Greedy query times: 112
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11558
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2857142857142857
+Successful items count:  20
+Total count:  70
+Index:  78
+
+enter
+LABEL_22 LABEL_39 0.4774596393108368
+Example time cost:  0.0 min
+ALL examples time cost:  36.55 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11559
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2857142857142857
+Successful items count:  20
+Total count:  70
+Index:  79
+
+enter
+LABEL_40 LABEL_40 0.16746476292610168
+ACC! rres =>  rresult prob: 0.16746476292610168 => 0.11824215203523636
+NOACC! odd_pal => odd_cal prob: 0.11824215203523636 => 0.13434618711471558
+NOACC! LIMIT => LLimIT prob: 0.11824215203523636 => 0.14561399817466736
+SUC! side_length => side_direction prob: 0.11824215203523636 => 0.13544122874736786 label LABEL_45
+Example time cost:  0.25 min
+ALL examples time cost:  36.81 min
+Query times in this attack:  76
+Greedy query times: 76
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11635
+All sub index: 0
+Avg sub index 0
+Success rate:  0.29577464788732394
+Successful items count:  21
+Total count:  71
+Index:  80
+
+enter
+LABEL_40 LABEL_40 0.4278452694416046
+ACC! surprising => surfacefaces prob: 0.4278452694416046 => 0.4062449336051941
+ACC! regular => valid prob: 0.4062449336051941 => 0.3937036097049713
+Example time cost:  0.09 min
+ALL examples time cost:  36.9 min
+Query times in this attack:  29
+Greedy query times: 29
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11664
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2916666666666667
+Successful items count:  21
+Total count:  72
+Index:  81
+
+enter
+LABEL_41 LABEL_41 0.8172993063926697
+ACC! x => rx prob: 0.8172993063926697 => 0.7769999504089355
+NOACC! start =>  end prob: 0.7769999504089355 => 0.7832379341125488
+ACC! a => area prob: 0.7769999504089355 => 0.7747623324394226
+ACC! let => shell prob: 0.7747623324394226 => 0.46954646706581116
+ACC! l => ur prob: 0.46954646706581116 => 0.4633163809776306
+NOACC! b => rb prob: 0.4633163809776306 => 0.47828564047813416
+ACC! main => section prob: 0.4633163809776306 => 0.4615474343299866
+Example time cost:  0.31 min
+ALL examples time cost:  37.21 min
+Query times in this attack:  98
+Greedy query times: 98
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11762
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2876712328767123
+Successful items count:  21
+Total count:  73
+Index:  82
+
+enter
+LABEL_41 LABEL_41 0.8274412751197815
+ACC! solve =>  solution prob: 0.8274412751197815 => 0.7697237730026245
+ACC! cond => log prob: 0.7697237730026245 => 0.6530980467796326
+ACC! surps => Surfaces prob: 0.6530980467796326 => 0.5827469229698181
+ACC! maxScore =>  maxscore prob: 0.5827469229698181 => 0.5279451012611389
+ACC! tot =>  tota prob: 0.5279451012611389 => 0.4564332067966461
+ACC! t => ti prob: 0.4564332067966461 => 0.44012078642845154
+NOACC! pts => inputsi prob: 0.44012078642845154 => 0.44183990359306335
+ACC! main => me prob: 0.44012078642845154 => 0.42429134249687195
+ACC! n => r prob: 0.42429134249687195 => 0.3864000737667084
+NOACC! directs =>  directly prob: 0.3864000737667084 => 0.3877590298652649
+Example time cost:  0.44 min
+ALL examples time cost:  37.66 min
+Query times in this attack:  140
+Greedy query times: 140
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11902
+All sub index: 0
+Avg sub index 0
+Success rate:  0.28378378378378377
+Successful items count:  21
+Total count:  74
+Index:  83
+
+enter
+LABEL_42 LABEL_42 0.8583120107650757
+ACC! ans => aces prob: 0.8583120107650757 => 0.8554913997650146
+ACC! s => ss prob: 0.8554913997650146 => 0.7908611297607422
+ACC! n => Na prob: 0.7908611297607422 => 0.7255855798721313
+ACC! B => I prob: 0.7255855798721313 => 0.7065808773040771
+NOACC! k => l prob: 0.7065808773040771 => 0.7131678462028503
+NOACC! i => ai prob: 0.7065808773040771 => 0.7266713976860046
+ACC! test => t prob: 0.7065808773040771 => 0.6630058288574219
+ACC! x => xxx prob: 0.6630058288574219 => 0.5947896838188171
+NOACC! A => LA prob: 0.5947896838188171 => 0.6018730401992798
+NOACC! goods => goodi prob: 0.5947896838188171 => 0.6026068329811096
+ACC! T => Q prob: 0.5947896838188171 => 0.589905858039856
+ACC! j =>  d prob: 0.589905858039856 => 0.5681369304656982
+ACC! case => config prob: 0.5681369304656982 => 0.3905629813671112
+Example time cost:  0.55 min
+ALL examples time cost:  38.21 min
+Query times in this attack:  176
+Greedy query times: 176
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  12078
+All sub index: 0
+Avg sub index 0
+Success rate:  0.28
+Successful items count:  21
+Total count:  75
+Index:  84
+
+enter
+LABEL_42 LABEL_42 0.822392463684082
+ACC! t => j prob: 0.822392463684082 => 0.726526141166687
+ACC! T => H prob: 0.726526141166687 => 0.4885813593864441
+ACC! maybe => now prob: 0.4885813593864441 => 0.39938685297966003
+NOACC! nice => chi prob: 0.39938685297966003 => 0.4040144979953766
+ACC! p => u prob: 0.39938685297966003 => 0.39129897952079773
+ACC! huh => workuh prob: 0.39129897952079773 => 0.35539835691452026
+ACC! ss => dd prob: 0.35539835691452026 => 0.35499078035354614
+ACC! n => j prob: 0.35499078035354614 => 0.34087130427360535
+NOACC! s => ims prob: 0.34087130427360535 => 0.3621130883693695
+NOACC! y => j prob: 0.34087130427360535 => 0.34456220269203186
+ACC! l =>  L prob: 0.34087130427360535 => 0.23670880496501923
+ACC! x => i prob: 0.23670880496501923 => 0.1937050223350525
+Example time cost:  0.5 min
+ALL examples time cost:  38.71 min
+Query times in this attack:  161
+Greedy query times: 161
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  12239
+All sub index: 0
+Avg sub index 0
+Success rate:  0.27631578947368424
+Successful items count:  21
+Total count:  76
+Index:  85
+
+enter
+LABEL_25 LABEL_43 0.050293248146772385
+Example time cost:  0.01 min
+ALL examples time cost:  38.72 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  12240
+All sub index: 0
+Avg sub index 0
+Success rate:  0.27631578947368424
+Successful items count:  21
+Total count:  76
+Index:  86
+
+enter
+LABEL_43 LABEL_43 0.8967177271842957
+ACC! case => config prob: 0.8967177271842957 => 0.8251349329948425
+ACC! problem =>  problems prob: 0.8251349329948425 => 0.7811033725738525
+ACC! practice => am prob: 0.7811033725738525 => 0.7364963889122009
+ACC! infile =>  infilename prob: 0.7364963889122009 => 0.4689662754535675
+ACC! p => b prob: 0.4689662754535675 => 0.4605170786380768
+NOACC! item => page prob: 0.4605170786380768 => 0.46658849716186523
+ACC! outfile =>  outFile prob: 0.4605170786380768 => 0.34045305848121643
+NOACC! min_nosurprise => min_nosureprising prob: 0.34045305848121643 => 0.3504936397075653
+ACC! points => sets prob: 0.34045305848121643 => 0.33263468742370605
+ACC! N => IP prob: 0.33263468742370605 => 0.3136940598487854
+ACC! S => IP prob: 0.3136940598487854 => 0.291195809841156
+NOACC! max_nosurprise => max_nosureprises prob: 0.291195809841156 => 0.3029220402240753
+NOACC! possible => all prob: 0.291195809841156 => 0.31326743960380554
+NOACC! lookup => setdown prob: 0.291195809841156 => 0.30214887857437134
+ACC! cases => lines prob: 0.291195809841156 => 0.28232401609420776
+ACC! line => file prob: 0.28232401609420776 => 0.27284717559814453
+ACC! always => steps prob: 0.27284717559814453 => 0.2636330723762512
+ACC! i => adi prob: 0.2636330723762512 => 0.2593088448047638
+ACC! total => max prob: 0.2593088448047638 => 0.24326688051223755
+NOACC! resid => oskid prob: 0.24326688051223755 => 0.24897576868534088
+Example time cost:  0.89 min
+ALL examples time cost:  39.6 min
+Query times in this attack:  279
+Greedy query times: 279
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  12519
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2727272727272727
+Successful items count:  21
+Total count:  77
+Index:  87
+
+enter
+LABEL_44 LABEL_44 0.932098388671875
+ACC! num => ti prob: 0.932098388671875 => 0.8979373574256897
+ACC! max_val => max·val prob: 0.8979373574256897 => 0.892132043838501
+ACC! T => t prob: 0.892132043838501 => 0.8586764931678772
+NOACC! min_val => min__Val prob: 0.8586764931678772 => 0.8595519065856934
+ACC! N => NT prob: 0.8586764931678772 => 0.8365504741668701
+ACC! i => t prob: 0.8365504741668701 => 0.7616353034973145
+ACC! ans => cas prob: 0.7616353034973145 => 0.6487641930580139
+ACC! fair_numbers => fairallnotumbered prob: 0.6487641930580139 => 0.5419290065765381
+ACC! s2 => s_ prob: 0.5419290065765381 => 0.5316424369812012
+NOACC! s1 =>  s01 prob: 0.5316424369812012 => 0.5733563303947449
+Example time cost:  0.43 min
+ALL examples time cost:  40.03 min
+Query times in this attack:  136
+Greedy query times: 136
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  12655
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2692307692307692
+Successful items count:  21
+Total count:  78
+Index:  88
+
+enter
+LABEL_44 LABEL_44 0.8729847073554993
+ACC! n => pn prob: 0.8729847073554993 => 0.863383948802948
+NOACC! params => pm prob: 0.863383948802948 => 0.8653997778892517
+ACC! p => y prob: 0.863383948802948 => 0.86048823595047
+NOACC! S => SU prob: 0.86048823595047 => 0.8651813268661499
+ACC! N => I prob: 0.86048823595047 => 0.8570086359977722
+ACC! i => eni prob: 0.8570086359977722 => 0.8001794219017029
+ACC! score => est prob: 0.8001794219017029 => 0.7982847690582275
+NOACC! possible =>  possibility prob: 0.7982847690582275 => 0.8012979626655579
+ACC! clear => enable prob: 0.7982847690582275 => 0.7940950393676758
+NOACC! scores => oscases prob: 0.7940950393676758 => 0.8016237616539001
+ACC! ans => cas prob: 0.7940950393676758 => 0.7434508800506592
+NOACC! suprising_min => suprising_all prob: 0.7434508800506592 => 0.7596096396446228
+ACC! normal_min => normal_main prob: 0.7434508800506592 => 0.7410068511962891
+ACC! line => LINE prob: 0.7410068511962891 => 0.730297863483429
+Example time cost:  0.61 min
+ALL examples time cost:  40.64 min
+Query times in this attack:  193
+Greedy query times: 193
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  12848
+All sub index: 0
+Avg sub index 0
+Success rate:  0.26582278481012656
+Successful items count:  21
+Total count:  79
+Index:  89
+
+enter
+LABEL_5 LABEL_45 0.038961261510849
+Example time cost:  0.0 min
+ALL examples time cost:  40.64 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  12849
+All sub index: 0
+Avg sub index 0
+Success rate:  0.26582278481012656
+Successful items count:  21
+Total count:  79
+Index:  90
+
+enter
+LABEL_45 LABEL_45 0.8481920957565308
+ACC! casenum =>  casumer prob: 0.8481920957565308 => 0.5456001162528992
+NOACC! maxgooglers => maxgouglers prob: 0.5456001162528992 => 0.5502992272377014
+ACC! score => une prob: 0.5456001162528992 => 0.5385318398475647
+ACC! line => LINE prob: 0.5385318398475647 => 0.45559102296829224
+NOACC! p => n prob: 0.45559102296829224 => 0.4663837254047394
+ACC! maxsurprising =>  maxsurpiring prob: 0.45559102296829224 => 0.40971335768699646
+ACC! data => Data prob: 0.40971335768699646 => 0.35108649730682373
+ACC! s => i prob: 0.35108649730682373 => 0.32580143213272095
+ACC! scores =>  scorer prob: 0.32580143213272095 => 0.3184596598148346
+NOACC! bestsurp => bistsaurP prob: 0.3184596598148346 => 0.3405030071735382
+ACC! best => obj prob: 0.3184596598148346 => 0.30239784717559814
+Example time cost:  0.49 min
+ALL examples time cost:  41.13 min
+Query times in this attack:  155
+Greedy query times: 155
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  13004
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2625
+Successful items count:  21
+Total count:  80
+Index:  91
+
+enter
+LABEL_46 LABEL_46 0.9146918654441833
+ACC! root => rew prob: 0.9146918654441833 => 0.8991004228591919
+ACC! unfair => Unaster prob: 0.8991004228591919 => 0.8688368797302246
+ACC! ss => sq prob: 0.8688368797302246 => 0.8688140511512756
+ACC! sn =>  SN prob: 0.8688140511512756 => 0.8313125371932983
+ACC! n => ne prob: 0.8313125371932983 => 0.7808588147163391
+ACC! f => fun prob: 0.7808588147163391 => 0.7511100172996521
+ACC! square => round prob: 0.7511100172996521 => 0.7300587296485901
+ACC! mid => i prob: 0.7300587296485901 => 0.7215176820755005
+ACC! fair => round prob: 0.7215176820755005 => 0.7168046832084656
+ACC! l => left prob: 0.7168046832084656 => 0.7018716931343079
+ACC! _t =>  _v prob: 0.7018716931343079 => 0.6792329549789429
+ACC! fn => fun prob: 0.6792329549789429 => 0.6704673171043396
+ACC! y => j prob: 0.6704673171043396 => 0.626061201095581
+ACC! s => sq prob: 0.626061201095581 => 0.6091374158859253
+ACC! x => r prob: 0.6091374158859253 => 0.5869652628898621
+NOACC! Total => Info prob: 0.5869652628898621 => 0.6215699911117554
+NOACC! t => v prob: 0.5869652628898621 => 0.6216065883636475
+Example time cost:  0.71 min
+ALL examples time cost:  41.84 min
+Query times in this attack:  224
+Greedy query times: 224
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  13228
+All sub index: 0
+Avg sub index 0
+Success rate:  0.25925925925925924
+Successful items count:  21
+Total count:  81
+Index:  92
+
+enter
+LABEL_46 LABEL_46 0.9488335251808167
+NOACC! letter => knife prob: 0.9488335251808167 => 0.9507710337638855
+ACC! f => rf prob: 0.9488335251808167 => 0.9012695550918579
+NOACC! _t => _token prob: 0.9012695550918579 => 0.9258737564086914
+NOACC! input => out prob: 0.9012695550918579 => 0.9112480878829956
+NOACC! s => c prob: 0.9012695550918579 => 0.9205302596092224
+NOACC! p => pn prob: 0.9012695550918579 => 0.9067589044570923
+NOACC! t => count prob: 0.9012695550918579 => 0.9144216775894165
+NOACC! r => z prob: 0.9012695550918579 => 0.9306403398513794
+NOACC! N => M prob: 0.9012695550918579 => 0.9211730360984802
+NOACC! score => z prob: 0.9012695550918579 => 0.9207972884178162
+NOACC! ti => ta prob: 0.9012695550918579 => 0.9322620630264282
+NOACC! output => l prob: 0.9012695550918579 => 0.9063992500305176
+NOACC! i => u prob: 0.9012695550918579 => 0.9197328090667725
+NOACC! S => Rs prob: 0.9012695550918579 => 0.9290282726287842
+NOACC! x => l prob: 0.9012695550918579 => 0.9265196323394775
+NOACC! low_scores => low_sumores prob: 0.9012695550918579 => 0.9180175065994263
+NOACC! fn => library prob: 0.9012695550918579 => 0.9049328565597534
+Example time cost:  0.73 min
+ALL examples time cost:  42.57 min
+Query times in this attack:  234
+Greedy query times: 234
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  13462
+All sub index: 0
+Avg sub index 0
+Success rate:  0.25609756097560976
+Successful items count:  21
+Total count:  82
+Index:  93
+
+enter
+LABEL_41 LABEL_47 0.07749933749437332
+Example time cost:  0.0 min
+ALL examples time cost:  42.58 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  13463
+All sub index: 0
+Avg sub index 0
+Success rate:  0.25609756097560976
+Successful items count:  21
+Total count:  82
+Index:  94
+
+enter
+LABEL_47 LABEL_47 0.8665491938591003
+ACC! OEXT => MOINTER prob: 0.8665491938591003 => 0.8400974869728088
+ACC! triplets => traplet prob: 0.8400974869728088 => 0.8395642638206482
+ACC! c =>  cursor prob: 0.8395642638206482 => 0.8328487873077393
+ACC! trip => path prob: 0.8328487873077393 => 0.8286668062210083
+NOACC! IN_S => In_SU prob: 0.8286668062210083 => 0.8354142308235168
+ACC! IN_L => OutJECTLI prob: 0.8286668062210083 => 0.8275888562202454
+ACC! cases => cats prob: 0.8275888562202454 => 0.8027970790863037
+ACC! sm => nom prob: 0.8027970790863037 => 0.7860901951789856
+NOACC! s_max_val => s_maxqpol prob: 0.7860901951789856 => 0.7995761632919312
+ACC! tgt => Tgd prob: 0.7860901951789856 => 0.7858297228813171
+NOACC! av => am prob: 0.7858297228813171 => 0.7945758104324341
+ACC! CASE_PRFX => CASE_RELINT prob: 0.7858297228813171 => 0.7841999530792236
+ACC! res => re prob: 0.7841999530792236 => 0.7745652198791504
+ACC! av_cls => av_clusters prob: 0.7745652198791504 => 0.7735742330551147
+ACC! _ => of prob: 0.7735742330551147 => 0.7703700661659241
+ACC! kind => name prob: 0.7703700661659241 => 0.7531130313873291
+NOACC! filename => database prob: 0.7531130313873291 => 0.7588109374046326
+NOACC! ns_max_val => ns_max_Val prob: 0.7531130313873291 => 0.766325056552887
+ACC! case => all prob: 0.7531130313873291 => 0.745585560798645
+NOACC! data => api prob: 0.745585560798645 => 0.7512776255607605
+NOACC! L => Q prob: 0.745585560798645 => 0.7463269829750061
+Example time cost:  0.91 min
+ALL examples time cost:  43.49 min
+Query times in this attack:  286
+Greedy query times: 286
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  13749
+All sub index: 0
+Avg sub index 0
+Success rate:  0.25301204819277107
+Successful items count:  21
+Total count:  83
+Index:  95
+
+enter
+LABEL_48 LABEL_48 0.9684770107269287
+ACC! x => exc prob: 0.9684770107269287 => 0.9603021740913391
+ACC! filenames => fENaves prob: 0.9603021740913391 => 0.9589232802391052
+ACC! l1 => Lone prob: 0.9589232802391052 => 0.9530770778656006
+ACC! i => z prob: 0.9530770778656006 => 0.951129138469696
+ACC! testcase => xCase prob: 0.951129138469696 => 0.9451779127120972
+NOACC! A => Ma prob: 0.9451779127120972 => 0.9488104581832886
+ACC! count => call prob: 0.9451779127120972 => 0.9409133195877075
+NOACC! sqr =>  sqnr prob: 0.9409133195877075 => 0.9455122947692871
+NOACC! B => D prob: 0.9409133195877075 => 0.9458271265029907
+NOACC! fair_and_squares => fair_and_squared prob: 0.9409133195877075 => 0.9444517493247986
+NOACC! T => TH prob: 0.9409133195877075 => 0.9435853958129883
+NOACC! n => v prob: 0.9409133195877075 => 0.9505918622016907
+ACC! directory => definition prob: 0.9409133195877075 => 0.7823347449302673
+ACC! f_out => l_Out prob: 0.7823347449302673 => 0.7585182189941406
+NOACC! chosen_filename => chosenfFilename prob: 0.7585182189941406 => 0.7681270241737366
+ACC! l => rl prob: 0.7585182189941406 => 0.7568988800048828
+ACC! f_in => f67isin prob: 0.7568988800048828 => 0.733266294002533
+Example time cost:  0.75 min
+ALL examples time cost:  44.23 min
+Query times in this attack:  237
+Greedy query times: 237
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  13986
+All sub index: 0
+Avg sub index 0
+Success rate:  0.25
+Successful items count:  21
+Total count:  84
+Index:  96
+
+enter
+LABEL_48 LABEL_48 0.9623161554336548
+ACC! T => DT prob: 0.9623161554336548 => 0.9509902596473694
+ACC! p => pp prob: 0.9509902596473694 => 0.9473015069961548
+NOACC! B => Z prob: 0.9473015069961548 => 0.953069806098938
+NOACC! i => im prob: 0.9473015069961548 => 0.9521589279174805
+NOACC! t_i => t_j prob: 0.9473015069961548 => 0.9482784867286682
+ACC! x => filename prob: 0.9473015069961548 => 0.9416608810424805
+ACC! S => P prob: 0.9416608810424805 => 0.9376562833786011
+NOACC! A => LA prob: 0.9376562833786011 => 0.9399258494377136
+ACC! f_in => sf_out prob: 0.9376562833786011 => 0.8866019248962402
+ACC! f_out => fayin prob: 0.8866019248962402 => 0.8771452307701111
+ACC! line => cell prob: 0.8771452307701111 => 0.8645207285881042
+ACC! result => RESULTS prob: 0.8645207285881042 => 0.8591526746749878
+NOACC! filenames => filennames prob: 0.8591526746749878 => 0.8599454760551453
+ACC! nnn => tunv prob: 0.8591526746749878 => 0.8517895936965942
+NOACC! t => ct prob: 0.8517895936965942 => 0.8539485931396484
+NOACC! l1 => lc1 prob: 0.8517895936965942 => 0.860612690448761
+ACC! chosen_filename => chosed_filename prob: 0.8517895936965942 => 0.8420023322105408
+ACC! directory => language prob: 0.8420023322105408 => 0.4520397186279297
+Example time cost:  0.79 min
+ALL examples time cost:  45.02 min
+Query times in this attack:  249
+Greedy query times: 249
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  14235
+All sub index: 0
+Avg sub index 0
+Success rate:  0.24705882352941178
+Successful items count:  21
+Total count:  85
+Index:  97
+
+enter
+LABEL_49 LABEL_49 0.5509992837905884
+ACC! b => rb prob: 0.5509992837905884 => 0.47322532534599304
+ACC! res => reg prob: 0.47322532534599304 => 0.43668603897094727
+NOACC! A => Code prob: 0.43668603897094727 => 0.4523548185825348
+NOACC! allPalindrome => allPalintome prob: 0.43668603897094727 => 0.4803837537765503
+NOACC! start => focus prob: 0.43668603897094727 => 0.47614189982414246
+NOACC! B => AB prob: 0.43668603897094727 => 0.47135263681411743
+NOACC! a => sta prob: 0.43668603897094727 => 0.4545363187789917
+NOACC! n => int prob: 0.43668603897094727 => 0.5143988728523254
+ACC! outString => plainLine prob: 0.43668603897094727 => 0.41416430473327637
+ACC! T => Size prob: 0.41416430473327637 => 0.27217936515808105
+NOACC! num => umer prob: 0.27217936515808105 => 0.29675349593162537
+SUC! f => j prob: 0.27217936515808105 => 0.2782902717590332 label LABEL_16
+Example time cost:  0.54 min
+ALL examples time cost:  45.56 min
+Query times in this attack:  171
+Greedy query times: 171
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  14406
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2558139534883721
+Successful items count:  22
+Total count:  86
+Index:  98
+
+enter
+LABEL_49 LABEL_49 0.9484063982963562
+ACC! cases => sets prob: 0.9484063982963562 => 0.9110985398292542
+ACC! p => ip prob: 0.9110985398292542 => 0.8982037901878357
+NOACC! T => D prob: 0.8982037901878357 => 0.8998900055885315
+NOACC! okLimit => maxPosition prob: 0.8982037901878357 => 0.9000139832496643
+ACC! S => I prob: 0.8982037901878357 => 0.8919004201889038
+NOACC! N => Z prob: 0.8919004201889038 => 0.8957477807998657
+NOACC! okIfS => OkIfS prob: 0.8919004201889038 => 0.9107298851013184
+ACC! line => strip prob: 0.8919004201889038 => 0.891320526599884
+NOACC! okIfSLimit => okIfSLimsiter prob: 0.891320526599884 => 0.892731249332428
+ACC! case =>  position prob: 0.891320526599884 => 0.8681257367134094
+ACC! res => ris prob: 0.8681257367134094 => 0.8418180346488953
+ACC! ok => job prob: 0.8418180346488953 => 0.8264030814170837
+ACC! fout =>  ffile prob: 0.8264030814170837 => 0.3114563822746277
+SUC! fin => fun prob: 0.3114563822746277 => 0.4053022563457489 label LABEL_16
+Example time cost:  0.61 min
+ALL examples time cost:  46.17 min
+Query times in this attack:  195
+Greedy query times: 195
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  14601
+All sub index: 0
+Avg sub index 0
+Success rate:  0.26436781609195403
+Successful items count:  23
+Total count:  87
+Index:  99
+
+enter
+LABEL_50 LABEL_50 0.9302438497543335
+ACC! n =>  N prob: 0.9302438497543335 => 0.8917025327682495
+ACC! T => Z prob: 0.8917025327682495 => 0.8425226807594299
+ACC! count => id prob: 0.8425226807594299 => 0.8131871819496155
+NOACC! B => D prob: 0.8131871819496155 => 0.8219691514968872
+ACC! square => corn prob: 0.8131871819496155 => 0.8049530982971191
+NOACC! digits => splits prob: 0.8049530982971191 => 0.8278884887695312
+ACC! A => D prob: 0.8049530982971191 => 0.790972113609314
+ACC! case => address prob: 0.790972113609314 => 0.7659079432487488
+ACC! soln => Sol prob: 0.7659079432487488 => 0.7009464502334595
+Example time cost:  0.4 min
+ALL examples time cost:  46.57 min
+Query times in this attack:  127
+Greedy query times: 127
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  14728
+All sub index: 0
+Avg sub index 0
+Success rate:  0.26136363636363635
+Successful items count:  23
+Total count:  88
+Index:  100
+
+enter
+LABEL_50 LABEL_50 0.888383686542511
+ACC! count => start prob: 0.888383686542511 => 0.8671654462814331
+NOACC! p => py prob: 0.8671654462814331 => 0.8724799156188965
+ACC! t => z prob: 0.8671654462814331 => 0.8666572570800781
+ACC! scores =>  sccore prob: 0.8666572570800781 => 0.8644627332687378
+ACC! s => tp prob: 0.8644627332687378 => 0.8469497561454773
+ACC! result => example prob: 0.8469497561454773 => 0.8325716257095337
+ACC! case => Case prob: 0.8325716257095337 => 0.7740069627761841
+ACC! line => iter prob: 0.7740069627761841 => 0.7487682104110718
+ACC! n => nu prob: 0.7487682104110718 => 0.7169685363769531
+ACC! T => section prob: 0.7169685363769531 => 0.6922104358673096
+Example time cost:  0.43 min
+ALL examples time cost:  47.0 min
+Query times in this attack:  137
+Greedy query times: 137
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  14865
+All sub index: 0
+Avg sub index 0
+Success rate:  0.25842696629213485
+Successful items count:  23
+Total count:  89
+Index:  101
+
+enter
+LABEL_47 LABEL_51 0.10512516647577286
+Example time cost:  0.0 min
+ALL examples time cost:  47.01 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  14866
+All sub index: 0
+Avg sub index 0
+Success rate:  0.25842696629213485
+Successful items count:  23
+Total count:  89
+Index:  102
+
+enter
+LABEL_51 LABEL_51 0.9028167724609375
+ACC! data_line => datamatlin prob: 0.9028167724609375 => 0.889070451259613
+NOACC! N => n prob: 0.889070451259613 => 0.9049911499023438
+ACC! S => out prob: 0.889070451259613 => 0.8651562929153442
+ACC! win_cutoff => win_taildown prob: 0.8651562929153442 => 0.8616806864738464
+ACC! data_args => data__args prob: 0.8616806864738464 => 0.8430707454681396
+NOACC! bits => b prob: 0.8430707454681396 => 0.8441452383995056
+ACC! parser => jack prob: 0.8430707454681396 => 0.7902348637580872
+ACC! options => includes prob: 0.7902348637580872 => 0.7418919801712036
+ACC! x =>  X prob: 0.7418919801712036 => 0.7353219985961914
+NOACC! t => out prob: 0.7353219985961914 => 0.7615981101989746
+ACC! args => _ prob: 0.7353219985961914 => 0.7303385138511658
+ACC! outright_wins => outright_wains prob: 0.7303385138511658 => 0.7169821262359619
+ACC! score => si prob: 0.7169821262359619 => 0.7115038633346558
+NOACC! p => pot prob: 0.7115038633346558 => 0.7422064542770386
+NOACC! surprise_cutoff => surprise_CutOff prob: 0.7115038633346558 => 0.7512680292129517
+NOACC! potential_surprises => potential_turprising prob: 0.7115038633346558 => 0.7139574885368347
+ACC! case_number => caseCcondition prob: 0.7115038633346558 => 0.6782832741737366
+ACC! input_file => inputfulclass prob: 0.6782832741737366 => 0.6150819063186646
+ACC! total_cases =>  total_frames prob: 0.6150819063186646 => 0.5614023208618164
+Example time cost:  0.84 min
+ALL examples time cost:  47.84 min
+Query times in this attack:  266
+Greedy query times: 266
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  15132
+All sub index: 0
+Avg sub index 0
+Success rate:  0.25555555555555554
+Successful items count:  23
+Total count:  90
+Index:  103
+
+enter
+LABEL_52 LABEL_52 0.7589155435562134
+ACC! ab => am prob: 0.7589155435562134 => 0.7219616174697876
+ACC! case_number => case__numbered prob: 0.7219616174697876 => 0.6745197772979736
+ACC! sq => sh prob: 0.6745197772979736 => 0.660117506980896
+ACC! x => xb prob: 0.660117506980896 => 0.6430436968803406
+ACC! root => feed prob: 0.6430436968803406 => 0.5881413817405701
+ACC! candidate => Candue prob: 0.5881413817405701 => 0.5824804306030273
+ACC! total_cases =>  total_tests prob: 0.5824804306030273 => 0.4671255946159363
+ACC! r => reader prob: 0.4671255946159363 => 0.2674943208694458
+ACC! fs => fee prob: 0.2674943208694458 => 0.2543598413467407
+Example time cost:  0.4 min
+ALL examples time cost:  48.24 min
+Query times in this attack:  126
+Greedy query times: 126
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  15258
+All sub index: 0
+Avg sub index 0
+Success rate:  0.25274725274725274
+Successful items count:  23
+Total count:  91
+Index:  104
+
+enter
+LABEL_52 LABEL_52 0.9223962426185608
+ACC! r => ir prob: 0.9223962426185608 => 0.8051421046257019
+ACC! total_cases =>  total_lines prob: 0.8051421046257019 => 0.6959912776947021
+ACC! case_number => case__number prob: 0.6959912776947021 => 0.6054893136024475
+ACC! s => l prob: 0.6054893136024475 => 0.5144230723381042
+NOACC! score => seed prob: 0.5144230723381042 => 0.5324825644493103
+ACC! case_line => casejtext prob: 0.5144230723381042 => 0.45271944999694824
+ACC! mod_plus_conv_with_s => mod_plus_conv_without_ssl prob: 0.45271944999694824 => 0.4437107741832733
+ACC! scores =>  Scores prob: 0.4437107741832733 => 0.366427481174469
+NOACC! ans => au prob: 0.366427481174469 => 0.3694303035736084
+NOACC! mod_plus_conv_without_s => mod_plus_conv_with_e prob: 0.366427481174469 => 0.40548965334892273
+NOACC! p => P prob: 0.366427481174469 => 0.36644598841667175
+Example time cost:  0.47 min
+ALL examples time cost:  48.71 min
+Query times in this attack:  148
+Greedy query times: 148
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  15406
+All sub index: 0
+Avg sub index 0
+Success rate:  0.25
+Successful items count:  23
+Total count:  92
+Index:  105
+
+enter
+LABEL_53 LABEL_53 0.9467540383338928
+ACC! i => l prob: 0.9467540383338928 => 0.9463146328926086
+ACC! n => out prob: 0.9463146328926086 => 0.9422957301139832
+ACC! fout => FOUT prob: 0.9422957301139832 => 0.8688133955001831
+ACC! case => me prob: 0.8688133955001831 => 0.8504322171211243
+ACC! f => feed prob: 0.8504322171211243 => 0.7750489115715027
+NOACC! A => As prob: 0.7750489115715027 => 0.780573308467865
+NOACC! found => new prob: 0.7750489115715027 => 0.7817754745483398
+ACC! inputFileName => inputFilesPath prob: 0.7750489115715027 => 0.7623221278190613
+ACC! B => Z prob: 0.7623221278190613 => 0.7200424075126648
+ACC! T => Data prob: 0.7200424075126648 => 0.6949620842933655
+ACC! sqrtI => squarertB prob: 0.6949620842933655 => 0.6795476675033569
+ACC! data => lines prob: 0.6795476675033569 => 0.6342082619667053
+Example time cost:  0.52 min
+ALL examples time cost:  49.22 min
+Query times in this attack:  164
+Greedy query times: 164
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  15570
+All sub index: 0
+Avg sub index 0
+Success rate:  0.24731182795698925
+Successful items count:  23
+Total count:  93
+Index:  106
+
+enter
+LABEL_53 LABEL_53 0.7251296043395996
+ACC! data => file prob: 0.7251296043395996 => 0.7026705145835876
+ACC! n => span prob: 0.7026705145835876 => 0.6923840641975403
+NOACC! n_cases => nb_trial prob: 0.6923840641975403 => 0.706056535243988
+NOACC! i => t prob: 0.6923840641975403 => 0.7002038955688477
+ACC! n_googlers_with_best_result => n_googlers_with_better_Result prob: 0.6923840641975403 => 0.6729479432106018
+ACC! j => t prob: 0.6729479432106018 => 0.6662697792053223
+ACC! case => Case prob: 0.6662697792053223 => 0.6318947076797485
+NOACC! scores => compodes prob: 0.6318947076797485 => 0.6357209086418152
+ACC! out => obj prob: 0.6318947076797485 => 0.5559436678886414
+ACC! p => b prob: 0.5559436678886414 => 0.49567610025405884
+NOACC! s => es prob: 0.49567610025405884 => 0.5431286096572876
+ACC! score => scale prob: 0.49567610025405884 => 0.4936208128929138
+NOACC! candidates => indidates prob: 0.4936208128929138 => 0.5329803228378296
+ACC! arq => urq prob: 0.4936208128929138 => 0.47386518120765686
+Example time cost:  0.61 min
+ALL examples time cost:  49.83 min
+Query times in this attack:  192
+Greedy query times: 192
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  15762
+All sub index: 0
+Avg sub index 0
+Success rate:  0.24468085106382978
+Successful items count:  23
+Total count:  94
+Index:  107
+
+enter
+LABEL_54 LABEL_54 0.9621888995170593
+ACC! n => nw prob: 0.9621888995170593 => 0.9588214159011841
+ACC! x => xx prob: 0.9588214159011841 => 0.9532343149185181
+ACC! i => ri prob: 0.9532343149185181 => 0.9505511522293091
+ACC! b => bb prob: 0.9505511522293091 => 0.9304515719413757
+ACC! l =>  L prob: 0.9304515719413757 => 0.9123135209083557
+ACC! a => alpha prob: 0.9123135209083557 => 0.8876685500144958
+ACC! result => url prob: 0.8876685500144958 => 0.8750565648078918
+NOACC! u => ue prob: 0.8750565648078918 => 0.8798463344573975
+NOACC! count => call prob: 0.8750565648078918 => 0.8862436413764954
+ACC! N => max prob: 0.8750565648078918 => 0.8639935851097107
+Example time cost:  0.44 min
+ALL examples time cost:  50.27 min
+Query times in this attack:  141
+Greedy query times: 141
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  15903
+All sub index: 0
+Avg sub index 0
+Success rate:  0.24210526315789474
+Successful items count:  23
+Total count:  95
+Index:  108
+
+enter
+LABEL_54 LABEL_54 0.9589340090751648
+ACC! x => xx prob: 0.9589340090751648 => 0.9457579255104065
+ACC! N => NC prob: 0.9457579255104065 => 0.9372770190238953
+ACC! s => n prob: 0.9372770190238953 => 0.9235009551048279
+ACC! r => rl prob: 0.9235009551048279 => 0.9208145141601562
+NOACC! u => b prob: 0.9208145141601562 => 0.9303090572357178
+NOACC! ts => td prob: 0.9208145141601562 => 0.9260683655738831
+NOACC! p => b prob: 0.9208145141601562 => 0.9326400756835938
+ACC! result => ri prob: 0.9208145141601562 => 0.910865068435669
+ACC! t => ont prob: 0.910865068435669 => 0.9090650081634521
+ACC! num_surprises => num_sweprises prob: 0.9090650081634521 => 0.901360034942627
+ACC! a => ama prob: 0.901360034942627 => 0.9003604650497437
+ACC! i => lo prob: 0.9003604650497437 => 0.8988277912139893
+ACC! line => LINE prob: 0.8988277912139893 => 0.8730588555335999
+Example time cost:  0.56 min
+ALL examples time cost:  50.83 min
+Query times in this attack:  179
+Greedy query times: 179
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  16082
+All sub index: 0
+Avg sub index 0
+Success rate:  0.23958333333333334
+Successful items count:  23
+Total count:  96
+Index:  109
+
+enter
+LABEL_55 LABEL_55 0.3984147906303406
+ACC! idx => idey prob: 0.3984147906303406 => 0.3789677917957306
+ACC! b => bl prob: 0.3789677917957306 => 0.35689643025398254
+ACC! _t =>  _T prob: 0.35689643025398254 => 0.33592379093170166
+ACC! a => aa prob: 0.33592379093170166 => 0.29528045654296875
+NOACC! l => pl prob: 0.29528045654296875 => 0.352812260389328
+NOACC! s2 => a2 prob: 0.29528045654296875 => 0.30764666199684143
+NOACC! n => j prob: 0.29528045654296875 => 0.3663012683391571
+NOACC! r => mr prob: 0.29528045654296875 => 0.32402223348617554
+NOACC! s => g prob: 0.29528045654296875 => 0.3604526221752167
+NOACC! t => int prob: 0.29528045654296875 => 0.3011154532432556
+NOACC! i => eni prob: 0.29528045654296875 => 0.3250522017478943
+NOACC! sqrt => dqRT prob: 0.29528045654296875 => 0.29928386211395264
+NOACC! total => pl prob: 0.29528045654296875 => 0.3417842388153076
+NOACC! m => size prob: 0.29528045654296875 => 0.33685263991355896
+ACC! f => fun prob: 0.29528045654296875 => 0.27081698179244995
+ACC! fn => ren prob: 0.27081698179244995 => 0.20258362591266632
+Example time cost:  0.7 min
+ALL examples time cost:  51.53 min
+Query times in this attack:  221
+Greedy query times: 221
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  16303
+All sub index: 0
+Avg sub index 0
+Success rate:  0.23711340206185566
+Successful items count:  23
+Total count:  97
+Index:  110
+
+enter
+LABEL_55 LABEL_55 0.9682871699333191
+ACC! sure =>  surely prob: 0.9682871699333191 => 0.9615318775177002
+ACC! _t =>  _p prob: 0.9615318775177002 => 0.9360549449920654
+ACC! n => np prob: 0.9360549449920654 => 0.9353116154670715
+ACC! s => r prob: 0.9353116154670715 => 0.9300126433372498
+NOACC! not_surprising => not_servey prob: 0.9300126433372498 => 0.9316489100456238
+NOACC! is_surprising => is_Surprising prob: 0.9300126433372498 => 0.9370033740997314
+ACC! f => feed prob: 0.9300126433372498 => 0.8540505170822144
+ACC! if_surprising => if_suressing prob: 0.8540505170822144 => 0.8331514000892639
+ACC! fn => flat prob: 0.8331514000892639 => 0.7296504974365234
+ACC! x => inf prob: 0.7296504974365234 => 0.7172339558601379
+ACC! ns => breaks prob: 0.7172339558601379 => 0.7116593718528748
+ACC! scores =>  scors prob: 0.7116593718528748 => 0.6637741923332214
+ACC! p => z prob: 0.6637741923332214 => 0.6381243467330933
+ACC! t => z prob: 0.6381243467330933 => 0.5756059885025024
+Example time cost:  0.62 min
+ALL examples time cost:  52.15 min
+Query times in this attack:  196
+Greedy query times: 196
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  16499
+All sub index: 0
+Avg sub index 0
+Success rate:  0.23469387755102042
+Successful items count:  23
+Total count:  98
+Index:  111
+
+enter
+LABEL_56 LABEL_56 0.9359042644500732
+ACC! file => stream prob: 0.9359042644500732 => 0.8849836587905884
+ACC! tests => objects prob: 0.8849836587905884 => 0.8587587475776672
+ACC! result => entry prob: 0.8587587475776672 => 0.8384736776351929
+ACC! test => rest prob: 0.8384736776351929 => 0.7862157225608826
+ACC! parts => objects prob: 0.7862157225608826 => 0.7714568376541138
+NOACC! frontHalf => baseWay prob: 0.7714568376541138 => 0.7767328023910522
+NOACC! T => Case prob: 0.7714568376541138 => 0.7875220775604248
+NOACC! s => sh prob: 0.7714568376541138 => 0.790306031703949
+NOACC! sqrtN => sqrectM prob: 0.7714568376541138 => 0.7758454084396362
+NOACC! line => LINE prob: 0.7714568376541138 => 0.7883121967315674
+NOACC! l => lo prob: 0.7714568376541138 => 0.7753801345825195
+NOACC! backHalf => Backhalf prob: 0.7714568376541138 => 0.7932497262954712
+NOACC! n => j prob: 0.7714568376541138 => 0.7773665189743042
+ACC! count => shift prob: 0.7714568376541138 => 0.7640489339828491
+ACC! i =>  I prob: 0.7640489339828491 => 0.7176598310470581
+ACC! case => unit prob: 0.7176598310470581 => 0.6274324059486389
+Example time cost:  0.71 min
+ALL examples time cost:  52.86 min
+Query times in this attack:  224
+Greedy query times: 224
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  16723
+All sub index: 0
+Avg sub index 0
+Success rate:  0.23232323232323232
+Successful items count:  23
+Total count:  99
+Index:  112
+
+enter
+LABEL_43 LABEL_56 0.08069435507059097
+Example time cost:  0.0 min
+ALL examples time cost:  52.86 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  16724
+All sub index: 0
+Avg sub index 0
+Success rate:  0.23232323232323232
+Successful items count:  23
+Total count:  99
+Index:  113
+
+enter
+LABEL_57 LABEL_57 0.8789995312690735
+ACC! num => miss prob: 0.8789995312690735 => 0.8735572695732117
+ACC! int_maior => int2mmaior prob: 0.8735572695732117 => 0.8719163537025452
+ACC! x => l prob: 0.8719163537025452 => 0.8616957664489746
+ACC! self => proc prob: 0.8616957664489746 => 0.7432271838188171
+ACC! quadrado =>  quadrabo prob: 0.7432271838188171 => 0.6877632737159729
+NOACC! N => D prob: 0.6877632737159729 => 0.6988126635551453
+ACC! maior =>  maori prob: 0.6877632737159729 => 0.6537255644798279
+NOACC! fns => cfn prob: 0.6537255644798279 => 0.657272458076477
+ACC! M => Z prob: 0.6537255644798279 => 0.6160225868225098
+ACC! i => ci prob: 0.6160225868225098 => 0.5483732223510742
+ACC! result => alpha prob: 0.5483732223510742 => 0.5214208960533142
+ACC! tCase =>  tStep prob: 0.5214208960533142 => 0.444091796875
+Example time cost:  0.53 min
+ALL examples time cost:  53.39 min
+Query times in this attack:  168
+Greedy query times: 168
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  16892
+All sub index: 0
+Avg sub index 0
+Success rate:  0.23
+Successful items count:  23
+Total count:  100
+Index:  114
+
+enter
+LABEL_57 LABEL_57 0.48022347688674927
+SUC! tCase => tTime prob: 0.48022347688674927 => 0.3903610408306122 label LABEL_26
+Example time cost:  0.1 min
+ALL examples time cost:  53.49 min
+Query times in this attack:  29
+Greedy query times: 29
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  16921
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2376237623762376
+Successful items count:  24
+Total count:  101
+Index:  115
+
+enter
+LABEL_58 LABEL_58 0.8162655234336853
+ACC! ls => le prob: 0.8162655234336853 => 0.7832822799682617
+NOACC! ge => le prob: 0.7832822799682617 => 0.7872282862663269
+NOACC! x => xx prob: 0.7832822799682617 => 0.7857087254524231
+NOACC! a => au prob: 0.7832822799682617 => 0.8007166385650635
+ACC! i =>  I prob: 0.7832822799682617 => 0.7317830324172974
+ACC! sqa =>  sca prob: 0.7317830324172974 => 0.6742458343505859
+ACC! b => abb prob: 0.6742458343505859 => 0.6663953065872192
+ACC! curr => earrer prob: 0.6663953065872192 => 0.6584429144859314
+ACC! sqb => qua prob: 0.6584429144859314 => 0.6579305529594421
+ACC! p => tp prob: 0.6579305529594421 => 0.6183462738990784
+NOACC! sx => statessex prob: 0.6183462738990784 => 0.6431012749671936
+NOACC! m => sm prob: 0.6183462738990784 => 0.6244856119155884
+ACC! hls =>  hll prob: 0.6183462738990784 => 0.5990830063819885
+ACC! step => id prob: 0.5990830063819885 => 0.5826320052146912
+NOACC! s => h prob: 0.5826320052146912 => 0.583569347858429
+ACC! count => cond prob: 0.5826320052146912 => 0.5148831605911255
+Example time cost:  0.71 min
+ALL examples time cost:  54.2 min
+Query times in this attack:  223
+Greedy query times: 223
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  17144
+All sub index: 0
+Avg sub index 0
+Success rate:  0.23529411764705882
+Successful items count:  24
+Total count:  102
+Index:  116
+
+enter
+LABEL_58 LABEL_58 0.41273853182792664
+ACC! result => now prob: 0.41273853182792664 => 0.33092254400253296
+ACC! t => unit prob: 0.33092254400253296 => 0.2257881760597229
+NOACC! i => ip prob: 0.2257881760597229 => 0.23373638093471527
+ACC! case => ASE prob: 0.2257881760597229 => 0.22098670899868011
+SUC! p => pot prob: 0.22098670899868011 => 0.19793470203876495 label LABEL_22
+Example time cost:  0.25 min
+ALL examples time cost:  54.45 min
+Query times in this attack:  78
+Greedy query times: 78
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  17222
+All sub index: 0
+Avg sub index 0
+Success rate:  0.24271844660194175
+Successful items count:  25
+Total count:  103
+Index:  117
+
+enter
+LABEL_59 LABEL_59 0.3900519013404846
+NOACC! fname => ckey prob: 0.3900519013404846 => 0.4043992757797241
+ACC! oname => uninam prob: 0.3900519013404846 => 0.3512777090072632
+NOACC! out => Out prob: 0.3512777090072632 => 0.37230968475341797
+NOACC! n => name prob: 0.3512777090072632 => 0.35449475049972534
+NOACC! args => ras prob: 0.3512777090072632 => 0.35420823097229004
+NOACC! line => cell prob: 0.3512777090072632 => 0.3735349178314209
+ACC! case_num => case6NUM prob: 0.3512777090072632 => 0.3264205753803253
+ACC! count => size prob: 0.3264205753803253 => 0.2881578207015991
+ACC! lo => lim prob: 0.2881578207015991 => 0.2743065357208252
+ACC! i => j prob: 0.2743065357208252 => 0.25746023654937744
+ACC! hi => ri prob: 0.25746023654937744 => 0.252797931432724
+SUC! lst => Lbl prob: 0.252797931432724 => 0.2679597735404968 label LABEL_16
+Example time cost:  0.53 min
+ALL examples time cost:  54.98 min
+Query times in this attack:  168
+Greedy query times: 168
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  17390
+All sub index: 0
+Avg sub index 0
+Success rate:  0.25
+Successful items count:  26
+Total count:  104
+Index:  118
+
+enter
+LABEL_59 LABEL_59 0.537665843963623
+ACC! t => art prob: 0.537665843963623 => 0.4560531973838806
+ACC! i => phi prob: 0.4560531973838806 => 0.4001546800136566
+ACC! s => sw prob: 0.4001546800136566 => 0.3939037024974823
+NOACC! ti => cli prob: 0.3939037024974823 => 0.39829230308532715
+NOACC! n_vals => n__vals prob: 0.3939037024974823 => 0.3958500027656555
+NOACC! raw => RAW prob: 0.3939037024974823 => 0.4008083641529083
+ACC! items => keys prob: 0.3939037024974823 => 0.3912273049354553
+ACC! dataS =>  DataP prob: 0.3912273049354553 => 0.3746771812438965
+NOACC! minimum => dimension prob: 0.3746771812438965 => 0.39739304780960083
+ACC! tests => features prob: 0.3746771812438965 => 0.3693123757839203
+ACC! f => u prob: 0.3693123757839203 => 0.295259952545166
+ACC! dataN => mediaN prob: 0.295259952545166 => 0.2691698968410492
+ACC! s_vals => s_eval prob: 0.2691698968410492 => 0.2552526593208313
+NOACC! p => pp prob: 0.2552526593208313 => 0.26247814297676086
+ACC! fileName => Filename prob: 0.2552526593208313 => 0.1857396513223648
+ACC! maximum => approximately prob: 0.1857396513223648 => 0.1775393784046173
+Example time cost:  0.71 min
+ALL examples time cost:  55.69 min
+Query times in this attack:  224
+Greedy query times: 224
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  17614
+All sub index: 0
+Avg sub index 0
+Success rate:  0.24761904761904763
+Successful items count:  26
+Total count:  105
+Index:  119
+
+enter
+LABEL_60 LABEL_60 0.9739940762519836
+ACC! i => chi prob: 0.9739940762519836 => 0.9722062945365906
+ACC! d => xd prob: 0.9722062945365906 => 0.9697780013084412
+NOACC! reader => loader prob: 0.9697780013084412 => 0.9708417057991028
+ACC! solver =>  solve prob: 0.9697780013084412 => 0.9639995098114014
+ACC! c => cu prob: 0.9639995098114014 => 0.9622617363929749
+ACC! x => inf prob: 0.9622617363929749 => 0.9617350697517395
+ACC! A => P prob: 0.9617350697517395 => 0.9610305428504944
+ACC! s => small prob: 0.9610305428504944 => 0.9594823122024536
+ACC! nn => yy prob: 0.9594823122024536 => 0.9587711691856384
+ACC! R => Q prob: 0.9587711691856384 => 0.9584901332855225
+ACC! b => ab prob: 0.9584901332855225 => 0.9564917683601379
+ACC! n =>  ng prob: 0.9564917683601379 => 0.951357901096344
+ACC! case => ce prob: 0.951357901096344 => 0.9410624504089355
+ACC! fn => format prob: 0.9410624504089355 => 0.9329798817634583
+ACC! res => ne prob: 0.9329798817634583 => 0.9284747838973999
+ACC! out_fn => outFilefilename prob: 0.9284747838973999 => 0.920122504234314
+ACC! T => J prob: 0.920122504234314 => 0.9172433018684387
+ACC! B => WB prob: 0.9172433018684387 => 0.9161825776100159
+ACC! in_fn => inPform prob: 0.9161825776100159 => 0.9079262018203735
+ACC! f => fit prob: 0.9079262018203735 => 0.889778196811676
+Example time cost:  0.87 min
+ALL examples time cost:  56.56 min
+Query times in this attack:  274
+Greedy query times: 274
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  17888
+All sub index: 0
+Avg sub index 0
+Success rate:  0.24528301886792453
+Successful items count:  26
+Total count:  106
+Index:  120
+
+enter
+LABEL_60 LABEL_60 0.8476881384849548
+SUC! R => RW prob: 0.8476881384849548 => 0.11780469119548798 label LABEL_51
+Example time cost:  0.1 min
+ALL examples time cost:  56.66 min
+Query times in this attack:  31
+Greedy query times: 31
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  17919
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2523364485981308
+Successful items count:  27
+Total count:  107
+Index:  121
+
+enter
+LABEL_61 LABEL_61 0.29608097672462463
+SUC! x => xml prob: 0.29608097672462463 => 0.2114875763654709 label LABEL_40
+Example time cost:  0.08 min
+ALL examples time cost:  56.74 min
+Query times in this attack:  23
+Greedy query times: 23
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  17942
+All sub index: 0
+Avg sub index 0
+Success rate:  0.25925925925925924
+Successful items count:  28
+Total count:  108
+Index:  122
+
+enter
+LABEL_61 LABEL_61 0.27334120869636536
+ACC! n => size prob: 0.27334120869636536 => 0.22838707268238068
+ACC! p => prev prob: 0.22838707268238068 => 0.22004984319210052
+ACC! s => downs prob: 0.22004984319210052 => 0.2074657380580902
+NOACC! j => ij prob: 0.2074657380580902 => 0.2084610015153885
+NOACC! line => co prob: 0.2074657380580902 => 0.21856766939163208
+ACC! max => step prob: 0.2074657380580902 => 0.19632574915885925
+SUC! t => l prob: 0.19632574915885925 => 0.12866143882274628 label LABEL_26
+Example time cost:  0.32 min
+ALL examples time cost:  57.05 min
+Query times in this attack:  100
+Greedy query times: 100
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  18042
+All sub index: 0
+Avg sub index 0
+Success rate:  0.26605504587155965
+Successful items count:  29
+Total count:  109
+Index:  123
+
+enter
+LABEL_62 LABEL_62 0.21589376032352448
+ACC! n => np prob: 0.21589376032352448 => 0.19143177568912506
+ACC! pp => sup prob: 0.19143177568912506 => 0.17664195597171783
+ACC! s => ses prob: 0.17664195597171783 => 0.1722351610660553
+NOACC! limit => unit prob: 0.1722351610660553 => 0.18140609562397003
+SUC! stdin => ddin prob: 0.1722351610660553 => 0.08419957011938095 label LABEL_55
+Example time cost:  0.28 min
+ALL examples time cost:  57.33 min
+Query times in this attack:  85
+Greedy query times: 85
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  18127
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2727272727272727
+Successful items count:  30
+Total count:  110
+Index:  124
+
+enter
+LABEL_62 LABEL_62 0.37703824043273926
+ACC! h => gh prob: 0.37703824043273926 => 0.2922590672969818
+ACC! z => Z prob: 0.2922590672969818 => 0.28301769495010376
+NOACC! N => Z prob: 0.28301769495010376 => 0.2986448109149933
+ACC! p => t prob: 0.28301769495010376 => 0.2679196894168854
+NOACC! S => A prob: 0.2679196894168854 => 0.2860657572746277
+SUC! i => ip prob: 0.2679196894168854 => 0.22709901630878448 label LABEL_63
+Example time cost:  0.27 min
+ALL examples time cost:  57.6 min
+Query times in this attack:  85
+Greedy query times: 85
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  18212
+All sub index: 0
+Avg sub index 0
+Success rate:  0.27927927927927926
+Successful items count:  31
+Total count:  111
+Index:  125
+
+enter
+LABEL_63 LABEL_63 0.6731622219085693
+ACC! N => NT prob: 0.6731622219085693 => 0.6223459243774414
+ACC! T => P prob: 0.6223459243774414 => 0.2900661528110504
+NOACC! fs => fc prob: 0.2900661528110504 => 0.30972370505332947
+ACC! n2 => nb2 prob: 0.2900661528110504 => 0.2884039878845215
+ACC! B => J prob: 0.2884039878845215 => 0.2643827497959137
+SUC! case => size prob: 0.2643827497959137 => 0.15101364254951477 label LABEL_6
+Example time cost:  0.29 min
+ALL examples time cost:  57.89 min
+Query times in this attack:  92
+Greedy query times: 92
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  18304
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2857142857142857
+Successful items count:  32
+Total count:  112
+Index:  126
+
+enter
+LABEL_63 LABEL_63 0.8732474446296692
+ACC! S => P prob: 0.8732474446296692 => 0.8591001033782959
+ACC! surpising_limit => surpisingingid prob: 0.8591001033782959 => 0.8513399362564087
+ACC! normal_limit =>  normal_length prob: 0.8513399362564087 => 0.8386778235435486
+ACC! result => RESULTS prob: 0.8386778235435486 => 0.7966132164001465
+ACC! p => i prob: 0.7966132164001465 => 0.7963676452636719
+ACC! N => P prob: 0.7963676452636719 => 0.7854016423225403
+ACC! numbers =>  nNumbers prob: 0.7854016423225403 => 0.6271743774414062
+ACC! case => address prob: 0.6271743774414062 => 0.443828821182251
+ACC! t => j prob: 0.443828821182251 => 0.3837108314037323
+ACC! normal_count => standard_count prob: 0.3837108314037323 => 0.3833836317062378
+NOACC! surprising_count => surprising_total prob: 0.3833836317062378 => 0.43827807903289795
+ACC! T =>  trial prob: 0.3833836317062378 => 0.19248348474502563
+SUC! fin => fun prob: 0.19248348474502563 => 0.2276909500360489 label LABEL_6
+Example time cost:  0.56 min
+ALL examples time cost:  58.45 min
+Query times in this attack:  179
+Greedy query times: 179
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  18483
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2920353982300885
+Successful items count:  33
+Total count:  113
+Index:  127
+
+enter
+LABEL_64 LABEL_64 0.9599870443344116
+ACC! n => nos prob: 0.9599870443344116 => 0.9561107754707336
+ACC! fas => lac prob: 0.9561107754707336 => 0.9534011483192444
+ACC! i => t prob: 0.9534011483192444 => 0.949589192867279
+NOACC! B => Q prob: 0.949589192867279 => 0.9531496167182922
+NOACC! base => address prob: 0.949589192867279 => 0.9573819041252136
+NOACC! fasappend => fASappend prob: 0.949589192867279 => 0.9523523449897766
+NOACC! d => b prob: 0.949589192867279 => 0.9519350528717041
+NOACC! s => l prob: 0.949589192867279 => 0.9533308744430542
+NOACC! max => rand prob: 0.949589192867279 => 0.9515883326530457
+NOACC! Ti => lo prob: 0.949589192867279 => 0.9549458026885986
+ACC! T => t prob: 0.949589192867279 => 0.9460181593894958
+NOACC! A => Ca prob: 0.9460181593894958 => 0.9472568035125732
+NOACC! square => sky prob: 0.9460181593894958 => 0.9479609727859497
+ACC! MAX => Q prob: 0.9460181593894958 => 0.9380816221237183
+ACC! answer =>  answered prob: 0.9380816221237183 => 0.9273813962936401
+Example time cost:  0.65 min
+ALL examples time cost:  59.1 min
+Query times in this attack:  207
+Greedy query times: 207
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  18690
+All sub index: 0
+Avg sub index 0
+Success rate:  0.2894736842105263
+Successful items count:  33
+Total count:  114
+Index:  128
+
+enter
+LABEL_64 LABEL_64 0.9077017307281494
+ACC! a => new prob: 0.9077017307281494 => 0.857131838798523
+NOACC! i => II prob: 0.857131838798523 => 0.8838565349578857
+NOACC! p => n prob: 0.857131838798523 => 0.8703557252883911
+NOACC! Ti => Vi prob: 0.857131838798523 => 0.8966732621192932
+NOACC! t => tp prob: 0.857131838798523 => 0.8762797713279724
+NOACC! totals => Tfatalls prob: 0.857131838798523 => 0.884848415851593
+NOACC! curr_S => curr_T prob: 0.857131838798523 => 0.874396800994873
+NOACC! N => H prob: 0.857131838798523 => 0.8812761902809143
+NOACC! m => r prob: 0.857131838798523 => 0.8812623620033264
+NOACC! S => H prob: 0.857131838798523 => 0.8730765581130981
+NOACC! numbers =>  nats prob: 0.857131838798523 => 0.8997955918312073
+NOACC! T => I prob: 0.857131838798523 => 0.858197033405304
+Example time cost:  0.53 min
+ALL examples time cost:  59.64 min
+Query times in this attack:  169
+Greedy query times: 169
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  18859
+All sub index: 0
+Avg sub index 0
+Success rate:  0.28695652173913044
+Successful items count:  33
+Total count:  115
+Index:  129
+
+enter
+LABEL_65 LABEL_65 0.6385573148727417
+ACC! nt => net prob: 0.6385573148727417 => 0.5901324152946472
+NOACC! i => eni prob: 0.5901324152946472 => 0.6013677716255188
+NOACC! upper_limit => upper_row prob: 0.5901324152946472 => 0.6182053089141846
+NOACC! ret => id prob: 0.5901324152946472 => 0.5908560156822205
+NOACC! check_len => keyacline prob: 0.5901324152946472 => 0.626399040222168
+NOACC! A => AB prob: 0.5901324152946472 => 0.5974576473236084
+ACC! T =>  R prob: 0.5901324152946472 => 0.46897807717323303
+ACC! n => nn prob: 0.46897807717323303 => 0.4209975302219391
+ACC! x =>  X prob: 0.4209975302219391 => 0.3923424780368805
+ACC! num => umber prob: 0.3923424780368805 => 0.2765761613845825
+ACC! c => fc prob: 0.2765761613845825 => 0.27567604184150696
+ACC! t => int prob: 0.27567604184150696 => 0.2263723611831665
+ACC! total_column =>  total_limit prob: 0.2263723611831665 => 0.14976322650909424
+ACC! number =>  result prob: 0.14976322650909424 => 0.13435021042823792
+ACC! counter => field prob: 0.13435021042823792 => 0.1293787956237793
+ACC! c_str => coutfr prob: 0.1293787956237793 => 0.12399381399154663
+ACC! B => AR prob: 0.12399381399154663 => 0.09215462952852249
+Example time cost:  0.74 min
+ALL examples time cost:  60.38 min
+Query times in this attack:  235
+Greedy query times: 235
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  19094
+All sub index: 0
+Avg sub index 0
+Success rate:  0.28448275862068967
+Successful items count:  33
+Total count:  116
+Index:  130
+
+enter
+LABEL_40 LABEL_65 0.1574423462152481
+Example time cost:  0.0 min
+ALL examples time cost:  60.38 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  19095
+All sub index: 0
+Avg sub index 0
+Success rate:  0.28448275862068967
+Successful items count:  33
+Total count:  116
+Index:  131
+

@@ -1,0 +1,416 @@
+NOACC! serialize => store prob: 0 => 0
+NOACC! out => bos prob: 0 => 0
+Example index 0
+Example time cost:  1.11 min
+ALL examples time cost:  1.11 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  19
+Ga_query_times:  0
+ALL query times:  0
+
+
+
+
+NOACC! addAll => process prob: 0 => 0
+NOACC! src => process prob: 0 => 0
+NOACC! srcDirIdx => process prob: 0 => 0
+Example index 1
+Example time cost:  1.88 min
+ALL examples time cost:  2.99 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  48
+Ga_query_times:  0
+ALL query times:  19
+
+
+
+
+NOACC! writeByte => add prob: 0 => 0
+NOACC! b => v prob: 0 => 0
+NOACC! currentBlock => bytes prob: 0 => 0
+NOACC! upto => append prob: 0 => 0
+Example index 2
+Example time cost:  2.89 min
+ALL examples time cost:  5.88 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  59
+Ga_query_times:  0
+ALL query times:  67
+
+
+
+
+NOACC! getObjectId => Id prob: 0 => 0
+Example index 3
+Example time cost:  0.36 min
+ALL examples time cost:  6.24 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  6
+Ga_query_times:  0
+ALL query times:  126
+
+
+
+
+NOACC! deleteDomainEntry => update prob: 0 => 0
+NOACC! request => input prob: 0 => 0
+Example index 4
+Example time cost:  1.14 min
+ALL examples time cost:  7.39 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  21
+Ga_query_times:  0
+ALL query times:  132
+
+
+
+
+NOACC! ramBytesUsed => length prob: 0 => 0
+Example index 5
+Example time cost:  0.46 min
+ALL examples time cost:  7.85 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  9
+Ga_query_times:  0
+ALL query times:  153
+
+
+
+
+NOACC! getFullMessage => get prob: 0 => 0
+NOACC! raw => data prob: 0 => 0
+NOACC! msgB => data prob: 0 => 0
+Example index 6
+Example time cost:  1.54 min
+ALL examples time cost:  9.39 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  36
+Ga_query_times:  0
+ALL query times:  162
+
+
+
+
+NOACC! this => init prob: 0 => 0
+NOACC! bb => initialize prob: 0 => 0
+Example index 7
+Example time cost:  0.44 min
+ALL examples time cost:  9.83 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  14
+Ga_query_times:  0
+ALL query times:  198
+
+
+
+
+NOACC! init => release prob: 0 => 0
+NOACC! address => slice prob: 0 => 0
+NOACC! slice => block prob: 0 => 0
+NOACC! upto => block prob: 0 => 0
+NOACC! offset0 => block prob: 0 => 0
+Example index 8
+Example time cost:  4.48 min
+ALL examples time cost:  14.31 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  97
+Ga_query_times:  0
+ALL query times:  212
+
+
+
+
+NOACC! setPath => path prob: 0 => 0
+NOACC! path => paths prob: 0 => 0
+Example index 9
+Example time cost:  0.92 min
+ALL examples time cost:  15.23 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  16
+Ga_query_times:  0
+ALL query times:  309
+
+
+
+
+NOACC! listIngestions => get prob: 0 => 0
+NOACC! request => input prob: 0 => 0
+Example index 10
+Example time cost:  1.06 min
+ALL examples time cost:  16.29 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  20
+Ga_query_times:  0
+ALL query times:  325
+
+
+
+
+NOACC! stream => input prob: 0 => 0
+NOACC! lexState => input prob: 0 => 0
+Example index 11
+Example time cost:  1.02 min
+ALL examples time cost:  17.32 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  18
+Ga_query_times:  0
+ALL query times:  345
+
+
+
+
+NOACC! getShardIterator => get prob: 0 => 0
+NOACC! request => input prob: 0 => 0
+Example index 12
+Example time cost:  0.93 min
+ALL examples time cost:  18.25 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  20
+Ga_query_times:  0
+ALL query times:  363
+
+
+
+
+Example index 13
+Example time cost:  0.05 min
+ALL examples time cost:  18.3 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  1
+Ga_query_times:  0
+ALL query times:  383
+
+
+
+
+NOACC! ready => next prob: 0 => 0
+Example index 14
+Example time cost:  0.33 min
+ALL examples time cost:  18.63 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  7
+Ga_query_times:  0
+ALL query times:  384
+
+
+
+
+NOACC! getOptRecord => get prob: 0 => 0
+Example index 15
+Example time cost:  0.41 min
+ALL examples time cost:  19.04 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  7
+Ga_query_times:  0
+ALL query times:  391
+
+
+
+
+NOACC! read => copy prob: 0 => 0
+NOACC! buffer => input prob: 0 => 0
+NOACC! offset => data prob: 0 => 0
+NOACC! length => data prob: 0 => 0
+NOACC! copylen => data prob: 0 => 0
+NOACC! i => data prob: 0 => 0
+NOACC! pos => data prob: 0 => 0
+Example index 16
+Example time cost:  5.27 min
+ALL examples time cost:  24.31 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  170
+Ga_query_times:  0
+ALL query times:  398
+
+
+
+
+NOACC! sentenceOp => open prob: 0 => 0
+Example index 17
+Example time cost:  0.5 min
+ALL examples time cost:  24.82 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  9
+Ga_query_times:  0
+ALL query times:  568
+
+
+
+
+NOACC! print => add prob: 0 => 0
+NOACC! str => line prob: 0 => 0
+Example index 18
+Example time cost:  1.12 min
+ALL examples time cost:  25.94 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  20
+Ga_query_times:  0
+ALL query times:  577
+
+
+
+
+NOACC! functionName => method prob: 0 => 0
+NOACC! cause => method prob: 0 => 0
+Example index 19
+Example time cost:  1.31 min
+ALL examples time cost:  27.25 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  24
+Ga_query_times:  0
+ALL query times:  597
+
+
+
+
+NOACC! next => next prob: 0 => 0
+Example index 20
+Example time cost:  0.35 min
+ALL examples time cost:  27.59 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  7
+Ga_query_times:  0
+ALL query times:  621
+
+
+
+
+NOACC! readBytes => copy prob: 0 => 0
+NOACC! b => data prob: 0 => 0
+NOACC! offset => data prob: 0 => 0
+NOACC! len => data prob: 0 => 0
+NOACC! useBuffer => data prob: 0 => 0
+NOACC! available => data prob: 0 => 0
+NOACC! bufferPosition => data prob: 0 => 0
+NOACC! after => data prob: 0 => 0
+NOACC! bufferStart => data prob: 0 => 0
+NOACC! bufferLength => data prob: 0 => 0
+Example index 21
+Example time cost:  0.1 min
+ALL examples time cost:  27.69 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  312
+Ga_query_times:  0
+ALL query times:  628
+
+
+
+
+NOACC! tagQueue => create prob: 0 => 0
+NOACC! request => input prob: 0 => 0
+Example index 22
+Example time cost:  1.21 min
+ALL examples time cost:  28.9 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  23
+Ga_query_times:  0
+ALL query times:  940
+
+
+
+
+NOACC! remove => destroy prob: 0 => 0
+Example index 23
+Example time cost:  0.41 min
+ALL examples time cost:  29.31 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  7
+Ga_query_times:  0
+ALL query times:  963
+
+
+
+
+NOACC! modifyCacheSubnetGroup => update prob: 0 => 0
+NOACC! request => input prob: 0 => 0
+Example index 24
+Example time cost:  1.15 min
+ALL examples time cost:  30.46 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  22
+Ga_query_times:  0
+ALL query times:  970
+
+
+
+
+NOACC! setParams => parse prob: 0 => 0
+NOACC! params => parse prob: 0 => 0
+NOACC! language => parse prob: 0 => 0
+NOACC! country => params prob: 0 => 0
+NOACC! st => params prob: 0 => 0
+NOACC! variant => params prob: 0 => 0
+Example index 25
+Example time cost:  5.09 min
+ALL examples time cost:  35.55 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  126
+Ga_query_times:  0
+ALL query times:  992
+
+
+
+
+NOACC! deleteDocumentationVersion => update prob: 0 => 0
+NOACC! request => input prob: 0 => 0
+Example index 26
+Example time cost:  1.06 min
+ALL examples time cost:  36.6 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  20
+Ga_query_times:  0
+ALL query times:  1118
+
+
+
+
+NOACC! equals => equals prob: 0 => 0
+NOACC! obj => obj prob: 0 => 0
+NOACC! other => obj prob: 0 => 0
+NOACC! i => object prob: 0 => 0
+Example index 27
+Example time cost:  2.32 min
+ALL examples time cost:  38.92 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU: 0
+Greedy_query_times:  61
+Ga_query_times:  0
+ALL query times:  1138
+
+
+
+
+NOACC! getInstanceAccessDetails => get prob: 0 => 0
+NOACC! request => input prob: 0 => 0
+Example index 28
+Example time cost:  1.02 min
+ALL examples time cost:  39.94 min
+Origin CodeBLEU: 0
+Attacked CodeBLEU:

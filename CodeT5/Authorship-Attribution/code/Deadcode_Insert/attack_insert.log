@@ -1,0 +1,1927 @@
+LABEL_0 LABEL_0 0.8926618695259094
+SUC! insert print(number) prob: 0.8926618695259094 => 0.17387908697128296 label LABEL_26
+Example time cost:  0.01 min
+ALL examples time cost:  0.01 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  18
+Success rate:  1.0
+Successful items count:  1
+Total count:  1
+Index:  0
+
+LABEL_0 LABEL_0 0.8820862174034119
+SUC! insert print(table) prob: 0.8820862174034119 => 0.15693815052509308 label LABEL_64
+Example time cost:  0.01 min
+ALL examples time cost:  0.02 min
+Query times in this attack:  13
+Greedy query times: 13
+Ga query times: 0
+All Query times:  31
+Success rate:  1.0
+Successful items count:  2
+Total count:  2
+Index:  1
+
+LABEL_1 LABEL_1 0.9657654762268066
+SUC! insert print(num) prob: 0.9657654762268066 => 0.15736114978790283 label LABEL_43
+Example time cost:  0.01 min
+ALL examples time cost:  0.03 min
+Query times in this attack:  23
+Greedy query times: 23
+Ga query times: 0
+All Query times:  54
+Success rate:  1.0
+Successful items count:  3
+Total count:  3
+Index:  2
+
+LABEL_1 LABEL_1 0.9864764213562012
+SUC! insert print(p) prob: 0.9864764213562012 => 0.072487972676754 label LABEL_6
+Example time cost:  0.01 min
+ALL examples time cost:  0.04 min
+Query times in this attack:  24
+Greedy query times: 24
+Ga query times: 0
+All Query times:  78
+Success rate:  1.0
+Successful items count:  4
+Total count:  4
+Index:  3
+
+LABEL_2 LABEL_2 0.9067215919494629
+Example time cost:  0.0 min
+ALL examples time cost:  0.04 min
+Query times in this attack:  3
+Greedy query times: 3
+Ga query times: 0
+All Query times:  81
+Success rate:  0.8
+Successful items count:  4
+Total count:  5
+Index:  4
+
+LABEL_2 LABEL_2 0.9694219827651978
+SUC! insert print(Limits) prob: 0.9694219827651978 => 0.20312383770942688 label LABEL_56
+Example time cost:  0.01 min
+ALL examples time cost:  0.05 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  92
+Success rate:  0.8333333333333334
+Successful items count:  5
+Total count:  6
+Index:  5
+
+LABEL_3 LABEL_3 0.6703781485557556
+SUC! insert print(N) prob: 0.6703781485557556 => 0.08297039568424225 label LABEL_36
+Example time cost:  0.01 min
+ALL examples time cost:  0.06 min
+Query times in this attack:  24
+Greedy query times: 24
+Ga query times: 0
+All Query times:  116
+Success rate:  0.8571428571428571
+Successful items count:  6
+Total count:  7
+Index:  6
+
+LABEL_3 LABEL_3 0.771472692489624
+SUC! insert print(T) prob: 0.771472692489624 => 0.12302173674106598 label LABEL_0
+Example time cost:  0.01 min
+ALL examples time cost:  0.07 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  128
+Success rate:  0.875
+Successful items count:  7
+Total count:  8
+Index:  7
+
+LABEL_4 LABEL_4 0.9858142733573914
+ACC! insert print(f) prob: 0.9858142733573914 => 0.18251381814479828
+SUC! insert if False:
+	f=f prob: 0.18251381814479828 => 0.437660276889801 label LABEL_39
+Example time cost:  0.01 min
+ALL examples time cost:  0.07 min
+Query times in this attack:  17
+Greedy query times: 17
+Ga query times: 0
+All Query times:  145
+Success rate:  0.8888888888888888
+Successful items count:  8
+Total count:  9
+Index:  8
+
+LABEL_4 LABEL_4 0.9749510884284973
+ACC! insert print(f) prob: 0.9749510884284973 => 0.18251381814479828
+SUC! insert if False:
+	f=f prob: 0.18251381814479828 => 0.3258989155292511 label LABEL_39
+Example time cost:  0.01 min
+ALL examples time cost:  0.08 min
+Query times in this attack:  13
+Greedy query times: 13
+Ga query times: 0
+All Query times:  158
+Success rate:  0.9
+Successful items count:  9
+Total count:  10
+Index:  9
+
+LABEL_5 LABEL_5 0.9851792454719543
+SUC! insert print(bmap) prob: 0.9851792454719543 => 0.07672532647848129 label LABEL_62
+Example time cost:  0.01 min
+ALL examples time cost:  0.09 min
+Query times in this attack:  29
+Greedy query times: 29
+Ga query times: 0
+All Query times:  187
+Success rate:  0.9090909090909091
+Successful items count:  10
+Total count:  11
+Index:  10
+
+LABEL_5 LABEL_5 0.9236829876899719
+ACC! insert print(icase) prob: 0.9236829876899719 => 0.17283561825752258
+NOACC! insert if False:
+	icase=case_input prob: 0.17283561825752258 => 0.775459885597229
+NOACC! insert while False:
+	icase=case_input prob: 0.17283561825752258 => 0.7947816252708435
+NOACC! insert print(rslt) prob: 0.17283561825752258 => 0.7546697854995728
+NOACC! insert if False:
+	rslt=ts prob: 0.17283561825752258 => 0.7590394616127014
+NOACC! insert while False:
+	rslt=ts prob: 0.17283561825752258 => 0.755608320236206
+NOACC! insert print(result) prob: 0.17283561825752258 => 0.772639274597168
+NOACC! insert if False:
+	result=ts prob: 0.17283561825752258 => 0.5285175442695618
+NOACC! insert while False:
+	result=ts prob: 0.17283561825752258 => 0.5428439974784851
+NOACC! insert print(raw) prob: 0.17283561825752258 => 0.7786577343940735
+NOACC! insert if False:
+	raw=ts prob: 0.17283561825752258 => 0.5353308320045471
+NOACC! insert while False:
+	raw=ts prob: 0.17283561825752258 => 0.5583953261375427
+NOACC! insert print(T) prob: 0.17283561825752258 => 0.7604138255119324
+NOACC! insert if False:
+	T=i prob: 0.17283561825752258 => 0.738467812538147
+NOACC! insert while False:
+	T=i prob: 0.17283561825752258 => 0.755079984664917
+NOACC! insert print(data) prob: 0.17283561825752258 => 0.7970559597015381
+NOACC! insert if False:
+	data=x prob: 0.17283561825752258 => 0.7350163459777832
+NOACC! insert while False:
+	data=x prob: 0.17283561825752258 => 0.7561023235321045
+NOACC! insert print(data) prob: 0.17283561825752258 => 0.7970559597015381
+NOACC! insert if False:
+	data=ts prob: 0.17283561825752258 => 0.5345574617385864
+NOACC! insert while False:
+	data=ts prob: 0.17283561825752258 => 0.5608499646186829
+NOACC! insert print(raw) prob: 0.17283561825752258 => 0.7786577343940735
+NOACC! insert if False:
+	raw=rslt prob: 0.17283561825752258 => 0.7553842067718506
+NOACC! insert while False:
+	raw=rslt prob: 0.17283561825752258 => 0.7552403211593628
+NOACC! insert print(caseLineNum) prob: 0.17283561825752258 => 0.7916114330291748
+NOACC! insert if False:
+	caseLineNum=ts prob: 0.17283561825752258 => 0.7948393225669861
+NOACC! insert while False:
+	caseLineNum=ts prob: 0.17283561825752258 => 0.7893710732460022
+NOACC! insert print(iLine) prob: 0.17283561825752258 => 0.7457081079483032
+NOACC! insert if False:
+	iLine=T prob: 0.17283561825752258 => 0.768290102481842
+NOACC! insert while False:
+	iLine=T prob: 0.17283561825752258 => 0.7662312984466553
+NOACC! insert print(caseLineNum) prob: 0.17283561825752258 => 0.7916114330291748
+NOACC! insert if False:
+	caseLineNum=ts prob: 0.17283561825752258 => 0.7948393225669861
+NOACC! insert while False:
+	caseLineNum=ts prob: 0.17283561825752258 => 0.7893710732460022
+NOACC! insert print(result) prob: 0.17283561825752258 => 0.772639274597168
+NOACC! insert if False:
+	result=ts prob: 0.17283561825752258 => 0.5285175442695618
+NOACC! insert while False:
+	result=ts prob: 0.17283561825752258 => 0.5428439974784851
+NOACC! insert print(data) prob: 0.17283561825752258 => 0.7970559597015381
+NOACC! insert if False:
+	data=T prob: 0.17283561825752258 => 0.7361614108085632
+NOACC! insert while False:
+	data=T prob: 0.17283561825752258 => 0.7589644193649292
+NOACC! insert print(raw) prob: 0.17283561825752258 => 0.7786577343940735
+NOACC! insert if False:
+	raw=ts prob: 0.17283561825752258 => 0.5353308320045471
+NOACC! insert while False:
+	raw=ts prob: 0.17283561825752258 => 0.5583953261375427
+NOACC! insert print(ts) prob: 0.17283561825752258 => 0.7531534433364868
+NOACC! insert if False:
+	ts=iLine prob: 0.17283561825752258 => 0.7627769708633423
+NOACC! insert while False:
+	ts=iLine prob: 0.17283561825752258 => 0.7587243318557739
+NOACC! insert print(iLine) prob: 0.17283561825752258 => 0.7457081079483032
+NOACC! insert if False:
+	iLine=x prob: 0.17283561825752258 => 0.7694596648216248
+NOACC! insert while False:
+	iLine=x prob: 0.17283561825752258 => 0.7641595602035522
+NOACC! insert print(x) prob: 0.17283561825752258 => 0.7601036429405212
+NOACC! insert if False:
+	x=ts prob: 0.17283561825752258 => 0.5252746343612671
+NOACC! insert while False:
+	x=ts prob: 0.17283561825752258 => 0.5506855249404907
+NOACC! insert print(rslt) prob: 0.17283561825752258 => 0.7546697854995728
+NOACC! insert if False:
+	rslt=T prob: 0.17283561825752258 => 0.7625909447669983
+NOACC! insert while False:
+	rslt=T prob: 0.17283561825752258 => 0.7628154754638672
+NOACC! insert print(data) prob: 0.17283561825752258 => 0.7970559597015381
+NOACC! insert if False:
+	data=ts prob: 0.17283561825752258 => 0.5345574617385864
+NOACC! insert while False:
+	data=ts prob: 0.17283561825752258 => 0.5608499646186829
+NOACC! insert print(caseLineNum) prob: 0.17283561825752258 => 0.7916114330291748
+NOACC! insert if False:
+	caseLineNum=iLine prob: 0.17283561825752258 => 0.8031710982322693
+NOACC! insert while False:
+	caseLineNum=iLine prob: 0.17283561825752258 => 0.816312313079834
+NOACC! insert print(result) prob: 0.17283561825752258 => 0.772639274597168
+NOACC! insert if False:
+	result=raw prob: 0.17283561825752258 => 0.7221235036849976
+NOACC! insert while False:
+	result=raw prob: 0.17283561825752258 => 0.7329251170158386
+NOACC! insert print(x) prob: 0.17283561825752258 => 0.7601036429405212
+NOACC! insert if False:
+	x=T prob: 0.17283561825752258 => 0.7206113338470459
+NOACC! insert while False:
+	x=T prob: 0.17283561825752258 => 0.7402340173721313
+Example time cost:  0.04 min
+ALL examples time cost:  0.14 min
+Query times in this attack:  89
+Greedy query times: 89
+Ga query times: 0
+All Query times:  276
+Success rate:  0.8333333333333334
+Successful items count:  10
+Total count:  12
+Index:  11
+
+LABEL_10 LABEL_6 0.4550589323043823
+Example time cost:  0.0 min
+ALL examples time cost:  0.14 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  277
+Success rate:  0.8333333333333334
+Successful items count:  10
+Total count:  12
+Index:  12
+
+LABEL_62 LABEL_6 0.25364887714385986
+Example time cost:  0.0 min
+ALL examples time cost:  0.14 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  278
+Success rate:  0.8333333333333334
+Successful items count:  10
+Total count:  12
+Index:  13
+
+LABEL_7 LABEL_7 0.8560233116149902
+SUC! insert print(fin) prob: 0.8560233116149902 => 0.135111466050148 label LABEL_17
+Example time cost:  0.01 min
+ALL examples time cost:  0.15 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  294
+Success rate:  0.8461538461538461
+Successful items count:  11
+Total count:  13
+Index:  14
+
+LABEL_7 LABEL_7 0.9158436059951782
+ACC! insert print(output_file) prob: 0.9158436059951782 => 0.2601548433303833
+SUC! insert if False:
+	output_file=input_file prob: 0.2601548433303833 => 0.3593149185180664 label LABEL_39
+Example time cost:  0.01 min
+ALL examples time cost:  0.16 min
+Query times in this attack:  21
+Greedy query times: 21
+Ga query times: 0
+All Query times:  315
+Success rate:  0.8571428571428571
+Successful items count:  12
+Total count:  14
+Index:  15
+
+LABEL_22 LABEL_8 0.24984098970890045
+Example time cost:  0.0 min
+ALL examples time cost:  0.16 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  316
+Success rate:  0.8571428571428571
+Successful items count:  12
+Total count:  14
+Index:  16
+
+LABEL_38 LABEL_8 0.3933229148387909
+Example time cost:  0.0 min
+ALL examples time cost:  0.16 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  317
+Success rate:  0.8571428571428571
+Successful items count:  12
+Total count:  14
+Index:  17
+
+LABEL_9 LABEL_9 0.8557852506637573
+SUC! insert print(strNum) prob: 0.8557852506637573 => 0.207076758146286 label LABEL_24
+Example time cost:  0.01 min
+ALL examples time cost:  0.16 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  331
+Success rate:  0.8666666666666667
+Successful items count:  13
+Total count:  15
+Index:  18
+
+LABEL_9 LABEL_9 0.9564403295516968
+SUC! insert print(outputFile) prob: 0.9564403295516968 => 0.08479616791009903 label LABEL_32
+Example time cost:  0.01 min
+ALL examples time cost:  0.17 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  346
+Success rate:  0.875
+Successful items count:  14
+Total count:  16
+Index:  19
+
+LABEL_10 LABEL_10 0.9793715476989746
+SUC! insert print(n_cases) prob: 0.9793715476989746 => 0.14268916845321655 label LABEL_36
+Example time cost:  0.01 min
+ALL examples time cost:  0.18 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  360
+Success rate:  0.8823529411764706
+Successful items count:  15
+Total count:  17
+Index:  20
+
+LABEL_10 LABEL_10 0.9502620100975037
+SUC! insert print(n_cases) prob: 0.9502620100975037 => 0.2700097858905792 label LABEL_0
+Example time cost:  0.01 min
+ALL examples time cost:  0.18 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  371
+Success rate:  0.8888888888888888
+Successful items count:  16
+Total count:  18
+Index:  21
+
+LABEL_32 LABEL_11 0.8993030190467834
+Example time cost:  0.0 min
+ALL examples time cost:  0.18 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  372
+Success rate:  0.8888888888888888
+Successful items count:  16
+Total count:  18
+Index:  22
+
+LABEL_11 LABEL_11 0.8814392685890198
+SUC! insert print(args) prob: 0.8814392685890198 => 0.36668261885643005 label LABEL_39
+Example time cost:  0.01 min
+ALL examples time cost:  0.19 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  387
+Success rate:  0.8947368421052632
+Successful items count:  17
+Total count:  19
+Index:  23
+
+LABEL_12 LABEL_12 0.9126874208450317
+SUC! insert print(stream) prob: 0.9126874208450317 => 0.20099245011806488 label LABEL_64
+Example time cost:  0.01 min
+ALL examples time cost:  0.19 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  398
+Success rate:  0.9
+Successful items count:  18
+Total count:  20
+Index:  24
+
+LABEL_30 LABEL_12 0.09176523983478546
+Example time cost:  0.0 min
+ALL examples time cost:  0.2 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  399
+Success rate:  0.9
+Successful items count:  18
+Total count:  20
+Index:  25
+
+LABEL_13 LABEL_13 0.9763304591178894
+SUC! insert print(f) prob: 0.9763304591178894 => 0.1313808262348175 label LABEL_30
+Example time cost:  0.01 min
+ALL examples time cost:  0.21 min
+Query times in this attack:  21
+Greedy query times: 21
+Ga query times: 0
+All Query times:  420
+Success rate:  0.9047619047619048
+Successful items count:  19
+Total count:  21
+Index:  26
+
+LABEL_13 LABEL_13 0.955909013748169
+Example time cost:  0.0 min
+ALL examples time cost:  0.21 min
+Query times in this attack:  10
+Greedy query times: 10
+Ga query times: 0
+All Query times:  430
+Success rate:  0.8636363636363636
+Successful items count:  19
+Total count:  22
+Index:  27
+
+LABEL_24 LABEL_14 0.10968396812677383
+Example time cost:  0.0 min
+ALL examples time cost:  0.21 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  431
+Success rate:  0.8636363636363636
+Successful items count:  19
+Total count:  22
+Index:  28
+
+LABEL_14 LABEL_14 0.19867390394210815
+SUC! insert print(D1) prob: 0.19867390394210815 => 0.08530253916978836 label LABEL_42
+Example time cost:  0.01 min
+ALL examples time cost:  0.22 min
+Query times in this attack:  19
+Greedy query times: 19
+Ga query times: 0
+All Query times:  450
+Success rate:  0.8695652173913043
+Successful items count:  20
+Total count:  23
+Index:  29
+
+LABEL_15 LABEL_15 0.8785408735275269
+SUC! insert print(out) prob: 0.8785408735275269 => 0.31692278385162354 label LABEL_4
+Example time cost:  0.01 min
+ALL examples time cost:  0.23 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  462
+Success rate:  0.875
+Successful items count:  21
+Total count:  24
+Index:  30
+
+LABEL_15 LABEL_15 0.863273561000824
+SUC! insert print(f) prob: 0.863273561000824 => 0.21635176241397858 label LABEL_17
+Example time cost:  0.01 min
+ALL examples time cost:  0.23 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  476
+Success rate:  0.88
+Successful items count:  22
+Total count:  25
+Index:  31
+
+LABEL_22 LABEL_16 0.3359684944152832
+Example time cost:  0.0 min
+ALL examples time cost:  0.23 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  477
+Success rate:  0.88
+Successful items count:  22
+Total count:  25
+Index:  32
+
+LABEL_16 LABEL_16 0.7560873627662659
+SUC! insert print(out) prob: 0.7560873627662659 => 0.10978841781616211 label LABEL_24
+Example time cost:  0.01 min
+ALL examples time cost:  0.24 min
+Query times in this attack:  17
+Greedy query times: 17
+Ga query times: 0
+All Query times:  494
+Success rate:  0.8846153846153846
+Successful items count:  23
+Total count:  26
+Index:  33
+
+LABEL_17 LABEL_17 0.4697595536708832
+SUC! insert print(num) prob: 0.4697595536708832 => 0.16011881828308105 label LABEL_24
+Example time cost:  0.01 min
+ALL examples time cost:  0.25 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  506
+Success rate:  0.8888888888888888
+Successful items count:  24
+Total count:  27
+Index:  34
+
+LABEL_22 LABEL_17 0.10268349945545197
+Example time cost:  0.0 min
+ALL examples time cost:  0.25 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  507
+Success rate:  0.8888888888888888
+Successful items count:  24
+Total count:  27
+Index:  35
+
+LABEL_18 LABEL_18 0.4801320433616638
+SUC! insert print(a) prob: 0.4801320433616638 => 0.1175529956817627 label LABEL_31
+Example time cost:  0.0 min
+ALL examples time cost:  0.25 min
+Query times in this attack:  9
+Greedy query times: 9
+Ga query times: 0
+All Query times:  516
+Success rate:  0.8928571428571429
+Successful items count:  25
+Total count:  28
+Index:  36
+
+LABEL_18 LABEL_18 0.8355302214622498
+ACC! insert print(n) prob: 0.8355302214622498 => 0.1853211373090744
+NOACC! insert if False:
+	n=n prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert while False:
+	n=n prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert print(result) prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert if False:
+	result=desired_score prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert while False:
+	result=desired_score prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert print(i) prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert if False:
+	i=results prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert while False:
+	i=results prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert print(surprising) prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert if False:
+	surprising=num_of_surprising prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert while False:
+	surprising=num_of_surprising prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert print(num_of_surprising) prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert if False:
+	num_of_surprising=num_of_surprising prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert while False:
+	num_of_surprising=num_of_surprising prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert print(possible) prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert if False:
+	possible=n prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert while False:
+	possible=n prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert print(n) prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert if False:
+	n=num_of_surprising prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert while False:
+	n=num_of_surprising prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert print(result) prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert if False:
+	result=results prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert while False:
+	result=results prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert print(i) prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert if False:
+	i=i prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert while False:
+	i=i prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert print(number_of_cases) prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert if False:
+	number_of_cases=num_of_surprising prob: 0.1853211373090744 => 0.39059990644454956
+NOACC! insert while False:
+	number_of_cases=num_of_surprising prob: 0.1853211373090744 => 0.39059990644454956
+Example time cost:  0.02 min
+ALL examples time cost:  0.27 min
+Query times in this attack:  47
+Greedy query times: 47
+Ga query times: 0
+All Query times:  563
+Success rate:  0.8620689655172413
+Successful items count:  25
+Total count:  29
+Index:  37
+
+LABEL_19 LABEL_19 0.9917578101158142
+SUC! insert print(n) prob: 0.9917578101158142 => 0.09872756898403168 label LABEL_31
+Example time cost:  0.01 min
+ALL examples time cost:  0.28 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  575
+Success rate:  0.8666666666666667
+Successful items count:  26
+Total count:  30
+Index:  38
+
+LABEL_19 LABEL_19 0.745668888092041
+SUC! insert print(S) prob: 0.745668888092041 => 0.12561459839344025 label LABEL_36
+Example time cost:  0.01 min
+ALL examples time cost:  0.29 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  590
+Success rate:  0.8709677419354839
+Successful items count:  27
+Total count:  31
+Index:  39
+
+LABEL_20 LABEL_20 0.20165058970451355
+SUC! insert print(N_MAX) prob: 0.20165058970451355 => 0.16012606024742126 label LABEL_62
+Example time cost:  0.01 min
+ALL examples time cost:  0.29 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  605
+Success rate:  0.875
+Successful items count:  28
+Total count:  32
+Index:  40
+
+LABEL_20 LABEL_20 0.9090458750724792
+SUC! insert print(poss) prob: 0.9090458750724792 => 0.06833178550004959 label LABEL_43
+Example time cost:  0.01 min
+ALL examples time cost:  0.3 min
+Query times in this attack:  22
+Greedy query times: 22
+Ga query times: 0
+All Query times:  627
+Success rate:  0.8787878787878788
+Successful items count:  29
+Total count:  33
+Index:  41
+
+LABEL_21 LABEL_21 0.9880616664886475
+SUC! insert print(INPUT) prob: 0.9880616664886475 => 0.06793590635061264 label LABEL_24
+Example time cost:  0.01 min
+ALL examples time cost:  0.32 min
+Query times in this attack:  25
+Greedy query times: 25
+Ga query times: 0
+All Query times:  652
+Success rate:  0.8823529411764706
+Successful items count:  30
+Total count:  34
+Index:  42
+
+LABEL_21 LABEL_21 0.9691827297210693
+SUC! insert print(INPUT) prob: 0.9691827297210693 => 0.0960756316781044 label LABEL_40
+Example time cost:  0.01 min
+ALL examples time cost:  0.32 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  667
+Success rate:  0.8857142857142857
+Successful items count:  31
+Total count:  35
+Index:  43
+
+LABEL_22 LABEL_22 0.7835556864738464
+SUC! insert print(i) prob: 0.7835556864738464 => 0.09162983298301697 label LABEL_24
+Example time cost:  0.01 min
+ALL examples time cost:  0.33 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  682
+Success rate:  0.8888888888888888
+Successful items count:  32
+Total count:  36
+Index:  44
+
+LABEL_22 LABEL_22 0.724769651889801
+SUC! insert print(T) prob: 0.724769651889801 => 0.23196949064731598 label LABEL_20
+Example time cost:  0.01 min
+ALL examples time cost:  0.34 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  694
+Success rate:  0.8918918918918919
+Successful items count:  33
+Total count:  37
+Index:  45
+
+LABEL_23 LABEL_23 0.8874724507331848
+SUC! insert print(FILE_NAME_BASE) prob: 0.8874724507331848 => 0.09888684004545212 label LABEL_17
+Example time cost:  0.01 min
+ALL examples time cost:  0.35 min
+Query times in this attack:  25
+Greedy query times: 25
+Ga query times: 0
+All Query times:  719
+Success rate:  0.8947368421052632
+Successful items count:  34
+Total count:  38
+Index:  46
+
+LABEL_23 LABEL_23 0.969775915145874
+ACC! insert print(FILE_NAME_BASE) prob: 0.969775915145874 => 0.20925362408161163
+SUC! insert if False:
+	FILE_NAME_BASE=FILE_NAME_BASE prob: 0.20925362408161163 => 0.5299798846244812 label LABEL_56
+Example time cost:  0.01 min
+ALL examples time cost:  0.36 min
+Query times in this attack:  24
+Greedy query times: 24
+Ga query times: 0
+All Query times:  743
+Success rate:  0.8974358974358975
+Successful items count:  35
+Total count:  39
+Index:  47
+
+LABEL_24 LABEL_24 0.9019807577133179
+SUC! insert print(n) prob: 0.9019807577133179 => 0.13267123699188232 label LABEL_36
+Example time cost:  0.01 min
+ALL examples time cost:  0.37 min
+Query times in this attack:  24
+Greedy query times: 24
+Ga query times: 0
+All Query times:  767
+Success rate:  0.9
+Successful items count:  36
+Total count:  40
+Index:  48
+
+LABEL_24 LABEL_24 0.9026119112968445
+SUC! insert print(infile) prob: 0.9026119112968445 => 0.1195317730307579 label LABEL_4
+Example time cost:  0.01 min
+ALL examples time cost:  0.38 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  781
+Success rate:  0.9024390243902439
+Successful items count:  37
+Total count:  41
+Index:  49
+
+LABEL_25 LABEL_25 0.8675698041915894
+SUC! insert print(lines) prob: 0.8675698041915894 => 0.23212632536888123 label LABEL_64
+Example time cost:  0.01 min
+ALL examples time cost:  0.39 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  797
+Success rate:  0.9047619047619048
+Successful items count:  38
+Total count:  42
+Index:  50
+
+LABEL_25 LABEL_25 0.2548840045928955
+ACC! insert print(number) prob: 0.2548840045928955 => 0.21264508366584778
+SUC! insert if False:
+	number=self prob: 0.21264508366584778 => 0.3201831579208374 label LABEL_14
+Example time cost:  0.01 min
+ALL examples time cost:  0.4 min
+Query times in this attack:  22
+Greedy query times: 22
+Ga query times: 0
+All Query times:  819
+Success rate:  0.9069767441860465
+Successful items count:  39
+Total count:  43
+Index:  51
+
+LABEL_26 LABEL_26 0.47099143266677856
+SUC! insert print(s) prob: 0.47099143266677856 => 0.21518544852733612 label LABEL_24
+Example time cost:  0.01 min
+ALL examples time cost:  0.4 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  835
+Success rate:  0.9090909090909091
+Successful items count:  40
+Total count:  44
+Index:  52
+
+LABEL_26 LABEL_26 0.783028244972229
+SUC! insert print(t) prob: 0.783028244972229 => 0.09984561800956726 label LABEL_4
+Example time cost:  0.01 min
+ALL examples time cost:  0.41 min
+Query times in this attack:  13
+Greedy query times: 13
+Ga query times: 0
+All Query times:  848
+Success rate:  0.9111111111111111
+Successful items count:  41
+Total count:  45
+Index:  53
+
+LABEL_27 LABEL_27 0.16601374745368958
+SUC! insert print(fairsquares) prob: 0.16601374745368958 => 0.08654098212718964 label LABEL_1
+Example time cost:  0.01 min
+ALL examples time cost:  0.42 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  866
+Success rate:  0.9130434782608695
+Successful items count:  42
+Total count:  46
+Index:  54
+
+LABEL_55 LABEL_27 0.22862450778484344
+Example time cost:  0.0 min
+ALL examples time cost:  0.42 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  867
+Success rate:  0.9130434782608695
+Successful items count:  42
+Total count:  46
+Index:  55
+
+LABEL_51 LABEL_28 0.20052774250507355
+Example time cost:  0.0 min
+ALL examples time cost:  0.42 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  868
+Success rate:  0.9130434782608695
+Successful items count:  42
+Total count:  46
+Index:  56
+
+LABEL_28 LABEL_28 0.9413756728172302
+ACC! insert print(f) prob: 0.9413756728172302 => 0.19522418081760406
+NOACC! insert if False:
+	f=f prob: 0.19522418081760406 => 0.21638846397399902
+NOACC! insert while False:
+	f=f prob: 0.19522418081760406 => 0.2166706770658493
+NOACC! insert print(t) prob: 0.19522418081760406 => 0.29972633719444275
+NOACC! insert if False:
+	t=temp prob: 0.19522418081760406 => 0.2506628930568695
+SUC! insert while False:
+	t=temp prob: 0.19522418081760406 => 0.22941075265407562 label LABEL_62
+Example time cost:  0.01 min
+ALL examples time cost:  0.43 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  886
+Success rate:  0.9148936170212766
+Successful items count:  43
+Total count:  47
+Index:  57
+
+LABEL_29 LABEL_29 0.6433458924293518
+SUC! insert print(S) prob: 0.6433458924293518 => 0.1153598353266716 label LABEL_26
+Example time cost:  0.01 min
+ALL examples time cost:  0.44 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  902
+Success rate:  0.9166666666666666
+Successful items count:  44
+Total count:  48
+Index:  58
+
+LABEL_29 LABEL_29 0.9086903929710388
+SUC! insert print(init) prob: 0.9086903929710388 => 0.1389763057231903 label LABEL_62
+Example time cost:  0.01 min
+ALL examples time cost:  0.45 min
+Query times in this attack:  29
+Greedy query times: 29
+Ga query times: 0
+All Query times:  931
+Success rate:  0.9183673469387755
+Successful items count:  45
+Total count:  49
+Index:  59
+
+LABEL_30 LABEL_30 0.98914635181427
+SUC! insert print(x) prob: 0.98914635181427 => 0.24513737857341766 label LABEL_24
+Example time cost:  0.01 min
+ALL examples time cost:  0.46 min
+Query times in this attack:  21
+Greedy query times: 21
+Ga query times: 0
+All Query times:  952
+Success rate:  0.92
+Successful items count:  46
+Total count:  50
+Index:  60
+
+LABEL_30 LABEL_30 0.9826776385307312
+SUC! insert print(cache) prob: 0.9826776385307312 => 0.19216647744178772 label LABEL_36
+Example time cost:  0.01 min
+ALL examples time cost:  0.47 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  968
+Success rate:  0.9215686274509803
+Successful items count:  47
+Total count:  51
+Index:  61
+
+LABEL_27 LABEL_31 0.3149699866771698
+Example time cost:  0.0 min
+ALL examples time cost:  0.47 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  969
+Success rate:  0.9215686274509803
+Successful items count:  47
+Total count:  51
+Index:  62
+
+LABEL_12 LABEL_31 0.17048205435276031
+Example time cost:  0.0 min
+ALL examples time cost:  0.47 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  970
+Success rate:  0.9215686274509803
+Successful items count:  47
+Total count:  51
+Index:  63
+
+LABEL_32 LABEL_32 0.9335851669311523
+SUC! insert print(word) prob: 0.9335851669311523 => 0.23938916623592377 label LABEL_39
+Example time cost:  0.01 min
+ALL examples time cost:  0.48 min
+Query times in this attack:  17
+Greedy query times: 17
+Ga query times: 0
+All Query times:  987
+Success rate:  0.9230769230769231
+Successful items count:  48
+Total count:  52
+Index:  64
+
+LABEL_32 LABEL_32 0.9844344258308411
+SUC! insert print(t) prob: 0.9844344258308411 => 0.1889241635799408 label LABEL_39
+Example time cost:  0.01 min
+ALL examples time cost:  0.49 min
+Query times in this attack:  29
+Greedy query times: 29
+Ga query times: 0
+All Query times:  1016
+Success rate:  0.9245283018867925
+Successful items count:  49
+Total count:  53
+Index:  65
+
+LABEL_33 LABEL_33 0.4999624490737915
+SUC! insert print(num) prob: 0.4999624490737915 => 0.16128003597259521 label LABEL_64
+Example time cost:  0.0 min
+ALL examples time cost:  0.49 min
+Query times in this attack:  9
+Greedy query times: 9
+Ga query times: 0
+All Query times:  1025
+Success rate:  0.9259259259259259
+Successful items count:  50
+Total count:  54
+Index:  66
+
+LABEL_33 LABEL_33 0.9784246683120728
+SUC! insert print(a) prob: 0.9784246683120728 => 0.09170394390821457 label LABEL_58
+Example time cost:  0.01 min
+ALL examples time cost:  0.5 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  1039
+Success rate:  0.9272727272727272
+Successful items count:  51
+Total count:  55
+Index:  67
+
+LABEL_34 LABEL_34 0.9844394326210022
+Example time cost:  0.01 min
+ALL examples time cost:  0.51 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  1050
+Success rate:  0.9107142857142857
+Successful items count:  51
+Total count:  56
+Index:  68
+
+LABEL_34 LABEL_34 0.9873585104942322
+Example time cost:  0.0 min
+ALL examples time cost:  0.51 min
+Query times in this attack:  9
+Greedy query times: 9
+Ga query times: 0
+All Query times:  1059
+Success rate:  0.8947368421052632
+Successful items count:  51
+Total count:  57
+Index:  69
+
+LABEL_13 LABEL_35 0.21804513037204742
+Example time cost:  0.0 min
+ALL examples time cost:  0.51 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1060
+Success rate:  0.8947368421052632
+Successful items count:  51
+Total count:  57
+Index:  70
+
+LABEL_35 LABEL_35 0.8379743099212646
+SUC! insert print(f) prob: 0.8379743099212646 => 0.15747763216495514 label LABEL_41
+Example time cost:  0.01 min
+ALL examples time cost:  0.52 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  1075
+Success rate:  0.896551724137931
+Successful items count:  52
+Total count:  58
+Index:  71
+
+LABEL_45 LABEL_36 0.17264246940612793
+Example time cost:  0.0 min
+ALL examples time cost:  0.52 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1076
+Success rate:  0.896551724137931
+Successful items count:  52
+Total count:  58
+Index:  72
+
+LABEL_36 LABEL_36 0.9981865286827087
+Example time cost:  0.0 min
+ALL examples time cost:  0.52 min
+Query times in this attack:  4
+Greedy query times: 4
+Ga query times: 0
+All Query times:  1080
+Success rate:  0.8813559322033898
+Successful items count:  52
+Total count:  59
+Index:  73
+
+LABEL_37 LABEL_37 0.9934036135673523
+SUC! insert print(filepath) prob: 0.9934036135673523 => 0.11629487574100494 label LABEL_52
+Example time cost:  0.01 min
+ALL examples time cost:  0.53 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  1095
+Success rate:  0.8833333333333333
+Successful items count:  53
+Total count:  60
+Index:  74
+
+LABEL_26 LABEL_37 0.17644190788269043
+Example time cost:  0.0 min
+ALL examples time cost:  0.53 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1096
+Success rate:  0.8833333333333333
+Successful items count:  53
+Total count:  60
+Index:  75
+
+LABEL_3 LABEL_38 0.7995021343231201
+Example time cost:  0.0 min
+ALL examples time cost:  0.53 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1097
+Success rate:  0.8833333333333333
+Successful items count:  53
+Total count:  60
+Index:  76
+
+LABEL_38 LABEL_38 0.9177491664886475
+SUC! insert print(T) prob: 0.9177491664886475 => 0.22756044566631317 label LABEL_36
+Example time cost:  0.0 min
+ALL examples time cost:  0.53 min
+Query times in this attack:  10
+Greedy query times: 10
+Ga query times: 0
+All Query times:  1107
+Success rate:  0.8852459016393442
+Successful items count:  54
+Total count:  61
+Index:  77
+
+LABEL_39 LABEL_39 0.9367881417274475
+SUC! insert print(s) prob: 0.9367881417274475 => 0.15382279455661774 label LABEL_56
+Example time cost:  0.0 min
+ALL examples time cost:  0.54 min
+Query times in this attack:  10
+Greedy query times: 10
+Ga query times: 0
+All Query times:  1117
+Success rate:  0.8870967741935484
+Successful items count:  55
+Total count:  62
+Index:  78
+
+LABEL_62 LABEL_39 0.343416690826416
+Example time cost:  0.0 min
+ALL examples time cost:  0.54 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1118
+Success rate:  0.8870967741935484
+Successful items count:  55
+Total count:  62
+Index:  79
+
+LABEL_45 LABEL_40 0.14330892264842987
+Example time cost:  0.0 min
+ALL examples time cost:  0.54 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1119
+Success rate:  0.8870967741935484
+Successful items count:  55
+Total count:  62
+Index:  80
+
+LABEL_51 LABEL_40 0.05298012122511864
+Example time cost:  0.0 min
+ALL examples time cost:  0.54 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1120
+Success rate:  0.8870967741935484
+Successful items count:  55
+Total count:  62
+Index:  81
+
+LABEL_41 LABEL_41 0.9763617515563965
+SUC! insert print(main) prob: 0.9763617515563965 => 0.0845404639840126 label LABEL_22
+Example time cost:  0.0 min
+ALL examples time cost:  0.54 min
+Query times in this attack:  9
+Greedy query times: 9
+Ga query times: 0
+All Query times:  1129
+Success rate:  0.8888888888888888
+Successful items count:  56
+Total count:  63
+Index:  82
+
+LABEL_41 LABEL_41 0.9486913681030273
+SUC! insert print(main) prob: 0.9486913681030273 => 0.3672737777233124 label LABEL_0
+Example time cost:  0.01 min
+ALL examples time cost:  0.55 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  1141
+Success rate:  0.890625
+Successful items count:  57
+Total count:  64
+Index:  83
+
+LABEL_42 LABEL_42 0.8521872758865356
+SUC! insert print(k) prob: 0.8521872758865356 => 0.21192698180675507 label LABEL_24
+Example time cost:  0.01 min
+ALL examples time cost:  0.56 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  1156
+Success rate:  0.8923076923076924
+Successful items count:  58
+Total count:  65
+Index:  84
+
+LABEL_42 LABEL_42 0.4927250146865845
+SUC! insert print(t) prob: 0.4927250146865845 => 0.14663425087928772 label LABEL_39
+Example time cost:  0.01 min
+ALL examples time cost:  0.56 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  1170
+Success rate:  0.8939393939393939
+Successful items count:  59
+Total count:  66
+Index:  85
+
+LABEL_43 LABEL_43 0.2766833007335663
+SUC! insert print(problem) prob: 0.2766833007335663 => 0.0801951214671135 label LABEL_25
+Example time cost:  0.0 min
+ALL examples time cost:  0.57 min
+Query times in this attack:  6
+Greedy query times: 6
+Ga query times: 0
+All Query times:  1176
+Success rate:  0.8955223880597015
+Successful items count:  60
+Total count:  67
+Index:  86
+
+LABEL_43 LABEL_43 0.5635631084442139
+ACC! insert print(case) prob: 0.5635631084442139 => 0.29529041051864624
+SUC! insert if False:
+	case=case prob: 0.29529041051864624 => 0.18215884268283844 label LABEL_0
+Example time cost:  0.01 min
+ALL examples time cost:  0.58 min
+Query times in this attack:  23
+Greedy query times: 23
+Ga query times: 0
+All Query times:  1199
+Success rate:  0.8970588235294118
+Successful items count:  61
+Total count:  68
+Index:  87
+
+LABEL_44 LABEL_44 0.8033303618431091
+SUC! insert print(num) prob: 0.8033303618431091 => 0.13520583510398865 label LABEL_43
+Example time cost:  0.01 min
+ALL examples time cost:  0.58 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  1211
+Success rate:  0.8985507246376812
+Successful items count:  62
+Total count:  69
+Index:  88
+
+LABEL_44 LABEL_44 0.9047500491142273
+SUC! insert print(line) prob: 0.9047500491142273 => 0.12066294997930527 label LABEL_43
+Example time cost:  0.01 min
+ALL examples time cost:  0.59 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  1227
+Success rate:  0.9
+Successful items count:  63
+Total count:  70
+Index:  89
+
+LABEL_45 LABEL_45 0.12721069157123566
+SUC! insert print(ndigits) prob: 0.12721069157123566 => 0.1104302629828453 label LABEL_36
+Example time cost:  0.01 min
+ALL examples time cost:  0.6 min
+Query times in this attack:  10
+Greedy query times: 10
+Ga query times: 0
+All Query times:  1237
+Success rate:  0.9014084507042254
+Successful items count:  64
+Total count:  71
+Index:  90
+
+LABEL_45 LABEL_45 0.48311489820480347
+SUC! insert print(score) prob: 0.48311489820480347 => 0.09931297600269318 label LABEL_43
+Example time cost:  0.01 min
+ALL examples time cost:  0.6 min
+Query times in this attack:  13
+Greedy query times: 13
+Ga query times: 0
+All Query times:  1250
+Success rate:  0.9027777777777778
+Successful items count:  65
+Total count:  72
+Index:  91
+
+LABEL_46 LABEL_46 0.9937711358070374
+SUC! insert print(n) prob: 0.9937711358070374 => 0.08549819141626358 label LABEL_22
+Example time cost:  0.01 min
+ALL examples time cost:  0.61 min
+Query times in this attack:  19
+Greedy query times: 19
+Ga query times: 0
+All Query times:  1269
+Success rate:  0.9041095890410958
+Successful items count:  66
+Total count:  73
+Index:  92
+
+LABEL_46 LABEL_46 0.9929621815681458
+SUC! insert print(input) prob: 0.9929621815681458 => 0.22236859798431396 label LABEL_53
+Example time cost:  0.01 min
+ALL examples time cost:  0.62 min
+Query times in this attack:  19
+Greedy query times: 19
+Ga query times: 0
+All Query times:  1288
+Success rate:  0.9054054054054054
+Successful items count:  67
+Total count:  74
+Index:  93
+
+LABEL_43 LABEL_47 0.1936284303665161
+Example time cost:  0.0 min
+ALL examples time cost:  0.62 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1289
+Success rate:  0.9054054054054054
+Successful items count:  67
+Total count:  74
+Index:  94
+
+LABEL_47 LABEL_47 0.9202257990837097
+SUC! insert print(OEXT) prob: 0.9202257990837097 => 0.087055504322052 label LABEL_26
+Example time cost:  0.01 min
+ALL examples time cost:  0.63 min
+Query times in this attack:  23
+Greedy query times: 23
+Ga query times: 0
+All Query times:  1312
+Success rate:  0.9066666666666666
+Successful items count:  68
+Total count:  75
+Index:  95
+
+LABEL_48 LABEL_48 0.9950190782546997
+SUC! insert print(directory) prob: 0.9950190782546997 => 0.16786634922027588 label LABEL_0
+Example time cost:  0.01 min
+ALL examples time cost:  0.64 min
+Query times in this attack:  19
+Greedy query times: 19
+Ga query times: 0
+All Query times:  1331
+Success rate:  0.9078947368421053
+Successful items count:  69
+Total count:  76
+Index:  96
+
+LABEL_48 LABEL_48 0.991541862487793
+SUC! insert print(directory) prob: 0.991541862487793 => 0.18654491007328033 label LABEL_0
+Example time cost:  0.01 min
+ALL examples time cost:  0.65 min
+Query times in this attack:  20
+Greedy query times: 20
+Ga query times: 0
+All Query times:  1351
+Success rate:  0.9090909090909091
+Successful items count:  70
+Total count:  77
+Index:  97
+
+LABEL_49 LABEL_49 0.913081169128418
+SUC! insert print(n) prob: 0.913081169128418 => 0.10021394491195679 label LABEL_36
+Example time cost:  0.01 min
+ALL examples time cost:  0.66 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  1367
+Success rate:  0.9102564102564102
+Successful items count:  71
+Total count:  78
+Index:  98
+
+LABEL_49 LABEL_49 0.9154700636863708
+SUC! insert print(fout) prob: 0.9154700636863708 => 0.23740670084953308 label LABEL_7
+Example time cost:  0.01 min
+ALL examples time cost:  0.67 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  1383
+Success rate:  0.9113924050632911
+Successful items count:  72
+Total count:  79
+Index:  99
+
+LABEL_50 LABEL_50 0.5103687644004822
+SUC! insert print(n) prob: 0.5103687644004822 => 0.10475211590528488 label LABEL_31
+Example time cost:  0.01 min
+ALL examples time cost:  0.67 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  1394
+Success rate:  0.9125
+Successful items count:  73
+Total count:  80
+Index:  100
+
+LABEL_50 LABEL_50 0.9293429255485535
+SUC! insert print(scores) prob: 0.9293429255485535 => 0.11741175502538681 label LABEL_36
+Example time cost:  0.01 min
+ALL examples time cost:  0.68 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  1406
+Success rate:  0.9135802469135802
+Successful items count:  74
+Total count:  81
+Index:  101
+
+LABEL_47 LABEL_51 0.10086853802204132
+Example time cost:  0.0 min
+ALL examples time cost:  0.68 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1407
+Success rate:  0.9135802469135802
+Successful items count:  74
+Total count:  81
+Index:  102
+
+LABEL_51 LABEL_51 0.8471943140029907
+SUC! insert print(N) prob: 0.8471943140029907 => 0.08742304146289825 label LABEL_50
+Example time cost:  0.01 min
+ALL examples time cost:  0.69 min
+Query times in this attack:  21
+Greedy query times: 21
+Ga query times: 0
+All Query times:  1428
+Success rate:  0.9146341463414634
+Successful items count:  75
+Total count:  82
+Index:  103
+
+LABEL_52 LABEL_52 0.7974222898483276
+SUC! insert print(x) prob: 0.7974222898483276 => 0.1301788091659546 label LABEL_43
+Example time cost:  0.01 min
+ALL examples time cost:  0.69 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  1439
+Success rate:  0.9156626506024096
+Successful items count:  76
+Total count:  83
+Index:  104
+
+LABEL_52 LABEL_52 0.9731321930885315
+SUC! insert print(mod_plus_conv_with_s) prob: 0.9731321930885315 => 0.059242330491542816 label LABEL_40
+Example time cost:  0.01 min
+ALL examples time cost:  0.7 min
+Query times in this attack:  13
+Greedy query times: 13
+Ga query times: 0
+All Query times:  1452
+Success rate:  0.9166666666666666
+Successful items count:  77
+Total count:  84
+Index:  105
+
+LABEL_53 LABEL_53 0.9512659907341003
+ACC! insert print(n) prob: 0.9512659907341003 => 0.14165079593658447
+NOACC! insert if False:
+	n=n prob: 0.14165079593658447 => 0.26911473274230957
+NOACC! insert while False:
+	n=n prob: 0.14165079593658447 => 0.2701089382171631
+NOACC! insert print(case) prob: 0.14165079593658447 => 0.2335858792066574
+NOACC! insert if False:
+	case=B prob: 0.14165079593658447 => 0.24055896699428558
+NOACC! insert while False:
+	case=B prob: 0.14165079593658447 => 0.2400224208831787
+NOACC! insert print(case) prob: 0.14165079593658447 => 0.2335858792066574
+NOACC! insert if False:
+	case=B prob: 0.14165079593658447 => 0.24055896699428558
+NOACC! insert while False:
+	case=B prob: 0.14165079593658447 => 0.2400224208831787
+NOACC! insert print(case) prob: 0.14165079593658447 => 0.2335858792066574
+NOACC! insert if False:
+	case=argv prob: 0.14165079593658447 => 0.23899424076080322
+NOACC! insert while False:
+	case=argv prob: 0.14165079593658447 => 0.23831288516521454
+NOACC! insert print(data) prob: 0.14165079593658447 => 0.2614791691303253
+NOACC! insert if False:
+	data=data prob: 0.14165079593658447 => 0.26535606384277344
+NOACC! insert while False:
+	data=data prob: 0.14165079593658447 => 0.2680211365222931
+NOACC! insert print(sys) prob: 0.14165079593658447 => 0.20221933722496033
+NOACC! insert if False:
+	sys=sys prob: 0.14165079593658447 => 0.21993832290172577
+NOACC! insert while False:
+	sys=sys prob: 0.14165079593658447 => 0.22649016976356506
+NOACC! insert print(A) prob: 0.14165079593658447 => 0.23661492764949799
+NOACC! insert if False:
+	A=sys prob: 0.14165079593658447 => 0.25011610984802246
+NOACC! insert while False:
+	A=sys prob: 0.14165079593658447 => 0.25489622354507446
+NOACC! insert print(inputFileName) prob: 0.14165079593658447 => 0.19444096088409424
+NOACC! insert if False:
+	inputFileName=A prob: 0.14165079593658447 => 0.20837445557117462
+NOACC! insert while False:
+	inputFileName=A prob: 0.14165079593658447 => 0.2097046673297882
+NOACC! insert print(data) prob: 0.14165079593658447 => 0.2614791691303253
+NOACC! insert if False:
+	data=B prob: 0.14165079593658447 => 0.2713916301727295
+NOACC! insert while False:
+	data=B prob: 0.14165079593658447 => 0.27345705032348633
+NOACC! insert print(i) prob: 0.14165079593658447 => 0.24003368616104126
+NOACC! insert if False:
+	i=argv prob: 0.14165079593658447 => 0.2105841189622879
+NOACC! insert while False:
+	i=argv prob: 0.14165079593658447 => 0.21490298211574554
+NOACC! insert print(A) prob: 0.14165079593658447 => 0.23661492764949799
+NOACC! insert if False:
+	A=i prob: 0.14165079593658447 => 0.2659190893173218
+NOACC! insert while False:
+	A=i prob: 0.14165079593658447 => 0.2677655518054962
+NOACC! insert print(B) prob: 0.14165079593658447 => 0.2424466609954834
+NOACC! insert if False:
+	B=i prob: 0.14165079593658447 => 0.291146457195282
+NOACC! insert while False:
+	B=i prob: 0.14165079593658447 => 0.2904035449028015
+Example time cost:  0.02 min
+ALL examples time cost:  0.72 min
+Query times in this attack:  49
+Greedy query times: 49
+Ga query times: 0
+All Query times:  1501
+Success rate:  0.9058823529411765
+Successful items count:  77
+Total count:  85
+Index:  106
+
+LABEL_35 LABEL_53 0.17226804792881012
+Example time cost:  0.0 min
+ALL examples time cost:  0.72 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1502
+Success rate:  0.9058823529411765
+Successful items count:  77
+Total count:  85
+Index:  107
+
+LABEL_54 LABEL_54 0.9052935242652893
+SUC! insert print(n) prob: 0.9052935242652893 => 0.13845385611057281 label LABEL_43
+Example time cost:  0.01 min
+ALL examples time cost:  0.73 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  1514
+Success rate:  0.9069767441860465
+Successful items count:  78
+Total count:  86
+Index:  108
+
+LABEL_54 LABEL_54 0.9434376358985901
+SUC! insert print(p) prob: 0.9434376358985901 => 0.11393282562494278 label LABEL_8
+Example time cost:  0.01 min
+ALL examples time cost:  0.74 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  1529
+Success rate:  0.9080459770114943
+Successful items count:  79
+Total count:  87
+Index:  109
+
+LABEL_55 LABEL_55 0.40995004773139954
+SUC! insert print(n) prob: 0.40995004773139954 => 0.06924042105674744 label LABEL_36
+Example time cost:  0.01 min
+ALL examples time cost:  0.74 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  1547
+Success rate:  0.9090909090909091
+Successful items count:  80
+Total count:  88
+Index:  110
+
+LABEL_55 LABEL_55 0.993950366973877
+SUC! insert print(f) prob: 0.993950366973877 => 0.13406652212142944 label LABEL_64
+Example time cost:  0.01 min
+ALL examples time cost:  0.75 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  1563
+Success rate:  0.9101123595505618
+Successful items count:  81
+Total count:  89
+Index:  111
+
+LABEL_56 LABEL_56 0.9513126015663147
+SUC! insert print(file) prob: 0.9513126015663147 => 0.10644645988941193 label LABEL_43
+Example time cost:  0.01 min
+ALL examples time cost:  0.76 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  1581
+Success rate:  0.9111111111111111
+Successful items count:  82
+Total count:  90
+Index:  112
+
+LABEL_35 LABEL_56 0.1327389031648636
+Example time cost:  0.0 min
+ALL examples time cost:  0.76 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1582
+Success rate:  0.9111111111111111
+Successful items count:  82
+Total count:  90
+Index:  113
+
+LABEL_57 LABEL_57 0.8201552629470825
+SUC! insert print(tCase) prob: 0.8201552629470825 => 0.31756216287612915 label LABEL_26
+Example time cost:  0.01 min
+ALL examples time cost:  0.77 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  1596
+Success rate:  0.9120879120879121
+Successful items count:  83
+Total count:  91
+Index:  114
+
+LABEL_57 LABEL_57 0.6351726055145264
+SUC! insert print(tCase) prob: 0.6351726055145264 => 0.12647657096385956 label LABEL_4
+Example time cost:  0.01 min
+ALL examples time cost:  0.78 min
+Query times in this attack:  17
+Greedy query times: 17
+Ga query times: 0
+All Query times:  1613
+Success rate:  0.9130434782608695
+Successful items count:  84
+Total count:  92
+Index:  115
+
+LABEL_58 LABEL_58 0.13747066259384155
+SUC! insert print(ge) prob: 0.13747066259384155 => 0.13783565163612366 label LABEL_8
+Example time cost:  0.01 min
+ALL examples time cost:  0.78 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  1631
+Success rate:  0.9139784946236559
+Successful items count:  85
+Total count:  93
+Index:  116
+
+LABEL_58 LABEL_58 0.874731719493866
+ACC! insert print(t) prob: 0.874731719493866 => 0.12032725661993027
+SUC! insert if False:
+	t=p prob: 0.12032725661993027 => 0.23443810641765594 label LABEL_39
+Example time cost:  0.01 min
+ALL examples time cost:  0.79 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  1646
+Success rate:  0.9148936170212766
+Successful items count:  86
+Total count:  94
+Index:  117
+
+LABEL_59 LABEL_59 0.8395518064498901
+SUC! insert print(lst) prob: 0.8395518064498901 => 0.11830753087997437 label LABEL_37
+Example time cost:  0.01 min
+ALL examples time cost:  0.8 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  1661
+Success rate:  0.9157894736842105
+Successful items count:  87
+Total count:  95
+Index:  118
+
+LABEL_59 LABEL_59 0.9670753479003906
+SUC! insert print(fileName) prob: 0.9670753479003906 => 0.270679235458374 label LABEL_0
+Example time cost:  0.01 min
+ALL examples time cost:  0.81 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  1679
+Success rate:  0.9166666666666666
+Successful items count:  88
+Total count:  96
+Index:  119
+
+LABEL_60 LABEL_60 0.9919186234474182
+SUC! insert print(f) prob: 0.9919186234474182 => 0.1920681744813919 label LABEL_64
+Example time cost:  0.01 min
+ALL examples time cost:  0.82 min
+Query times in this attack:  22
+Greedy query times: 22
+Ga query times: 0
+All Query times:  1701
+Success rate:  0.9175257731958762
+Successful items count:  89
+Total count:  97
+Index:  120
+
+LABEL_60 LABEL_60 0.9911370277404785
+SUC! insert print(__file__) prob: 0.9911370277404785 => 0.12816493213176727 label LABEL_35
+Example time cost:  0.01 min
+ALL examples time cost:  0.83 min
+Query times in this attack:  19
+Greedy query times: 19
+Ga query times: 0
+All Query times:  1720
+Success rate:  0.9183673469387755
+Successful items count:  90
+Total count:  98
+Index:  121
+
+LABEL_61 LABEL_61 0.9895533323287964
+SUC! insert print(x) prob: 0.9895533323287964 => 0.3963431715965271 label LABEL_26
+Example time cost:  0.01 min
+ALL examples time cost:  0.83 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  1731
+Success rate:  0.9191919191919192
+Successful items count:  91
+Total count:  99
+Index:  122
+
+LABEL_61 LABEL_61 0.5451461672782898
+SUC! insert print(t) prob: 0.5451461672782898 => 0.13606005907058716 label LABEL_40
+Example time cost:  0.01 min
+ALL examples time cost:  0.84 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  1742
+Success rate:  0.92
+Successful items count:  92
+Total count:  100
+Index:  123
+
+LABEL_45 LABEL_62 0.47211959958076477
+Example time cost:  0.0 min
+ALL examples time cost:  0.84 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1743
+Success rate:  0.92
+Successful items count:  92
+Total count:  100
+Index:  124
+
+LABEL_62 LABEL_62 0.5216144919395447
+SUC! insert print(T) prob: 0.5216144919395447 => 0.08620531857013702 label LABEL_57
+Example time cost:  0.01 min
+ALL examples time cost:  0.84 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  1754
+Success rate:  0.9207920792079208
+Successful items count:  93
+Total count:  101
+Index:  125
+
+LABEL_63 LABEL_63 0.9097532033920288
+SUC! insert print(N) prob: 0.9097532033920288 => 0.06843484193086624 label LABEL_9
+Example time cost:  0.01 min
+ALL examples time cost:  0.85 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  1770
+Success rate:  0.9215686274509803
+Successful items count:  94
+Total count:  102
+Index:  126
+
+LABEL_63 LABEL_63 0.7311422824859619
+SUC! insert print(stdin) prob: 0.7311422824859619 => 0.11036272346973419 label LABEL_6
+Example time cost:  0.01 min
+ALL examples time cost:  0.86 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  1785
+Success rate:  0.9223300970873787
+Successful items count:  95
+Total count:  103
+Index:  127
+
+LABEL_64 LABEL_64 0.9274616837501526
+SUC! insert print(n) prob: 0.9274616837501526 => 0.1725168526172638 label LABEL_39
+Example time cost:  0.01 min
+ALL examples time cost:  0.87 min
+Query times in this attack:  17
+Greedy query times: 17
+Ga query times: 0
+All Query times:  1802
+Success rate:  0.9230769230769231
+Successful items count:  96
+Total count:  104
+Index:  128
+
+LABEL_64 LABEL_64 0.8961672186851501
+ACC! insert print(T) prob: 0.8961672186851501 => 0.2835606634616852
+SUC! insert if False:
+	T=T prob: 0.2835606634616852 => 0.41472673416137695 label LABEL_57
+Example time cost:  0.01 min
+ALL examples time cost:  0.87 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  1817
+Success rate:  0.9238095238095239
+Successful items count:  97
+Total count:  105
+Index:  129
+
+LABEL_65 LABEL_65 0.9670215249061584
+SUC! insert print(t) prob: 0.9670215249061584 => 0.12156233191490173 label LABEL_40
+Example time cost:  0.01 min
+ALL examples time cost:  0.88 min
+Query times in this attack:  19
+Greedy query times: 19
+Ga query times: 0
+All Query times:  1836
+Success rate:  0.9245283018867925
+Successful items count:  98
+Total count:  106
+Index:  130
+
+LABEL_20 LABEL_65 0.20643524825572968
+Example time cost:  0.0 min
+ALL examples time cost:  0.88 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1837
+Success rate:  0.9245283018867925
+Successful items count:  98
+Total count:  106
+Index:  131
+

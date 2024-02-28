@@ -1,0 +1,2549 @@
+SUC! insert print(num_str) prob: 0.5751253962516785 => 0.0707751214504242
+Example time cost:  0.01 min
+ALL examples time cost:  0.01 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  18
+Success rate:  1.0
+Successful items count:  1
+Total count:  1
+Index:  0
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.01 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  30
+Success rate:  0.5
+Successful items count:  1
+Total count:  2
+Index:  1
+
+SUC! insert print(s) prob: 0.7655067443847656 => 0.07759358733892441
+Example time cost:  0.0 min
+ALL examples time cost:  0.02 min
+Query times in this attack:  23
+Greedy query times: 23
+Ga query times: 0
+All Query times:  53
+Success rate:  0.6666666666666666
+Successful items count:  2
+Total count:  3
+Index:  2
+
+SUC! insert print(p) prob: 0.7040659785270691 => 0.0843559056520462
+Example time cost:  0.0 min
+ALL examples time cost:  0.02 min
+Query times in this attack:  24
+Greedy query times: 24
+Ga query times: 0
+All Query times:  77
+Success rate:  0.75
+Successful items count:  3
+Total count:  4
+Index:  3
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.02 min
+Query times in this attack:  3
+Greedy query times: 3
+Ga query times: 0
+All Query times:  80
+Success rate:  0.6
+Successful items count:  3
+Total count:  5
+Index:  4
+
+ACC! insert print(N) prob: 0.7736655473709106 => 0.11283686012029648
+NOACC! insert if False:N=Limits prob: 0.11283686012029648 => 0.6439818143844604
+NOACC! insert while False:N=Limits prob: 0.11283686012029648 => 0.6428458094596863
+Example time cost:  0.0 min
+ALL examples time cost:  0.03 min
+Query times in this attack:  13
+Greedy query times: 13
+Ga query times: 0
+All Query times:  93
+Success rate:  0.5
+Successful items count:  3
+Total count:  6
+Index:  5
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.03 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  94
+Success rate:  0.5
+Successful items count:  3
+Total count:  6
+Index:  6
+
+SUC! insert print(z) prob: 0.3504151999950409 => 0.15486790239810944
+Example time cost:  0.0 min
+ALL examples time cost:  0.03 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  106
+Success rate:  0.5714285714285714
+Successful items count:  4
+Total count:  7
+Index:  7
+
+ACC! insert print(f) prob: 0.6982871294021606 => 0.5992094278335571
+ACC! insert if False:f=f prob: 0.5992094278335571 => 0.57805335521698
+ACC! insert while False:f=f prob: 0.57805335521698 => 0.5751788020133972
+NOACC! insert print(x) prob: 0.5751788020133972 => 0.5845456719398499
+NOACC! insert if False:x=l prob: 0.5751788020133972 => 0.5878707766532898
+NOACC! insert while False:x=l prob: 0.5751788020133972 => 0.5826135873794556
+NOACC! insert print(i) prob: 0.5751788020133972 => 0.5906580090522766
+NOACC! insert if False:i=l2 prob: 0.5751788020133972 => 0.5846502780914307
+NOACC! insert while False:i=l2 prob: 0.5751788020133972 => 0.579914927482605
+NOACC! insert print(mb) prob: 0.5751788020133972 => 0.5864540934562683
+NOACC! insert if False:mb=l2 prob: 0.5751788020133972 => 0.5880966782569885
+NOACC! insert while False:mb=l2 prob: 0.5751788020133972 => 0.5859619379043579
+NOACC! insert print(l2) prob: 0.5751788020133972 => 0.5806936025619507
+NOACC! insert if False:l2=l2 prob: 0.5751788020133972 => 0.5842423439025879
+NOACC! insert while False:l2=l2 prob: 0.5751788020133972 => 0.5801264047622681
+NOACC! insert print(mb) prob: 0.5751788020133972 => 0.5864540934562683
+NOACC! insert if False:mb=l2 prob: 0.5751788020133972 => 0.5880966782569885
+NOACC! insert while False:mb=l2 prob: 0.5751788020133972 => 0.5859619379043579
+NOACC! insert print(count) prob: 0.5751788020133972 => 0.5869191884994507
+NOACC! insert if False:count=mb prob: 0.5751788020133972 => 0.5843039155006409
+NOACC! insert while False:count=mb prob: 0.5751788020133972 => 0.5814743041992188
+NOACC! insert print(count) prob: 0.5751788020133972 => 0.5869191884994507
+NOACC! insert if False:count=mb prob: 0.5751788020133972 => 0.5843039155006409
+NOACC! insert while False:count=mb prob: 0.5751788020133972 => 0.5814743041992188
+NOACC! insert print(l) prob: 0.5751788020133972 => 0.5822077989578247
+NOACC! insert if False:l=i prob: 0.5751788020133972 => 0.5862365961074829
+NOACC! insert while False:l=i prob: 0.5751788020133972 => 0.5794108510017395
+NOACC! insert print(l2) prob: 0.5751788020133972 => 0.5806936025619507
+NOACC! insert if False:l2=mb prob: 0.5751788020133972 => 0.5881116390228271
+NOACC! insert while False:l2=mb prob: 0.5751788020133972 => 0.5843934416770935
+NOACC! insert print(mb) prob: 0.5751788020133972 => 0.5864540934562683
+NOACC! insert if False:mb=l2 prob: 0.5751788020133972 => 0.5880966782569885
+NOACC! insert while False:mb=l2 prob: 0.5751788020133972 => 0.5859619379043579
+Example time cost:  0.01 min
+ALL examples time cost:  0.04 min
+Query times in this attack:  48
+Greedy query times: 48
+Ga query times: 0
+All Query times:  154
+Success rate:  0.5
+Successful items count:  4
+Total count:  8
+Index:  8
+
+ACC! insert print(num) prob: 0.6931507587432861 => 0.6053265333175659
+ACC! insert if False:num=num prob: 0.6053265333175659 => 0.5470134615898132
+NOACC! insert while False:num=num prob: 0.5470134615898132 => 0.5655455589294434
+NOACC! insert print(res) prob: 0.5470134615898132 => 0.5605757236480713
+NOACC! insert if False:res=nrsup prob: 0.5470134615898132 => 0.5704265236854553
+NOACC! insert while False:res=nrsup prob: 0.5470134615898132 => 0.561145544052124
+NOACC! insert print(res) prob: 0.5470134615898132 => 0.5605757236480713
+NOACC! insert if False:res=score prob: 0.5470134615898132 => 0.57292640209198
+NOACC! insert while False:res=score prob: 0.5470134615898132 => 0.5647153258323669
+NOACC! insert print(nrg) prob: 0.5470134615898132 => 0.558014452457428
+NOACC! insert if False:nrg=score prob: 0.5470134615898132 => 0.5701134204864502
+NOACC! insert while False:nrg=score prob: 0.5470134615898132 => 0.563839852809906
+NOACC! insert print(res) prob: 0.5470134615898132 => 0.5605757236480713
+NOACC! insert if False:res=x prob: 0.5470134615898132 => 0.5719209909439087
+NOACC! insert while False:res=x prob: 0.5470134615898132 => 0.5627100467681885
+NOACC! insert print(res) prob: 0.5470134615898132 => 0.5605757236480713
+NOACC! insert if False:res=score prob: 0.5470134615898132 => 0.57292640209198
+NOACC! insert while False:res=score prob: 0.5470134615898132 => 0.5647153258323669
+NOACC! insert print(score) prob: 0.5470134615898132 => 0.5641265511512756
+NOACC! insert if False:score=nrsup prob: 0.5470134615898132 => 0.5698310732841492
+NOACC! insert while False:score=nrsup prob: 0.5470134615898132 => 0.564642608165741
+Example time cost:  0.01 min
+ALL examples time cost:  0.04 min
+Query times in this attack:  32
+Greedy query times: 32
+Ga query times: 0
+All Query times:  186
+Success rate:  0.4444444444444444
+Successful items count:  4
+Total count:  9
+Index:  9
+
+SUC! insert print(bmap) prob: 0.7252674698829651 => 0.11510997265577316
+Example time cost:  0.01 min
+ALL examples time cost:  0.05 min
+Query times in this attack:  29
+Greedy query times: 29
+Ga query times: 0
+All Query times:  215
+Success rate:  0.5
+Successful items count:  5
+Total count:  10
+Index:  10
+
+ACC! insert print(icase) prob: 0.6813182234764099 => 0.5232073068618774
+ACC! insert if False:icase=icase prob: 0.5232073068618774 => 0.2469743937253952
+NOACC! insert while False:icase=icase prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(raw) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:raw=result prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:raw=result prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(x) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:x=x prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:x=x prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(rslt) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:rslt=raw prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:rslt=raw prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(T) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:T=rslt prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:T=rslt prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(caseLineNum) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:caseLineNum=i prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:caseLineNum=i prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(raw) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:raw=caseLineNum prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:raw=caseLineNum prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(data) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:data=raw prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:data=raw prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(T) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:T=x prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:T=x prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(result) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:result=i prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:result=i prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(caseLineNum) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:caseLineNum=raw prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:caseLineNum=raw prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(caseLineNum) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:caseLineNum=rslt prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:caseLineNum=rslt prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(x) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:x=data prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:x=data prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(caseLineNum) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:caseLineNum=caseLineNum prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:caseLineNum=caseLineNum prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(rslt) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:rslt=data prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:rslt=data prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(result) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:result=raw prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:result=raw prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(i) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:i=ts prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:i=ts prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(ts) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:ts=rslt prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:ts=rslt prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(raw) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:raw=iLine prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:raw=iLine prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(caseLineNum) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:caseLineNum=x prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:caseLineNum=x prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(iLine) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:iLine=caseLineNum prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:iLine=caseLineNum prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert print(i) prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert if False:i=caseLineNum prob: 0.2469743937253952 => 0.2469743937253952
+NOACC! insert while False:i=caseLineNum prob: 0.2469743937253952 => 0.2469743937253952
+Example time cost:  0.02 min
+ALL examples time cost:  0.07 min
+Query times in this attack:  89
+Greedy query times: 89
+Ga query times: 0
+All Query times:  304
+Success rate:  0.45454545454545453
+Successful items count:  5
+Total count:  11
+Index:  11
+
+SUC! insert print(n) prob: 0.5326716303825378 => 0.3853277266025543
+Example time cost:  0.0 min
+ALL examples time cost:  0.07 min
+Query times in this attack:  10
+Greedy query times: 10
+Ga query times: 0
+All Query times:  314
+Success rate:  0.5
+Successful items count:  6
+Total count:  12
+Index:  12
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.07 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  326
+Success rate:  0.46153846153846156
+Successful items count:  6
+Total count:  13
+Index:  13
+
+ACC! insert print(fin) prob: 0.5459524393081665 => 0.2619228959083557
+SUC! insert if False:fin=fin prob: 0.2619228959083557 => 0.31490474939346313
+Example time cost:  0.0 min
+ALL examples time cost:  0.08 min
+Query times in this attack:  17
+Greedy query times: 17
+Ga query times: 0
+All Query times:  343
+Success rate:  0.5
+Successful items count:  7
+Total count:  14
+Index:  14
+
+ACC! insert print(input_file) prob: 0.5471606254577637 => 0.23800289630889893
+NOACC! insert if False:input_file=output_file prob: 0.23800289630889893 => 0.24787577986717224
+NOACC! insert while False:input_file=output_file prob: 0.23800289630889893 => 0.23942610621452332
+NOACC! insert print(n) prob: 0.23800289630889893 => 0.2619782090187073
+NOACC! insert if False:n=inp prob: 0.23800289630889893 => 0.2642657160758972
+NOACC! insert while False:n=inp prob: 0.23800289630889893 => 0.25689151883125305
+NOACC! insert print(n) prob: 0.23800289630889893 => 0.2619782090187073
+NOACC! insert if False:n=data prob: 0.23800289630889893 => 0.2684458792209625
+NOACC! insert while False:n=data prob: 0.23800289630889893 => 0.261741042137146
+NOACC! insert print(n) prob: 0.23800289630889893 => 0.2619782090187073
+NOACC! insert if False:n=inp prob: 0.23800289630889893 => 0.2642657160758972
+NOACC! insert while False:n=inp prob: 0.23800289630889893 => 0.25689151883125305
+NOACC! insert print(inp) prob: 0.23800289630889893 => 0.26124030351638794
+NOACC! insert if False:inp=data prob: 0.23800289630889893 => 0.26819950342178345
+NOACC! insert while False:inp=data prob: 0.23800289630889893 => 0.25779375433921814
+NOACC! insert print(inp) prob: 0.23800289630889893 => 0.26124030351638794
+NOACC! insert if False:inp=inp prob: 0.23800289630889893 => 0.26363080739974976
+NOACC! insert while False:inp=inp prob: 0.23800289630889893 => 0.2546491026878357
+NOACC! insert print(n) prob: 0.23800289630889893 => 0.2619782090187073
+NOACC! insert if False:n=data prob: 0.23800289630889893 => 0.2684458792209625
+NOACC! insert while False:n=data prob: 0.23800289630889893 => 0.261741042137146
+NOACC! insert print(data) prob: 0.23800289630889893 => 0.26630109548568726
+NOACC! insert if False:data=data prob: 0.23800289630889893 => 0.26639029383659363
+NOACC! insert while False:data=data prob: 0.23800289630889893 => 0.2600916922092438
+NOACC! insert print(n) prob: 0.23800289630889893 => 0.2619782090187073
+NOACC! insert if False:n=inp prob: 0.23800289630889893 => 0.2642657160758972
+NOACC! insert while False:n=inp prob: 0.23800289630889893 => 0.25689151883125305
+NOACC! insert print(inp) prob: 0.23800289630889893 => 0.26124030351638794
+NOACC! insert if False:inp=data prob: 0.23800289630889893 => 0.26819950342178345
+NOACC! insert while False:inp=data prob: 0.23800289630889893 => 0.25779375433921814
+NOACC! insert print(inp) prob: 0.23800289630889893 => 0.26124030351638794
+NOACC! insert if False:inp=inp prob: 0.23800289630889893 => 0.26363080739974976
+NOACC! insert while False:inp=inp prob: 0.23800289630889893 => 0.2546491026878357
+NOACC! insert print(inp) prob: 0.23800289630889893 => 0.26124030351638794
+NOACC! insert if False:inp=n prob: 0.23800289630889893 => 0.2694389224052429
+NOACC! insert while False:inp=n prob: 0.23800289630889893 => 0.2597086727619171
+NOACC! insert print(inp) prob: 0.23800289630889893 => 0.26124030351638794
+NOACC! insert if False:inp=data prob: 0.23800289630889893 => 0.26819950342178345
+NOACC! insert while False:inp=data prob: 0.23800289630889893 => 0.25779375433921814
+NOACC! insert print(data) prob: 0.23800289630889893 => 0.26630109548568726
+NOACC! insert if False:data=data prob: 0.23800289630889893 => 0.26639029383659363
+NOACC! insert while False:data=data prob: 0.23800289630889893 => 0.2600916922092438
+NOACC! insert print(inp) prob: 0.23800289630889893 => 0.26124030351638794
+NOACC! insert if False:inp=data prob: 0.23800289630889893 => 0.26819950342178345
+NOACC! insert while False:inp=data prob: 0.23800289630889893 => 0.25779375433921814
+NOACC! insert print(inp) prob: 0.23800289630889893 => 0.26124030351638794
+NOACC! insert if False:inp=n prob: 0.23800289630889893 => 0.2694389224052429
+NOACC! insert while False:inp=n prob: 0.23800289630889893 => 0.2597086727619171
+NOACC! insert print(inp) prob: 0.23800289630889893 => 0.26124030351638794
+NOACC! insert if False:inp=inp prob: 0.23800289630889893 => 0.26363080739974976
+NOACC! insert while False:inp=inp prob: 0.23800289630889893 => 0.2546491026878357
+NOACC! insert print(data) prob: 0.23800289630889893 => 0.26630109548568726
+NOACC! insert if False:data=data prob: 0.23800289630889893 => 0.26639029383659363
+NOACC! insert while False:data=data prob: 0.23800289630889893 => 0.2600916922092438
+Example time cost:  0.01 min
+ALL examples time cost:  0.09 min
+Query times in this attack:  73
+Greedy query times: 73
+Ga query times: 0
+All Query times:  416
+Success rate:  0.4666666666666667
+Successful items count:  7
+Total count:  15
+Index:  15
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.09 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  417
+Success rate:  0.4666666666666667
+Successful items count:  7
+Total count:  15
+Index:  16
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.09 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  418
+Success rate:  0.4666666666666667
+Successful items count:  7
+Total count:  15
+Index:  17
+
+SUC! insert print(number) prob: 0.7646704912185669 => 0.04260065034031868
+Example time cost:  0.0 min
+ALL examples time cost:  0.09 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  432
+Success rate:  0.5
+Successful items count:  8
+Total count:  16
+Index:  18
+
+ACC! insert print(inputFile) prob: 0.8075262904167175 => 0.7562496662139893
+NOACC! insert if False:inputFile=outputFile prob: 0.7562496662139893 => 0.7889636754989624
+NOACC! insert while False:inputFile=outputFile prob: 0.7562496662139893 => 0.7863169312477112
+NOACC! insert print(totals) prob: 0.7562496662139893 => 0.7826669812202454
+NOACC! insert if False:totals=p prob: 0.7562496662139893 => 0.7861350178718567
+NOACC! insert while False:totals=p prob: 0.7562496662139893 => 0.7855497598648071
+NOACC! insert print(p) prob: 0.7562496662139893 => 0.7826277613639832
+NOACC! insert if False:p=totals prob: 0.7562496662139893 => 0.7859604954719543
+NOACC! insert while False:p=totals prob: 0.7562496662139893 => 0.7850245237350464
+NOACC! insert print(s) prob: 0.7562496662139893 => 0.7833220362663269
+NOACC! insert if False:s=s prob: 0.7562496662139893 => 0.7869645953178406
+NOACC! insert while False:s=s prob: 0.7562496662139893 => 0.7858052849769592
+NOACC! insert print(s) prob: 0.7562496662139893 => 0.7833220362663269
+NOACC! insert if False:s=n prob: 0.7562496662139893 => 0.7868229746818542
+NOACC! insert while False:s=n prob: 0.7562496662139893 => 0.7855634689331055
+NOACC! insert print(p) prob: 0.7562496662139893 => 0.7826277613639832
+NOACC! insert if False:p=n prob: 0.7562496662139893 => 0.7863373756408691
+NOACC! insert while False:p=n prob: 0.7562496662139893 => 0.785176694393158
+NOACC! insert print(totals) prob: 0.7562496662139893 => 0.7826669812202454
+NOACC! insert if False:totals=s prob: 0.7562496662139893 => 0.7866407036781311
+NOACC! insert while False:totals=s prob: 0.7562496662139893 => 0.7860444188117981
+NOACC! insert print(n) prob: 0.7562496662139893 => 0.7832290530204773
+NOACC! insert if False:n=s prob: 0.7562496662139893 => 0.7869712114334106
+NOACC! insert while False:n=s prob: 0.7562496662139893 => 0.785605251789093
+NOACC! insert print(n) prob: 0.7562496662139893 => 0.7832290530204773
+NOACC! insert if False:n=s prob: 0.7562496662139893 => 0.7869712114334106
+NOACC! insert while False:n=s prob: 0.7562496662139893 => 0.785605251789093
+NOACC! insert print(n) prob: 0.7562496662139893 => 0.7832290530204773
+NOACC! insert if False:n=s prob: 0.7562496662139893 => 0.7869712114334106
+NOACC! insert while False:n=s prob: 0.7562496662139893 => 0.785605251789093
+NOACC! insert print(n) prob: 0.7562496662139893 => 0.7832290530204773
+NOACC! insert if False:n=totals prob: 0.7562496662139893 => 0.7862151861190796
+NOACC! insert while False:n=totals prob: 0.7562496662139893 => 0.7848051190376282
+NOACC! insert print(p) prob: 0.7562496662139893 => 0.7826277613639832
+NOACC! insert if False:p=s prob: 0.7562496662139893 => 0.7865805625915527
+NOACC! insert while False:p=s prob: 0.7562496662139893 => 0.7855062484741211
+NOACC! insert print(s) prob: 0.7562496662139893 => 0.7833220362663269
+NOACC! insert if False:s=p prob: 0.7562496662139893 => 0.7863273024559021
+NOACC! insert while False:s=p prob: 0.7562496662139893 => 0.7852368354797363
+Example time cost:  0.01 min
+ALL examples time cost:  0.1 min
+Query times in this attack:  53
+Greedy query times: 53
+Ga query times: 0
+All Query times:  485
+Success rate:  0.47058823529411764
+Successful items count:  8
+Total count:  17
+Index:  19
+
+ACC! insert print(s) prob: 0.7174431681632996 => 0.5195435881614685
+NOACC! insert if False:s=s prob: 0.5195435881614685 => 0.5585249662399292
+NOACC! insert while False:s=s prob: 0.5195435881614685 => 0.5619954466819763
+NOACC! insert print(n) prob: 0.5195435881614685 => 0.5543822050094604
+NOACC! insert if False:n=squares prob: 0.5195435881614685 => 0.5584860444068909
+NOACC! insert while False:n=squares prob: 0.5195435881614685 => 0.5623952746391296
+NOACC! insert print(s) prob: 0.5195435881614685 => 0.5527232885360718
+NOACC! insert if False:s=x prob: 0.5195435881614685 => 0.5572836399078369
+NOACC! insert while False:s=x prob: 0.5195435881614685 => 0.5608499646186829
+NOACC! insert print(x) prob: 0.5195435881614685 => 0.5502479672431946
+NOACC! insert if False:x=b prob: 0.5195435881614685 => 0.5587479472160339
+NOACC! insert while False:x=b prob: 0.5195435881614685 => 0.5627020597457886
+NOACC! insert print(nums) prob: 0.5195435881614685 => 0.5445903539657593
+NOACC! insert if False:nums=s prob: 0.5195435881614685 => 0.5473005771636963
+NOACC! insert while False:nums=s prob: 0.5195435881614685 => 0.5510757565498352
+NOACC! insert print(nums) prob: 0.5195435881614685 => 0.5445903539657593
+NOACC! insert if False:nums=b prob: 0.5195435881614685 => 0.549811840057373
+NOACC! insert while False:nums=b prob: 0.5195435881614685 => 0.5534439086914062
+NOACC! insert print(squares) prob: 0.5195435881614685 => 0.5474840402603149
+NOACC! insert if False:squares=x prob: 0.5195435881614685 => 0.5491974353790283
+NOACC! insert while False:squares=x prob: 0.5195435881614685 => 0.5545010566711426
+NOACC! insert print(palin_squares) prob: 0.5195435881614685 => 0.558301568031311
+NOACC! insert if False:palin_squares=range_squares prob: 0.5195435881614685 => 0.5489988923072815
+NOACC! insert while False:palin_squares=range_squares prob: 0.5195435881614685 => 0.5523053407669067
+NOACC! insert print(range_squares) prob: 0.5195435881614685 => 0.5559660196304321
+NOACC! insert if False:range_squares=x prob: 0.5195435881614685 => 0.5505934357643127
+NOACC! insert while False:range_squares=x prob: 0.5195435881614685 => 0.5544514060020447
+NOACC! insert print(range_squares) prob: 0.5195435881614685 => 0.5559660196304321
+NOACC! insert if False:range_squares=s prob: 0.5195435881614685 => 0.5490732192993164
+NOACC! insert while False:range_squares=s prob: 0.5195435881614685 => 0.5529126524925232
+Example time cost:  0.01 min
+ALL examples time cost:  0.11 min
+Query times in this attack:  43
+Greedy query times: 43
+Ga query times: 0
+All Query times:  528
+Success rate:  0.4444444444444444
+Successful items count:  8
+Total count:  18
+Index:  20
+
+ACC! insert print(n_cases) prob: 0.6626233458518982 => 0.21007248759269714
+ACC! insert if False:n_cases=n_cases prob: 0.21007248759269714 => 0.14663895964622498
+ACC! insert while False:n_cases=n_cases prob: 0.14663895964622498 => 0.12337096780538559
+NOACC! insert print(n_cases) prob: 0.12337096780538559 => 0.12996220588684082
+ACC! insert if False:n_cases=n_cases prob: 0.12337096780538559 => 0.10915835946798325
+SUC! insert while False:n_cases=n_cases prob: 0.10915835946798325 => 0.1677720546722412
+Example time cost:  0.0 min
+ALL examples time cost:  0.12 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  544
+Success rate:  0.47368421052631576
+Successful items count:  9
+Total count:  19
+Index:  21
+
+ACC! insert print(num) prob: 0.3917728066444397 => 0.30616748332977295
+SUC! insert if False:num=ls prob: 0.30616748332977295 => 0.0806536003947258
+Example time cost:  0.0 min
+ALL examples time cost:  0.12 min
+Query times in this attack:  22
+Greedy query times: 22
+Ga query times: 0
+All Query times:  566
+Success rate:  0.5
+Successful items count:  10
+Total count:  20
+Index:  22
+
+ACC! insert print(rslt) prob: 0.37593743205070496 => 0.1823631227016449
+SUC! insert if False:rslt=args prob: 0.1823631227016449 => 0.5790315866470337
+Example time cost:  0.0 min
+ALL examples time cost:  0.12 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  582
+Success rate:  0.5238095238095238
+Successful items count:  11
+Total count:  21
+Index:  23
+
+SUC! insert print(line) prob: 0.2789810001850128 => 0.12475591897964478
+Example time cost:  0.0 min
+ALL examples time cost:  0.12 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  593
+Success rate:  0.5454545454545454
+Successful items count:  12
+Total count:  22
+Index:  24
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.13 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  594
+Success rate:  0.5454545454545454
+Successful items count:  12
+Total count:  22
+Index:  25
+
+ACC! insert print(f) prob: 0.694159209728241 => 0.24801918864250183
+NOACC! insert if False:f=v prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:f=v prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(f) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:f=s prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:f=s prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(out) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:out=X prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:out=X prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(outf) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:outf=i prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:outf=i prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(out) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:out=ans prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:out=ans prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(i) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:i=f prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:i=f prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(s) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:s=i prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:s=i prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(T) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:T=ans prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:T=ans prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(i) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:i=f prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:i=f prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(out) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:out=out prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:out=out prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(s) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:s=T prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:s=T prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(out) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:out=f prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:out=f prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(i) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:i=s prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:i=s prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(X) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:X=T prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:X=T prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(outf) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:outf=i prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:outf=i prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(f) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:f=X prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:f=X prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(ans) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:ans=v prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:ans=v prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert print(f) prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert if False:f=X prob: 0.24801918864250183 => 0.6320359706878662
+NOACC! insert while False:f=X prob: 0.24801918864250183 => 0.6320359706878662
+Example time cost:  0.02 min
+ALL examples time cost:  0.14 min
+Query times in this attack:  74
+Greedy query times: 74
+Ga query times: 0
+All Query times:  668
+Success rate:  0.5217391304347826
+Successful items count:  12
+Total count:  23
+Index:  26
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.14 min
+Query times in this attack:  10
+Greedy query times: 10
+Ga query times: 0
+All Query times:  678
+Success rate:  0.5
+Successful items count:  12
+Total count:  24
+Index:  27
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.14 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  679
+Success rate:  0.5
+Successful items count:  12
+Total count:  24
+Index:  28
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.14 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  680
+Success rate:  0.5
+Successful items count:  12
+Total count:  24
+Index:  29
+
+SUC! insert print(f) prob: 0.5403410196304321 => 0.14508260786533356
+Example time cost:  0.0 min
+ALL examples time cost:  0.15 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  692
+Success rate:  0.52
+Successful items count:  13
+Total count:  25
+Index:  30
+
+SUC! insert print(f) prob: 0.33493658900260925 => 0.10844198614358902
+Example time cost:  0.0 min
+ALL examples time cost:  0.15 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  706
+Success rate:  0.5384615384615384
+Successful items count:  14
+Total count:  26
+Index:  31
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.15 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  707
+Success rate:  0.5384615384615384
+Successful items count:  14
+Total count:  26
+Index:  32
+
+ACC! insert print(f) prob: 0.4476226568222046 => 0.3306647837162018
+SUC! insert if False:f=out prob: 0.3306647837162018 => 0.08713926374912262
+Example time cost:  0.0 min
+ALL examples time cost:  0.15 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  725
+Success rate:  0.5555555555555556
+Successful items count:  15
+Total count:  27
+Index:  33
+
+SUC! insert print(count) prob: 0.5011087656021118 => 0.06748060882091522
+Example time cost:  0.0 min
+ALL examples time cost:  0.15 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  737
+Success rate:  0.5714285714285714
+Successful items count:  16
+Total count:  28
+Index:  34
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.16 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  738
+Success rate:  0.5714285714285714
+Successful items count:  16
+Total count:  28
+Index:  35
+
+ACC! insert print(min_num) prob: 0.6081554889678955 => 0.4361966550350189
+NOACC! insert if False:min_num=max_num prob: 0.4361966550350189 => 0.5391464829444885
+NOACC! insert while False:min_num=max_num prob: 0.4361966550350189 => 0.5408692955970764
+Example time cost:  0.0 min
+ALL examples time cost:  0.16 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  749
+Success rate:  0.5517241379310345
+Successful items count:  16
+Total count:  29
+Index:  36
+
+ACC! insert print(combinations) prob: 0.7431026101112366 => 0.6422963738441467
+ACC! insert if False:combinations=n prob: 0.6422963738441467 => 0.47028326988220215
+NOACC! insert while False:combinations=n prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert print(surprising) prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert if False:surprising=case prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert while False:surprising=case prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert print(result) prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert if False:result=i prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert while False:result=i prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert print(n) prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert if False:n=n prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert while False:n=n prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert print(desired_score) prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert if False:desired_score=normal prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert while False:desired_score=normal prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert print(desired_score) prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert if False:desired_score=num_of_surprising prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert while False:desired_score=num_of_surprising prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert print(possible) prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert if False:possible=possible prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert while False:possible=possible prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert print(desired_score) prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert if False:desired_score=num_of_surprising prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert while False:desired_score=num_of_surprising prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert print(number_of_cases) prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert if False:number_of_cases=surprising prob: 0.47028326988220215 => 0.47028326988220215
+NOACC! insert while False:number_of_cases=surprising prob: 0.47028326988220215 => 0.47028326988220215
+Example time cost:  0.01 min
+ALL examples time cost:  0.17 min
+Query times in this attack:  44
+Greedy query times: 44
+Ga query times: 0
+All Query times:  793
+Success rate:  0.5333333333333333
+Successful items count:  16
+Total count:  30
+Index:  37
+
+SUC! insert print(B) prob: 0.527180016040802 => 0.2822718024253845
+Example time cost:  0.0 min
+ALL examples time cost:  0.17 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  805
+Success rate:  0.5483870967741935
+Successful items count:  17
+Total count:  31
+Index:  38
+
+SUC! insert print(p) prob: 0.5218688249588013 => 0.11857738345861435
+Example time cost:  0.0 min
+ALL examples time cost:  0.17 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  820
+Success rate:  0.5625
+Successful items count:  18
+Total count:  32
+Index:  39
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.17 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  834
+Success rate:  0.5454545454545454
+Successful items count:  18
+Total count:  33
+Index:  40
+
+SUC! insert print(i) prob: 0.3867699205875397 => 0.047324322164058685
+Example time cost:  0.0 min
+ALL examples time cost:  0.18 min
+Query times in this attack:  22
+Greedy query times: 22
+Ga query times: 0
+All Query times:  856
+Success rate:  0.5588235294117647
+Successful items count:  19
+Total count:  34
+Index:  41
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.18 min
+Query times in this attack:  24
+Greedy query times: 24
+Ga query times: 0
+All Query times:  880
+Success rate:  0.5428571428571428
+Successful items count:  19
+Total count:  35
+Index:  42
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.19 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  894
+Success rate:  0.5277777777777778
+Successful items count:  19
+Total count:  36
+Index:  43
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.19 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  895
+Success rate:  0.5277777777777778
+Successful items count:  19
+Total count:  36
+Index:  44
+
+SUC! insert print(T) prob: 0.21706484258174896 => 0.11034097522497177
+Example time cost:  0.0 min
+ALL examples time cost:  0.19 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  907
+Success rate:  0.5405405405405406
+Successful items count:  20
+Total count:  37
+Index:  45
+
+ACC! insert print(NUM_PROCESSES) prob: 0.78175288438797 => 0.4890572428703308
+NOACC! insert if False:NUM_PROCESSES=FILE_NAME_BASE prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:NUM_PROCESSES=FILE_NAME_BASE prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(a) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:a=RECURSION_LIMIT prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:a=RECURSION_LIMIT prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(c) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:c=l2 prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:c=l2 prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(_) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:_=l2 prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:_=l2 prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(c) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:c=x prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:c=x prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(x) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:x=inp prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:x=inp prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(RECURSION_LIMIT) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:RECURSION_LIMIT=RECURSION_LIMIT prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:RECURSION_LIMIT=RECURSION_LIMIT prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(b) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:b=inp prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:b=inp prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(RECURSION_LIMIT) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:RECURSION_LIMIT=b prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:RECURSION_LIMIT=b prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(RECURSION_LIMIT) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:RECURSION_LIMIT=a prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:RECURSION_LIMIT=a prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(a) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:a=_ prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:a=_ prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(b) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:b=_ prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:b=_ prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(l2) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:l2=a prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:l2=a prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(a) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:a=x prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:a=x prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(RECURSION_LIMIT) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:RECURSION_LIMIT=x prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:RECURSION_LIMIT=x prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(c) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:c=b prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:c=b prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(b) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:b=inp prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:b=inp prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(inp) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:inp=RECURSION_LIMIT prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:inp=RECURSION_LIMIT prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(c) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:c=l2 prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:c=l2 prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(l2) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:l2=RECURSION_LIMIT prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:l2=RECURSION_LIMIT prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert print(_) prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert if False:_=inp prob: 0.4890572428703308 => 0.7254990935325623
+NOACC! insert while False:_=inp prob: 0.4890572428703308 => 0.7254990935325623
+Example time cost:  0.02 min
+ALL examples time cost:  0.21 min
+Query times in this attack:  87
+Greedy query times: 87
+Ga query times: 0
+All Query times:  994
+Success rate:  0.5263157894736842
+Successful items count:  20
+Total count:  38
+Index:  46
+
+ACC! insert print(NUM_PROCESSES) prob: 0.7269691824913025 => 0.3727779686450958
+SUC! insert if False:NUM_PROCESSES=FILE_NAME_BASE prob: 0.3727779686450958 => 0.07214198261499405
+Example time cost:  0.0 min
+ALL examples time cost:  0.21 min
+Query times in this attack:  24
+Greedy query times: 24
+Ga query times: 0
+All Query times:  1018
+Success rate:  0.5384615384615384
+Successful items count:  21
+Total count:  39
+Index:  47
+
+SUC! insert print(cn) prob: 0.7467042207717896 => 0.054781168699264526
+Example time cost:  0.01 min
+ALL examples time cost:  0.22 min
+Query times in this attack:  24
+Greedy query times: 24
+Ga query times: 0
+All Query times:  1042
+Success rate:  0.55
+Successful items count:  22
+Total count:  40
+Index:  48
+
+ACC! insert print(NumCases) prob: 0.6630454063415527 => 0.436129093170166
+NOACC! insert if False:NumCases=infile prob: 0.436129093170166 => 0.5396121144294739
+NOACC! insert while False:NumCases=infile prob: 0.436129093170166 => 0.5322077870368958
+NOACC! insert print(s) prob: 0.436129093170166 => 0.542264997959137
+NOACC! insert if False:s=imax prob: 0.436129093170166 => 0.543236494064331
+NOACC! insert while False:s=imax prob: 0.436129093170166 => 0.5393885970115662
+NOACC! insert print(imax) prob: 0.436129093170166 => 0.5335307121276855
+NOACC! insert if False:imax=score prob: 0.436129093170166 => 0.5389900803565979
+NOACC! insert while False:imax=score prob: 0.436129093170166 => 0.536993682384491
+NOACC! insert print(p) prob: 0.436129093170166 => 0.5371599197387695
+NOACC! insert if False:p=iCase prob: 0.436129093170166 => 0.547325611114502
+NOACC! insert while False:p=iCase prob: 0.436129093170166 => 0.5445265769958496
+NOACC! insert print(p) prob: 0.436129093170166 => 0.5371599197387695
+NOACC! insert if False:p=i prob: 0.436129093170166 => 0.5407041907310486
+NOACC! insert while False:p=i prob: 0.436129093170166 => 0.5355620384216309
+NOACC! insert print(n) prob: 0.436129093170166 => 0.5330418348312378
+NOACC! insert if False:n=p prob: 0.436129093170166 => 0.5355189442634583
+NOACC! insert while False:n=p prob: 0.436129093170166 => 0.5325347185134888
+NOACC! insert print(p) prob: 0.436129093170166 => 0.5371599197387695
+NOACC! insert if False:p=s prob: 0.436129093170166 => 0.5422125458717346
+NOACC! insert while False:p=s prob: 0.436129093170166 => 0.5376859307289124
+NOACC! insert print(isurprise) prob: 0.436129093170166 => 0.5250182151794434
+NOACC! insert if False:isurprise=iCase prob: 0.436129093170166 => 0.5370467305183411
+NOACC! insert while False:isurprise=iCase prob: 0.436129093170166 => 0.5337400436401367
+NOACC! insert print(line) prob: 0.436129093170166 => 0.537478506565094
+NOACC! insert if False:line=n prob: 0.436129093170166 => 0.5348868370056152
+NOACC! insert while False:line=n prob: 0.436129093170166 => 0.5322827696800232
+NOACC! insert print(imax) prob: 0.436129093170166 => 0.5335307121276855
+NOACC! insert if False:imax=isurprise prob: 0.436129093170166 => 0.5351464748382568
+NOACC! insert while False:imax=isurprise prob: 0.436129093170166 => 0.5330089330673218
+Example time cost:  0.01 min
+ALL examples time cost:  0.23 min
+Query times in this attack:  43
+Greedy query times: 43
+Ga query times: 0
+All Query times:  1085
+Success rate:  0.5365853658536586
+Successful items count:  22
+Total count:  41
+Index:  49
+
+ACC! insert print(dims) prob: 0.599080502986908 => 0.32419857382774353
+ACC! insert if False:dims=lines prob: 0.32419857382774353 => 0.2170609086751938
+NOACC! insert while False:dims=lines prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert print(lines_used) prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert if False:lines_used=i prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert while False:lines_used=i prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert print(i) prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert if False:i=lines_used prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert while False:i=lines_used prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert print(case) prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert if False:case=lines_used prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert while False:case=lines_used prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert print(lines_used) prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert if False:lines_used=lines_used prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert while False:lines_used=lines_used prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert print(lines_used) prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert if False:lines_used=lines_used prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert while False:lines_used=lines_used prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert print(i) prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert if False:i=lines prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert while False:i=lines prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert print(lines_used) prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert if False:lines_used=lines prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert while False:lines_used=lines prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert print(i) prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert if False:i=i prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert while False:i=i prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert print(lines_used) prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert if False:lines_used=lines_used prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert while False:lines_used=lines_used prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert print(i) prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert if False:i=lines_used prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert while False:i=lines_used prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert print(lines_used) prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert if False:lines_used=i prob: 0.2170609086751938 => 0.2170609086751938
+NOACC! insert while False:lines_used=i prob: 0.2170609086751938 => 0.2170609086751938
+Example time cost:  0.01 min
+ALL examples time cost:  0.24 min
+Query times in this attack:  51
+Greedy query times: 51
+Ga query times: 0
+All Query times:  1136
+Success rate:  0.5238095238095238
+Successful items count:  22
+Total count:  42
+Index:  50
+
+ACC! insert print(number) prob: 0.6475345492362976 => 0.40982043743133545
+ACC! insert if False:number=number prob: 0.40982043743133545 => 0.3666391372680664
+NOACC! insert while False:number=number prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert print(f_out) prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert if False:f_out=cls prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert while False:f_out=cls prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert print(data) prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert if False:data=stdout prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert while False:data=stdout prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert print(result) prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert if False:result=sys prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert while False:result=sys prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert print(result) prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert if False:result=self prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert while False:result=self prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert print(cls) prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert if False:cls=data prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert while False:cls=data prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert print(f_in) prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert if False:f_in=result prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert while False:f_in=result prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert print(f_in) prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert if False:f_in=sys prob: 0.3666391372680664 => 0.3666391372680664
+NOACC! insert while False:f_in=sys prob: 0.3666391372680664 => 0.3666391372680664
+Example time cost:  0.01 min
+ALL examples time cost:  0.25 min
+Query times in this attack:  44
+Greedy query times: 44
+Ga query times: 0
+All Query times:  1180
+Success rate:  0.5116279069767442
+Successful items count:  22
+Total count:  43
+Index:  51
+
+ACC! insert print(s) prob: 0.5424764752388 => 0.17473934590816498
+NOACC! insert if False:s=s prob: 0.17473934590816498 => 0.33494457602500916
+NOACC! insert while False:s=s prob: 0.17473934590816498 => 0.32878604531288147
+NOACC! insert print(rev) prob: 0.17473934590816498 => 0.3386663794517517
+NOACC! insert if False:rev=rev prob: 0.17473934590816498 => 0.3312610387802124
+NOACC! insert while False:rev=rev prob: 0.17473934590816498 => 0.3284299373626709
+NOACC! insert print(rev) prob: 0.17473934590816498 => 0.3386663794517517
+NOACC! insert if False:rev=orig prob: 0.17473934590816498 => 0.3336275815963745
+NOACC! insert while False:rev=orig prob: 0.17473934590816498 => 0.33092236518859863
+NOACC! insert print(orig) prob: 0.17473934590816498 => 0.3434125483036041
+NOACC! insert if False:orig=orig prob: 0.17473934590816498 => 0.33795836567878723
+NOACC! insert while False:orig=orig prob: 0.17473934590816498 => 0.3349230885505676
+NOACC! insert print(rev) prob: 0.17473934590816498 => 0.3386663794517517
+NOACC! insert if False:rev=orig prob: 0.17473934590816498 => 0.3336275815963745
+NOACC! insert while False:rev=orig prob: 0.17473934590816498 => 0.33092236518859863
+Example time cost:  0.01 min
+ALL examples time cost:  0.25 min
+Query times in this attack:  30
+Greedy query times: 30
+Ga query times: 0
+All Query times:  1210
+Success rate:  0.5
+Successful items count:  22
+Total count:  44
+Index:  52
+
+SUC! insert print(t) prob: 0.4186534583568573 => 0.16937033832073212
+Example time cost:  0.0 min
+ALL examples time cost:  0.26 min
+Query times in this attack:  13
+Greedy query times: 13
+Ga query times: 0
+All Query times:  1223
+Success rate:  0.5111111111111111
+Successful items count:  23
+Total count:  45
+Index:  53
+
+SUC! insert print(fairsquares) prob: 0.4029562473297119 => 0.08935973793268204
+Example time cost:  0.0 min
+ALL examples time cost:  0.26 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  1241
+Success rate:  0.5217391304347826
+Successful items count:  24
+Total count:  46
+Index:  54
+
+ACC! insert print(i) prob: 0.32739895582199097 => 0.3265880346298218
+NOACC! insert if False:i=T prob: 0.3265880346298218 => 0.5082532167434692
+NOACC! insert while False:i=T prob: 0.3265880346298218 => 0.5029365420341492
+NOACC! insert print(p) prob: 0.3265880346298218 => 0.4937606453895569
+NOACC! insert if False:p=values prob: 0.3265880346298218 => 0.5086734294891357
+NOACC! insert while False:p=values prob: 0.3265880346298218 => 0.5032584071159363
+NOACC! insert print(values) prob: 0.3265880346298218 => 0.49143731594085693
+NOACC! insert if False:values=values prob: 0.3265880346298218 => 0.5021758079528809
+NOACC! insert while False:values=values prob: 0.3265880346298218 => 0.49827826023101807
+NOACC! insert print(_N) prob: 0.3265880346298218 => 0.49784189462661743
+NOACC! insert if False:_N=values prob: 0.3265880346298218 => 0.5028896927833557
+NOACC! insert while False:_N=values prob: 0.3265880346298218 => 0.4952032268047333
+NOACC! insert print(p) prob: 0.3265880346298218 => 0.4937606453895569
+NOACC! insert if False:p=_N prob: 0.3265880346298218 => 0.5020112991333008
+NOACC! insert while False:p=_N prob: 0.3265880346298218 => 0.49892935156822205
+NOACC! insert print(S) prob: 0.3265880346298218 => 0.49433594942092896
+NOACC! insert if False:S=_N prob: 0.3265880346298218 => 0.500650942325592
+NOACC! insert while False:S=_N prob: 0.3265880346298218 => 0.49551960825920105
+NOACC! insert print(_N) prob: 0.3265880346298218 => 0.49784189462661743
+NOACC! insert if False:_N=S prob: 0.3265880346298218 => 0.5127915740013123
+NOACC! insert while False:_N=S prob: 0.3265880346298218 => 0.5057782530784607
+NOACC! insert print(values) prob: 0.3265880346298218 => 0.49143731594085693
+NOACC! insert if False:values=p prob: 0.3265880346298218 => 0.4998932182788849
+NOACC! insert while False:values=p prob: 0.3265880346298218 => 0.49727627635002136
+Example time cost:  0.01 min
+ALL examples time cost:  0.27 min
+Query times in this attack:  36
+Greedy query times: 36
+Ga query times: 0
+All Query times:  1277
+Success rate:  0.5106382978723404
+Successful items count:  24
+Total count:  47
+Index:  55
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.27 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1278
+Success rate:  0.5106382978723404
+Successful items count:  24
+Total count:  47
+Index:  56
+
+ACC! insert print(T) prob: 0.5827808380126953 => 0.3866804838180542
+NOACC! insert if False:T=f prob: 0.3866804838180542 => 0.5101050138473511
+NOACC! insert while False:T=f prob: 0.3866804838180542 => 0.5215693116188049
+NOACC! insert print(non_surprising_scores) prob: 0.3866804838180542 => 0.5032846331596375
+NOACC! insert if False:non_surprising_scores=non_surprising_scores prob: 0.3866804838180542 => 0.5107029676437378
+NOACC! insert while False:non_surprising_scores=non_surprising_scores prob: 0.3866804838180542 => 0.519142746925354
+NOACC! insert print(non_surprising_scores) prob: 0.3866804838180542 => 0.5032846331596375
+NOACC! insert if False:non_surprising_scores=num_scores prob: 0.3866804838180542 => 0.4885767698287964
+NOACC! insert while False:non_surprising_scores=num_scores prob: 0.3866804838180542 => 0.49994879961013794
+NOACC! insert print(temp) prob: 0.3866804838180542 => 0.49092987179756165
+NOACC! insert if False:temp=non_surprising_scores prob: 0.3866804838180542 => 0.508918046951294
+NOACC! insert while False:temp=non_surprising_scores prob: 0.3866804838180542 => 0.5188812613487244
+NOACC! insert print(num_scores) prob: 0.3866804838180542 => 0.5002981424331665
+NOACC! insert if False:num_scores=non_surprising_scores prob: 0.3866804838180542 => 0.48708415031433105
+NOACC! insert while False:num_scores=non_surprising_scores prob: 0.3866804838180542 => 0.4974585771560669
+NOACC! insert print(num_scores) prob: 0.3866804838180542 => 0.5002981424331665
+NOACC! insert if False:num_scores=non_surprising_scores prob: 0.3866804838180542 => 0.48708415031433105
+NOACC! insert while False:num_scores=non_surprising_scores prob: 0.3866804838180542 => 0.4974585771560669
+NOACC! insert print(non_surprising_scores) prob: 0.3866804838180542 => 0.5032846331596375
+NOACC! insert if False:non_surprising_scores=temp prob: 0.3866804838180542 => 0.508301317691803
+NOACC! insert while False:non_surprising_scores=temp prob: 0.3866804838180542 => 0.5179119110107422
+NOACC! insert print(non_surprising_scores) prob: 0.3866804838180542 => 0.5032846331596375
+NOACC! insert if False:non_surprising_scores=non_surprising_scores prob: 0.3866804838180542 => 0.5107029676437378
+NOACC! insert while False:non_surprising_scores=non_surprising_scores prob: 0.3866804838180542 => 0.519142746925354
+NOACC! insert print(non_surprising_scores) prob: 0.3866804838180542 => 0.5032846331596375
+NOACC! insert if False:non_surprising_scores=num_scores prob: 0.3866804838180542 => 0.4885767698287964
+NOACC! insert while False:non_surprising_scores=num_scores prob: 0.3866804838180542 => 0.49994879961013794
+NOACC! insert print(num_scores) prob: 0.3866804838180542 => 0.5002981424331665
+NOACC! insert if False:num_scores=num_scores prob: 0.3866804838180542 => 0.5004180669784546
+NOACC! insert while False:num_scores=num_scores prob: 0.3866804838180542 => 0.5101187229156494
+Example time cost:  0.01 min
+ALL examples time cost:  0.27 min
+Query times in this attack:  42
+Greedy query times: 42
+Ga query times: 0
+All Query times:  1320
+Success rate:  0.5
+Successful items count:  24
+Total count:  48
+Index:  57
+
+SUC! insert print(s) prob: 0.2810800075531006 => 0.06567142903804779
+Example time cost:  0.0 min
+ALL examples time cost:  0.28 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  1336
+Success rate:  0.5102040816326531
+Successful items count:  25
+Total count:  49
+Index:  58
+
+SUC! insert print(data_dict) prob: 0.7150207161903381 => 0.04776221141219139
+Example time cost:  0.01 min
+ALL examples time cost:  0.28 min
+Query times in this attack:  29
+Greedy query times: 29
+Ga query times: 0
+All Query times:  1365
+Success rate:  0.52
+Successful items count:  26
+Total count:  50
+Index:  59
+
+ACC! insert print(x) prob: 0.7865927219390869 => 0.6518958806991577
+ACC! insert if False:x=n prob: 0.6518958806991577 => 0.5440884232521057
+NOACC! insert while False:x=n prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert print(x) prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert if False:x=b prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert while False:x=b prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert print(a) prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert if False:a=a prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert while False:a=a prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert print(a) prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert if False:a=x prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert while False:a=x prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert print(b) prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert if False:b=x prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert while False:b=x prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert print(x) prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert if False:x=x prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert while False:x=x prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert print(b) prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert if False:b=b prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert while False:b=b prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert print(a) prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert if False:a=b prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert while False:a=b prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert print(b) prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert if False:b=a prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert while False:b=a prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert print(a) prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert if False:a=b prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert while False:a=b prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert print(b) prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert if False:b=x prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert while False:b=x prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert print(a) prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert if False:a=b prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert while False:a=b prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert print(x) prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert if False:x=x prob: 0.5440884232521057 => 0.5440884232521057
+NOACC! insert while False:x=x prob: 0.5440884232521057 => 0.5440884232521057
+Example time cost:  0.01 min
+ALL examples time cost:  0.3 min
+Query times in this attack:  59
+Greedy query times: 59
+Ga query times: 0
+All Query times:  1424
+Success rate:  0.5098039215686274
+Successful items count:  26
+Total count:  51
+Index:  60
+
+ACC! insert print(self) prob: 0.7894147038459778 => 0.732021152973175
+ACC! insert if False:self=self prob: 0.732021152973175 => 0.7222248315811157
+ACC! insert while False:self=self prob: 0.7222248315811157 => 0.6203253269195557
+ACC! insert print(P) prob: 0.6203253269195557 => 0.611265242099762
+NOACC! insert if False:P=r prob: 0.611265242099762 => 0.6251838803291321
+NOACC! insert while False:P=r prob: 0.611265242099762 => 0.6251838803291321
+NOACC! insert print(G) prob: 0.611265242099762 => 0.6251838803291321
+NOACC! insert if False:G=g prob: 0.611265242099762 => 0.6251838803291321
+NOACC! insert while False:G=g prob: 0.611265242099762 => 0.6251838803291321
+NOACC! insert print(g) prob: 0.611265242099762 => 0.6251838803291321
+NOACC! insert if False:g=r prob: 0.611265242099762 => 0.6251838803291321
+NOACC! insert while False:g=r prob: 0.611265242099762 => 0.6251838803291321
+NOACC! insert print(g) prob: 0.611265242099762 => 0.6251838803291321
+NOACC! insert if False:g=g prob: 0.611265242099762 => 0.6251838803291321
+NOACC! insert while False:g=g prob: 0.611265242099762 => 0.6251838803291321
+NOACC! insert print(r) prob: 0.611265242099762 => 0.6251838803291321
+NOACC! insert if False:r=self prob: 0.611265242099762 => 0.6251838803291321
+NOACC! insert while False:r=self prob: 0.611265242099762 => 0.6251838803291321
+Example time cost:  0.01 min
+ALL examples time cost:  0.3 min
+Query times in this attack:  33
+Greedy query times: 33
+Ga query times: 0
+All Query times:  1457
+Success rate:  0.5
+Successful items count:  26
+Total count:  52
+Index:  61
+
+SUC! insert print(i) prob: 0.21902325749397278 => 0.06479006260633469
+Example time cost:  0.0 min
+ALL examples time cost:  0.3 min
+Query times in this attack:  10
+Greedy query times: 10
+Ga query times: 0
+All Query times:  1467
+Success rate:  0.5094339622641509
+Successful items count:  27
+Total count:  53
+Index:  62
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.3 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1468
+Success rate:  0.5094339622641509
+Successful items count:  27
+Total count:  53
+Index:  63
+
+ACC! insert print(isPalin) prob: 0.7767751812934875 => 0.44933441281318665
+SUC! insert if False:isPalin=word prob: 0.44933441281318665 => 0.05480681359767914
+Example time cost:  0.0 min
+ALL examples time cost:  0.31 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  1486
+Success rate:  0.5185185185185185
+Successful items count:  28
+Total count:  54
+Index:  64
+
+ACC! insert print(t) prob: 0.780484676361084 => 0.5801727175712585
+SUC! insert if False:t=n prob: 0.5801727175712585 => 0.06405043601989746
+Example time cost:  0.01 min
+ALL examples time cost:  0.31 min
+Query times in this attack:  30
+Greedy query times: 30
+Ga query times: 0
+All Query times:  1516
+Success rate:  0.5272727272727272
+Successful items count:  29
+Total count:  55
+Index:  65
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.31 min
+Query times in this attack:  8
+Greedy query times: 8
+Ga query times: 0
+All Query times:  1524
+Success rate:  0.5178571428571429
+Successful items count:  29
+Total count:  56
+Index:  66
+
+SUC! insert print(n) prob: 0.5650548934936523 => 0.07317002862691879
+Example time cost:  0.0 min
+ALL examples time cost:  0.32 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  1538
+Success rate:  0.5263157894736842
+Successful items count:  30
+Total count:  57
+Index:  67
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.32 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  1549
+Success rate:  0.5172413793103449
+Successful items count:  30
+Total count:  58
+Index:  68
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.32 min
+Query times in this attack:  9
+Greedy query times: 9
+Ga query times: 0
+All Query times:  1558
+Success rate:  0.5084745762711864
+Successful items count:  30
+Total count:  59
+Index:  69
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.32 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1559
+Success rate:  0.5084745762711864
+Successful items count:  30
+Total count:  59
+Index:  70
+
+ACC! insert print(g) prob: 0.22799846529960632 => 0.08944950997829437
+SUC! insert if False:g=g prob: 0.08944950997829437 => 0.10724753886461258
+Example time cost:  0.0 min
+ALL examples time cost:  0.32 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  1575
+Success rate:  0.5166666666666667
+Successful items count:  31
+Total count:  60
+Index:  71
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.32 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1576
+Success rate:  0.5166666666666667
+Successful items count:  31
+Total count:  60
+Index:  72
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.33 min
+Query times in this attack:  4
+Greedy query times: 4
+Ga query times: 0
+All Query times:  1580
+Success rate:  0.5081967213114754
+Successful items count:  31
+Total count:  61
+Index:  73
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.33 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  1594
+Success rate:  0.5
+Successful items count:  31
+Total count:  62
+Index:  74
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.33 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1595
+Success rate:  0.5
+Successful items count:  31
+Total count:  62
+Index:  75
+
+ACC! insert print(n) prob: 0.6627362966537476 => 0.2652985453605652
+NOACC! insert if False:n=S prob: 0.2652985453605652 => 0.6811609268188477
+NOACC! insert while False:n=S prob: 0.2652985453605652 => 0.6806628108024597
+NOACC! insert print(T) prob: 0.2652985453605652 => 0.684156060218811
+NOACC! insert if False:T=A prob: 0.2652985453605652 => 0.681040346622467
+NOACC! insert while False:T=A prob: 0.2652985453605652 => 0.6802303791046143
+NOACC! insert print(N) prob: 0.2652985453605652 => 0.6832122206687927
+NOACC! insert if False:N=LIM prob: 0.2652985453605652 => 0.6813549399375916
+NOACC! insert while False:N=LIM prob: 0.2652985453605652 => 0.6804536581039429
+NOACC! insert print(n) prob: 0.2652985453605652 => 0.682653546333313
+NOACC! insert if False:n=LIM prob: 0.2652985453605652 => 0.6822991371154785
+NOACC! insert while False:n=LIM prob: 0.2652985453605652 => 0.6812871694564819
+NOACC! insert print(LIST) prob: 0.2652985453605652 => 0.681483805179596
+NOACC! insert if False:LIST=N prob: 0.2652985453605652 => 0.6788947582244873
+NOACC! insert while False:LIST=N prob: 0.2652985453605652 => 0.6790644526481628
+NOACC! insert print(B) prob: 0.2652985453605652 => 0.6833727359771729
+NOACC! insert if False:B=ANS prob: 0.2652985453605652 => 0.680657684803009
+NOACC! insert while False:B=ANS prob: 0.2652985453605652 => 0.6801303029060364
+NOACC! insert print(T) prob: 0.2652985453605652 => 0.684156060218811
+NOACC! insert if False:T=LIST prob: 0.2652985453605652 => 0.6800082325935364
+NOACC! insert while False:T=LIST prob: 0.2652985453605652 => 0.6791673302650452
+NOACC! insert print(S) prob: 0.2652985453605652 => 0.6833061575889587
+NOACC! insert if False:S=S prob: 0.2652985453605652 => 0.6800912022590637
+NOACC! insert while False:S=S prob: 0.2652985453605652 => 0.6797098517417908
+NOACC! insert print(LIST) prob: 0.2652985453605652 => 0.681483805179596
+NOACC! insert if False:LIST=A prob: 0.2652985453605652 => 0.6798892021179199
+NOACC! insert while False:LIST=A prob: 0.2652985453605652 => 0.6797186732292175
+NOACC! insert print(A) prob: 0.2652985453605652 => 0.684396505355835
+NOACC! insert if False:A=B prob: 0.2652985453605652 => 0.6816645264625549
+NOACC! insert while False:A=B prob: 0.2652985453605652 => 0.6811047792434692
+NOACC! insert print(n) prob: 0.2652985453605652 => 0.682653546333313
+NOACC! insert if False:n=N prob: 0.2652985453605652 => 0.6809298992156982
+NOACC! insert while False:n=N prob: 0.2652985453605652 => 0.6802864670753479
+NOACC! insert print(T) prob: 0.2652985453605652 => 0.684156060218811
+NOACC! insert if False:T=ANS prob: 0.2652985453605652 => 0.6800181865692139
+NOACC! insert while False:T=ANS prob: 0.2652985453605652 => 0.6792161464691162
+Example time cost:  0.01 min
+ALL examples time cost:  0.34 min
+Query times in this attack:  49
+Greedy query times: 49
+Ga query times: 0
+All Query times:  1644
+Success rate:  0.49206349206349204
+Successful items count:  31
+Total count:  63
+Index:  76
+
+ACC! insert print(Data) prob: 0.6894866824150085 => 0.5328383445739746
+NOACC! insert if False:Data=T prob: 0.5328383445739746 => 0.6849566102027893
+NOACC! insert while False:Data=T prob: 0.5328383445739746 => 0.6845278143882751
+NOACC! insert print(Data) prob: 0.5328383445739746 => 0.6742331385612488
+NOACC! insert if False:Data=S prob: 0.5328383445739746 => 0.6843410730361938
+NOACC! insert while False:Data=S prob: 0.5328383445739746 => 0.6840355396270752
+NOACC! insert print(Good) prob: 0.5328383445739746 => 0.6743313670158386
+NOACC! insert if False:Good=N prob: 0.5328383445739746 => 0.6818272471427917
+NOACC! insert while False:Good=N prob: 0.5328383445739746 => 0.681932270526886
+NOACC! insert print(Data) prob: 0.5328383445739746 => 0.6742331385612488
+NOACC! insert if False:Data=T prob: 0.5328383445739746 => 0.6849566102027893
+NOACC! insert while False:Data=T prob: 0.5328383445739746 => 0.6845278143882751
+NOACC! insert print(S) prob: 0.5328383445739746 => 0.67513108253479
+NOACC! insert if False:S=N prob: 0.5328383445739746 => 0.681165874004364
+NOACC! insert while False:S=N prob: 0.5328383445739746 => 0.6809113621711731
+NOACC! insert print(T) prob: 0.5328383445739746 => 0.6750986576080322
+NOACC! insert if False:T=S prob: 0.5328383445739746 => 0.6818205118179321
+NOACC! insert while False:T=S prob: 0.5328383445739746 => 0.6816211938858032
+NOACC! insert print(Data) prob: 0.5328383445739746 => 0.6742331385612488
+NOACC! insert if False:Data=p prob: 0.5328383445739746 => 0.683172345161438
+NOACC! insert while False:Data=p prob: 0.5328383445739746 => 0.6826043725013733
+Example time cost:  0.01 min
+ALL examples time cost:  0.34 min
+Query times in this attack:  30
+Greedy query times: 30
+Ga query times: 0
+All Query times:  1674
+Success rate:  0.484375
+Successful items count:  31
+Total count:  64
+Index:  77
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.34 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1675
+Success rate:  0.484375
+Successful items count:  31
+Total count:  64
+Index:  78
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.34 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1676
+Success rate:  0.484375
+Successful items count:  31
+Total count:  64
+Index:  79
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.34 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1677
+Success rate:  0.484375
+Successful items count:  31
+Total count:  64
+Index:  80
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.34 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1678
+Success rate:  0.484375
+Successful items count:  31
+Total count:  64
+Index:  81
+
+ACC! insert print(main) prob: 0.7650755643844604 => 0.5688101053237915
+NOACC! insert if False:main=let prob: 0.5688101053237915 => 0.7078633308410645
+NOACC! insert while False:main=let prob: 0.5688101053237915 => 0.6992071866989136
+Example time cost:  0.0 min
+ALL examples time cost:  0.35 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  1689
+Success rate:  0.47692307692307695
+Successful items count:  31
+Total count:  65
+Index:  82
+
+ACC! insert print(pts) prob: 0.7777388691902161 => 0.6325957179069519
+NOACC! insert if False:pts=main prob: 0.6325957179069519 => 0.7653759717941284
+NOACC! insert while False:pts=main prob: 0.6325957179069519 => 0.7617566585540771
+NOACC! insert print(pts) prob: 0.6325957179069519 => 0.7544583678245544
+NOACC! insert if False:pts=surps prob: 0.6325957179069519 => 0.7654561400413513
+NOACC! insert while False:pts=surps prob: 0.6325957179069519 => 0.7622630000114441
+NOACC! insert print(pts) prob: 0.6325957179069519 => 0.7544583678245544
+NOACC! insert if False:pts=t prob: 0.6325957179069519 => 0.7666053175926208
+NOACC! insert while False:pts=t prob: 0.6325957179069519 => 0.7633424401283264
+Example time cost:  0.0 min
+ALL examples time cost:  0.35 min
+Query times in this attack:  20
+Greedy query times: 20
+Ga query times: 0
+All Query times:  1709
+Success rate:  0.4696969696969697
+Successful items count:  31
+Total count:  66
+Index:  83
+
+SUC! insert print(s) prob: 0.5842680335044861 => 0.12361839413642883
+Example time cost:  0.0 min
+ALL examples time cost:  0.35 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  1724
+Success rate:  0.47761194029850745
+Successful items count:  32
+Total count:  67
+Index:  84
+
+ACC! insert print(t) prob: 0.5769447088241577 => 0.40741297602653503
+NOACC! insert if False:t=t prob: 0.40741297602653503 => 0.44430187344551086
+NOACC! insert while False:t=t prob: 0.40741297602653503 => 0.44842007756233215
+NOACC! insert print(maybe) prob: 0.40741297602653503 => 0.43919137120246887
+NOACC! insert if False:maybe=huh prob: 0.40741297602653503 => 0.4456612765789032
+NOACC! insert while False:maybe=huh prob: 0.40741297602653503 => 0.4507194459438324
+NOACC! insert print(x) prob: 0.40741297602653503 => 0.44051745533943176
+NOACC! insert if False:x=maybe prob: 0.40741297602653503 => 0.4455583095550537
+NOACC! insert while False:x=maybe prob: 0.40741297602653503 => 0.4486987590789795
+NOACC! insert print(s) prob: 0.40741297602653503 => 0.44018304347991943
+NOACC! insert if False:s=nice prob: 0.40741297602653503 => 0.4457482695579529
+NOACC! insert while False:s=nice prob: 0.40741297602653503 => 0.4500172734260559
+NOACC! insert print(huh) prob: 0.40741297602653503 => 0.4477502107620239
+NOACC! insert if False:huh=y prob: 0.40741297602653503 => 0.44602254033088684
+NOACC! insert while False:huh=y prob: 0.40741297602653503 => 0.45014688372612
+NOACC! insert print(l) prob: 0.40741297602653503 => 0.4407569468021393
+NOACC! insert if False:l=n prob: 0.40741297602653503 => 0.4463212490081787
+NOACC! insert while False:l=n prob: 0.40741297602653503 => 0.4493383467197418
+NOACC! insert print(maybe) prob: 0.40741297602653503 => 0.43919137120246887
+NOACC! insert if False:maybe=l prob: 0.40741297602653503 => 0.44720518589019775
+NOACC! insert while False:maybe=l prob: 0.40741297602653503 => 0.45055270195007324
+NOACC! insert print(l) prob: 0.40741297602653503 => 0.4407569468021393
+NOACC! insert if False:l=huh prob: 0.40741297602653503 => 0.4455275237560272
+NOACC! insert while False:l=huh prob: 0.40741297602653503 => 0.45032426714897156
+NOACC! insert print(l) prob: 0.40741297602653503 => 0.4407569468021393
+NOACC! insert if False:l=l prob: 0.40741297602653503 => 0.4467562437057495
+NOACC! insert while False:l=l prob: 0.40741297602653503 => 0.44993019104003906
+NOACC! insert print(p) prob: 0.40741297602653503 => 0.44083690643310547
+NOACC! insert if False:p=n prob: 0.40741297602653503 => 0.44708168506622314
+NOACC! insert while False:p=n prob: 0.40741297602653503 => 0.44969049096107483
+NOACC! insert print(p) prob: 0.40741297602653503 => 0.44083690643310547
+NOACC! insert if False:p=p prob: 0.40741297602653503 => 0.44727906584739685
+NOACC! insert while False:p=p prob: 0.40741297602653503 => 0.4502459168434143
+NOACC! insert print(p) prob: 0.40741297602653503 => 0.44083690643310547
+NOACC! insert if False:p=huh prob: 0.40741297602653503 => 0.4456210136413574
+NOACC! insert while False:p=huh prob: 0.40741297602653503 => 0.4498468041419983
+Example time cost:  0.01 min
+ALL examples time cost:  0.36 min
+Query times in this attack:  49
+Greedy query times: 49
+Ga query times: 0
+All Query times:  1773
+Success rate:  0.47058823529411764
+Successful items count:  32
+Total count:  68
+Index:  85
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.37 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1774
+Success rate:  0.47058823529411764
+Successful items count:  32
+Total count:  68
+Index:  86
+
+SUC! insert print(problem) prob: 0.554654061794281 => 0.05170229822397232
+Example time cost:  0.0 min
+ALL examples time cost:  0.37 min
+Query times in this attack:  22
+Greedy query times: 22
+Ga query times: 0
+All Query times:  1796
+Success rate:  0.4782608695652174
+Successful items count:  33
+Total count:  69
+Index:  87
+
+SUC! insert print(s1) prob: 0.5467050671577454 => 0.062274787575006485
+Example time cost:  0.0 min
+ALL examples time cost:  0.37 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  1808
+Success rate:  0.4857142857142857
+Successful items count:  34
+Total count:  70
+Index:  88
+
+ACC! insert print(i) prob: 0.4284118413925171 => 0.3061290383338928
+NOACC! insert if False:i=i prob: 0.3061290383338928 => 0.49343645572662354
+NOACC! insert while False:i=i prob: 0.3061290383338928 => 0.49400708079338074
+NOACC! insert print(p) prob: 0.3061290383338928 => 0.5022774934768677
+NOACC! insert if False:p=N prob: 0.3061290383338928 => 0.5055845379829407
+NOACC! insert while False:p=N prob: 0.3061290383338928 => 0.5082679986953735
+NOACC! insert print(p) prob: 0.3061290383338928 => 0.5022774934768677
+NOACC! insert if False:p=line prob: 0.3061290383338928 => 0.5030531287193298
+NOACC! insert while False:p=line prob: 0.3061290383338928 => 0.5021424293518066
+NOACC! insert print(split) prob: 0.3061290383338928 => 0.5006721019744873
+NOACC! insert if False:split=p prob: 0.3061290383338928 => 0.5035521984100342
+NOACC! insert while False:split=p prob: 0.3061290383338928 => 0.504313051700592
+NOACC! insert print(params) prob: 0.3061290383338928 => 0.4983213543891907
+NOACC! insert if False:params=p prob: 0.3061290383338928 => 0.503943681716919
+NOACC! insert while False:params=p prob: 0.3061290383338928 => 0.5053201913833618
+NOACC! insert print(S) prob: 0.3061290383338928 => 0.5188572406768799
+NOACC! insert if False:S=int prob: 0.3061290383338928 => 0.5185858011245728
+NOACC! insert while False:S=int prob: 0.3061290383338928 => 0.5189785957336426
+NOACC! insert print(p) prob: 0.3061290383338928 => 0.5022774934768677
+NOACC! insert if False:p=int prob: 0.3061290383338928 => 0.4980051517486572
+NOACC! insert while False:p=int prob: 0.3061290383338928 => 0.4973893165588379
+NOACC! insert print(N) prob: 0.3061290383338928 => 0.5172287225723267
+NOACC! insert if False:N=n prob: 0.3061290383338928 => 0.5239276885986328
+NOACC! insert while False:N=n prob: 0.3061290383338928 => 0.5166304111480713
+NOACC! insert print(n) prob: 0.3061290383338928 => 0.49985471367836
+NOACC! insert if False:n=split prob: 0.3061290383338928 => 0.49553367495536804
+NOACC! insert while False:n=split prob: 0.3061290383338928 => 0.49780455231666565
+NOACC! insert print(S) prob: 0.3061290383338928 => 0.5188572406768799
+NOACC! insert if False:S=split prob: 0.3061290383338928 => 0.5198093056678772
+NOACC! insert while False:S=split prob: 0.3061290383338928 => 0.5237434506416321
+NOACC! insert print(S) prob: 0.3061290383338928 => 0.5188572406768799
+NOACC! insert if False:S=int prob: 0.3061290383338928 => 0.5185858011245728
+NOACC! insert while False:S=int prob: 0.3061290383338928 => 0.5189785957336426
+NOACC! insert print(line) prob: 0.3061290383338928 => 0.4997518062591553
+NOACC! insert if False:line=S prob: 0.3061290383338928 => 0.5145888924598694
+NOACC! insert while False:line=S prob: 0.3061290383338928 => 0.5154767632484436
+NOACC! insert print(line) prob: 0.3061290383338928 => 0.4997518062591553
+NOACC! insert if False:line=S prob: 0.3061290383338928 => 0.5145888924598694
+NOACC! insert while False:line=S prob: 0.3061290383338928 => 0.5154767632484436
+Example time cost:  0.01 min
+ALL examples time cost:  0.38 min
+Query times in this attack:  54
+Greedy query times: 54
+Ga query times: 0
+All Query times:  1862
+Success rate:  0.4788732394366197
+Successful items count:  34
+Total count:  71
+Index:  89
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.38 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1863
+Success rate:  0.4788732394366197
+Successful items count:  34
+Total count:  71
+Index:  90
+
+ACC! insert print(best) prob: 0.21777236461639404 => 0.05626697093248367
+NOACC! insert if False:best=best prob: 0.05626697093248367 => 0.3520098924636841
+NOACC! insert while False:best=best prob: 0.05626697093248367 => 0.3514763116836548
+NOACC! insert print(scores) prob: 0.05626697093248367 => 0.35244283080101013
+NOACC! insert if False:scores=data prob: 0.05626697093248367 => 0.3482530415058136
+NOACC! insert while False:scores=data prob: 0.05626697093248367 => 0.3470030725002289
+NOACC! insert print(line) prob: 0.05626697093248367 => 0.34338220953941345
+NOACC! insert if False:line=scores prob: 0.05626697093248367 => 0.35685494542121887
+NOACC! insert while False:line=scores prob: 0.05626697093248367 => 0.3529077470302582
+NOACC! insert print(casenum) prob: 0.05626697093248367 => 0.3774878680706024
+NOACC! insert if False:casenum=casenum prob: 0.05626697093248367 => 0.4021732211112976
+NOACC! insert while False:casenum=casenum prob: 0.05626697093248367 => 0.397096186876297
+NOACC! insert print(casenum) prob: 0.05626697093248367 => 0.3774878680706024
+NOACC! insert if False:casenum=maxsurprising prob: 0.05626697093248367 => 0.39411941170692444
+NOACC! insert while False:casenum=maxsurprising prob: 0.05626697093248367 => 0.38830405473709106
+NOACC! insert print(scores) prob: 0.05626697093248367 => 0.35244283080101013
+NOACC! insert if False:scores=scores prob: 0.05626697093248367 => 0.3612793982028961
+NOACC! insert while False:scores=scores prob: 0.05626697093248367 => 0.36027032136917114
+NOACC! insert print(maxgooglers) prob: 0.05626697093248367 => 0.36701658368110657
+NOACC! insert if False:maxgooglers=line prob: 0.05626697093248367 => 0.3623172342777252
+NOACC! insert while False:maxgooglers=line prob: 0.05626697093248367 => 0.35914257168769836
+Example time cost:  0.01 min
+ALL examples time cost:  0.39 min
+Query times in this attack:  33
+Greedy query times: 33
+Ga query times: 0
+All Query times:  1896
+Success rate:  0.4722222222222222
+Successful items count:  34
+Total count:  72
+Index:  91
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.39 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  1897
+Success rate:  0.4722222222222222
+Successful items count:  34
+Total count:  72
+Index:  92
+
+ACC! insert print(input) prob: 0.4473140835762024 => 0.07431073486804962
+SUC! insert if False:input=output prob: 0.07431073486804962 => 0.399445116519928
+Example time cost:  0.0 min
+ALL examples time cost:  0.39 min
+Query times in this attack:  20
+Greedy query times: 20
+Ga query times: 0
+All Query times:  1917
+Success rate:  0.4794520547945205
+Successful items count:  35
+Total count:  73
+Index:  93
+
+SUC! insert print(epsilon) prob: 0.5292454361915588 => 0.08824659138917923
+Example time cost:  0.0 min
+ALL examples time cost:  0.4 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  1935
+Success rate:  0.4864864864864865
+Successful items count:  36
+Total count:  74
+Index:  94
+
+SUC! insert print(IN_S) prob: 0.26503127813339233 => 0.08283036202192307
+Example time cost:  0.0 min
+ALL examples time cost:  0.4 min
+Query times in this attack:  23
+Greedy query times: 23
+Ga query times: 0
+All Query times:  1958
+Success rate:  0.49333333333333335
+Successful items count:  37
+Total count:  75
+Index:  95
+
+ACC! insert print(directory) prob: 0.7928237915039062 => 0.5741071701049805
+ACC! insert if False:directory=directory prob: 0.5741071701049805 => 0.12427013367414474
+NOACC! insert while False:directory=directory prob: 0.12427013367414474 => 0.12427013367414474
+Example time cost:  0.0 min
+ALL examples time cost:  0.41 min
+Query times in this attack:  21
+Greedy query times: 21
+Ga query times: 0
+All Query times:  1979
+Success rate:  0.4868421052631579
+Successful items count:  37
+Total count:  76
+Index:  96
+
+ACC! insert print(f_out) prob: 0.7952172756195068 => 0.6156628131866455
+SUC! insert if False:f_out=f_out prob: 0.6156628131866455 => 0.09193642437458038
+Example time cost:  0.0 min
+ALL examples time cost:  0.41 min
+Query times in this attack:  21
+Greedy query times: 21
+Ga query times: 0
+All Query times:  2000
+Success rate:  0.4935064935064935
+Successful items count:  38
+Total count:  77
+Index:  97
+
+SUC! insert print(n) prob: 0.25906994938850403 => 0.08099832385778427
+Example time cost:  0.0 min
+ALL examples time cost:  0.41 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  2016
+Success rate:  0.5
+Successful items count:  39
+Total count:  78
+Index:  98
+
+ACC! insert print(fout) prob: 0.5119397640228271 => 0.16729705035686493
+NOACC! insert if False:fout=fout prob: 0.16729705035686493 => 0.4267500638961792
+NOACC! insert while False:fout=fout prob: 0.16729705035686493 => 0.42902109026908875
+NOACC! insert print(line) prob: 0.16729705035686493 => 0.43495994806289673
+NOACC! insert if False:line=line prob: 0.16729705035686493 => 0.44301876425743103
+NOACC! insert while False:line=line prob: 0.16729705035686493 => 0.44465330243110657
+NOACC! insert print(S) prob: 0.16729705035686493 => 0.4307413101196289
+NOACC! insert if False:S=S prob: 0.16729705035686493 => 0.43732571601867676
+NOACC! insert while False:S=S prob: 0.16729705035686493 => 0.4427778124809265
+NOACC! insert print(cases) prob: 0.16729705035686493 => 0.4271411895751953
+NOACC! insert if False:cases=case prob: 0.16729705035686493 => 0.43951675295829773
+NOACC! insert while False:cases=case prob: 0.16729705035686493 => 0.44413062930107117
+NOACC! insert print(S) prob: 0.16729705035686493 => 0.4307413101196289
+NOACC! insert if False:S=cases prob: 0.16729705035686493 => 0.43388402462005615
+NOACC! insert while False:S=cases prob: 0.16729705035686493 => 0.43998417258262634
+NOACC! insert print(line) prob: 0.16729705035686493 => 0.43495994806289673
+NOACC! insert if False:line=N prob: 0.16729705035686493 => 0.4421618580818176
+NOACC! insert while False:line=N prob: 0.16729705035686493 => 0.44306790828704834
+NOACC! insert print(N) prob: 0.16729705035686493 => 0.42996978759765625
+NOACC! insert if False:N=S prob: 0.16729705035686493 => 0.4372245967388153
+NOACC! insert while False:N=S prob: 0.16729705035686493 => 0.441984623670578
+NOACC! insert print(N) prob: 0.16729705035686493 => 0.42996978759765625
+NOACC! insert if False:N=line prob: 0.16729705035686493 => 0.4380248188972473
+NOACC! insert while False:N=line prob: 0.16729705035686493 => 0.44274261593818665
+NOACC! insert print(S) prob: 0.16729705035686493 => 0.4307413101196289
+NOACC! insert if False:S=cases prob: 0.16729705035686493 => 0.43388402462005615
+NOACC! insert while False:S=cases prob: 0.16729705035686493 => 0.43998417258262634
+NOACC! insert print(N) prob: 0.16729705035686493 => 0.42996978759765625
+NOACC! insert if False:N=cases prob: 0.16729705035686493 => 0.4345087707042694
+NOACC! insert while False:N=cases prob: 0.16729705035686493 => 0.4409935772418976
+NOACC! insert print(p) prob: 0.16729705035686493 => 0.4360238015651703
+NOACC! insert if False:p=p prob: 0.16729705035686493 => 0.4413292407989502
+NOACC! insert while False:p=p prob: 0.16729705035686493 => 0.44520896673202515
+NOACC! insert print(S) prob: 0.16729705035686493 => 0.4307413101196289
+NOACC! insert if False:S=p prob: 0.16729705035686493 => 0.4366471469402313
+NOACC! insert while False:S=p prob: 0.16729705035686493 => 0.44081148505210876
+NOACC! insert print(cases) prob: 0.16729705035686493 => 0.4271411895751953
+NOACC! insert if False:cases=case prob: 0.16729705035686493 => 0.43951675295829773
+NOACC! insert while False:cases=case prob: 0.16729705035686493 => 0.44413062930107117
+NOACC! insert print(S) prob: 0.16729705035686493 => 0.4307413101196289
+NOACC! insert if False:S=cases prob: 0.16729705035686493 => 0.43388402462005615
+NOACC! insert while False:S=cases prob: 0.16729705035686493 => 0.43998417258262634
+Example time cost:  0.01 min
+ALL examples time cost:  0.42 min
+Query times in this attack:  57
+Greedy query times: 57
+Ga query times: 0
+All Query times:  2073
+Success rate:  0.4936708860759494
+Successful items count:  39
+Total count:  79
+Index:  99
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.43 min
+Query times in this attack:  10
+Greedy query times: 10
+Ga query times: 0
+All Query times:  2083
+Success rate:  0.4875
+Successful items count:  39
+Total count:  80
+Index:  100
+
+SUC! insert print(scores) prob: 0.6361438632011414 => 0.21097098290920258
+Example time cost:  0.0 min
+ALL examples time cost:  0.43 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  2095
+Success rate:  0.49382716049382713
+Successful items count:  40
+Total count:  81
+Index:  101
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.43 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  2096
+Success rate:  0.49382716049382713
+Successful items count:  40
+Total count:  81
+Index:  102
+
+SUC! insert print(S) prob: 0.5514134168624878 => 0.1455579400062561
+Example time cost:  0.0 min
+ALL examples time cost:  0.43 min
+Query times in this attack:  21
+Greedy query times: 21
+Ga query times: 0
+All Query times:  2117
+Success rate:  0.5
+Successful items count:  41
+Total count:  82
+Index:  103
+
+SUC! insert print(candidate) prob: 0.6639995574951172 => 0.06610316783189774
+Example time cost:  0.0 min
+ALL examples time cost:  0.43 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  2128
+Success rate:  0.5060240963855421
+Successful items count:  42
+Total count:  83
+Index:  104
+
+SUC! insert print(mod_plus_conv_without_s) prob: 0.6683205366134644 => 0.12540383636951447
+Example time cost:  0.0 min
+ALL examples time cost:  0.44 min
+Query times in this attack:  13
+Greedy query times: 13
+Ga query times: 0
+All Query times:  2141
+Success rate:  0.5119047619047619
+Successful items count:  43
+Total count:  84
+Index:  105
+
+SUC! insert print(i) prob: 0.5030272006988525 => 0.1500924825668335
+Example time cost:  0.0 min
+ALL examples time cost:  0.44 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  2155
+Success rate:  0.5176470588235295
+Successful items count:  44
+Total count:  85
+Index:  106
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.44 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  2156
+Success rate:  0.5176470588235295
+Successful items count:  44
+Total count:  85
+Index:  107
+
+SUC! insert print(l) prob: 0.6006727814674377 => 0.0701911672949791
+Example time cost:  0.0 min
+ALL examples time cost:  0.44 min
+Query times in this attack:  12
+Greedy query times: 12
+Ga query times: 0
+All Query times:  2168
+Success rate:  0.5232558139534884
+Successful items count:  45
+Total count:  86
+Index:  108
+
+ACC! insert print(p) prob: 0.5792216658592224 => 0.075301393866539
+NOACC! insert if False:p=num_surprises prob: 0.075301393866539 => 0.5597825050354004
+NOACC! insert while False:p=num_surprises prob: 0.075301393866539 => 0.5606367588043213
+Example time cost:  0.0 min
+ALL examples time cost:  0.45 min
+Query times in this attack:  17
+Greedy query times: 17
+Ga query times: 0
+All Query times:  2185
+Success rate:  0.5172413793103449
+Successful items count:  45
+Total count:  87
+Index:  109
+
+SUC! insert print(n) prob: 0.42357969284057617 => 0.10446568578481674
+Example time cost:  0.0 min
+ALL examples time cost:  0.45 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  2203
+Success rate:  0.5227272727272727
+Successful items count:  46
+Total count:  88
+Index:  110
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.45 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  2218
+Success rate:  0.5168539325842697
+Successful items count:  46
+Total count:  89
+Index:  111
+
+SUC! insert print(tests) prob: 0.53121018409729 => 0.1610642820596695
+Example time cost:  0.0 min
+ALL examples time cost:  0.45 min
+Query times in this attack:  18
+Greedy query times: 18
+Ga query times: 0
+All Query times:  2236
+Success rate:  0.5222222222222223
+Successful items count:  47
+Total count:  90
+Index:  112
+
+SUC! insert print(file) prob: 0.45740649104118347 => 0.08409024775028229
+Example time cost:  0.01 min
+ALL examples time cost:  0.46 min
+Query times in this attack:  27
+Greedy query times: 27
+Ga query times: 0
+All Query times:  2263
+Success rate:  0.5274725274725275
+Successful items count:  48
+Total count:  91
+Index:  113
+
+ACC! insert print(M) prob: 0.6063274145126343 => 0.4291040301322937
+ACC! insert if False:M=M prob: 0.4291040301322937 => 0.3708244264125824
+ACC! insert while False:M=M prob: 0.3708244264125824 => 0.3560349643230438
+Example time cost:  0.0 min
+ALL examples time cost:  0.46 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  2279
+Success rate:  0.5217391304347826
+Successful items count:  48
+Total count:  92
+Index:  114
+
+SUC! insert print(case) prob: 0.5414733290672302 => 0.12468215078115463
+Example time cost:  0.0 min
+ALL examples time cost:  0.47 min
+Query times in this attack:  17
+Greedy query times: 17
+Ga query times: 0
+All Query times:  2296
+Success rate:  0.5268817204301075
+Successful items count:  49
+Total count:  93
+Index:  115
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.47 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  2297
+Success rate:  0.5268817204301075
+Successful items count:  49
+Total count:  93
+Index:  116
+
+SUC! insert print(t) prob: 0.5362371802330017 => 0.05529261380434036
+Example time cost:  0.0 min
+ALL examples time cost:  0.47 min
+Query times in this attack:  14
+Greedy query times: 14
+Ga query times: 0
+All Query times:  2311
+Success rate:  0.5319148936170213
+Successful items count:  50
+Total count:  94
+Index:  117
+
+SUC! insert print(lo) prob: 0.38114139437675476 => 0.05901360139250755
+Example time cost:  0.0 min
+ALL examples time cost:  0.47 min
+Query times in this attack:  15
+Greedy query times: 15
+Ga query times: 0
+All Query times:  2326
+Success rate:  0.5368421052631579
+Successful items count:  51
+Total count:  95
+Index:  118
+
+ACC! insert print(fileName) prob: 0.713318943977356 => 0.678642213344574
+SUC! insert if False:fileName=f prob: 0.678642213344574 => 0.09915098547935486
+Example time cost:  0.0 min
+ALL examples time cost:  0.48 min
+Query times in this attack:  19
+Greedy query times: 19
+Ga query times: 0
+All Query times:  2345
+Success rate:  0.5416666666666666
+Successful items count:  52
+Total count:  96
+Index:  119
+
+ACC! insert print(b) prob: 0.7628517150878906 => 0.3402204215526581
+NOACC! insert if False:b=b prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:b=b prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(reader) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:reader=R prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:reader=R prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(d) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:d=reader prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:d=reader prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(d) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:d=d prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:d=d prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(x) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:x=b prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:x=b prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(s) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:s=B prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:s=B prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(T) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:T=B prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:T=B prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(case) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:case=reader prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:case=reader prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(i) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:i=res prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:i=res prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(x) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:x=x prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:x=x prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(A) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:A=in_fn prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:A=in_fn prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(res) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:res=reader prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:res=reader prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(in_fn) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:in_fn=i prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:in_fn=i prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(B) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:B=A prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:B=A prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(d) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:d=T prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:d=T prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(R) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:R=B prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:R=B prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert print(n) prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert if False:n=s prob: 0.3402204215526581 => 0.7198235988616943
+NOACC! insert while False:n=s prob: 0.3402204215526581 => 0.7198235988616943
+Example time cost:  0.02 min
+ALL examples time cost:  0.49 min
+Query times in this attack:  72
+Greedy query times: 72
+Ga query times: 0
+All Query times:  2417
+Success rate:  0.5360824742268041
+Successful items count:  52
+Total count:  97
+Index:  120
+
+SUC! insert print(argv) prob: 0.6543532013893127 => 0.18858858942985535
+Example time cost:  0.0 min
+ALL examples time cost:  0.5 min
+Query times in this attack:  19
+Greedy query times: 19
+Ga query times: 0
+All Query times:  2436
+Success rate:  0.5408163265306123
+Successful items count:  53
+Total count:  98
+Index:  121
+
+ACC! insert print(t) prob: 0.641484797000885 => 0.2020963877439499
+NOACC! insert if False:t=t prob: 0.2020963877439499 => 0.33647027611732483
+NOACC! insert while False:t=t prob: 0.2020963877439499 => 0.33007898926734924
+NOACC! insert print(line) prob: 0.2020963877439499 => 0.3839084506034851
+NOACC! insert if False:line=line prob: 0.2020963877439499 => 0.3231102228164673
+NOACC! insert while False:line=line prob: 0.2020963877439499 => 0.32521897554397583
+NOACC! insert print(case) prob: 0.2020963877439499 => 0.39307183027267456
+NOACC! insert if False:case=b prob: 0.2020963877439499 => 0.33990392088890076
+NOACC! insert while False:case=b prob: 0.2020963877439499 => 0.33379417657852173
+NOACC! insert print(case) prob: 0.2020963877439499 => 0.39307183027267456
+NOACC! insert if False:case=case prob: 0.2020963877439499 => 0.3292178213596344
+NOACC! insert while False:case=case prob: 0.2020963877439499 => 0.3267934322357178
+NOACC! insert print(case) prob: 0.2020963877439499 => 0.39307183027267456
+NOACC! insert if False:case=line prob: 0.2020963877439499 => 0.3162165582180023
+NOACC! insert while False:case=line prob: 0.2020963877439499 => 0.3168874680995941
+NOACC! insert print(b) prob: 0.2020963877439499 => 0.39604631066322327
+NOACC! insert if False:b=line prob: 0.2020963877439499 => 0.3454440236091614
+NOACC! insert while False:b=line prob: 0.2020963877439499 => 0.3395322561264038
+NOACC! insert print(case) prob: 0.2020963877439499 => 0.39307183027267456
+NOACC! insert if False:case=line prob: 0.2020963877439499 => 0.3162165582180023
+NOACC! insert while False:case=line prob: 0.2020963877439499 => 0.3168874680995941
+Example time cost:  0.01 min
+ALL examples time cost:  0.5 min
+Query times in this attack:  31
+Greedy query times: 31
+Ga query times: 0
+All Query times:  2467
+Success rate:  0.5353535353535354
+Successful items count:  53
+Total count:  99
+Index:  122
+
+SUC! insert print(t) prob: 0.6385737657546997 => 0.1363186091184616
+Example time cost:  0.0 min
+ALL examples time cost:  0.51 min
+Query times in this attack:  11
+Greedy query times: 11
+Ga query times: 0
+All Query times:  2478
+Success rate:  0.54
+Successful items count:  54
+Total count:  100
+Index:  123
+
+SUC! insert print(s) prob: 0.4108898937702179 => 0.0867595300078392
+Example time cost:  0.0 min
+ALL examples time cost:  0.51 min
+Query times in this attack:  21
+Greedy query times: 21
+Ga query times: 0
+All Query times:  2499
+Success rate:  0.5445544554455446
+Successful items count:  55
+Total count:  101
+Index:  124
+
+ACC! insert print(i) prob: 0.46364301443099976 => 0.38363489508628845
+ACC! insert if False:i=T prob: 0.38363489508628845 => 0.3767448365688324
+ACC! insert while False:i=T prob: 0.3767448365688324 => 0.35697147250175476
+NOACC! insert print(h) prob: 0.35697147250175476 => 0.3701968491077423
+NOACC! insert if False:h=S prob: 0.35697147250175476 => 0.3616071939468384
+NOACC! insert while False:h=S prob: 0.35697147250175476 => 0.3685894012451172
+NOACC! insert print(p) prob: 0.35697147250175476 => 0.36662769317626953
+NOACC! insert if False:p=p prob: 0.35697147250175476 => 0.3610270619392395
+NOACC! insert while False:p=p prob: 0.35697147250175476 => 0.3667205274105072
+NOACC! insert print(n) prob: 0.35697147250175476 => 0.3681687116622925
+NOACC! insert if False:n=i prob: 0.35697147250175476 => 0.359618604183197
+NOACC! insert while False:n=i prob: 0.35697147250175476 => 0.3663209080696106
+NOACC! insert print(i) prob: 0.35697147250175476 => 0.36737820506095886
+NOACC! insert if False:i=i prob: 0.35697147250175476 => 0.3612979054450989
+NOACC! insert while False:i=i prob: 0.35697147250175476 => 0.36746349930763245
+NOACC! insert print(S) prob: 0.35697147250175476 => 0.3655521273612976
+NOACC! insert if False:S=N prob: 0.35697147250175476 => 0.3667267858982086
+NOACC! insert while False:S=N prob: 0.35697147250175476 => 0.3729730248451233
+NOACC! insert print(ns) prob: 0.35697147250175476 => 0.3713357448577881
+NOACC! insert if False:ns=p prob: 0.35697147250175476 => 0.3591965138912201
+NOACC! insert while False:ns=p prob: 0.35697147250175476 => 0.3649425208568573
+NOACC! insert print(S) prob: 0.35697147250175476 => 0.3655521273612976
+NOACC! insert if False:S=n prob: 0.35697147250175476 => 0.3637179136276245
+NOACC! insert while False:S=n prob: 0.35697147250175476 => 0.36960139870643616
+Example time cost:  0.01 min
+ALL examples time cost:  0.52 min
+Query times in this attack:  34
+Greedy query times: 34
+Ga query times: 0
+All Query times:  2533
+Success rate:  0.5392156862745098
+Successful items count:  55
+Total count:  102
+Index:  125
+
+SUC! insert print(N) prob: 0.6693282723426819 => 0.07781044393777847
+Example time cost:  0.0 min
+ALL examples time cost:  0.52 min
+Query times in this attack:  16
+Greedy query times: 16
+Ga query times: 0
+All Query times:  2549
+Success rate:  0.5436893203883495
+Successful items count:  56
+Total count:  103
+Index:  126
+
+ACC! insert print(stdin) prob: 0.7059230208396912 => 0.48969829082489014
+NOACC! insert if False:stdin=stdin prob: 0.48969829082489014 => 0.49429795145988464
+NOACC! insert while False:stdin=stdin prob: 0.48969829082489014 => 0.5115723609924316
+NOACC! insert print(N) prob: 0.48969829082489014 => 0.6225036978721619
+NOACC! insert if False:N=N prob: 0.48969829082489014 => 0.628235936164856
+NOACC! insert while False:N=N prob: 0.48969829082489014 => 0.6245272159576416
+NOACC! insert print(numbers) prob: 0.48969829082489014 => 0.624781608581543
+NOACC! insert if False:numbers=p prob: 0.48969829082489014 => 0.628474771976471
+NOACC! insert while False:numbers=p prob: 0.48969829082489014 => 0.6258353590965271
+NOACC! insert print(normal_limit) prob: 0.48969829082489014 => 0.6169562339782715
+NOACC! insert if False:normal_limit=surprising_count prob: 0.48969829082489014 => 0.6247454881668091
+NOACC! insert while False:normal_limit=surprising_count prob: 0.48969829082489014 => 0.6219621896743774
+NOACC! insert print(normal_count) prob: 0.48969829082489014 => 0.6177501678466797
+NOACC! insert if False:normal_count=p prob: 0.48969829082489014 => 0.6287601590156555
+NOACC! insert while False:normal_count=p prob: 0.48969829082489014 => 0.6281147003173828
+NOACC! insert print(S) prob: 0.48969829082489014 => 0.624116063117981
+NOACC! insert if False:S=N prob: 0.48969829082489014 => 0.6258769035339355
+NOACC! insert while False:S=N prob: 0.48969829082489014 => 0.6225356459617615
+NOACC! insert print(N) prob: 0.48969829082489014 => 0.6225036978721619
+NOACC! insert if False:N=numbers prob: 0.48969829082489014 => 0.6285151243209839
+NOACC! insert while False:N=numbers prob: 0.48969829082489014 => 0.6250435709953308
+NOACC! insert print(result) prob: 0.48969829082489014 => 0.6222289204597473
+NOACC! insert if False:result=numbers prob: 0.48969829082489014 => 0.6351107954978943
+NOACC! insert while False:result=numbers prob: 0.48969829082489014 => 0.6313259601593018
+NOACC! insert print(normal_count) prob: 0.48969829082489014 => 0.6177501678466797
+NOACC! insert if False:normal_count=normal_limit prob: 0.48969829082489014 => 0.6264731287956238
+NOACC! insert while False:normal_count=normal_limit prob: 0.48969829082489014 => 0.6245696544647217
+NOACC! insert print(normal_count) prob: 0.48969829082489014 => 0.6177501678466797
+NOACC! insert if False:normal_count=N prob: 0.48969829082489014 => 0.6250299215316772
+NOACC! insert while False:normal_count=N prob: 0.48969829082489014 => 0.6253167390823364
+NOACC! insert print(p) prob: 0.48969829082489014 => 0.6255954504013062
+NOACC! insert if False:p=N prob: 0.48969829082489014 => 0.6308478713035583
+NOACC! insert while False:p=N prob: 0.48969829082489014 => 0.6275156736373901
+NOACC! insert print(S) prob: 0.48969829082489014 => 0.624116063117981
+NOACC! insert if False:S=numbers prob: 0.48969829082489014 => 0.6278767585754395
+NOACC! insert while False:S=numbers prob: 0.48969829082489014 => 0.6245532631874084
+NOACC! insert print(normal_count) prob: 0.48969829082489014 => 0.6177501678466797
+NOACC! insert if False:normal_count=S prob: 0.48969829082489014 => 0.6251088976860046
+NOACC! insert while False:normal_count=S prob: 0.48969829082489014 => 0.6252203583717346
+Example time cost:  0.01 min
+ALL examples time cost:  0.53 min
+Query times in this attack:  53
+Greedy query times: 53
+Ga query times: 0
+All Query times:  2602
+Success rate:  0.5384615384615384
+Successful items count:  56
+Total count:  104
+Index:  127
+
+ACC! insert print(s) prob: 0.6406276822090149 => 0.5391298532485962
+ACC! insert if False:s=n prob: 0.5391298532485962 => 0.34278059005737305
+NOACC! insert while False:s=n prob: 0.34278059005737305 => 0.37806159257888794
+NOACC! insert print(d) prob: 0.34278059005737305 => 0.36462631821632385
+NOACC! insert if False:d=n prob: 0.34278059005737305 => 0.3663051724433899
+NOACC! insert while False:d=n prob: 0.34278059005737305 => 0.371907502412796
+NOACC! insert print(n) prob: 0.34278059005737305 => 0.36919012665748596
+NOACC! insert if False:n=Ti prob: 0.34278059005737305 => 0.36870574951171875
+NOACC! insert while False:n=Ti prob: 0.34278059005737305 => 0.3763301372528076
+NOACC! insert print(answer) prob: 0.34278059005737305 => 0.34900805354118347
+NOACC! insert if False:answer=A prob: 0.34278059005737305 => 0.35551685094833374
+NOACC! insert while False:answer=A prob: 0.34278059005737305 => 0.35905587673187256
+NOACC! insert print(T) prob: 0.34278059005737305 => 0.3758939504623413
+NOACC! insert if False:T=n prob: 0.34278059005737305 => 0.3914056420326233
+NOACC! insert while False:T=n prob: 0.34278059005737305 => 0.3951198160648346
+NOACC! insert print(T) prob: 0.34278059005737305 => 0.3758939504623413
+NOACC! insert if False:T=Ti prob: 0.34278059005737305 => 0.39307963848114014
+NOACC! insert while False:T=Ti prob: 0.34278059005737305 => 0.39680415391921997
+NOACC! insert print(s) prob: 0.34278059005737305 => 0.36735594272613525
+NOACC! insert if False:s=Ti prob: 0.34278059005737305 => 0.3716112971305847
+NOACC! insert while False:s=Ti prob: 0.34278059005737305 => 0.37862274050712585
+NOACC! insert print(fas) prob: 0.34278059005737305 => 0.36780714988708496
+NOACC! insert if False:fas=Ti prob: 0.34278059005737305 => 0.3715955317020416
+NOACC! insert while False:fas=Ti prob: 0.34278059005737305 => 0.3758721947669983
+NOACC! insert print(A) prob: 0.34278059005737305 => 0.3614150285720825
+NOACC! insert if False:A=B prob: 0.34278059005737305 => 0.3654269278049469
+NOACC! insert while False:A=B prob: 0.34278059005737305 => 0.3682462275028229
+NOACC! insert print(Ti) prob: 0.34278059005737305 => 0.36440038681030273
+NOACC! insert if False:Ti=square prob: 0.34278059005737305 => 0.37632128596305847
+NOACC! insert while False:Ti=square prob: 0.34278059005737305 => 0.3824132978916168
+NOACC! insert print(B) prob: 0.34278059005737305 => 0.35720837116241455
+NOACC! insert if False:B=Ti prob: 0.34278059005737305 => 0.3651249408721924
+NOACC! insert while False:B=Ti prob: 0.34278059005737305 => 0.37062135338783264
+Example time cost:  0.01 min
+ALL examples time cost:  0.54 min
+Query times in this attack:  49
+Greedy query times: 49
+Ga query times: 0
+All Query times:  2651
+Success rate:  0.5333333333333333
+Successful items count:  56
+Total count:  105
+Index:  128
+
+ACC! insert print(T) prob: 0.5148569941520691 => 0.2611939609050751
+NOACC! insert if False:T=Ti prob: 0.2611939609050751 => 0.37584903836250305
+NOACC! insert while False:T=Ti prob: 0.2611939609050751 => 0.37175384163856506
+NOACC! insert print(p) prob: 0.2611939609050751 => 0.3535641133785248
+NOACC! insert if False:p=p prob: 0.2611939609050751 => 0.3748036324977875
+NOACC! insert while False:p=p prob: 0.2611939609050751 => 0.3676023781299591
+NOACC! insert print(N) prob: 0.2611939609050751 => 0.3574870526790619
+NOACC! insert if False:N=p prob: 0.2611939609050751 => 0.37672775983810425
+NOACC! insert while False:N=p prob: 0.2611939609050751 => 0.3714268207550049
+NOACC! insert print(p) prob: 0.2611939609050751 => 0.3535641133785248
+NOACC! insert if False:p=totals prob: 0.2611939609050751 => 0.3708394467830658
+NOACC! insert while False:p=totals prob: 0.2611939609050751 => 0.3636484146118164
+NOACC! insert print(S) prob: 0.2611939609050751 => 0.35587191581726074
+NOACC! insert if False:S=totals prob: 0.2611939609050751 => 0.3739447593688965
+NOACC! insert while False:S=totals prob: 0.2611939609050751 => 0.3681311011314392
+NOACC! insert print(totals) prob: 0.2611939609050751 => 0.31722867488861084
+NOACC! insert if False:totals=N prob: 0.2611939609050751 => 0.3726547956466675
+NOACC! insert while False:totals=N prob: 0.2611939609050751 => 0.3665241003036499
+NOACC! insert print(totals) prob: 0.2611939609050751 => 0.31722867488861084
+NOACC! insert if False:totals=p prob: 0.2611939609050751 => 0.3727336823940277
+NOACC! insert while False:totals=p prob: 0.2611939609050751 => 0.367387592792511
+NOACC! insert print(N) prob: 0.2611939609050751 => 0.3574870526790619
+NOACC! insert if False:N=totals prob: 0.2611939609050751 => 0.37176385521888733
+NOACC! insert while False:N=totals prob: 0.2611939609050751 => 0.36481913924217224
+NOACC! insert print(S) prob: 0.2611939609050751 => 0.35587191581726074
+NOACC! insert if False:S=N prob: 0.2611939609050751 => 0.37840378284454346
+NOACC! insert while False:S=N prob: 0.2611939609050751 => 0.37349945306777954
+NOACC! insert print(totals) prob: 0.2611939609050751 => 0.31722867488861084
+NOACC! insert if False:totals=N prob: 0.2611939609050751 => 0.3726547956466675
+NOACC! insert while False:totals=N prob: 0.2611939609050751 => 0.3665241003036499
+Example time cost:  0.01 min
+ALL examples time cost:  0.55 min
+Query times in this attack:  43
+Greedy query times: 43
+Ga query times: 0
+All Query times:  2694
+Success rate:  0.5283018867924528
+Successful items count:  56
+Total count:  106
+Index:  129
+
+ACC! insert print(x) prob: 0.5984224677085876 => 0.4862513542175293
+SUC! insert if False:x=t prob: 0.4862513542175293 => 0.1012449786067009
+Example time cost:  0.0 min
+ALL examples time cost:  0.55 min
+Query times in this attack:  20
+Greedy query times: 20
+Ga query times: 0
+All Query times:  2714
+Success rate:  0.5327102803738317
+Successful items count:  57
+Total count:  107
+Index:  130
+
+Example time cost:  0.0 min
+ALL examples time cost:  0.55 min
+Query times in this attack:  1
+Greedy query times: 1
+Ga query times: 0
+All Query times:  2715
+Success rate:  0.5327102803738317
+Successful items count:  57
+Total count:  107
+Index:  131
+

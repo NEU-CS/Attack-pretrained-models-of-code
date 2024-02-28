@@ -1,0 +1,6104 @@
+enter
+LABEL_0 [{'label': 'LABEL_45', 'score': 0.13211502134799957}]
+Beam size: 1 Begin:
+Example time cost:  0.01 min
+ALL examples time cost:  0.01 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  1
+All sub index: 0
+Avg sub index 0
+enter
+LABEL_0 [{'label': 'LABEL_57', 'score': 0.2665490508079529}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  0.02 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  2
+All sub index: 0
+Avg sub index 0
+enter
+LABEL_1 [{'label': 'LABEL_1', 'score': 0.9841311573982239}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: basename => basisite prob: 0.9841311573982239 => 0.9621264338493347
+13
+Choose most  1  samples:
+path 0 ACC!: lo => size prob: 0.9621264338493347 => 0.9589068293571472
+13
+Choose most  1  samples:
+path 0 NOACC!: ncases => ncases prob: 0.9589068293571472 => 0.9589068293571472
+13
+Choose most  1  samples:
+path 0 NOACC!: cnt => cnt prob: 0.9589068293571472 => 0.9589068293571472
+13
+Choose most  1  samples:
+path 0 ACC!: base_hi => base25hi prob: 0.9589068293571472 => 0.955470621585846
+13
+Choose most  1  samples:
+path 0 ACC!: s => h prob: 0.955470621585846 => 0.949013888835907
+13
+Choose most  1  samples:
+path 0 ACC!: f_out =>  f__outer prob: 0.949013888835907 => 0.8742719888687134
+13
+Choose most  1  samples:
+path 0 ACC!: outfile =>  outfolder prob: 0.8742719888687134 => 0.767684817314148
+11
+Choose most  1  samples:
+path 0 ACC!: base_lo =>  base_po prob: 0.767684817314148 => 0.5970415472984314
+13
+Choose most  1  samples:
+path 0 ACC!: ci => ai prob: 0.5970415472984314 => 0.5468161106109619
+13
+Choose most  1  samples:
+path 0 NOACC!: base => base prob: 0.5468161106109619 => 0.5468161106109619
+13
+Choose most  1  samples:
+path 0 NOACC!: hi => hi prob: 0.5468161106109619 => 0.5468161106109619
+13
+Choose most  1  samples:
+path 0 NOACC!: line => line prob: 0.5468161106109619 => 0.5468161106109619
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.5468161106109619 => 0.5468161106109619
+13
+Choose most  1  samples:
+path 0 ACC!: result => text prob: 0.5468161106109619 => 0.5340386033058167
+13
+Choose most  1  samples:
+path 0 ACC!: lines => ids prob: 0.5340386033058167 => 0.4739910364151001
+13
+Choose most  1  samples:
+path 0 ACC!: end_idx => end_endxc prob: 0.4739910364151001 => 0.44015079736709595
+13
+Choose most  1  samples:
+path 0 ACC!: num => u prob: 0.44015079736709595 => 0.43506672978401184
+13
+Choose most  1  samples:
+path 0 NOACC!: sub => sub prob: 0.43506672978401184 => 0.43506672978401184
+13
+Choose most  1  samples:
+path 0 NOACC!: f_in => f_in prob: 0.43506672978401184 => 0.43506672978401184
+13
+Choose most  1  samples:
+path 0 ACC!: infile => uppath prob: 0.43506672978401184 => 0.26624342799186707
+FAIL! All repalce path: 
+replace_path_0: 
+basename=>basisite
+lo=>size
+ncases=>ncases
+cnt=>cnt
+base_hi=>base25hi
+s=>h
+f_out=> f__outer
+outfile=> outfolder
+base_lo=> base_po
+ci=>ai
+base=>base
+hi=>hi
+line=>line
+i=>i
+result=>text
+lines=>ids
+end_idx=>end_endxc
+num=>u
+sub=>sub
+f_in=>f_in
+infile=>uppath
+prob: 0.26624342799186707
+
+Example time cost:  1.28 min
+ALL examples time cost:  1.3 min
+Query times in this attack:  289
+Greedy query times: 289
+Greedy sub index: 95
+Ga query times: 0
+All Query times:  291
+All sub index: 95
+Avg sub index 6
+Success rate:  0.0
+Successful items count:  0
+Total count:  1
+Index:  2
+
+enter
+LABEL_1 [{'label': 'LABEL_1', 'score': 0.9882351160049438}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: maxdiff => maxDiff prob: 0.9882351160049438 => 0.9830127358436584
+13
+Choose most  1  samples:
+path 0 ACC!: f_in =>  f_sin prob: 0.9830127358436584 => 0.9513453841209412
+13
+Choose most  1  samples:
+path 0 ACC!: basename => Basame prob: 0.9513453841209412 => 0.9262235164642334
+13
+Choose most  1  samples:
+path 0 ACC!: S => I prob: 0.9262235164642334 => 0.9168503880500793
+13
+Choose most  1  samples:
+path 0 ACC!: scores => quatters prob: 0.9168503880500793 => 0.9067666530609131
+13
+Choose most  1  samples:
+path 0 NOACC!: line => line prob: 0.9067666530609131 => 0.9067666530609131
+13
+Choose most  1  samples:
+path 0 NOACC!: result => result prob: 0.9067666530609131 => 0.9067666530609131
+13
+Choose most  1  samples:
+path 0 NOACC!: lines => lines prob: 0.9067666530609131 => 0.9067666530609131
+13
+Choose most  1  samples:
+path 0 NOACC!: s => s prob: 0.9067666530609131 => 0.9067666530609131
+13
+Choose most  1  samples:
+path 0 NOACC!: ncases => ncases prob: 0.9067666530609131 => 0.9067666530609131
+13
+Choose most  1  samples:
+path 0 NOACC!: f_out => f_out prob: 0.9067666530609131 => 0.9067666530609131
+13
+Choose most  1  samples:
+path 0 ACC!: minval => maxvalue prob: 0.9067666530609131 => 0.8919399976730347
+13
+Choose most  1  samples:
+path 0 NOACC!: thre_normal => thre_normal prob: 0.8919399976730347 => 0.8919399976730347
+13
+Choose most  1  samples:
+path 0 NOACC!: thre_surprise => thre_surprise prob: 0.8919399976730347 => 0.8919399976730347
+13
+Choose most  1  samples:
+path 0 NOACC!: tot => tot prob: 0.8919399976730347 => 0.8919399976730347
+13
+Choose most  1  samples:
+path 0 NOACC!: numdata => numdata prob: 0.8919399976730347 => 0.8919399976730347
+13
+Choose most  1  samples:
+path 0 NOACC!: ci => ci prob: 0.8919399976730347 => 0.8919399976730347
+13
+Choose most  1  samples:
+path 0 NOACC!: N => N prob: 0.8919399976730347 => 0.8919399976730347
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.8919399976730347 => 0.8919399976730347
+13
+Choose most  1  samples:
+path 0 NOACC!: sub => sub prob: 0.8919399976730347 => 0.8919399976730347
+13
+Choose most  1  samples:
+path 0 ACC!: outfile => againmodel prob: 0.8919399976730347 => 0.8651700019836426
+13
+Choose most  1  samples:
+path 0 ACC!: infile => outile prob: 0.8651700019836426 => 0.7093205451965332
+FAIL! All repalce path: 
+replace_path_0: 
+maxdiff=>maxDiff
+f_in=> f_sin
+basename=>Basame
+S=>I
+scores=>quatters
+line=>line
+result=>result
+lines=>lines
+s=>s
+ncases=>ncases
+f_out=>f_out
+minval=>maxvalue
+thre_normal=>thre_normal
+thre_surprise=>thre_surprise
+tot=>tot
+numdata=>numdata
+ci=>ci
+N=>N
+p=>p
+sub=>sub
+outfile=>againmodel
+infile=>outile
+prob: 0.7093205451965332
+
+Example time cost:  1.35 min
+ALL examples time cost:  2.65 min
+Query times in this attack:  308
+Greedy query times: 308
+Greedy sub index: 36
+Ga query times: 0
+All Query times:  599
+All sub index: 131
+Avg sub index 5
+Success rate:  0.0
+Successful items count:  0
+Total count:  2
+Index:  3
+
+enter
+LABEL_2 [{'label': 'LABEL_43', 'score': 0.1236359030008316}]
+Beam size: 1 Begin:
+Example time cost:  0.01 min
+ALL examples time cost:  2.66 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  600
+All sub index: 131
+Avg sub index 5
+Success rate:  0.0
+Successful items count:  0
+Total count:  2
+Index:  4
+
+enter
+LABEL_2 [{'label': 'LABEL_2', 'score': 0.8787984251976013}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: p => Ps prob: 0.8787984251976013 => 0.8495115637779236
+13
+Choose most  1  samples:
+path 0 ACC!: inf => iter prob: 0.8495115637779236 => 0.5841110348701477
+13
+Choose most  1  samples:
+path 0 ACC!: S => Z prob: 0.5841110348701477 => 0.4318663477897644
+13
+Choose most  1  samples:
+path 0 ACC!: cnt =>  c0 prob: 0.4318663477897644 => 0.3726295828819275
+13
+Choose most  1  samples:
+path 0 ACC!: caseNo =>  caseno prob: 0.3726295828819275 => 0.35850974917411804
+13
+Choose most  1  samples:
+path 0 ACC!: score => size prob: 0.35850974917411804 => 0.32546213269233704
+13
+Choose most  1  samples:
+path 0 NOACC!: N => N prob: 0.32546213269233704 => 0.32546213269233704
+13
+Choose most  1  samples:
+path 0 NOACC!: mx => mx prob: 0.32546213269233704 => 0.32546213269233704
+13
+Choose most  1  samples:
+path 0 NOACC!: lst => lst prob: 0.32546213269233704 => 0.32546213269233704
+FAIL! All repalce path: 
+replace_path_0: 
+p=>Ps
+inf=>iter
+S=>Z
+cnt=> c0
+caseNo=> caseno
+score=>size
+N=>N
+mx=>mx
+lst=>lst
+prob: 0.32546213269233704
+
+Example time cost:  0.55 min
+ALL examples time cost:  3.21 min
+Query times in this attack:  125
+Greedy query times: 125
+Greedy sub index: 39
+Ga query times: 0
+All Query times:  725
+All sub index: 170
+Avg sub index 6
+Success rate:  0.0
+Successful items count:  0
+Total count:  3
+Index:  5
+
+enter
+LABEL_3 [{'label': 'LABEL_3', 'score': 0.42222434282302856}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: A => One prob: 0.42222434282302856 => 0.2583419680595398
+13
+Choose most  1  samples:
+path 0 ACC!: tab => cell prob: 0.2583419680595398 => 0.24519449472427368
+13
+Choose most  1  samples:
+path 0 ACC!: B => IB prob: 0.24519449472427368 => 0.24256671965122223
+13
+SUC! Path: A=>One
+tab=>cell
+B=>IB
+T=>Trans
+prob: 0.24256671965122223 => 0.3420698046684265
+
+Example time cost:  0.33 min
+ALL examples time cost:  3.54 min
+Query times in this attack:  75
+Greedy query times: 75
+Greedy sub index: 11
+Ga query times: 0
+All Query times:  800
+All sub index: 181
+Avg sub index 5
+Success rate:  0.25
+Successful items count:  1
+Total count:  4
+Index:  6
+
+enter
+LABEL_3 [{'label': 'LABEL_3', 'score': 0.8358169794082642}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: A => Z prob: 0.8358169794082642 => 0.7612390518188477
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.7612390518188477 => 0.7612390518188477
+13
+Choose most  1  samples:
+path 0 ACC!: B => AA prob: 0.7612390518188477 => 0.7555102109909058
+13
+Choose most  1  samples:
+path 0 ACC!: y => xx prob: 0.7555102109909058 => 0.7163816690444946
+13
+Choose most  1  samples:
+path 0 NOACC!: a => a prob: 0.7163816690444946 => 0.7163816690444946
+13
+Choose most  1  samples:
+path 0 ACC!: z => Z prob: 0.7163816690444946 => 0.38861191272735596
+13
+Choose most  1  samples:
+path 0 ACC!: x => id prob: 0.38861191272735596 => 0.3650709092617035
+13
+Choose most  1  samples:
+path 0 NOACC!: s => s prob: 0.3650709092617035 => 0.3650709092617035
+13
+SUC! Path: A=>Z
+p=>p
+B=>AA
+y=>xx
+a=>a
+z=>Z
+x=>id
+s=>s
+T=>Z
+prob: 0.3650709092617035 => 0.22883440554141998
+
+Example time cost:  0.53 min
+ALL examples time cost:  4.07 min
+Query times in this attack:  123
+Greedy query times: 123
+Greedy sub index: 16
+Ga query times: 0
+All Query times:  923
+All sub index: 197
+Avg sub index 5
+Success rate:  0.4
+Successful items count:  2
+Total count:  5
+Index:  7
+
+enter
+LABEL_4 [{'label': 'LABEL_4', 'score': 0.6202200055122375}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: count => case prob: 0.6202200055122375 => 0.4017925560474396
+13
+Choose most  1  samples:
+path 0 ACC!: line => lines prob: 0.4017925560474396 => 0.32521557807922363
+13
+Choose most  1  samples:
+path 0 NOACC!: q => q prob: 0.32521557807922363 => 0.32521557807922363
+13
+Choose most  1  samples:
+path 0 ACC!: a => ab prob: 0.32521557807922363 => 0.27664056420326233
+13
+Choose most  1  samples:
+path 0 NOACC!: ma => ma prob: 0.27664056420326233 => 0.27664056420326233
+13
+Choose most  1  samples:
+path 0 NOACC!: mb => mb prob: 0.27664056420326233 => 0.27664056420326233
+13
+SUC! Path: count=>case
+line=>lines
+q=>q
+a=>ab
+ma=>ma
+mb=>mb
+i=>ai
+prob: 0.27664056420326233 => 0.20374612510204315
+
+Example time cost:  0.46 min
+ALL examples time cost:  4.53 min
+Query times in this attack:  105
+Greedy query times: 105
+Greedy sub index: 16
+Ga query times: 0
+All Query times:  1028
+All sub index: 213
+Avg sub index 5
+Success rate:  0.5
+Successful items count:  3
+Total count:  6
+Index:  8
+
+enter
+LABEL_4 [{'label': 'LABEL_4', 'score': 0.6794952154159546}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: nrg => ngin prob: 0.6794952154159546 => 0.6152867078781128
+13
+Choose most  1  samples:
+path 0 ACC!: nrsup =>  ncsample prob: 0.6152867078781128 => 0.526329755783081
+13
+Choose most  1  samples:
+path 0 ACC!: num => dim prob: 0.526329755783081 => 0.3112282454967499
+13
+SUC! Path: nrg=>ngin
+nrsup=> ncsample
+num=>dim
+nrpass=>nrwin
+prob: 0.3112282454967499 => 0.255063533782959
+
+Example time cost:  0.28 min
+ALL examples time cost:  4.81 min
+Query times in this attack:  63
+Greedy query times: 63
+Greedy sub index: 9
+Ga query times: 0
+All Query times:  1091
+All sub index: 222
+Avg sub index 5
+Success rate:  0.5714285714285714
+Successful items count:  4
+Total count:  7
+Index:  9
+
+enter
+LABEL_5 [{'label': 'LABEL_5', 'score': 0.9759692549705505}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: out => IN prob: 0.9759692549705505 => 0.9209548234939575
+13
+Choose most  1  samples:
+path 0 ACC!: mtx => mtz prob: 0.9209548234939575 => 0.8729936480522156
+13
+Choose most  1  samples:
+path 0 ACC!: m => mun prob: 0.8729936480522156 => 0.8684555292129517
+13
+Choose most  1  samples:
+path 0 NOACC!: in_lines => in_lines prob: 0.8684555292129517 => 0.8684555292129517
+13
+Choose most  1  samples:
+path 0 NOACC!: t => t prob: 0.8684555292129517 => 0.8684555292129517
+13
+Choose most  1  samples:
+path 0 NOACC!: cn => cn prob: 0.8684555292129517 => 0.8684555292129517
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.8684555292129517 => 0.8684555292129517
+13
+Choose most  1  samples:
+path 0 ACC!: s => conf prob: 0.8684555292129517 => 0.8638020753860474
+13
+Choose most  1  samples:
+path 0 NOACC!: rmap => rmap prob: 0.8638020753860474 => 0.8638020753860474
+13
+Choose most  1  samples:
+path 0 NOACC!: case => case prob: 0.8638020753860474 => 0.8638020753860474
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.8638020753860474 => 0.8638020753860474
+13
+Choose most  1  samples:
+path 0 NOACC!: cmap => cmap prob: 0.8638020753860474 => 0.8638020753860474
+13
+Choose most  1  samples:
+path 0 ACC!: td => tp prob: 0.8638020753860474 => 0.8528801798820496
+13
+Choose most  1  samples:
+path 0 NOACC!: j => j prob: 0.8528801798820496 => 0.8528801798820496
+13
+Choose most  1  samples:
+path 0 NOACC!: lines => lines prob: 0.8528801798820496 => 0.8528801798820496
+13
+Choose most  1  samples:
+path 0 NOACC!: cl => cl prob: 0.8528801798820496 => 0.8528801798820496
+13
+Choose most  1  samples:
+path 0 NOACC!: amap => amap prob: 0.8528801798820496 => 0.8528801798820496
+13
+Choose most  1  samples:
+path 0 NOACC!: b => b prob: 0.8528801798820496 => 0.8528801798820496
+13
+Choose most  1  samples:
+path 0 NOACC!: sb => sb prob: 0.8528801798820496 => 0.8528801798820496
+13
+Choose most  1  samples:
+path 0 NOACC!: buff => buff prob: 0.8528801798820496 => 0.8528801798820496
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.8528801798820496 => 0.8528801798820496
+13
+Choose most  1  samples:
+path 0 ACC!: ln => fen prob: 0.8528801798820496 => 0.8452967405319214
+13
+Choose most  1  samples:
+path 0 ACC!: bmap => bbmap prob: 0.8452967405319214 => 0.8346723318099976
+13
+Choose most  1  samples:
+path 0 ACC!: outs => css prob: 0.8346723318099976 => 0.825814962387085
+13
+Choose most  1  samples:
+path 0 NOACC!: rn => rn prob: 0.825814962387085 => 0.825814962387085
+13
+Choose most  1  samples:
+path 0 NOACC!: k => k prob: 0.825814962387085 => 0.825814962387085
+13
+Choose most  1  samples:
+path 0 NOACC!: raw => raw prob: 0.825814962387085 => 0.825814962387085
+FAIL! All repalce path: 
+replace_path_0: 
+out=>IN
+mtx=>mtz
+m=>mun
+in_lines=>in_lines
+t=>t
+cn=>cn
+x=>x
+s=>conf
+rmap=>rmap
+case=>case
+i=>i
+cmap=>cmap
+td=>tp
+j=>j
+lines=>lines
+cl=>cl
+amap=>amap
+b=>b
+sb=>sb
+buff=>buff
+n=>n
+ln=>fen
+bmap=>bbmap
+outs=>css
+rn=>rn
+k=>k
+raw=>raw
+prob: 0.825814962387085
+
+Example time cost:  1.7 min
+ALL examples time cost:  6.51 min
+Query times in this attack:  379
+Greedy query times: 379
+Greedy sub index: 53
+Ga query times: 0
+All Query times:  1470
+All sub index: 275
+Avg sub index 5
+Success rate:  0.5
+Successful items count:  4
+Total count:  8
+Index:  10
+
+enter
+LABEL_5 [{'label': 'LABEL_5', 'score': 0.9674696326255798}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: use_test_data => use_case_function prob: 0.9674696326255798 => 0.9543040990829468
+13
+Choose most  1  samples:
+path 0 ACC!: output_file => case_data prob: 0.9543040990829468 => 0.8038017153739929
+13
+Choose most  1  samples:
+path 0 ACC!: input_file =>  input_log prob: 0.8038017153739929 => 0.6679798364639282
+13
+Choose most  1  samples:
+path 0 ACC!: iLine => siBlock prob: 0.6679798364639282 => 0.6224335432052612
+13
+Choose most  1  samples:
+path 0 NOACC!: cc => cc prob: 0.6224335432052612 => 0.6224335432052612
+9
+Choose most  1  samples:
+path 0 NOACC!: case_input => case_input prob: 0.6224335432052612 => 0.6224335432052612
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.6224335432052612 => 0.6224335432052612
+13
+Choose most  1  samples:
+path 0 NOACC!: icase => icase prob: 0.6224335432052612 => 0.6224335432052612
+13
+Choose most  1  samples:
+path 0 NOACC!: caseLineNum => caseLineNum prob: 0.6224335432052612 => 0.6224335432052612
+13
+Choose most  1  samples:
+path 0 ACC!: test_data =>  test_string prob: 0.6224335432052612 => 0.5696186423301697
+13
+Choose most  1  samples:
+path 0 ACC!: case_output =>  case_Output prob: 0.5696186423301697 => 0.4970489740371704
+13
+Choose most  1  samples:
+path 0 ACC!: raw => feed prob: 0.4970489740371704 => 0.33592262864112854
+13
+Choose most  1  samples:
+path 0 NOACC!: result => result prob: 0.33592262864112854 => 0.33592262864112854
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.33592262864112854 => 0.33592262864112854
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.33592262864112854 => 0.33592262864112854
+13
+Choose most  1  samples:
+path 0 NOACC!: ct => ct prob: 0.33592262864112854 => 0.33592262864112854
+13
+Choose most  1  samples:
+path 0 NOACC!: data => data prob: 0.33592262864112854 => 0.33592262864112854
+13
+Choose most  1  samples:
+path 0 NOACC!: input => input prob: 0.33592262864112854 => 0.33592262864112854
+13
+Choose most  1  samples:
+path 0 NOACC!: ts => ts prob: 0.33592262864112854 => 0.33592262864112854
+13
+Choose most  1  samples:
+path 0 NOACC!: rslt => rslt prob: 0.33592262864112854 => 0.33592262864112854
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.33592262864112854 => 0.33592262864112854
+13
+Choose most  1  samples:
+path 0 NOACC!: test_file => test_file prob: 0.33592262864112854 => 0.33592262864112854
+FAIL! All repalce path: 
+replace_path_0: 
+use_test_data=>use_case_function
+output_file=>case_data
+input_file=> input_log
+iLine=>siBlock
+cc=>cc
+case_input=>case_input
+i=>i
+icase=>icase
+caseLineNum=>caseLineNum
+test_data=> test_string
+case_output=> case_Output
+raw=>feed
+result=>result
+T=>T
+n=>n
+ct=>ct
+data=>data
+input=>input
+ts=>ts
+rslt=>rslt
+x=>x
+test_file=>test_file
+prob: 0.33592262864112854
+
+Example time cost:  1.33 min
+ALL examples time cost:  7.84 min
+Query times in this attack:  301
+Greedy query times: 301
+Greedy sub index: 31
+Ga query times: 0
+All Query times:  1771
+All sub index: 306
+Avg sub index 5
+Success rate:  0.4444444444444444
+Successful items count:  4
+Total count:  9
+Index:  11
+
+enter
+LABEL_6 [{'label': 'LABEL_10', 'score': 0.3428975045681}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  7.84 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  1772
+All sub index: 306
+Avg sub index 5
+Success rate:  0.4444444444444444
+Successful items count:  4
+Total count:  9
+Index:  12
+
+enter
+LABEL_6 [{'label': 'LABEL_6', 'score': 0.36558863520622253}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: num => max prob: 0.36558863520622253 => 0.33079808950424194
+13
+Choose most  1  samples:
+path 0 ACC!: quo =>  qui prob: 0.33079808950424194 => 0.2539590895175934
+13
+SUC! Path: num=>max
+quo=> qui
+nums=> nrams
+prob: 0.2539590895175934 => 0.27936163544654846
+
+Example time cost:  0.22 min
+ALL examples time cost:  8.07 min
+Query times in this attack:  51
+Greedy query times: 51
+Greedy sub index: 18
+Ga query times: 0
+All Query times:  1823
+All sub index: 324
+Avg sub index 5
+Success rate:  0.5
+Successful items count:  5
+Total count:  10
+Index:  13
+
+enter
+LABEL_7 [{'label': 'LABEL_53', 'score': 0.2953873872756958}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  8.07 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  1824
+All sub index: 324
+Avg sub index 5
+Success rate:  0.5
+Successful items count:  5
+Total count:  10
+Index:  14
+
+enter
+LABEL_7 [{'label': 'LABEL_7', 'score': 0.8935189843177795}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: out =>  output prob: 0.8935189843177795 => 0.2281043380498886
+13
+Choose most  1  samples:
+path 0 ACC!: inp =>  INpart prob: 0.2281043380498886 => 0.16432525217533112
+13
+SUC! Path: out=> output
+inp=> INpart
+br=> Br
+prob: 0.16432525217533112 => 0.1700104922056198
+
+Example time cost:  0.25 min
+ALL examples time cost:  8.33 min
+Query times in this attack:  58
+Greedy query times: 58
+Greedy sub index: 6
+Ga query times: 0
+All Query times:  1882
+All sub index: 330
+Avg sub index 5
+Success rate:  0.5454545454545454
+Successful items count:  6
+Total count:  11
+Index:  15
+
+enter
+LABEL_8 [{'label': 'LABEL_42', 'score': 0.10096770524978638}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  8.33 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  1883
+All sub index: 330
+Avg sub index 5
+Success rate:  0.5454545454545454
+Successful items count:  6
+Total count:  11
+Index:  16
+
+enter
+LABEL_8 [{'label': 'LABEL_3', 'score': 0.2243519425392151}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  8.33 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  1884
+All sub index: 330
+Avg sub index 5
+Success rate:  0.5454545454545454
+Successful items count:  6
+Total count:  11
+Index:  17
+
+enter
+LABEL_9 [{'label': 'LABEL_9', 'score': 0.7682421207427979}]
+Beam size: 1 Begin:
+SUC! Path: inFile=>outLoop
+prob: 0.7682421207427979 => 0.22380280494689941
+
+Example time cost:  0.11 min
+ALL examples time cost:  8.45 min
+Query times in this attack:  26
+Greedy query times: 26
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  1910
+All sub index: 330
+Avg sub index 5
+Success rate:  0.5833333333333334
+Successful items count:  7
+Total count:  12
+Index:  18
+
+enter
+LABEL_9 [{'label': 'LABEL_9', 'score': 0.8275243043899536}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: outputFile =>  outputDir prob: 0.8275243043899536 => 0.16409458220005035
+13
+Choose most  1  samples:
+path 0 ACC!: j => jl prob: 0.16409458220005035 => 0.14917880296707153
+13
+SUC! Path: outputFile=> outputDir
+j=>jl
+numTests=> numTencases
+prob: 0.14917880296707153 => 0.18585050106048584
+
+Example time cost:  0.23 min
+ALL examples time cost:  8.68 min
+Query times in this attack:  53
+Greedy query times: 53
+Greedy sub index: 13
+Ga query times: 0
+All Query times:  1963
+All sub index: 343
+Avg sub index 5
+Success rate:  0.6153846153846154
+Successful items count:  8
+Total count:  13
+Index:  19
+
+enter
+LABEL_10 [{'label': 'LABEL_10', 'score': 0.4573342502117157}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: nums => snoms prob: 0.4573342502117157 => 0.45610180497169495
+13
+Choose most  1  samples:
+path 0 ACC!: s => input prob: 0.45610180497169495 => 0.36830586194992065
+13
+Choose most  1  samples:
+path 0 ACC!: x => rax prob: 0.36830586194992065 => 0.32433196902275085
+13
+Choose most  1  samples:
+path 0 ACC!: case => ce prob: 0.32433196902275085 => 0.24929068982601166
+13
+Choose most  1  samples:
+path 0 NOACC!: palins => palins prob: 0.24929068982601166 => 0.24929068982601166
+13
+SUC! Path: nums=>snoms
+s=>input
+x=>rax
+case=>ce
+palins=>palins
+n_cases=> nxlines
+prob: 0.24929068982601166 => 0.22395272552967072
+
+Example time cost:  0.4 min
+ALL examples time cost:  9.08 min
+Query times in this attack:  91
+Greedy query times: 91
+Greedy sub index: 31
+Ga query times: 0
+All Query times:  2054
+All sub index: 374
+Avg sub index 5
+Success rate:  0.6428571428571429
+Successful items count:  9
+Total count:  14
+Index:  20
+
+enter
+LABEL_10 [{'label': 'LABEL_10', 'score': 0.9083914160728455}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: n_cases => nxtests prob: 0.9083914160728455 => 0.3813278079032898
+13
+Choose most  1  samples:
+path 0 ACC!: t => i prob: 0.3813278079032898 => 0.27984121441841125
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.27984121441841125 => 0.27984121441841125
+13
+Choose most  1  samples:
+path 0 ACC!: ins => amps prob: 0.27984121441841125 => 0.22493833303451538
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.22493833303451538 => 0.22493833303451538
+13
+SUC! Path: n_cases=>nxtests
+t=>i
+p=>p
+ins=>amps
+n=>n
+case=>section
+prob: 0.22493833303451538 => 0.4309524893760681
+
+Example time cost:  0.37 min
+ALL examples time cost:  9.46 min
+Query times in this attack:  86
+Greedy query times: 86
+Greedy sub index: 20
+Ga query times: 0
+All Query times:  2140
+All sub index: 394
+Avg sub index 5
+Success rate:  0.6666666666666666
+Successful items count:  10
+Total count:  15
+Index:  21
+
+enter
+LABEL_11 [{'label': 'LABEL_11', 'score': 0.984181821346283}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: outLine => againRow prob: 0.984181821346283 => 0.9014164805412292
+13
+Choose most  1  samples:
+path 0 ACC!: f => ff prob: 0.9014164805412292 => 0.8207567930221558
+13
+Choose most  1  samples:
+path 0 NOACC!: next_root => next_root prob: 0.8207567930221558 => 0.8207567930221558
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.8207567930221558 => 0.8207567930221558
+13
+Choose most  1  samples:
+path 0 NOACC!: power => power prob: 0.8207567930221558 => 0.8207567930221558
+13
+Choose most  1  samples:
+path 0 NOACC!: str_a => str_a prob: 0.8207567930221558 => 0.8207567930221558
+13
+Choose most  1  samples:
+path 0 ACC!: ls => ins prob: 0.8207567930221558 => 0.8191975355148315
+13
+Choose most  1  samples:
+path 0 ACC!: half_digits => half_Digins prob: 0.8191975355148315 => 0.7736937999725342
+11
+Choose most  1  samples:
+path 0 NOACC!: _ => _ prob: 0.7736937999725342 => 0.7736937999725342
+13
+Choose most  1  samples:
+path 0 NOACC!: num => num prob: 0.7736937999725342 => 0.7736937999725342
+13
+Choose most  1  samples:
+path 0 NOACC!: a => a prob: 0.7736937999725342 => 0.7736937999725342
+13
+Choose most  1  samples:
+path 0 NOACC!: b => b prob: 0.7736937999725342 => 0.7736937999725342
+13
+Choose most  1  samples:
+path 0 NOACC!: B => B prob: 0.7736937999725342 => 0.7736937999725342
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.7736937999725342 => 0.7736937999725342
+13
+Choose most  1  samples:
+path 0 NOACC!: A => A prob: 0.7736937999725342 => 0.7736937999725342
+13
+Choose most  1  samples:
+path 0 NOACC!: rlt => rlt prob: 0.7736937999725342 => 0.7736937999725342
+13
+Choose most  1  samples:
+path 0 NOACC!: digits => digits prob: 0.7736937999725342 => 0.7736937999725342
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.7736937999725342 => 0.7736937999725342
+13
+Choose most  1  samples:
+path 0 NOACC!: root => root prob: 0.7736937999725342 => 0.7736937999725342
+FAIL! All repalce path: 
+replace_path_0: 
+outLine=>againRow
+f=>ff
+next_root=>next_root
+p=>p
+power=>power
+str_a=>str_a
+ls=>ins
+half_digits=>half_Digins
+_=>_
+num=>num
+a=>a
+b=>b
+B=>B
+T=>T
+A=>A
+rlt=>rlt
+digits=>digits
+i=>i
+root=>root
+prob: 0.7736937999725342
+
+Example time cost:  1.2 min
+ALL examples time cost:  10.65 min
+Query times in this attack:  265
+Greedy query times: 265
+Greedy sub index: 18
+Ga query times: 0
+All Query times:  2405
+All sub index: 412
+Avg sub index 5
+Success rate:  0.625
+Successful items count:  10
+Total count:  16
+Index:  22
+
+enter
+LABEL_11 [{'label': 'LABEL_11', 'score': 0.9708748459815979}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: inputFile => outputFiles prob: 0.9708748459815979 => 0.9311894178390503
+13
+Choose most  1  samples:
+path 0 ACC!: outputLines => outputVine prob: 0.9311894178390503 => 0.8580277562141418
+13
+Choose most  1  samples:
+path 0 ACC!: e => east prob: 0.8580277562141418 => 0.8268440365791321
+13
+Choose most  1  samples:
+path 0 ACC!: T => H prob: 0.8268440365791321 => 0.8185808658599854
+13
+Choose most  1  samples:
+path 0 NOACC!: S => S prob: 0.8185808658599854 => 0.8185808658599854
+13
+Choose most  1  samples:
+path 0 ACC!: inputLines => inputLongows prob: 0.8185808658599854 => 0.7705315351486206
+13
+Choose most  1  samples:
+path 0 NOACC!: r => r prob: 0.7705315351486206 => 0.7705315351486206
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.7705315351486206 => 0.7705315351486206
+13
+Choose most  1  samples:
+path 0 ACC!: N => J prob: 0.7705315351486206 => 0.7133765816688538
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.7133765816688538 => 0.7133765816688538
+13
+Choose most  1  samples:
+path 0 NOACC!: rslt => rslt prob: 0.7133765816688538 => 0.7133765816688538
+13
+Choose most  1  samples:
+path 0 NOACC!: s => s prob: 0.7133765816688538 => 0.7133765816688538
+13
+Choose most  1  samples:
+path 0 ACC!: args => grades prob: 0.7133765816688538 => 0.6933424472808838
+FAIL! All repalce path: 
+replace_path_0: 
+inputFile=>outputFiles
+outputLines=>outputVine
+e=>east
+T=>H
+S=>S
+inputLines=>inputLongows
+r=>r
+p=>p
+N=>J
+i=>i
+rslt=>rslt
+s=>s
+args=>grades
+prob: 0.6933424472808838
+
+Example time cost:  0.8 min
+ALL examples time cost:  11.45 min
+Query times in this attack:  182
+Greedy query times: 182
+Greedy sub index: 35
+Ga query times: 0
+All Query times:  2587
+All sub index: 447
+Avg sub index 5
+Success rate:  0.5882352941176471
+Successful items count:  10
+Total count:  17
+Index:  23
+
+enter
+LABEL_12 [{'label': 'LABEL_12', 'score': 0.7361856698989868}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: n => int prob: 0.7361856698989868 => 0.6505358219146729
+13
+Choose most  1  samples:
+path 0 ACC!: stream => feed prob: 0.6505358219146729 => 0.548564612865448
+13
+Choose most  1  samples:
+path 0 NOACC!: r => r prob: 0.548564612865448 => 0.548564612865448
+13
+Choose most  1  samples:
+path 0 ACC!: rt => NT prob: 0.548564612865448 => 0.46605655550956726
+13
+Choose most  1  samples:
+path 0 NOACC!: cnt => cnt prob: 0.46605655550956726 => 0.46605655550956726
+13
+Choose most  1  samples:
+path 0 NOACC!: line => line prob: 0.46605655550956726 => 0.46605655550956726
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.46605655550956726 => 0.46605655550956726
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.46605655550956726 => 0.46605655550956726
+13
+Choose most  1  samples:
+path 0 NOACC!: case => case prob: 0.46605655550956726 => 0.46605655550956726
+FAIL! All repalce path: 
+replace_path_0: 
+n=>int
+stream=>feed
+r=>r
+rt=>NT
+cnt=>cnt
+line=>line
+x=>x
+i=>i
+case=>case
+prob: 0.46605655550956726
+
+Example time cost:  0.55 min
+ALL examples time cost:  12.01 min
+Query times in this attack:  126
+Greedy query times: 126
+Greedy sub index: 17
+Ga query times: 0
+All Query times:  2713
+All sub index: 464
+Avg sub index 5
+Success rate:  0.5555555555555556
+Successful items count:  10
+Total count:  18
+Index:  24
+
+enter
+LABEL_12 [{'label': 'LABEL_12', 'score': 0.5164615511894226}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: res => sol prob: 0.5164615511894226 => 0.40121904015541077
+13
+Choose most  1  samples:
+path 0 NOACC!: S => S prob: 0.40121904015541077 => 0.40121904015541077
+13
+Choose most  1  samples:
+path 0 ACC!: N => Q prob: 0.40121904015541077 => 0.3883829116821289
+13
+Choose most  1  samples:
+path 0 ACC!: total => all prob: 0.3883829116821289 => 0.3673970699310303
+13
+Choose most  1  samples:
+path 0 ACC!: n => j prob: 0.3673970699310303 => 0.33518388867378235
+13
+Choose most  1  samples:
+path 0 NOACC!: s => s prob: 0.33518388867378235 => 0.33518388867378235
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.33518388867378235 => 0.33518388867378235
+13
+SUC! Path: res=>sol
+S=>S
+N=>Q
+total=>all
+n=>j
+s=>s
+p=>p
+line=>cl
+prob: 0.33518388867378235 => 0.27515849471092224
+
+Example time cost:  0.51 min
+ALL examples time cost:  12.51 min
+Query times in this attack:  114
+Greedy query times: 114
+Greedy sub index: 20
+Ga query times: 0
+All Query times:  2827
+All sub index: 484
+Avg sub index 5
+Success rate:  0.5789473684210527
+Successful items count:  11
+Total count:  19
+Index:  25
+
+enter
+LABEL_13 [{'label': 'LABEL_13', 'score': 0.9265905022621155}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: inf => fr prob: 0.9265905022621155 => 0.741076648235321
+13
+Choose most  1  samples:
+path 0 ACC!: fs => AB prob: 0.741076648235321 => 0.6278000473976135
+13
+Choose most  1  samples:
+path 0 NOACC!: outf => outf prob: 0.6278000473976135 => 0.6278000473976135
+13
+Choose most  1  samples:
+path 0 ACC!: infname =>  infnames prob: 0.6278000473976135 => 0.4945812225341797
+13
+Choose most  1  samples:
+path 0 ACC!: B => GB prob: 0.4945812225341797 => 0.42426103353500366
+13
+Choose most  1  samples:
+path 0 ACC!: f => stream prob: 0.42426103353500366 => 0.41031861305236816
+13
+Choose most  1  samples:
+path 0 ACC!: T => Z prob: 0.41031861305236816 => 0.3769417405128479
+13
+Choose most  1  samples:
+path 0 NOACC!: MAX => MAX prob: 0.3769417405128479 => 0.3769417405128479
+13
+Choose most  1  samples:
+path 0 ACC!: A => As prob: 0.3769417405128479 => 0.345513254404068
+13
+Choose most  1  samples:
+path 0 NOACC!: out => out prob: 0.345513254404068 => 0.345513254404068
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.345513254404068 => 0.345513254404068
+13
+Choose most  1  samples:
+path 0 ACC!: squere =>  queb prob: 0.345513254404068 => 0.32264384627342224
+13
+Choose most  1  samples:
+path 0 NOACC!: X => X prob: 0.32264384627342224 => 0.32264384627342224
+13
+Choose most  1  samples:
+path 0 NOACC!: ans => ans prob: 0.32264384627342224 => 0.32264384627342224
+13
+Choose most  1  samples:
+path 0 NOACC!: s => s prob: 0.32264384627342224 => 0.32264384627342224
+13
+Choose most  1  samples:
+path 0 ACC!: cnt =>  crt prob: 0.32264384627342224 => 0.28392672538757324
+13
+Choose most  1  samples:
+path 0 ACC!: v => vd prob: 0.28392672538757324 => 0.2776806056499481
+13
+Choose most  1  samples:
+path 0 ACC!: fslst =>  fSlsts prob: 0.2776806056499481 => 0.2044394165277481
+13
+SUC! Path: inf=>fr
+fs=>AB
+outf=>outf
+infname=> infnames
+B=>GB
+f=>stream
+T=>Z
+MAX=>MAX
+A=>As
+out=>out
+i=>i
+squere=> queb
+X=>X
+ans=>ans
+s=>s
+cnt=> crt
+v=>vd
+fslst=> fSlsts
+outfname=>wfname
+prob: 0.2044394165277481 => 0.20135515928268433
+
+Example time cost:  1.17 min
+ALL examples time cost:  13.68 min
+Query times in this attack:  265
+Greedy query times: 265
+Greedy sub index: 69
+Ga query times: 0
+All Query times:  3092
+All sub index: 553
+Avg sub index 5
+Success rate:  0.6
+Successful items count:  12
+Total count:  20
+Index:  26
+
+enter
+LABEL_13 [{'label': 'LABEL_13', 'score': 0.8455362915992737}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: d => u prob: 0.8455362915992737 => 0.7777526378631592
+13
+Choose most  1  samples:
+path 0 NOACC!: S => S prob: 0.7777526378631592 => 0.7777526378631592
+13
+Choose most  1  samples:
+path 0 ACC!: y => l prob: 0.7777526378631592 => 0.7773393392562866
+13
+Choose most  1  samples:
+path 0 NOACC!: m => m prob: 0.7773393392562866 => 0.7773393392562866
+13
+Choose most  1  samples:
+path 0 ACC!: p => pp prob: 0.7773393392562866 => 0.7697113156318665
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.7697113156318665 => 0.7697113156318665
+13
+Choose most  1  samples:
+path 0 NOACC!: N => N prob: 0.7697113156318665 => 0.7697113156318665
+13
+Choose most  1  samples:
+path 0 NOACC!: X => X prob: 0.7697113156318665 => 0.7697113156318665
+13
+Choose most  1  samples:
+path 0 ACC!: t => art prob: 0.7697113156318665 => 0.7591742873191833
+FAIL! All repalce path: 
+replace_path_0: 
+d=>u
+S=>S
+y=>l
+m=>m
+p=>pp
+T=>T
+N=>N
+X=>X
+t=>art
+prob: 0.7591742873191833
+
+Example time cost:  0.53 min
+ALL examples time cost:  14.22 min
+Query times in this attack:  121
+Greedy query times: 121
+Greedy sub index: 33
+Ga query times: 0
+All Query times:  3213
+All sub index: 586
+Avg sub index 5
+Success rate:  0.5714285714285714
+Successful items count:  12
+Total count:  21
+Index:  27
+
+enter
+LABEL_14 [{'label': 'LABEL_14', 'score': 0.943942129611969}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: k => key prob: 0.943942129611969 => 0.88455730676651
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.88455730676651 => 0.88455730676651
+13
+Choose most  1  samples:
+path 0 ACC!: shift => case prob: 0.88455730676651 => 0.8336970210075378
+13
+Choose most  1  samples:
+path 0 ACC!: MAX_X => RAW_XX prob: 0.8336970210075378 => 0.795388400554657
+13
+Choose most  1  samples:
+path 0 ACC!: MAX => ION prob: 0.795388400554657 => 0.7430282235145569
+13
+Choose most  1  samples:
+path 0 NOACC!: s => s prob: 0.7430282235145569 => 0.7430282235145569
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.7430282235145569 => 0.7430282235145569
+13
+Choose most  1  samples:
+path 0 NOACC!: RES => RES prob: 0.7430282235145569 => 0.7430282235145569
+13
+Choose most  1  samples:
+path 0 ACC!: IN => HEAD prob: 0.7430282235145569 => 0.6915068626403809
+13
+Choose most  1  samples:
+path 0 ACC!: j => J prob: 0.6915068626403809 => 0.5766304135322571
+13
+Choose most  1  samples:
+path 0 ACC!: heap => Heape prob: 0.5766304135322571 => 0.4858982264995575
+13
+Choose most  1  samples:
+path 0 ACC!: i => ih prob: 0.4858982264995575 => 0.40529948472976685
+13
+Choose most  1  samples:
+path 0 NOACC!: DB => DB prob: 0.40529948472976685 => 0.40529948472976685
+FAIL! All repalce path: 
+replace_path_0: 
+k=>key
+n=>n
+shift=>case
+MAX_X=>RAW_XX
+MAX=>ION
+s=>s
+x=>x
+RES=>RES
+IN=>HEAD
+j=>J
+heap=>Heape
+i=>ih
+DB=>DB
+prob: 0.40529948472976685
+
+Example time cost:  0.81 min
+ALL examples time cost:  15.02 min
+Query times in this attack:  181
+Greedy query times: 181
+Greedy sub index: 48
+Ga query times: 0
+All Query times:  3394
+All sub index: 634
+Avg sub index 5
+Success rate:  0.5454545454545454
+Successful items count:  12
+Total count:  22
+Index:  28
+
+enter
+LABEL_14 [{'label': 'LABEL_14', 'score': 0.7904781699180603}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: D1 =>  D0 prob: 0.7904781699180603 => 0.7595468759536743
+13
+Choose most  1  samples:
+path 0 ACC!: fin => fen prob: 0.7595468759536743 => 0.3124515414237976
+13
+Choose most  1  samples:
+path 0 ACC!: c => cin prob: 0.3124515414237976 => 0.27877819538116455
+13
+Choose most  1  samples:
+path 0 ACC!: res_s => r_ns prob: 0.27877819538116455 => 0.271683931350708
+13
+Choose most  1  samples:
+path 0 NOACC!: D2 => D2 prob: 0.271683931350708 => 0.271683931350708
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.271683931350708 => 0.271683931350708
+13
+Choose most  1  samples:
+path 0 NOACC!: N => N prob: 0.271683931350708 => 0.271683931350708
+13
+Choose most  1  samples:
+path 0 NOACC!: P => P prob: 0.271683931350708 => 0.271683931350708
+13
+Choose most  1  samples:
+path 0 NOACC!: a => a prob: 0.271683931350708 => 0.271683931350708
+13
+Choose most  1  samples:
+path 0 ACC!: t => ta prob: 0.271683931350708 => 0.24351921677589417
+13
+Choose most  1  samples:
+path 0 ACC!: S => n prob: 0.24351921677589417 => 0.23576901853084564
+13
+Choose most  1  samples:
+path 0 ACC!: res_n => res_N prob: 0.23576901853084564 => 0.23159369826316833
+13
+Choose most  1  samples:
+path 0 NOACC!: nums => nums prob: 0.23159369826316833 => 0.23159369826316833
+13
+Choose most  1  samples:
+path 0 NOACC!: b => b prob: 0.23159369826316833 => 0.23159369826316833
+13
+Choose most  1  samples:
+path 0 NOACC!: ts => ts prob: 0.23159369826316833 => 0.23159369826316833
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.23159369826316833 => 0.23159369826316833
+13
+SUC! Path: D1=> D0
+fin=>fen
+c=>cin
+res_s=>r_ns
+D2=>D2
+i=>i
+N=>N
+P=>P
+a=>a
+t=>ta
+S=>n
+res_n=>res_N
+nums=>nums
+b=>b
+ts=>ts
+T=>T
+fout=> Fpass
+prob: 0.23159369826316833 => 0.16409693658351898
+
+Example time cost:  1.04 min
+ALL examples time cost:  16.07 min
+Query times in this attack:  236
+Greedy query times: 236
+Greedy sub index: 50
+Ga query times: 0
+All Query times:  3630
+All sub index: 684
+Avg sub index 5
+Success rate:  0.5652173913043478
+Successful items count:  13
+Total count:  23
+Index:  29
+
+enter
+LABEL_15 [{'label': 'LABEL_15', 'score': 0.5929176807403564}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: Num => Fun prob: 0.5929176807403564 => 0.5927912592887878
+13
+Choose most  1  samples:
+path 0 ACC!: L =>  Li prob: 0.5927912592887878 => 0.5297143459320068
+13
+SUC! Path: Num=>Fun
+L=> Li
+f=>feed
+prob: 0.5297143459320068 => 0.21536411345005035
+
+Example time cost:  0.22 min
+ALL examples time cost:  16.29 min
+Query times in this attack:  50
+Greedy query times: 50
+Greedy sub index: 19
+Ga query times: 0
+All Query times:  3680
+All sub index: 703
+Avg sub index 5
+Success rate:  0.5833333333333334
+Successful items count:  14
+Total count:  24
+Index:  30
+
+enter
+LABEL_15 [{'label': 'LABEL_15', 'score': 0.9003939032554626}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: w => iw prob: 0.9003939032554626 => 0.7102528810501099
+13
+Choose most  1  samples:
+path 0 ACC!: no =>  ip prob: 0.7102528810501099 => 0.661573588848114
+13
+Choose most  1  samples:
+path 0 ACC!: T => P prob: 0.661573588848114 => 0.5763953924179077
+13
+Choose most  1  samples:
+path 0 NOACC!: ts => ts prob: 0.5763953924179077 => 0.5763953924179077
+13
+Choose most  1  samples:
+path 0 NOACC!: ns => ns prob: 0.5763953924179077 => 0.5763953924179077
+13
+Choose most  1  samples:
+path 0 NOACC!: c => c prob: 0.5763953924179077 => 0.5763953924179077
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.5763953924179077 => 0.5763953924179077
+13
+Choose most  1  samples:
+path 0 NOACC!: s => s prob: 0.5763953924179077 => 0.5763953924179077
+13
+Choose most  1  samples:
+path 0 NOACC!: ss => ss prob: 0.5763953924179077 => 0.5763953924179077
+13
+Choose most  1  samples:
+path 0 ACC!: l =>  L prob: 0.5763953924179077 => 0.5736376643180847
+13
+Choose most  1  samples:
+path 0 ACC!: cnt => Cnn prob: 0.5736376643180847 => 0.33077141642570496
+13
+Choose most  1  samples:
+path 0 ACC!: f => df prob: 0.33077141642570496 => 0.2249194085597992
+FAIL! All repalce path: 
+replace_path_0: 
+w=>iw
+no=> ip
+T=>P
+ts=>ts
+ns=>ns
+c=>c
+p=>p
+s=>s
+ss=>ss
+l=> L
+cnt=>Cnn
+f=>df
+prob: 0.2249194085597992
+
+Example time cost:  0.73 min
+ALL examples time cost:  17.02 min
+Query times in this attack:  167
+Greedy query times: 167
+Greedy sub index: 24
+Ga query times: 0
+All Query times:  3847
+All sub index: 727
+Avg sub index 5
+Success rate:  0.56
+Successful items count:  14
+Total count:  25
+Index:  31
+
+enter
+LABEL_16 [{'label': 'LABEL_38', 'score': 0.20344692468643188}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  17.02 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  3848
+All sub index: 727
+Avg sub index 5
+Success rate:  0.56
+Successful items count:  14
+Total count:  25
+Index:  32
+
+enter
+LABEL_16 [{'label': 'LABEL_59', 'score': 0.712212085723877}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  17.03 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  3849
+All sub index: 727
+Avg sub index 5
+Success rate:  0.56
+Successful items count:  14
+Total count:  25
+Index:  33
+
+enter
+LABEL_17 [{'label': 'LABEL_25', 'score': 0.15903633832931519}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  17.03 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  3850
+All sub index: 727
+Avg sub index 5
+Success rate:  0.56
+Successful items count:  14
+Total count:  25
+Index:  34
+
+enter
+LABEL_17 [{'label': 'LABEL_3', 'score': 0.05917384475469589}]
+Beam size: 1 Begin:
+Example time cost:  0.01 min
+ALL examples time cost:  17.04 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  3851
+All sub index: 727
+Avg sub index 5
+Success rate:  0.56
+Successful items count:  14
+Total count:  25
+Index:  35
+
+enter
+LABEL_18 [{'label': 'LABEL_18', 'score': 0.38994932174682617}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: i => cli prob: 0.38994932174682617 => 0.25393837690353394
+13
+SUC! Path: i=>cli
+num_of_cases=>num_ofaccase
+prob: 0.25393837690353394 => 0.2582285404205322
+
+Example time cost:  0.15 min
+ALL examples time cost:  17.19 min
+Query times in this attack:  34
+Greedy query times: 34
+Greedy sub index: 7
+Ga query times: 0
+All Query times:  3885
+All sub index: 734
+Avg sub index 5
+Success rate:  0.5769230769230769
+Successful items count:  15
+Total count:  26
+Index:  36
+
+enter
+LABEL_18 [{'label': 'LABEL_18', 'score': 0.6961015462875366}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: k => id prob: 0.6961015462875366 => 0.6636602878570557
+13
+Choose most  1  samples:
+path 0 ACC!: result => answer prob: 0.6636602878570557 => 0.6109172701835632
+13
+Choose most  1  samples:
+path 0 NOACC!: num_of_surprising => num_of_surprising prob: 0.6109172701835632 => 0.6109172701835632
+13
+Choose most  1  samples:
+path 0 NOACC!: possible_scores => possible_scores prob: 0.6109172701835632 => 0.6109172701835632
+13
+Choose most  1  samples:
+path 0 NOACC!: desired_score => desired_score prob: 0.6109172701835632 => 0.6109172701835632
+13
+Choose most  1  samples:
+path 0 NOACC!: normal => normal prob: 0.6109172701835632 => 0.6109172701835632
+9
+Choose most  1  samples:
+path 0 NOACC!: number_of_cases => number_of_cases prob: 0.6109172701835632 => 0.6109172701835632
+13
+Choose most  1  samples:
+path 0 NOACC!: surprising => surprising prob: 0.6109172701835632 => 0.6109172701835632
+13
+Choose most  1  samples:
+path 0 NOACC!: results => results prob: 0.6109172701835632 => 0.6109172701835632
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.6109172701835632 => 0.6109172701835632
+13
+Choose most  1  samples:
+path 0 NOACC!: num_of_googlers => num_of_googlers prob: 0.6109172701835632 => 0.6109172701835632
+13
+Choose most  1  samples:
+path 0 NOACC!: possible => possible prob: 0.6109172701835632 => 0.6109172701835632
+13
+Choose most  1  samples:
+path 0 NOACC!: case => case prob: 0.6109172701835632 => 0.6109172701835632
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.6109172701835632 => 0.6109172701835632
+13
+Choose most  1  samples:
+path 0 ACC!: scores => escuries prob: 0.6109172701835632 => 0.6072672605514526
+13
+Choose most  1  samples:
+path 0 NOACC!: combinations => combinations prob: 0.6072672605514526 => 0.6072672605514526
+FAIL! All repalce path: 
+replace_path_0: 
+k=>id
+result=>answer
+num_of_surprising=>num_of_surprising
+possible_scores=>possible_scores
+desired_score=>desired_score
+normal=>normal
+number_of_cases=>number_of_cases
+surprising=>surprising
+results=>results
+n=>n
+num_of_googlers=>num_of_googlers
+possible=>possible
+case=>case
+i=>i
+scores=>escuries
+combinations=>combinations
+prob: 0.6072672605514526
+
+Example time cost:  0.99 min
+ALL examples time cost:  18.17 min
+Query times in this attack:  221
+Greedy query times: 221
+Greedy sub index: 27
+Ga query times: 0
+All Query times:  4106
+All sub index: 761
+Avg sub index 5
+Success rate:  0.5555555555555556
+Successful items count:  15
+Total count:  27
+Index:  37
+
+enter
+LABEL_19 [{'label': 'LABEL_19', 'score': 0.9758312106132507}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: A => Data prob: 0.9758312106132507 => 0.9659258127212524
+13
+Choose most  1  samples:
+path 0 ACC!: m => mn prob: 0.9659258127212524 => 0.9594514966011047
+13
+Choose most  1  samples:
+path 0 ACC!: B => D prob: 0.9594514966011047 => 0.94838947057724
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.94838947057724 => 0.94838947057724
+13
+Choose most  1  samples:
+path 0 ACC!: ABmax => ADorig prob: 0.94838947057724 => 0.9468439817428589
+13
+Choose most  1  samples:
+path 0 ACC!: solution => solver prob: 0.9468439817428589 => 0.9257967472076416
+13
+Choose most  1  samples:
+path 0 NOACC!: index => index prob: 0.9257967472076416 => 0.9257967472076416
+13
+Choose most  1  samples:
+path 0 NOACC!: OUT => OUT prob: 0.9257967472076416 => 0.9257967472076416
+13
+Choose most  1  samples:
+path 0 ACC!: T => P prob: 0.9257967472076416 => 0.9146145582199097
+13
+Choose most  1  samples:
+path 0 NOACC!: IN => IN prob: 0.9146145582199097 => 0.9146145582199097
+FAIL! All repalce path: 
+replace_path_0: 
+A=>Data
+m=>mn
+B=>D
+n=>n
+ABmax=>ADorig
+solution=>solver
+index=>index
+OUT=>OUT
+T=>P
+IN=>IN
+prob: 0.9146145582199097
+
+Example time cost:  0.62 min
+ALL examples time cost:  18.79 min
+Query times in this attack:  140
+Greedy query times: 140
+Greedy sub index: 26
+Ga query times: 0
+All Query times:  4246
+All sub index: 787
+Avg sub index 5
+Success rate:  0.5357142857142857
+Successful items count:  15
+Total count:  28
+Index:  38
+
+enter
+LABEL_19 [{'label': 'LABEL_19', 'score': 0.8476382493972778}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: N => n prob: 0.8476382493972778 => 0.8155808448791504
+13
+Choose most  1  samples:
+path 0 NOACC!: data => data prob: 0.8155808448791504 => 0.8155808448791504
+13
+Choose most  1  samples:
+path 0 ACC!: index => page prob: 0.8155808448791504 => 0.8063309788703918
+13
+Choose most  1  samples:
+path 0 ACC!: S => Ps prob: 0.8063309788703918 => 0.7754353880882263
+13
+Choose most  1  samples:
+path 0 NOACC!: above => above prob: 0.7754353880882263 => 0.7754353880882263
+13
+Choose most  1  samples:
+path 0 NOACC!: t => t prob: 0.7754353880882263 => 0.7754353880882263
+13
+Choose most  1  samples:
+path 0 NOACC!: tlist => tlist prob: 0.7754353880882263 => 0.7754353880882263
+13
+Choose most  1  samples:
+path 0 NOACC!: mod => mod prob: 0.7754353880882263 => 0.7754353880882263
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.7754353880882263 => 0.7754353880882263
+13
+Choose most  1  samples:
+path 0 NOACC!: IN => IN prob: 0.7754353880882263 => 0.7754353880882263
+13
+Choose most  1  samples:
+path 0 NOACC!: OUT => OUT prob: 0.7754353880882263 => 0.7754353880882263
+13
+Choose most  1  samples:
+path 0 NOACC!: avg => avg prob: 0.7754353880882263 => 0.7754353880882263
+13
+Choose most  1  samples:
+path 0 NOACC!: consider => consider prob: 0.7754353880882263 => 0.7754353880882263
+FAIL! All repalce path: 
+replace_path_0: 
+N=>n
+data=>data
+index=>page
+S=>Ps
+above=>above
+t=>t
+tlist=>tlist
+mod=>mod
+p=>p
+IN=>IN
+OUT=>OUT
+avg=>avg
+consider=>consider
+prob: 0.7754353880882263
+
+Example time cost:  0.79 min
+ALL examples time cost:  19.58 min
+Query times in this attack:  180
+Greedy query times: 180
+Greedy sub index: 23
+Ga query times: 0
+All Query times:  4426
+All sub index: 810
+Avg sub index 5
+Success rate:  0.5172413793103449
+Successful items count:  15
+Total count:  29
+Index:  39
+
+enter
+LABEL_20 [{'label': 'LABEL_20', 'score': 0.3618987798690796}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: answer =>  answered prob: 0.3618987798690796 => 0.14354082942008972
+13
+SUC! Path: answer=> answered
+test_case_id=>test_test_ids
+prob: 0.14354082942008972 => 0.18672232329845428
+
+Example time cost:  0.18 min
+ALL examples time cost:  19.76 min
+Query times in this attack:  40
+Greedy query times: 40
+Greedy sub index: 5
+Ga query times: 0
+All Query times:  4466
+All sub index: 815
+Avg sub index 5
+Success rate:  0.5333333333333333
+Successful items count:  16
+Total count:  30
+Index:  40
+
+enter
+LABEL_20 [{'label': 'LABEL_20', 'score': 0.5791016221046448}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: poss =>  pense prob: 0.5791016221046448 => 0.38093301653862
+13
+Choose most  1  samples:
+path 0 ACC!: ans =>  Ans prob: 0.38093301653862 => 0.2656644582748413
+13
+Choose most  1  samples:
+path 0 NOACC!: S => S prob: 0.2656644582748413 => 0.2656644582748413
+13
+Choose most  1  samples:
+path 0 NOACC!: div => div prob: 0.2656644582748413 => 0.2656644582748413
+13
+Choose most  1  samples:
+path 0 NOACC!: t => t prob: 0.2656644582748413 => 0.2656644582748413
+13
+Choose most  1  samples:
+path 0 ACC!: p => op prob: 0.2656644582748413 => 0.26447638869285583
+13
+Choose most  1  samples:
+path 0 ACC!: T => TC prob: 0.26447638869285583 => 0.2511451542377472
+13
+Choose most  1  samples:
+path 0 ACC!: sa => ba prob: 0.2511451542377472 => 0.21210125088691711
+13
+Choose most  1  samples:
+path 0 NOACC!: N => N prob: 0.21210125088691711 => 0.21210125088691711
+13
+Choose most  1  samples:
+path 0 ACC!: nb => np prob: 0.21210125088691711 => 0.1991128921508789
+13
+Choose most  1  samples:
+path 0 NOACC!: sb => sb prob: 0.1991128921508789 => 0.1991128921508789
+13
+Choose most  1  samples:
+path 0 NOACC!: a => a prob: 0.1991128921508789 => 0.1991128921508789
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.1991128921508789 => 0.1991128921508789
+13
+Choose most  1  samples:
+path 0 ACC!: nc => cc prob: 0.1991128921508789 => 0.17866940796375275
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.17866940796375275 => 0.17866940796375275
+13
+Choose most  1  samples:
+path 0 ACC!: sc => esc prob: 0.17866940796375275 => 0.17475982010364532
+13
+Choose most  1  samples:
+path 0 NOACC!: c => c prob: 0.17475982010364532 => 0.17475982010364532
+13
+Choose most  1  samples:
+path 0 NOACC!: na => na prob: 0.17475982010364532 => 0.17475982010364532
+13
+Choose most  1  samples:
+path 0 NOACC!: b => b prob: 0.17475982010364532 => 0.17475982010364532
+13
+Choose most  1  samples:
+path 0 ACC!: case => address prob: 0.17475982010364532 => 0.113136887550354
+FAIL! All repalce path: 
+replace_path_0: 
+poss=> pense
+ans=> Ans
+S=>S
+div=>div
+t=>t
+p=>op
+T=>TC
+sa=>ba
+N=>N
+nb=>np
+sb=>sb
+a=>a
+n=>n
+nc=>cc
+i=>i
+sc=>esc
+c=>c
+na=>na
+b=>b
+case=>address
+prob: 0.113136887550354
+
+Example time cost:  1.21 min
+ALL examples time cost:  20.97 min
+Query times in this attack:  276
+Greedy query times: 276
+Greedy sub index: 45
+Ga query times: 0
+All Query times:  4742
+All sub index: 860
+Avg sub index 5
+Success rate:  0.5161290322580645
+Successful items count:  16
+Total count:  31
+Index:  41
+
+enter
+LABEL_21 [{'label': 'LABEL_21', 'score': 0.8903847932815552}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: INPUT => INLINE prob: 0.8903847932815552 => 0.7592677474021912
+13
+Choose most  1  samples:
+path 0 ACC!: key => keys prob: 0.7592677474021912 => 0.7483828067779541
+13
+Choose most  1  samples:
+path 0 ACC!: N => NI prob: 0.7483828067779541 => 0.7452924251556396
+13
+Choose most  1  samples:
+path 0 ACC!: function => connection prob: 0.7452924251556396 => 0.7152508497238159
+13
+Choose most  1  samples:
+path 0 NOACC!: _callable => _callable prob: 0.7152508497238159 => 0.7152508497238159
+13
+Choose most  1  samples:
+path 0 ACC!: A => Ma prob: 0.7152508497238159 => 0.691870927810669
+13
+Choose most  1  samples:
+path 0 ACC!: x => t prob: 0.691870927810669 => 0.6851431131362915
+13
+Choose most  1  samples:
+path 0 ACC!: _cache => _call prob: 0.6851431131362915 => 0.6601201891899109
+13
+Choose most  1  samples:
+path 0 ACC!: v => t prob: 0.6601201891899109 => 0.6330553889274597
+13
+Choose most  1  samples:
+path 0 ACC!: s => t prob: 0.6330553889274597 => 0.6196885704994202
+13
+Choose most  1  samples:
+path 0 ACC!: cache => cell prob: 0.6196885704994202 => 0.5998273491859436
+13
+Choose most  1  samples:
+path 0 NOACC!: MAX_N => MAX_N prob: 0.5998273491859436 => 0.5998273491859436
+13
+Choose most  1  samples:
+path 0 NOACC!: self => self prob: 0.5998273491859436 => 0.5998273491859436
+13
+Choose most  1  samples:
+path 0 ACC!: f => fun prob: 0.5998273491859436 => 0.35910242795944214
+13
+Choose most  1  samples:
+path 0 NOACC!: B => B prob: 0.35910242795944214 => 0.35910242795944214
+13
+Choose most  1  samples:
+path 0 NOACC!: count => count prob: 0.35910242795944214 => 0.35910242795944214
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.35910242795944214 => 0.35910242795944214
+13
+Choose most  1  samples:
+path 0 NOACC!: max_N => max_N prob: 0.35910242795944214 => 0.35910242795944214
+13
+Choose most  1  samples:
+path 0 NOACC!: ss => ss prob: 0.35910242795944214 => 0.35910242795944214
+13
+Choose most  1  samples:
+path 0 NOACC!: SQUARE_SET => SQUARE_SET prob: 0.35910242795944214 => 0.35910242795944214
+13
+Choose most  1  samples:
+path 0 NOACC!: cachedValue => cachedValue prob: 0.35910242795944214 => 0.35910242795944214
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.35910242795944214 => 0.35910242795944214
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.35910242795944214 => 0.35910242795944214
+FAIL! All repalce path: 
+replace_path_0: 
+INPUT=>INLINE
+key=>keys
+N=>NI
+function=>connection
+_callable=>_callable
+A=>Ma
+x=>t
+_cache=>_call
+v=>t
+s=>t
+cache=>cell
+MAX_N=>MAX_N
+self=>self
+f=>fun
+B=>B
+count=>count
+i=>i
+max_N=>max_N
+ss=>ss
+SQUARE_SET=>SQUARE_SET
+cachedValue=>cachedValue
+p=>p
+T=>T
+prob: 0.35910242795944214
+
+Example time cost:  1.4 min
+ALL examples time cost:  22.37 min
+Query times in this attack:  315
+Greedy query times: 315
+Greedy sub index: 66
+Ga query times: 0
+All Query times:  5057
+All sub index: 926
+Avg sub index 5
+Success rate:  0.5
+Successful items count:  16
+Total count:  32
+Index:  42
+
+enter
+LABEL_21 [{'label': 'LABEL_21', 'score': 0.9061543345451355}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: v => j prob: 0.9061543345451355 => 0.8575433492660522
+13
+Choose most  1  samples:
+path 0 ACC!: N => M prob: 0.8575433492660522 => 0.8416107892990112
+13
+Choose most  1  samples:
+path 0 ACC!: d => j prob: 0.8416107892990112 => 0.8402090668678284
+13
+Choose most  1  samples:
+path 0 ACC!: low_p => low_lp prob: 0.8402090668678284 => 0.7724623084068298
+13
+Choose most  1  samples:
+path 0 ACC!: i => u prob: 0.7724623084068298 => 0.7216506004333496
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.7216506004333496 => 0.7216506004333496
+13
+Choose most  1  samples:
+path 0 NOACC!: S => S prob: 0.7216506004333496 => 0.7216506004333496
+13
+Choose most  1  samples:
+path 0 ACC!: T => D prob: 0.7216506004333496 => 0.590027391910553
+13
+Choose most  1  samples:
+path 0 ACC!: p => u prob: 0.590027391910553 => 0.5289612412452698
+13
+Choose most  1  samples:
+path 0 ACC!: s => service prob: 0.5289612412452698 => 0.5096614956855774
+13
+Choose most  1  samples:
+path 0 ACC!: l => u prob: 0.5096614956855774 => 0.35199469327926636
+13
+Choose most  1  samples:
+path 0 ACC!: INPUT => inENT prob: 0.35199469327926636 => 0.16916202008724213
+13
+SUC! Path: v=>j
+N=>M
+d=>j
+low_p=>low_lp
+i=>u
+x=>x
+S=>S
+T=>D
+p=>u
+s=>service
+l=>u
+INPUT=>inENT
+f=>b
+prob: 0.16916202008724213 => 0.23240238428115845
+
+Example time cost:  0.76 min
+ALL examples time cost:  23.13 min
+Query times in this attack:  173
+Greedy query times: 173
+Greedy sub index: 39
+Ga query times: 0
+All Query times:  5230
+All sub index: 965
+Avg sub index 5
+Success rate:  0.5151515151515151
+Successful items count:  17
+Total count:  33
+Index:  43
+
+enter
+LABEL_22 [{'label': 'LABEL_22', 'score': 0.3186124265193939}]
+Beam size: 1 Begin:
+SUC! Path: i=> I
+prob: 0.3186124265193939 => 0.37916556000709534
+
+Example time cost:  0.12 min
+ALL examples time cost:  23.25 min
+Query times in this attack:  27
+Greedy query times: 27
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  5257
+All sub index: 965
+Avg sub index 5
+Success rate:  0.5294117647058824
+Successful items count:  18
+Total count:  34
+Index:  44
+
+enter
+LABEL_22 [{'label': 'LABEL_22', 'score': 0.929067075252533}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: N => NT prob: 0.929067075252533 => 0.8879359364509583
+13
+Choose most  1  samples:
+path 0 NOACC!: answer => answer prob: 0.8879359364509583 => 0.8879359364509583
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.8879359364509583 => 0.8879359364509583
+13
+Choose most  1  samples:
+path 0 ACC!: values => verts prob: 0.8879359364509583 => 0.8501840829849243
+13
+Choose most  1  samples:
+path 0 ACC!: p => py prob: 0.8501840829849243 => 0.8286213874816895
+13
+Choose most  1  samples:
+path 0 NOACC!: t => t prob: 0.8286213874816895 => 0.8286213874816895
+13
+Choose most  1  samples:
+path 0 ACC!: note => o prob: 0.8286213874816895 => 0.8234987854957581
+13
+Choose most  1  samples:
+path 0 ACC!: i => u prob: 0.8234987854957581 => 0.40151888132095337
+13
+Choose most  1  samples:
+path 0 ACC!: s => o prob: 0.40151888132095337 => 0.37320461869239807
+13
+SUC! Path: N=>NT
+answer=>answer
+n=>n
+values=>verts
+p=>py
+t=>t
+note=>o
+i=>u
+s=>o
+T=>Q
+prob: 0.37320461869239807 => 0.39200106263160706
+
+Example time cost:  0.61 min
+ALL examples time cost:  23.86 min
+Query times in this attack:  140
+Greedy query times: 140
+Greedy sub index: 34
+Ga query times: 0
+All Query times:  5397
+All sub index: 999
+Avg sub index 5
+Success rate:  0.5428571428571428
+Successful items count:  19
+Total count:  35
+Index:  45
+
+enter
+LABEL_23 [{'label': 'LABEL_23', 'score': 0.7248963117599487}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: FILE_NAME_BASE => FILE_NAME_FASE prob: 0.7248963117599487 => 0.40953952074050903
+13
+SUC! Path: FILE_NAME_BASE=>FILE_NAME_FASE
+inp=> inpi
+prob: 0.40953952074050903 => 0.4605087339878082
+
+Example time cost:  0.22 min
+ALL examples time cost:  24.08 min
+Query times in this attack:  50
+Greedy query times: 50
+Greedy sub index: 8
+Ga query times: 0
+All Query times:  5447
+All sub index: 1007
+Avg sub index 5
+Success rate:  0.5555555555555556
+Successful items count:  20
+Total count:  36
+Index:  46
+
+enter
+LABEL_23 [{'label': 'LABEL_11', 'score': 0.14828088879585266}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  24.09 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  5448
+All sub index: 1007
+Avg sub index 5
+Success rate:  0.5555555555555556
+Successful items count:  20
+Total count:  36
+Index:  47
+
+enter
+LABEL_24 [{'label': 'LABEL_24', 'score': 0.23747430741786957}]
+Beam size: 1 Begin:
+SUC! Path: b=>xb
+prob: 0.23747430741786957 => 0.09365440160036087
+
+Example time cost:  0.16 min
+ALL examples time cost:  24.25 min
+Query times in this attack:  36
+Greedy query times: 36
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  5484
+All sub index: 1007
+Avg sub index 5
+Success rate:  0.5675675675675675
+Successful items count:  21
+Total count:  37
+Index:  48
+
+enter
+LABEL_24 [{'label': 'LABEL_24', 'score': 0.3803737163543701}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: p => after prob: 0.3803737163543701 => 0.29346370697021484
+13
+SUC! Path: p=>after
+infile=>outfolder
+prob: 0.29346370697021484 => 0.2000940889120102
+
+Example time cost:  0.17 min
+ALL examples time cost:  24.42 min
+Query times in this attack:  39
+Greedy query times: 39
+Greedy sub index: 12
+Ga query times: 0
+All Query times:  5523
+All sub index: 1019
+Avg sub index 5
+Success rate:  0.5789473684210527
+Successful items count:  22
+Total count:  38
+Index:  49
+
+enter
+LABEL_25 [{'label': 'LABEL_25', 'score': 0.8412245512008667}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: lines => objects prob: 0.8412245512008667 => 0.44521570205688477
+13
+Choose most  1  samples:
+path 0 ACC!: fands =>  fando prob: 0.44521570205688477 => 0.3924199044704437
+13
+Choose most  1  samples:
+path 0 ACC!: dims => Dums prob: 0.3924199044704437 => 0.36568349599838257
+13
+Choose most  1  samples:
+path 0 ACC!: square => repeat prob: 0.36568349599838257 => 0.34703850746154785
+13
+Choose most  1  samples:
+path 0 ACC!: p => l prob: 0.34703850746154785 => 0.30488845705986023
+13
+Choose most  1  samples:
+path 0 NOACC!: big_p => big_p prob: 0.30488845705986023 => 0.30488845705986023
+13
+Choose most  1  samples:
+path 0 NOACC!: small_p => small_p prob: 0.30488845705986023 => 0.30488845705986023
+13
+Choose most  1  samples:
+path 0 ACC!: cNum =>  cnum prob: 0.30488845705986023 => 0.25117552280426025
+13
+Choose most  1  samples:
+path 0 ACC!: phash =>  phashed prob: 0.25117552280426025 => 0.14807584881782532
+9
+SUC! Path: lines=>objects
+fands=> fando
+dims=>Dums
+square=>repeat
+p=>l
+big_p=>big_p
+small_p=>small_p
+cNum=> cnum
+phash=> phashed
+lines_used=> lines_use
+prob: 0.14807584881782532 => 0.16689495742321014
+
+Example time cost:  0.62 min
+ALL examples time cost:  25.05 min
+Query times in this attack:  141
+Greedy query times: 141
+Greedy sub index: 41
+Ga query times: 0
+All Query times:  5664
+All sub index: 1060
+Avg sub index 5
+Success rate:  0.5897435897435898
+Successful items count:  23
+Total count:  39
+Index:  50
+
+enter
+LABEL_25 [{'label': 'LABEL_39', 'score': 0.13023868203163147}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  25.05 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  5665
+All sub index: 1060
+Avg sub index 5
+Success rate:  0.5897435897435898
+Successful items count:  23
+Total count:  39
+Index:  51
+
+enter
+LABEL_26 [{'label': 'LABEL_26', 'score': 0.5023976564407349}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 NOACC!: a => a prob: 0.5023976564407349 => 0.5023976564407349
+13
+Choose most  1  samples:
+path 0 ACC!: line => LINE prob: 0.5023976564407349 => 0.4961927533149719
+13
+Choose most  1  samples:
+path 0 ACC!: num => n prob: 0.4961927533149719 => 0.3525068759918213
+13
+Choose most  1  samples:
+path 0 ACC!: t => z prob: 0.3525068759918213 => 0.3356230556964874
+13
+Choose most  1  samples:
+path 0 NOACC!: intpalin => intpalin prob: 0.3356230556964874 => 0.3356230556964874
+13
+Choose most  1  samples:
+path 0 NOACC!: palin => palin prob: 0.3356230556964874 => 0.3356230556964874
+13
+Choose most  1  samples:
+path 0 NOACC!: b => b prob: 0.3356230556964874 => 0.3356230556964874
+13
+Choose most  1  samples:
+path 0 NOACC!: rev => rev prob: 0.3356230556964874 => 0.3356230556964874
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.3356230556964874 => 0.3356230556964874
+13
+Choose most  1  samples:
+path 0 NOACC!: orig => orig prob: 0.3356230556964874 => 0.3356230556964874
+13
+Choose most  1  samples:
+path 0 NOACC!: count => count prob: 0.3356230556964874 => 0.3356230556964874
+13
+Choose most  1  samples:
+path 0 NOACC!: s => s prob: 0.3356230556964874 => 0.3356230556964874
+13
+Choose most  1  samples:
+path 0 NOACC!: ii => ii prob: 0.3356230556964874 => 0.3356230556964874
+10
+Choose most  1  samples:
+path 0 NOACC!: all_fair_and_square => all_fair_and_square prob: 0.3356230556964874 => 0.3356230556964874
+FAIL! All repalce path: 
+replace_path_0: 
+a=>a
+line=>LINE
+num=>n
+t=>z
+intpalin=>intpalin
+palin=>palin
+b=>b
+rev=>rev
+i=>i
+orig=>orig
+count=>count
+s=>s
+ii=>ii
+all_fair_and_square=>all_fair_and_square
+prob: 0.3356230556964874
+
+Example time cost:  0.83 min
+ALL examples time cost:  25.88 min
+Query times in this attack:  188
+Greedy query times: 188
+Greedy sub index: 18
+Ga query times: 0
+All Query times:  5853
+All sub index: 1078
+Avg sub index 5
+Success rate:  0.575
+Successful items count:  23
+Total count:  40
+Index:  52
+
+enter
+LABEL_26 [{'label': 'LABEL_26', 'score': 0.4100319743156433}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: i => l prob: 0.4100319743156433 => 0.2371448427438736
+13
+Choose most  1  samples:
+path 0 ACC!: inputline =>  inputLine prob: 0.2371448427438736 => 0.11739873141050339
+13
+SUC! Path: i=>l
+inputline=> inputLine
+s=>r
+prob: 0.11739873141050339 => 0.1293083280324936
+
+Example time cost:  0.22 min
+ALL examples time cost:  26.1 min
+Query times in this attack:  50
+Greedy query times: 50
+Greedy sub index: 4
+Ga query times: 0
+All Query times:  5903
+All sub index: 1082
+Avg sub index 5
+Success rate:  0.5853658536585366
+Successful items count:  24
+Total count:  41
+Index:  53
+
+enter
+LABEL_27 [{'label': 'LABEL_27', 'score': 0.9451037049293518}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: fairsquares => farmssquare prob: 0.9451037049293518 => 0.8835828304290771
+10
+Choose most  1  samples:
+path 0 ACC!: count_a => countJa prob: 0.8835828304290771 => 0.8754072189331055
+13
+Choose most  1  samples:
+path 0 ACC!: middle => nr prob: 0.8754072189331055 => 0.8415173888206482
+13
+Choose most  1  samples:
+path 0 ACC!: T => H prob: 0.8415173888206482 => 0.6291631460189819
+13
+Choose most  1  samples:
+path 0 ACC!: result => error prob: 0.6291631460189819 => 0.36639347672462463
+13
+Choose most  1  samples:
+path 0 ACC!: i => phi prob: 0.36639347672462463 => 0.25270822644233704
+13
+Choose most  1  samples:
+path 0 ACC!: B => AB prob: 0.25270822644233704 => 0.24855470657348633
+13
+Choose most  1  samples:
+path 0 NOACC!: right => right prob: 0.24855470657348633 => 0.24855470657348633
+13
+Choose most  1  samples:
+path 0 ACC!: count => connection prob: 0.24855470657348633 => 0.19646303355693817
+13
+Choose most  1  samples:
+path 0 NOACC!: part => part prob: 0.19646303355693817 => 0.19646303355693817
+13
+Choose most  1  samples:
+path 0 ACC!: data => config prob: 0.19646303355693817 => 0.18323345482349396
+13
+Choose most  1  samples:
+path 0 NOACC!: f => f prob: 0.18323345482349396 => 0.18323345482349396
+13
+Choose most  1  samples:
+path 0 NOACC!: left => left prob: 0.18323345482349396 => 0.18323345482349396
+11
+Choose most  1  samples:
+path 0 NOACC!: count_b => count_b prob: 0.18323345482349396 => 0.18323345482349396
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.18323345482349396 => 0.18323345482349396
+13
+Choose most  1  samples:
+path 0 NOACC!: A => A prob: 0.18323345482349396 => 0.18323345482349396
+FAIL! All repalce path: 
+replace_path_0: 
+fairsquares=>farmssquare
+count_a=>countJa
+middle=>nr
+T=>H
+result=>error
+i=>phi
+B=>AB
+right=>right
+count=>connection
+part=>part
+data=>config
+f=>f
+left=>left
+count_b=>count_b
+x=>x
+A=>A
+prob: 0.18323345482349396
+
+Example time cost:  0.94 min
+ALL examples time cost:  27.04 min
+Query times in this attack:  214
+Greedy query times: 214
+Greedy sub index: 54
+Ga query times: 0
+All Query times:  6117
+All sub index: 1136
+Avg sub index 5
+Success rate:  0.5714285714285714
+Successful items count:  24
+Total count:  42
+Index:  54
+
+enter
+LABEL_27 [{'label': 'LABEL_27', 'score': 0.25670096278190613}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: t => l prob: 0.25670096278190613 => 0.19992797076702118
+13
+Choose most  1  samples:
+path 0 NOACC!: min_surprising => min_surprising prob: 0.19992797076702118 => 0.19992797076702118
+13
+Choose most  1  samples:
+path 0 NOACC!: values => values prob: 0.19992797076702118 => 0.19992797076702118
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.19992797076702118 => 0.19992797076702118
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.19992797076702118 => 0.19992797076702118
+13
+Choose most  1  samples:
+path 0 ACC!: min_normal => max_common prob: 0.19992797076702118 => 0.1967572569847107
+13
+Choose most  1  samples:
+path 0 ACC!: cnt_normal => cst_norm prob: 0.1967572569847107 => 0.15101253986358643
+13
+SUC! Path: t=>l
+min_surprising=>min_surprising
+values=>values
+p=>p
+i=>i
+min_normal=>max_common
+cnt_normal=>cst_norm
+T=>D
+prob: 0.15101253986358643 => 0.10796163976192474
+
+Example time cost:  0.5 min
+ALL examples time cost:  27.55 min
+Query times in this attack:  114
+Greedy query times: 114
+Greedy sub index: 19
+Ga query times: 0
+All Query times:  6231
+All sub index: 1155
+Avg sub index 5
+Success rate:  0.5813953488372093
+Successful items count:  25
+Total count:  43
+Index:  55
+
+enter
+LABEL_28 [{'label': 'LABEL_51', 'score': 0.15658769011497498}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  27.55 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  6232
+All sub index: 1155
+Avg sub index 5
+Success rate:  0.5813953488372093
+Successful items count:  25
+Total count:  43
+Index:  56
+
+enter
+LABEL_28 [{'label': 'LABEL_28', 'score': 0.6921971440315247}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: num_scores => num_scurs prob: 0.6921971440315247 => 0.6913288235664368
+13
+Choose most  1  samples:
+path 0 ACC!: T => H prob: 0.6913288235664368 => 0.4494338929653168
+13
+Choose most  1  samples:
+path 0 ACC!: surprising_scores => surprising_suffores prob: 0.4494338929653168 => 0.4110122621059418
+13
+Choose most  1  samples:
+path 0 ACC!: scores => cales prob: 0.4110122621059418 => 0.3490294814109802
+13
+SUC! Path: num_scores=>num_scurs
+T=>H
+surprising_scores=>surprising_suffores
+scores=>cales
+t=>v
+prob: 0.3490294814109802 => 0.32757750153541565
+
+Example time cost:  0.34 min
+ALL examples time cost:  27.89 min
+Query times in this attack:  77
+Greedy query times: 77
+Greedy sub index: 19
+Ga query times: 0
+All Query times:  6309
+All sub index: 1174
+Avg sub index 5
+Success rate:  0.5909090909090909
+Successful items count:  26
+Total count:  44
+Index:  57
+
+enter
+LABEL_29 [{'label': 'LABEL_29', 'score': 0.5719181895256042}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: infile => outline prob: 0.5719181895256042 => 0.17799551784992218
+13
+SUC! Path: infile=>outline
+t=>z
+prob: 0.17799551784992218 => 0.20905062556266785
+
+Example time cost:  0.18 min
+ALL examples time cost:  28.07 min
+Query times in this attack:  41
+Greedy query times: 41
+Greedy sub index: 6
+Ga query times: 0
+All Query times:  6350
+All sub index: 1180
+Avg sub index 5
+Success rate:  0.6
+Successful items count:  27
+Total count:  45
+Index:  58
+
+enter
+LABEL_29 [{'label': 'LABEL_29', 'score': 0.6147847771644592}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: t => n prob: 0.6147847771644592 => 0.5184211730957031
+13
+Choose most  1  samples:
+path 0 ACC!: depth => case prob: 0.5184211730957031 => 0.4573374092578888
+13
+Choose most  1  samples:
+path 0 NOACC!: over_supr => over_supr prob: 0.4573374092578888 => 0.4573374092578888
+13
+Choose most  1  samples:
+path 0 ACC!: conv =>  trial prob: 0.4573374092578888 => 0.4279661774635315
+13
+Choose most  1  samples:
+path 0 ACC!: S => n prob: 0.4279661774635315 => 0.4144328832626343
+13
+Choose most  1  samples:
+path 0 ACC!: init => fixed prob: 0.4144328832626343 => 0.29083582758903503
+13
+Choose most  1  samples:
+path 0 ACC!: P => I prob: 0.29083582758903503 => 0.25608503818511963
+13
+Choose most  1  samples:
+path 0 ACC!: over_norm => under__loop prob: 0.25608503818511963 => 0.24947533011436462
+13
+SUC! Path: t=>n
+depth=>case
+over_supr=>over_supr
+conv=> trial
+S=>n
+init=>fixed
+P=>I
+over_norm=>under__loop
+data_dict=> data_body
+prob: 0.24947533011436462 => 0.16995103657245636
+
+Example time cost:  0.65 min
+ALL examples time cost:  28.72 min
+Query times in this attack:  144
+Greedy query times: 144
+Greedy sub index: 37
+Ga query times: 0
+All Query times:  6494
+All sub index: 1217
+Avg sub index 5
+Success rate:  0.6086956521739131
+Successful items count:  28
+Total count:  46
+Index:  59
+
+enter
+LABEL_30 [{'label': 'LABEL_30', 'score': 0.9541754722595215}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: N => NN prob: 0.9541754722595215 => 0.9348422884941101
+13
+Choose most  1  samples:
+path 0 ACC!: res => es prob: 0.9348422884941101 => 0.9287360906600952
+13
+Choose most  1  samples:
+path 0 ACC!: infile => insile prob: 0.9287360906600952 => 0.8806281089782715
+13
+Choose most  1  samples:
+path 0 NOACC!: C => C prob: 0.8806281089782715 => 0.8806281089782715
+13
+Choose most  1  samples:
+path 0 ACC!: testcase => testCase prob: 0.8806281089782715 => 0.8761470913887024
+13
+Choose most  1  samples:
+path 0 ACC!: a => ba prob: 0.8761470913887024 => 0.8578082323074341
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.8578082323074341 => 0.8578082323074341
+13
+Choose most  1  samples:
+path 0 ACC!: T => Q prob: 0.8578082323074341 => 0.8428402543067932
+13
+Choose most  1  samples:
+path 0 ACC!: t => v prob: 0.8428402543067932 => 0.8006018996238708
+13
+Choose most  1  samples:
+path 0 ACC!: I => Z prob: 0.8006018996238708 => 0.7450196146965027
+13
+Choose most  1  samples:
+path 0 ACC!: high => null prob: 0.7450196146965027 => 0.7439500093460083
+13
+Choose most  1  samples:
+path 0 ACC!: common => set prob: 0.7439500093460083 => 0.6497746109962463
+13
+Choose most  1  samples:
+path 0 NOACC!: S => S prob: 0.6497746109962463 => 0.6497746109962463
+13
+Choose most  1  samples:
+path 0 NOACC!: b => b prob: 0.6497746109962463 => 0.6497746109962463
+13
+Choose most  1  samples:
+path 0 NOACC!: y => y prob: 0.6497746109962463 => 0.6497746109962463
+13
+Choose most  1  samples:
+path 0 NOACC!: low => low prob: 0.6497746109962463 => 0.6497746109962463
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.6497746109962463 => 0.6497746109962463
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.6497746109962463 => 0.6497746109962463
+13
+Choose most  1  samples:
+path 0 NOACC!: P => P prob: 0.6497746109962463 => 0.6497746109962463
+FAIL! All repalce path: 
+replace_path_0: 
+N=>NN
+res=>es
+infile=>insile
+C=>C
+testcase=>testCase
+a=>ba
+x=>x
+T=>Q
+t=>v
+I=>Z
+high=>null
+common=>set
+S=>S
+b=>b
+y=>y
+low=>low
+n=>n
+i=>i
+P=>P
+prob: 0.6497746109962463
+
+Example time cost:  1.15 min
+ALL examples time cost:  29.86 min
+Query times in this attack:  259
+Greedy query times: 259
+Greedy sub index: 71
+Ga query times: 0
+All Query times:  6753
+All sub index: 1288
+Avg sub index 5
+Success rate:  0.5957446808510638
+Successful items count:  28
+Total count:  47
+Index:  60
+
+enter
+LABEL_30 [{'label': 'LABEL_30', 'score': 0.9632312059402466}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: P => M prob: 0.9632312059402466 => 0.9475247263908386
+13
+Choose most  1  samples:
+path 0 ACC!: testcase => TestCase prob: 0.9475247263908386 => 0.8986063599586487
+13
+Choose most  1  samples:
+path 0 ACC!: t => v prob: 0.8986063599586487 => 0.8882154822349548
+13
+Choose most  1  samples:
+path 0 ACC!: cache => hash prob: 0.8882154822349548 => 0.8117255568504333
+13
+Choose most  1  samples:
+path 0 ACC!: infile => inputfiles prob: 0.8117255568504333 => 0.7848688364028931
+13
+Choose most  1  samples:
+path 0 NOACC!: g => g prob: 0.7848688364028931 => 0.7848688364028931
+13
+Choose most  1  samples:
+path 0 NOACC!: S => S prob: 0.7848688364028931 => 0.7848688364028931
+13
+Choose most  1  samples:
+path 0 ACC!: N => np prob: 0.7848688364028931 => 0.7007570266723633
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.7007570266723633 => 0.7007570266723633
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.7007570266723633 => 0.7007570266723633
+13
+Choose most  1  samples:
+path 0 NOACC!: G => G prob: 0.7007570266723633 => 0.7007570266723633
+13
+Choose most  1  samples:
+path 0 ACC!: self => utils prob: 0.7007570266723633 => 0.5782755017280579
+13
+Choose most  1  samples:
+path 0 ACC!: s =>  rs prob: 0.5782755017280579 => 0.5521083474159241
+13
+Choose most  1  samples:
+path 0 NOACC!: r => r prob: 0.5521083474159241 => 0.5521083474159241
+FAIL! All repalce path: 
+replace_path_0: 
+P=>M
+testcase=>TestCase
+t=>v
+cache=>hash
+infile=>inputfiles
+g=>g
+S=>S
+N=>np
+T=>T
+p=>p
+G=>G
+self=>utils
+s=> rs
+r=>r
+prob: 0.5521083474159241
+
+Example time cost:  0.84 min
+ALL examples time cost:  30.7 min
+Query times in this attack:  191
+Greedy query times: 191
+Greedy sub index: 43
+Ga query times: 0
+All Query times:  6944
+All sub index: 1331
+Avg sub index 5
+Success rate:  0.5833333333333334
+Successful items count:  28
+Total count:  48
+Index:  61
+
+enter
+LABEL_31 [{'label': 'LABEL_31', 'score': 0.8467127680778503}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: n => t prob: 0.8467127680778503 => 0.7541734576225281
+13
+Choose most  1  samples:
+path 0 ACC!: b => rb prob: 0.7541734576225281 => 0.719390869140625
+13
+Choose most  1  samples:
+path 0 ACC!: root => null prob: 0.719390869140625 => 0.7086398601531982
+13
+Choose most  1  samples:
+path 0 NOACC!: a => a prob: 0.7086398601531982 => 0.7086398601531982
+13
+Choose most  1  samples:
+path 0 NOACC!: result => result prob: 0.7086398601531982 => 0.7086398601531982
+13
+Choose most  1  samples:
+path 0 ACC!: index => col prob: 0.7086398601531982 => 0.694506049156189
+13
+Choose most  1  samples:
+path 0 ACC!: count => all prob: 0.694506049156189 => 0.5855997204780579
+13
+Choose most  1  samples:
+path 0 ACC!: i => u prob: 0.5855997204780579 => 0.4718811810016632
+FAIL! All repalce path: 
+replace_path_0: 
+n=>t
+b=>rb
+root=>null
+a=>a
+result=>result
+index=>col
+count=>all
+i=>u
+prob: 0.4718811810016632
+
+Example time cost:  0.49 min
+ALL examples time cost:  31.19 min
+Query times in this attack:  111
+Greedy query times: 111
+Greedy sub index: 29
+Ga query times: 0
+All Query times:  7055
+All sub index: 1360
+Avg sub index 5
+Success rate:  0.5714285714285714
+Successful items count:  28
+Total count:  49
+Index:  62
+
+enter
+LABEL_31 [{'label': 'LABEL_54', 'score': 0.5688832998275757}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  31.19 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7056
+All sub index: 1360
+Avg sub index 5
+Success rate:  0.5714285714285714
+Successful items count:  28
+Total count:  49
+Index:  63
+
+enter
+LABEL_32 [{'label': 'LABEL_32', 'score': 0.9487629532814026}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: f_w => input_raw prob: 0.9487629532814026 => 0.6172386407852173
+13
+Choose most  1  samples:
+path 0 ACC!: isPalin => isResine prob: 0.6172386407852173 => 0.4623437523841858
+13
+Choose most  1  samples:
+path 0 NOACC!: f_r => f_r prob: 0.4623437523841858 => 0.4623437523841858
+13
+Choose most  1  samples:
+path 0 NOACC!: output_str => output_str prob: 0.4623437523841858 => 0.4623437523841858
+13
+Choose most  1  samples:
+path 0 NOACC!: s_half => s_half prob: 0.4623437523841858 => 0.4623437523841858
+13
+Choose most  1  samples:
+path 0 NOACC!: word => word prob: 0.4623437523841858 => 0.4623437523841858
+13
+Choose most  1  samples:
+path 0 NOACC!: f_half => f_half prob: 0.4623437523841858 => 0.4623437523841858
+13
+Choose most  1  samples:
+path 0 NOACC!: count_ => count_ prob: 0.4623437523841858 => 0.4623437523841858
+13
+Choose most  1  samples:
+path 0 NOACC!: n_test => n_test prob: 0.4623437523841858 => 0.4623437523841858
+13
+Choose most  1  samples:
+path 0 NOACC!: result => result prob: 0.4623437523841858 => 0.4623437523841858
+13
+Choose most  1  samples:
+path 0 NOACC!: range_ => range_ prob: 0.4623437523841858 => 0.4623437523841858
+13
+Choose most  1  samples:
+path 0 NOACC!: start => start prob: 0.4623437523841858 => 0.4623437523841858
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.4623437523841858 => 0.4623437523841858
+13
+Choose most  1  samples:
+path 0 NOACC!: root => root prob: 0.4623437523841858 => 0.4623437523841858
+13
+Choose most  1  samples:
+path 0 NOACC!: end => end prob: 0.4623437523841858 => 0.4623437523841858
+FAIL! All repalce path: 
+replace_path_0: 
+f_w=>input_raw
+isPalin=>isResine
+f_r=>f_r
+output_str=>output_str
+s_half=>s_half
+word=>word
+f_half=>f_half
+count_=>count_
+n_test=>n_test
+result=>result
+range_=>range_
+start=>start
+i=>i
+root=>root
+end=>end
+prob: 0.4623437523841858
+
+Example time cost:  0.94 min
+ALL examples time cost:  32.13 min
+Query times in this attack:  211
+Greedy query times: 211
+Greedy sub index: 10
+Ga query times: 0
+All Query times:  7267
+All sub index: 1370
+Avg sub index 5
+Success rate:  0.56
+Successful items count:  28
+Total count:  50
+Index:  64
+
+enter
+LABEL_32 [{'label': 'LABEL_59', 'score': 0.29170528054237366}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  32.14 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7268
+All sub index: 1370
+Avg sub index 5
+Success rate:  0.56
+Successful items count:  28
+Total count:  50
+Index:  65
+
+enter
+LABEL_33 [{'label': 'LABEL_33', 'score': 0.6253469586372375}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: num => nom prob: 0.6253469586372375 => 0.49133461713790894
+13
+Choose most  1  samples:
+path 0 ACC!: i => cli prob: 0.49133461713790894 => 0.4533204138278961
+13
+Choose most  1  samples:
+path 0 ACC!: count => case prob: 0.4533204138278961 => 0.4121471047401428
+13
+Choose most  1  samples:
+path 0 ACC!: B => Bs prob: 0.4121471047401428 => 0.3038504421710968
+13
+Choose most  1  samples:
+path 0 ACC!: x => xe prob: 0.3038504421710968 => 0.26126807928085327
+13
+Choose most  1  samples:
+path 0 ACC!: A => D prob: 0.26126807928085327 => 0.25772279500961304
+13
+Choose most  1  samples:
+path 0 ACC!: T => NT prob: 0.25772279500961304 => 0.22112183272838593
+FAIL! All repalce path: 
+replace_path_0: 
+num=>nom
+i=>cli
+count=>case
+B=>Bs
+x=>xe
+A=>D
+T=>NT
+prob: 0.22112183272838593
+
+Example time cost:  0.43 min
+ALL examples time cost:  32.56 min
+Query times in this attack:  98
+Greedy query times: 98
+Greedy sub index: 43
+Ga query times: 0
+All Query times:  7366
+All sub index: 1413
+Avg sub index 5
+Success rate:  0.5490196078431373
+Successful items count:  28
+Total count:  51
+Index:  66
+
+enter
+LABEL_33 [{'label': 'LABEL_33', 'score': 0.6672956347465515}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: p => ip prob: 0.6672956347465515 => 0.6592605710029602
+13
+Choose most  1  samples:
+path 0 ACC!: t => all prob: 0.6592605710029602 => 0.6504130959510803
+13
+Choose most  1  samples:
+path 0 ACC!: scores => core prob: 0.6504130959510803 => 0.6285406351089478
+13
+Choose most  1  samples:
+path 0 ACC!: S => Sign prob: 0.6285406351089478 => 0.5290225148200989
+13
+Choose most  1  samples:
+path 0 ACC!: T => DT prob: 0.5290225148200989 => 0.5173048377037048
+13
+Choose most  1  samples:
+path 0 ACC!: n => z prob: 0.5173048377037048 => 0.3747200667858124
+13
+Choose most  1  samples:
+path 0 NOACC!: a => a prob: 0.3747200667858124 => 0.3747200667858124
+13
+Choose most  1  samples:
+path 0 NOACC!: s => s prob: 0.3747200667858124 => 0.3747200667858124
+13
+Choose most  1  samples:
+path 0 ACC!: b => z prob: 0.3747200667858124 => 0.3439262807369232
+13
+SUC! Path: p=>ip
+t=>all
+scores=>core
+S=>Sign
+T=>DT
+n=>z
+a=>a
+s=>s
+b=>z
+i=>I
+prob: 0.3439262807369232 => 0.26942452788352966
+
+Example time cost:  0.61 min
+ALL examples time cost:  33.17 min
+Query times in this attack:  138
+Greedy query times: 138
+Greedy sub index: 31
+Ga query times: 0
+All Query times:  7504
+All sub index: 1444
+Avg sub index 5
+Success rate:  0.5576923076923077
+Successful items count:  29
+Total count:  52
+Index:  67
+
+enter
+LABEL_34 [{'label': 'LABEL_34', 'score': 0.920917272567749}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: B => FB prob: 0.920917272567749 => 0.8645885586738586
+13
+Choose most  1  samples:
+path 0 ACC!: B_root => B67root prob: 0.8645885586738586 => 0.8374749422073364
+13
+Choose most  1  samples:
+path 0 NOACC!: A => A prob: 0.8374749422073364 => 0.8374749422073364
+13
+Choose most  1  samples:
+path 0 NOACC!: word => word prob: 0.8374749422073364 => 0.8374749422073364
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.8374749422073364 => 0.8374749422073364
+13
+Choose most  1  samples:
+path 0 ACC!: root => n prob: 0.8374749422073364 => 0.8364280462265015
+13
+Choose most  1  samples:
+path 0 NOACC!: A_root => A_root prob: 0.8364280462265015 => 0.8364280462265015
+13
+Choose most  1  samples:
+path 0 NOACC!: t => t prob: 0.8364280462265015 => 0.8364280462265015
+13
+Choose most  1  samples:
+path 0 ACC!: T => TC prob: 0.8364280462265015 => 0.7927756905555725
+13
+Choose most  1  samples:
+path 0 ACC!: count => now prob: 0.7927756905555725 => 0.7277728915214539
+FAIL! All repalce path: 
+replace_path_0: 
+B=>FB
+B_root=>B67root
+A=>A
+word=>word
+x=>x
+root=>n
+A_root=>A_root
+t=>t
+T=>TC
+count=>now
+prob: 0.7277728915214539
+
+Example time cost:  0.61 min
+ALL examples time cost:  33.78 min
+Query times in this attack:  139
+Greedy query times: 139
+Greedy sub index: 38
+Ga query times: 0
+All Query times:  7643
+All sub index: 1482
+Avg sub index 5
+Success rate:  0.5471698113207547
+Successful items count:  29
+Total count:  53
+Index:  68
+
+enter
+LABEL_34 [{'label': 'LABEL_34', 'score': 0.908675491809845}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: line => l prob: 0.908675491809845 => 0.8815478086471558
+13
+Choose most  1  samples:
+path 0 ACC!: t => o prob: 0.8815478086471558 => 0.8611551523208618
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.8611551523208618 => 0.8611551523208618
+13
+Choose most  1  samples:
+path 0 NOACC!: S => S prob: 0.8611551523208618 => 0.8611551523208618
+13
+Choose most  1  samples:
+path 0 ACC!: count => i prob: 0.8611551523208618 => 0.7696049213409424
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.7696049213409424 => 0.7696049213409424
+13
+Choose most  1  samples:
+path 0 NOACC!: N => N prob: 0.7696049213409424 => 0.7696049213409424
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.7696049213409424 => 0.7696049213409424
+FAIL! All repalce path: 
+replace_path_0: 
+line=>l
+t=>o
+p=>p
+S=>S
+count=>i
+x=>x
+N=>N
+T=>T
+prob: 0.7696049213409424
+
+Example time cost:  0.47 min
+ALL examples time cost:  34.25 min
+Query times in this attack:  108
+Greedy query times: 108
+Greedy sub index: 3
+Ga query times: 0
+All Query times:  7751
+All sub index: 1485
+Avg sub index 5
+Success rate:  0.5370370370370371
+Successful items count:  29
+Total count:  54
+Index:  69
+
+enter
+LABEL_35 [{'label': 'LABEL_56', 'score': 0.14719560742378235}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  34.25 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7752
+All sub index: 1485
+Avg sub index 5
+Success rate:  0.5370370370370371
+Successful items count:  29
+Total count:  54
+Index:  70
+
+enter
+LABEL_35 [{'label': 'LABEL_35', 'score': 0.12947198748588562}]
+Beam size: 1 Begin:
+SUC! Path: line=>eline
+prob: 0.12947198748588562 => 0.14400804042816162
+
+Example time cost:  0.12 min
+ALL examples time cost:  34.37 min
+Query times in this attack:  27
+Greedy query times: 27
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7779
+All sub index: 1485
+Avg sub index 5
+Success rate:  0.5454545454545454
+Successful items count:  30
+Total count:  55
+Index:  71
+
+enter
+LABEL_36 [{'label': 'LABEL_10', 'score': 0.30329129099845886}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  34.38 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7780
+All sub index: 1485
+Avg sub index 5
+Success rate:  0.5454545454545454
+Successful items count:  30
+Total count:  55
+Index:  72
+
+enter
+LABEL_36 [{'label': 'LABEL_36', 'score': 0.8539952039718628}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: i => ki prob: 0.8539952039718628 => 0.8378966450691223
+13
+Choose most  1  samples:
+path 0 ACC!: elems =>  elens prob: 0.8378966450691223 => 0.7735458612442017
+13
+Choose most  1  samples:
+path 0 ACC!: start => add prob: 0.7735458612442017 => 0.7482175827026367
+FAIL! All repalce path: 
+replace_path_0: 
+i=>ki
+elems=> elens
+start=>add
+prob: 0.7482175827026367
+
+Example time cost:  0.18 min
+ALL examples time cost:  34.56 min
+Query times in this attack:  43
+Greedy query times: 43
+Greedy sub index: 23
+Ga query times: 0
+All Query times:  7823
+All sub index: 1508
+Avg sub index 5
+Success rate:  0.5357142857142857
+Successful items count:  30
+Total count:  56
+Index:  73
+
+enter
+LABEL_37 [{'label': 'LABEL_37', 'score': 0.8860461115837097}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: array => multi prob: 0.8860461115837097 => 0.8044407963752747
+13
+Choose most  1  samples:
+path 0 NOACC!: line => line prob: 0.8044407963752747 => 0.8044407963752747
+13
+SUC! Path: array=>multi
+line=>line
+output=>utils
+prob: 0.8044407963752747 => 0.1479264795780182
+
+Example time cost:  0.24 min
+ALL examples time cost:  34.8 min
+Query times in this attack:  53
+Greedy query times: 53
+Greedy sub index: 5
+Ga query times: 0
+All Query times:  7876
+All sub index: 1513
+Avg sub index 5
+Success rate:  0.543859649122807
+Successful items count:  31
+Total count:  57
+Index:  74
+
+enter
+LABEL_37 [{'label': 'LABEL_15', 'score': 0.0836561843752861}]
+Beam size: 1 Begin:
+Example time cost:  0.01 min
+ALL examples time cost:  34.81 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7877
+All sub index: 1513
+Avg sub index 5
+Success rate:  0.543859649122807
+Successful items count:  31
+Total count:  57
+Index:  75
+
+enter
+LABEL_38 [{'label': 'LABEL_3', 'score': 0.4524855613708496}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  34.81 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  7878
+All sub index: 1513
+Avg sub index 5
+Success rate:  0.543859649122807
+Successful items count:  31
+Total count:  57
+Index:  76
+
+enter
+LABEL_38 [{'label': 'LABEL_38', 'score': 0.6465832591056824}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: N => Z prob: 0.6465832591056824 => 0.6084325313568115
+13
+Choose most  1  samples:
+path 0 ACC!: S => SU prob: 0.6084325313568115 => 0.5765854716300964
+13
+Choose most  1  samples:
+path 0 ACC!: i => u prob: 0.5765854716300964 => 0.4814669191837311
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.4814669191837311 => 0.4814669191837311
+13
+Choose most  1  samples:
+path 0 ACC!: Data => Code prob: 0.4814669191837311 => 0.46025344729423523
+13
+Choose most  1  samples:
+path 0 ACC!: score => key prob: 0.46025344729423523 => 0.3825759291648865
+13
+Choose most  1  samples:
+path 0 ACC!: Good => Some prob: 0.3825759291648865 => 0.3182632029056549
+13
+SUC! Path: N=>Z
+S=>SU
+i=>u
+p=>p
+Data=>Code
+score=>key
+Good=>Some
+T=>t
+prob: 0.3182632029056549 => 0.2106129378080368
+
+Example time cost:  0.48 min
+ALL examples time cost:  35.29 min
+Query times in this attack:  110
+Greedy query times: 110
+Greedy sub index: 39
+Ga query times: 0
+All Query times:  7988
+All sub index: 1552
+Avg sub index 5
+Success rate:  0.5517241379310345
+Successful items count:  32
+Total count:  58
+Index:  77
+
+enter
+LABEL_39 [{'label': 'LABEL_39', 'score': 0.6407124400138855}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: s => input prob: 0.6407124400138855 => 0.5614283680915833
+13
+Choose most  1  samples:
+path 0 ACC!: count => ib prob: 0.5614283680915833 => 0.48735859990119934
+13
+Choose most  1  samples:
+path 0 ACC!: i =>  ii prob: 0.48735859990119934 => 0.34144291281700134
+13
+Choose most  1  samples:
+path 0 ACC!: a => r prob: 0.34144291281700134 => 0.2729424238204956
+13
+Choose most  1  samples:
+path 0 ACC!: j => ji prob: 0.2729424238204956 => 0.25609898567199707
+13
+Choose most  1  samples:
+path 0 ACC!: b => v prob: 0.25609898567199707 => 0.23453235626220703
+13
+Choose most  1  samples:
+path 0 NOACC!: length => length prob: 0.23453235626220703 => 0.23453235626220703
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.23453235626220703 => 0.23453235626220703
+FAIL! All repalce path: 
+replace_path_0: 
+s=>input
+count=>ib
+i=> ii
+a=>r
+j=>ji
+b=>v
+length=>length
+n=>n
+prob: 0.23453235626220703
+
+Example time cost:  0.48 min
+ALL examples time cost:  35.77 min
+Query times in this attack:  109
+Greedy query times: 109
+Greedy sub index: 42
+Ga query times: 0
+All Query times:  8097
+All sub index: 1594
+Avg sub index 5
+Success rate:  0.5423728813559322
+Successful items count:  32
+Total count:  59
+Index:  78
+
+enter
+LABEL_39 [{'label': 'LABEL_22', 'score': 0.44742465019226074}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  35.77 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  8098
+All sub index: 1594
+Avg sub index 5
+Success rate:  0.5423728813559322
+Successful items count:  32
+Total count:  59
+Index:  79
+
+enter
+LABEL_40 [{'label': 'LABEL_20', 'score': 0.2252289056777954}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  35.78 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  8099
+All sub index: 1594
+Avg sub index 5
+Success rate:  0.5423728813559322
+Successful items count:  32
+Total count:  59
+Index:  80
+
+enter
+LABEL_40 [{'label': 'LABEL_40', 'score': 0.2936711013317108}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: regular => random prob: 0.2936711013317108 => 0.22096212208271027
+13
+Choose most  1  samples:
+path 0 ACC!: surprising => surprise prob: 0.22096212208271027 => 0.19549661874771118
+FAIL! All repalce path: 
+replace_path_0: 
+regular=>random
+surprising=>surprise
+prob: 0.19549661874771118
+
+Example time cost:  0.13 min
+ALL examples time cost:  35.91 min
+Query times in this attack:  29
+Greedy query times: 29
+Greedy sub index: 17
+Ga query times: 0
+All Query times:  8128
+All sub index: 1611
+Avg sub index 5
+Success rate:  0.5333333333333333
+Successful items count:  32
+Total count:  60
+Index:  81
+
+enter
+LABEL_41 [{'label': 'LABEL_43', 'score': 0.14318421483039856}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  35.91 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  8129
+All sub index: 1611
+Avg sub index 5
+Success rate:  0.5333333333333333
+Successful items count:  32
+Total count:  60
+Index:  82
+
+enter
+LABEL_41 [{'label': 'LABEL_41', 'score': 0.3457691967487335}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: solve => Solution prob: 0.3457691967487335 => 0.231568843126297
+13
+Choose most  1  samples:
+path 0 NOACC!: directs => directs prob: 0.231568843126297 => 0.231568843126297
+13
+SUC! Path: solve=>Solution
+directs=>directs
+maxScore=>powerscore
+prob: 0.231568843126297 => 0.22473692893981934
+
+Example time cost:  0.22 min
+ALL examples time cost:  36.13 min
+Query times in this attack:  50
+Greedy query times: 50
+Greedy sub index: 9
+Ga query times: 0
+All Query times:  8179
+All sub index: 1620
+Avg sub index 5
+Success rate:  0.5409836065573771
+Successful items count:  33
+Total count:  61
+Index:  83
+
+enter
+LABEL_42 [{'label': 'LABEL_42', 'score': 0.5854218602180481}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: s => es prob: 0.5854218602180481 => 0.4049231708049774
+13
+SUC! Path: s=>es
+case=>text
+prob: 0.4049231708049774 => 0.4474024474620819
+
+Example time cost:  0.18 min
+ALL examples time cost:  36.31 min
+Query times in this attack:  40
+Greedy query times: 40
+Greedy sub index: 1
+Ga query times: 0
+All Query times:  8219
+All sub index: 1621
+Avg sub index 5
+Success rate:  0.5483870967741935
+Successful items count:  34
+Total count:  62
+Index:  84
+
+enter
+LABEL_42 [{'label': 'LABEL_42', 'score': 0.26098230481147766}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: n => v prob: 0.26098230481147766 => 0.16630391776561737
+13
+Choose most  1  samples:
+path 0 NOACC!: maybe => maybe prob: 0.16630391776561737 => 0.16630391776561737
+13
+Choose most  1  samples:
+path 0 NOACC!: ss => ss prob: 0.16630391776561737 => 0.16630391776561737
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.16630391776561737 => 0.16630391776561737
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.16630391776561737 => 0.16630391776561737
+13
+Choose most  1  samples:
+path 0 ACC!: nice => py prob: 0.16630391776561737 => 0.15606030821800232
+13
+Choose most  1  samples:
+path 0 NOACC!: y => y prob: 0.15606030821800232 => 0.15606030821800232
+13
+Choose most  1  samples:
+path 0 NOACC!: s => s prob: 0.15606030821800232 => 0.15606030821800232
+13
+SUC! Path: n=>v
+maybe=>maybe
+ss=>ss
+p=>p
+x=>x
+nice=>py
+y=>y
+s=>s
+t=>iter
+prob: 0.15606030821800232 => 0.14496202766895294
+
+Example time cost:  0.56 min
+ALL examples time cost:  36.87 min
+Query times in this attack:  128
+Greedy query times: 128
+Greedy sub index: 18
+Ga query times: 0
+All Query times:  8347
+All sub index: 1639
+Avg sub index 5
+Success rate:  0.5555555555555556
+Successful items count:  35
+Total count:  63
+Index:  85
+
+enter
+LABEL_43 [{'label': 'LABEL_40', 'score': 0.08588521182537079}]
+Beam size: 1 Begin:
+Example time cost:  0.01 min
+ALL examples time cost:  36.88 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  8348
+All sub index: 1639
+Avg sub index 5
+Success rate:  0.5555555555555556
+Successful items count:  35
+Total count:  63
+Index:  86
+
+enter
+LABEL_43 [{'label': 'LABEL_43', 'score': 0.9653299450874329}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: outfile => workfilename prob: 0.9653299450874329 => 0.4637078046798706
+13
+Choose most  1  samples:
+path 0 ACC!: resid => ResID prob: 0.4637078046798706 => 0.34892913699150085
+13
+Choose most  1  samples:
+path 0 ACC!: min_nosurprise => min_nossurprise prob: 0.34892913699150085 => 0.28990882635116577
+13
+Choose most  1  samples:
+path 0 ACC!: case => ASE prob: 0.28990882635116577 => 0.23765847086906433
+13
+Choose most  1  samples:
+path 0 NOACC!: cases => cases prob: 0.23765847086906433 => 0.23765847086906433
+13
+Choose most  1  samples:
+path 0 ACC!: item => atom prob: 0.23765847086906433 => 0.23353439569473267
+13
+Choose most  1  samples:
+path 0 ACC!: lookup => followups prob: 0.23353439569473267 => 0.1803380846977234
+13
+Choose most  1  samples:
+path 0 NOACC!: points => points prob: 0.1803380846977234 => 0.1803380846977234
+13
+SUC! Path: outfile=>workfilename
+resid=>ResID
+min_nosurprise=>min_nossurprise
+case=>ASE
+cases=>cases
+item=>atom
+lookup=>followups
+points=>points
+i=>I
+prob: 0.1803380846977234 => 0.23678059875965118
+
+Example time cost:  0.62 min
+ALL examples time cost:  37.5 min
+Query times in this attack:  138
+Greedy query times: 138
+Greedy sub index: 40
+Ga query times: 0
+All Query times:  8486
+All sub index: 1679
+Avg sub index 5
+Success rate:  0.5625
+Successful items count:  36
+Total count:  64
+Index:  87
+
+enter
+LABEL_44 [{'label': 'LABEL_44', 'score': 0.9044719934463501}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: max_val => max2eval prob: 0.9044719934463501 => 0.8930070400238037
+13
+Choose most  1  samples:
+path 0 ACC!: num => int prob: 0.8930070400238037 => 0.8190251588821411
+13
+Choose most  1  samples:
+path 0 ACC!: T => term prob: 0.8190251588821411 => 0.8052094578742981
+10
+Choose most  1  samples:
+path 0 ACC!: min_val => max_Val prob: 0.8052094578742981 => 0.7711820006370544
+13
+Choose most  1  samples:
+path 0 ACC!: fair_numbers => fairallnotumbered prob: 0.7711820006370544 => 0.7675935626029968
+13
+Choose most  1  samples:
+path 0 ACC!: s2 =>  s0 prob: 0.7675935626029968 => 0.6766256093978882
+13
+Choose most  1  samples:
+path 0 ACC!: i =>  I prob: 0.6766256093978882 => 0.6684747338294983
+13
+Choose most  1  samples:
+path 0 ACC!: s1 => abs3 prob: 0.6684747338294983 => 0.5320756435394287
+13
+Choose most  1  samples:
+path 0 ACC!: ans => ents prob: 0.5320756435394287 => 0.36027857661247253
+13
+Choose most  1  samples:
+path 0 NOACC!: N => N prob: 0.36027857661247253 => 0.36027857661247253
+FAIL! All repalce path: 
+replace_path_0: 
+max_val=>max2eval
+num=>int
+T=>term
+min_val=>max_Val
+fair_numbers=>fairallnotumbered
+s2=> s0
+i=> I
+s1=>abs3
+ans=>ents
+N=>N
+prob: 0.36027857661247253
+
+Example time cost:  0.61 min
+ALL examples time cost:  38.1 min
+Query times in this attack:  138
+Greedy query times: 138
+Greedy sub index: 52
+Ga query times: 0
+All Query times:  8624
+All sub index: 1731
+Avg sub index 5
+Success rate:  0.5538461538461539
+Successful items count:  36
+Total count:  65
+Index:  88
+
+enter
+LABEL_44 [{'label': 'LABEL_44', 'score': 0.7761093974113464}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: N => Size prob: 0.7761093974113464 => 0.6439998149871826
+13
+Choose most  1  samples:
+path 0 ACC!: scores => scriptores prob: 0.6439998149871826 => 0.6259300112724304
+13
+Choose most  1  samples:
+path 0 ACC!: params => page prob: 0.6259300112724304 => 0.5857396125793457
+13
+Choose most  1  samples:
+path 0 ACC!: p => rank prob: 0.5857396125793457 => 0.5647568106651306
+13
+Choose most  1  samples:
+path 0 ACC!: normal_min => normal_len prob: 0.5647568106651306 => 0.5573362112045288
+13
+Choose most  1  samples:
+path 0 ACC!: line => comment prob: 0.5573362112045288 => 0.5229246616363525
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.5229246616363525 => 0.5229246616363525
+13
+Choose most  1  samples:
+path 0 ACC!: score => rank prob: 0.5229246616363525 => 0.5067043304443359
+11
+Choose most  1  samples:
+path 0 NOACC!: suprising_min => suprising_min prob: 0.5067043304443359 => 0.5067043304443359
+13
+Choose most  1  samples:
+path 0 ACC!: possible => npossibly prob: 0.5067043304443359 => 0.47678735852241516
+13
+Choose most  1  samples:
+path 0 ACC!: ans =>  ads prob: 0.47678735852241516 => 0.41380971670150757
+13
+Choose most  1  samples:
+path 0 ACC!: i => j prob: 0.41380971670150757 => 0.13366232812404633
+13
+SUC! Path: N=>Size
+scores=>scriptores
+params=>page
+p=>rank
+normal_min=>normal_len
+line=>comment
+n=>n
+score=>rank
+suprising_min=>suprising_min
+possible=>npossibly
+ans=> ads
+i=>j
+clear=>adv
+prob: 0.13366232812404633 => 0.1052057221531868
+
+Example time cost:  0.79 min
+ALL examples time cost:  38.89 min
+Query times in this attack:  180
+Greedy query times: 180
+Greedy sub index: 39
+Ga query times: 0
+All Query times:  8804
+All sub index: 1770
+Avg sub index 5
+Success rate:  0.5606060606060606
+Successful items count:  37
+Total count:  66
+Index:  89
+
+enter
+LABEL_45 [{'label': 'LABEL_43', 'score': 0.23474034667015076}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  38.89 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  8805
+All sub index: 1770
+Avg sub index 5
+Success rate:  0.5606060606060606
+Successful items count:  37
+Total count:  66
+Index:  90
+
+enter
+LABEL_45 [{'label': 'LABEL_45', 'score': 0.473066121339798}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: score => rate prob: 0.473066121339798 => 0.43781134486198425
+13
+Choose most  1  samples:
+path 0 ACC!: bestsurp => bestsulm prob: 0.43781134486198425 => 0.3360748291015625
+13
+Choose most  1  samples:
+path 0 ACC!: data => write prob: 0.3360748291015625 => 0.24889607727527618
+13
+Choose most  1  samples:
+path 0 ACC!: maxgooglers => maxmoogserers prob: 0.24889607727527618 => 0.18788152933120728
+13
+Choose most  1  samples:
+path 0 ACC!: line => LINE prob: 0.18788152933120728 => 0.16457019746303558
+13
+SUC! Path: score=>rate
+bestsurp=>bestsulm
+data=>write
+maxgooglers=>maxmoogserers
+line=>LINE
+p=>i
+prob: 0.16457019746303558 => 0.15078946948051453
+
+Example time cost:  0.4 min
+ALL examples time cost:  39.29 min
+Query times in this attack:  90
+Greedy query times: 90
+Greedy sub index: 40
+Ga query times: 0
+All Query times:  8895
+All sub index: 1810
+Avg sub index 5
+Success rate:  0.5671641791044776
+Successful items count:  38
+Total count:  67
+Index:  91
+
+enter
+LABEL_46 [{'label': 'LABEL_46', 'score': 0.9196478128433228}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: sn => sw prob: 0.9196478128433228 => 0.9130650758743286
+13
+Choose most  1  samples:
+path 0 ACC!: root => i prob: 0.9130650758743286 => 0.9074983596801758
+13
+Choose most  1  samples:
+path 0 ACC!: Total => Mass prob: 0.9074983596801758 => 0.9061843156814575
+13
+Choose most  1  samples:
+path 0 ACC!: s => sets prob: 0.9061843156814575 => 0.889053463935852
+13
+Choose most  1  samples:
+path 0 ACC!: l => rl prob: 0.889053463935852 => 0.881901741027832
+13
+Choose most  1  samples:
+path 0 NOACC!: square => square prob: 0.881901741027832 => 0.881901741027832
+13
+Choose most  1  samples:
+path 0 NOACC!: t => t prob: 0.881901741027832 => 0.881901741027832
+13
+Choose most  1  samples:
+path 0 ACC!: n => false prob: 0.881901741027832 => 0.8778200149536133
+13
+Choose most  1  samples:
+path 0 NOACC!: mid => mid prob: 0.8778200149536133 => 0.8778200149536133
+13
+Choose most  1  samples:
+path 0 NOACC!: unfair => unfair prob: 0.8778200149536133 => 0.8778200149536133
+13
+Choose most  1  samples:
+path 0 NOACC!: y => y prob: 0.8778200149536133 => 0.8778200149536133
+13
+Choose most  1  samples:
+path 0 NOACC!: fn => fn prob: 0.8778200149536133 => 0.8778200149536133
+13
+Choose most  1  samples:
+path 0 ACC!: f => fore prob: 0.8778200149536133 => 0.782650351524353
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.782650351524353 => 0.782650351524353
+10
+Choose most  1  samples:
+path 0 NOACC!: _t => _t prob: 0.782650351524353 => 0.782650351524353
+13
+Choose most  1  samples:
+path 0 ACC!: ss =>  SS prob: 0.782650351524353 => 0.7267517447471619
+13
+Choose most  1  samples:
+path 0 NOACC!: fair => fair prob: 0.7267517447471619 => 0.7267517447471619
+FAIL! All repalce path: 
+replace_path_0: 
+sn=>sw
+root=>i
+Total=>Mass
+s=>sets
+l=>rl
+square=>square
+t=>t
+n=>false
+mid=>mid
+unfair=>unfair
+y=>y
+fn=>fn
+f=>fore
+x=>x
+_t=>_t
+ss=> SS
+fair=>fair
+prob: 0.7267517447471619
+
+Example time cost:  1.01 min
+ALL examples time cost:  40.3 min
+Query times in this attack:  227
+Greedy query times: 227
+Greedy sub index: 53
+Ga query times: 0
+All Query times:  9122
+All sub index: 1863
+Avg sub index 5
+Success rate:  0.5588235294117647
+Successful items count:  38
+Total count:  68
+Index:  92
+
+enter
+LABEL_46 [{'label': 'LABEL_46', 'score': 0.9705953598022461}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: fn => ren prob: 0.9705953598022461 => 0.9082688093185425
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.9082688093185425 => 0.9082688093185425
+13
+Choose most  1  samples:
+path 0 ACC!: f => u prob: 0.9082688093185425 => 0.7958258986473083
+9
+Choose most  1  samples:
+path 0 ACC!: _t =>  _token prob: 0.7958258986473083 => 0.6308430433273315
+13
+Choose most  1  samples:
+path 0 ACC!: ti => qi prob: 0.6308430433273315 => 0.5935626029968262
+13
+Choose most  1  samples:
+path 0 ACC!: low_scores => low_Scales prob: 0.5935626029968262 => 0.5567705631256104
+13
+Choose most  1  samples:
+path 0 ACC!: N => A prob: 0.5567705631256104 => 0.5263161063194275
+13
+Choose most  1  samples:
+path 0 ACC!: input => config prob: 0.5263161063194275 => 0.5188549757003784
+13
+Choose most  1  samples:
+path 0 ACC!: p => lp prob: 0.5188549757003784 => 0.4636637270450592
+13
+Choose most  1  samples:
+path 0 ACC!: t => count prob: 0.4636637270450592 => 0.44083672761917114
+13
+Choose most  1  samples:
+path 0 ACC!: s => us prob: 0.44083672761917114 => 0.4301703870296478
+13
+Choose most  1  samples:
+path 0 ACC!: S => Sc prob: 0.4301703870296478 => 0.2785959541797638
+13
+Choose most  1  samples:
+path 0 NOACC!: score => score prob: 0.2785959541797638 => 0.2785959541797638
+13
+Choose most  1  samples:
+path 0 ACC!: x => xxx prob: 0.2785959541797638 => 0.27255815267562866
+13
+Choose most  1  samples:
+path 0 NOACC!: r => r prob: 0.27255815267562866 => 0.27255815267562866
+13
+Choose most  1  samples:
+path 0 NOACC!: output => output prob: 0.27255815267562866 => 0.27255815267562866
+13
+Choose most  1  samples:
+path 0 NOACC!: letter => letter prob: 0.27255815267562866 => 0.27255815267562866
+FAIL! All repalce path: 
+replace_path_0: 
+fn=>ren
+i=>i
+f=>u
+_t=> _token
+ti=>qi
+low_scores=>low_Scales
+N=>A
+input=>config
+p=>lp
+t=>count
+s=>us
+S=>Sc
+score=>score
+x=>xxx
+r=>r
+output=>output
+letter=>letter
+prob: 0.27255815267562866
+
+Example time cost:  1.01 min
+ALL examples time cost:  41.3 min
+Query times in this attack:  230
+Greedy query times: 230
+Greedy sub index: 71
+Ga query times: 0
+All Query times:  9352
+All sub index: 1934
+Avg sub index 5
+Success rate:  0.5507246376811594
+Successful items count:  38
+Total count:  69
+Index:  93
+
+enter
+LABEL_47 [{'label': 'LABEL_32', 'score': 0.20404376089572906}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  41.31 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  9353
+All sub index: 1934
+Avg sub index 5
+Success rate:  0.5507246376811594
+Successful items count:  38
+Total count:  69
+Index:  94
+
+enter
+LABEL_47 [{'label': 'LABEL_47', 'score': 0.6592327952384949}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: filename => figure prob: 0.6592327952384949 => 0.6388341784477234
+13
+Choose most  1  samples:
+path 0 ACC!: kind => kick prob: 0.6388341784477234 => 0.6142823100090027
+13
+Choose most  1  samples:
+path 0 ACC!: _ => j prob: 0.6142823100090027 => 0.5772106647491455
+13
+Choose most  1  samples:
+path 0 NOACC!: data => data prob: 0.5772106647491455 => 0.5772106647491455
+13
+Choose most  1  samples:
+path 0 NOACC!: case => case prob: 0.5772106647491455 => 0.5772106647491455
+13
+Choose most  1  samples:
+path 0 NOACC!: c => c prob: 0.5772106647491455 => 0.5772106647491455
+13
+Choose most  1  samples:
+path 0 NOACC!: res => res prob: 0.5772106647491455 => 0.5772106647491455
+13
+Choose most  1  samples:
+path 0 NOACC!: OEXT => OEXT prob: 0.5772106647491455 => 0.5772106647491455
+13
+Choose most  1  samples:
+path 0 ACC!: IN_L => INJECTG prob: 0.5772106647491455 => 0.4893853962421417
+13
+Choose most  1  samples:
+path 0 ACC!: s_max_val => s_maxqpol prob: 0.4893853962421417 => 0.4583914875984192
+13
+Choose most  1  samples:
+path 0 NOACC!: L => L prob: 0.4583914875984192 => 0.4583914875984192
+13
+Choose most  1  samples:
+path 0 ACC!: sm => em prob: 0.4583914875984192 => 0.4183040261268616
+13
+Choose most  1  samples:
+path 0 NOACC!: trip => trip prob: 0.4183040261268616 => 0.4183040261268616
+13
+Choose most  1  samples:
+path 0 NOACC!: av_cls => av_cls prob: 0.4183040261268616 => 0.4183040261268616
+13
+Choose most  1  samples:
+path 0 NOACC!: triplets => triplets prob: 0.4183040261268616 => 0.4183040261268616
+13
+Choose most  1  samples:
+path 0 NOACC!: av => av prob: 0.4183040261268616 => 0.4183040261268616
+13
+Choose most  1  samples:
+path 0 ACC!: cases => config prob: 0.4183040261268616 => 0.36376824975013733
+13
+Choose most  1  samples:
+path 0 NOACC!: tgt => tgt prob: 0.36376824975013733 => 0.36376824975013733
+13
+Choose most  1  samples:
+path 0 NOACC!: ns_max_val => ns_max_val prob: 0.36376824975013733 => 0.36376824975013733
+7
+Choose most  1  samples:
+path 0 NOACC!: IN_S => IN_S prob: 0.36376824975013733 => 0.36376824975013733
+13
+Choose most  1  samples:
+path 0 NOACC!: CASE_PRFX => CASE_PRFX prob: 0.36376824975013733 => 0.36376824975013733
+FAIL! All repalce path: 
+replace_path_0: 
+filename=>figure
+kind=>kick
+_=>j
+data=>data
+case=>case
+c=>c
+res=>res
+OEXT=>OEXT
+IN_L=>INJECTG
+s_max_val=>s_maxqpol
+L=>L
+sm=>em
+trip=>trip
+av_cls=>av_cls
+triplets=>triplets
+av=>av
+cases=>config
+tgt=>tgt
+ns_max_val=>ns_max_val
+IN_S=>IN_S
+CASE_PRFX=>CASE_PRFX
+prob: 0.36376824975013733
+
+Example time cost:  1.3 min
+ALL examples time cost:  42.61 min
+Query times in this attack:  289
+Greedy query times: 289
+Greedy sub index: 40
+Ga query times: 0
+All Query times:  9642
+All sub index: 1974
+Avg sub index 5
+Success rate:  0.5428571428571428
+Successful items count:  38
+Total count:  70
+Index:  95
+
+enter
+LABEL_48 [{'label': 'LABEL_48', 'score': 0.9078189134597778}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: x => exc prob: 0.9078189134597778 => 0.8712162971496582
+13
+Choose most  1  samples:
+path 0 ACC!: testcase =>  testcases prob: 0.8712162971496582 => 0.8573457598686218
+13
+Choose most  1  samples:
+path 0 ACC!: fair_and_squares => fair_and_sqires prob: 0.8573457598686218 => 0.827110767364502
+13
+Choose most  1  samples:
+path 0 NOACC!: B => B prob: 0.827110767364502 => 0.827110767364502
+13
+Choose most  1  samples:
+path 0 NOACC!: filenames => filenames prob: 0.827110767364502 => 0.827110767364502
+13
+Choose most  1  samples:
+path 0 ACC!: sqr => sqrr prob: 0.827110767364502 => 0.811860203742981
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.811860203742981 => 0.811860203742981
+13
+Choose most  1  samples:
+path 0 NOACC!: count => count prob: 0.811860203742981 => 0.811860203742981
+13
+Choose most  1  samples:
+path 0 ACC!: i => ip prob: 0.811860203742981 => 0.8111782670021057
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.8111782670021057 => 0.8111782670021057
+13
+Choose most  1  samples:
+path 0 NOACC!: A => A prob: 0.8111782670021057 => 0.8111782670021057
+13
+Choose most  1  samples:
+path 0 NOACC!: l1 => l1 prob: 0.8111782670021057 => 0.8111782670021057
+13
+Choose most  1  samples:
+path 0 ACC!: f_in =>  f_din prob: 0.8111782670021057 => 0.7989141345024109
+13
+Choose most  1  samples:
+path 0 ACC!: l => lines prob: 0.7989141345024109 => 0.7515147924423218
+13
+Choose most  1  samples:
+path 0 ACC!: chosen_filename => chosen_Filename prob: 0.7515147924423218 => 0.6780701875686646
+13
+Choose most  1  samples:
+path 0 ACC!: directory => category prob: 0.6780701875686646 => 0.4097587764263153
+13
+Choose most  1  samples:
+path 0 NOACC!: f_out => f_out prob: 0.4097587764263153 => 0.4097587764263153
+FAIL! All repalce path: 
+replace_path_0: 
+x=>exc
+testcase=> testcases
+fair_and_squares=>fair_and_sqires
+B=>B
+filenames=>filenames
+sqr=>sqrr
+T=>T
+count=>count
+i=>ip
+n=>n
+A=>A
+l1=>l1
+f_in=> f_din
+l=>lines
+chosen_filename=>chosen_Filename
+directory=>category
+f_out=>f_out
+prob: 0.4097587764263153
+
+Example time cost:  1.06 min
+ALL examples time cost:  43.67 min
+Query times in this attack:  239
+Greedy query times: 239
+Greedy sub index: 45
+Ga query times: 0
+All Query times:  9881
+All sub index: 2019
+Avg sub index 5
+Success rate:  0.5352112676056338
+Successful items count:  38
+Total count:  71
+Index:  96
+
+enter
+LABEL_48 [{'label': 'LABEL_48', 'score': 0.9160515069961548}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: chosen_filename => chosenPlocation prob: 0.9160515069961548 => 0.9014626145362854
+13
+Choose most  1  samples:
+path 0 ACC!: x => name prob: 0.9014626145362854 => 0.8966284990310669
+13
+Choose most  1  samples:
+path 0 ACC!: filenames => filenetimes prob: 0.8966284990310669 => 0.8924689292907715
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.8924689292907715 => 0.8924689292907715
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.8924689292907715 => 0.8924689292907715
+13
+Choose most  1  samples:
+path 0 NOACC!: l1 => l1 prob: 0.8924689292907715 => 0.8924689292907715
+13
+Choose most  1  samples:
+path 0 ACC!: t_i => p_p prob: 0.8924689292907715 => 0.8894897699356079
+13
+Choose most  1  samples:
+path 0 NOACC!: line => line prob: 0.8894897699356079 => 0.8894897699356079
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.8894897699356079 => 0.8894897699356079
+13
+Choose most  1  samples:
+path 0 NOACC!: A => A prob: 0.8894897699356079 => 0.8894897699356079
+13
+Choose most  1  samples:
+path 0 ACC!: S => I prob: 0.8894897699356079 => 0.8832281827926636
+13
+Choose most  1  samples:
+path 0 NOACC!: B => B prob: 0.8832281827926636 => 0.8832281827926636
+13
+Choose most  1  samples:
+path 0 NOACC!: t => t prob: 0.8832281827926636 => 0.8832281827926636
+13
+Choose most  1  samples:
+path 0 ACC!: nnn => ennb prob: 0.8832281827926636 => 0.8816052675247192
+13
+Choose most  1  samples:
+path 0 NOACC!: result => result prob: 0.8816052675247192 => 0.8816052675247192
+13
+Choose most  1  samples:
+path 0 ACC!: f_in =>  f_ini prob: 0.8816052675247192 => 0.8621708154678345
+13
+Choose most  1  samples:
+path 0 ACC!: directory => volume prob: 0.8621708154678345 => 0.6672923564910889
+13
+Choose most  1  samples:
+path 0 ACC!: f_out =>  f__again prob: 0.6672923564910889 => 0.51547771692276
+FAIL! All repalce path: 
+replace_path_0: 
+chosen_filename=>chosenPlocation
+x=>name
+filenames=>filenetimes
+p=>p
+i=>i
+l1=>l1
+t_i=>p_p
+line=>line
+T=>T
+A=>A
+S=>I
+B=>B
+t=>t
+nnn=>ennb
+result=>result
+f_in=> f_ini
+directory=>volume
+f_out=> f__again
+prob: 0.51547771692276
+
+Example time cost:  1.12 min
+ALL examples time cost:  44.79 min
+Query times in this attack:  252
+Greedy query times: 252
+Greedy sub index: 50
+Ga query times: 0
+All Query times:  10133
+All sub index: 2069
+Avg sub index 5
+Success rate:  0.5277777777777778
+Successful items count:  38
+Total count:  72
+Index:  97
+
+enter
+LABEL_49 [{'label': 'LABEL_49', 'score': 0.4800226092338562}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: case => section prob: 0.4800226092338562 => 0.3826713562011719
+13
+Choose most  1  samples:
+path 0 ACC!: a => sta prob: 0.3826713562011719 => 0.3782477080821991
+13
+Choose most  1  samples:
+path 0 NOACC!: B => B prob: 0.3782477080821991 => 0.3782477080821991
+13
+Choose most  1  samples:
+path 0 ACC!: outString => againSite prob: 0.3782477080821991 => 0.30361777544021606
+13
+SUC! Path: case=>section
+a=>sta
+B=>B
+outString=>againSite
+n=>l
+prob: 0.30361777544021606 => 0.33331120014190674
+
+Example time cost:  0.35 min
+ALL examples time cost:  45.14 min
+Query times in this attack:  80
+Greedy query times: 80
+Greedy sub index: 17
+Ga query times: 0
+All Query times:  10213
+All sub index: 2086
+Avg sub index 5
+Success rate:  0.5342465753424658
+Successful items count:  39
+Total count:  73
+Index:  98
+
+enter
+LABEL_49 [{'label': 'LABEL_49', 'score': 0.949541449546814}]
+Beam size: 1 Begin:
+SUC! Path: fout=>pin
+prob: 0.949541449546814 => 0.19070391356945038
+
+Example time cost:  0.12 min
+ALL examples time cost:  45.27 min
+Query times in this attack:  28
+Greedy query times: 28
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  10241
+All sub index: 2086
+Avg sub index 5
+Success rate:  0.5405405405405406
+Successful items count:  40
+Total count:  74
+Index:  99
+
+enter
+LABEL_50 [{'label': 'LABEL_50', 'score': 0.9247915744781494}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: soln => ssln prob: 0.9247915744781494 => 0.8371391296386719
+13
+Choose most  1  samples:
+path 0 ACC!: n => int prob: 0.8371391296386719 => 0.8316694498062134
+13
+Choose most  1  samples:
+path 0 ACC!: T => Q prob: 0.8316694498062134 => 0.7925922870635986
+13
+Choose most  1  samples:
+path 0 ACC!: A => Bu prob: 0.7925922870635986 => 0.7873111963272095
+13
+Choose most  1  samples:
+path 0 ACC!: square => corn prob: 0.7873111963272095 => 0.7317783832550049
+13
+Choose most  1  samples:
+path 0 ACC!: digits => multiplits prob: 0.7317783832550049 => 0.7045747637748718
+13
+Choose most  1  samples:
+path 0 NOACC!: case => case prob: 0.7045747637748718 => 0.7045747637748718
+13
+Choose most  1  samples:
+path 0 ACC!: count => file prob: 0.7045747637748718 => 0.6350460648536682
+13
+Choose most  1  samples:
+path 0 NOACC!: B => B prob: 0.6350460648536682 => 0.6350460648536682
+FAIL! All repalce path: 
+replace_path_0: 
+soln=>ssln
+n=>int
+T=>Q
+A=>Bu
+square=>corn
+digits=>multiplits
+case=>case
+count=>file
+B=>B
+prob: 0.6350460648536682
+
+Example time cost:  0.55 min
+ALL examples time cost:  45.82 min
+Query times in this attack:  125
+Greedy query times: 125
+Greedy sub index: 53
+Ga query times: 0
+All Query times:  10366
+All sub index: 2139
+Avg sub index 5
+Success rate:  0.5333333333333333
+Successful items count:  40
+Total count:  75
+Index:  100
+
+enter
+LABEL_50 [{'label': 'LABEL_50', 'score': 0.9472624063491821}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: result =>  Result prob: 0.9472624063491821 => 0.9197326302528381
+13
+Choose most  1  samples:
+path 0 ACC!: n => out prob: 0.9197326302528381 => 0.8385689854621887
+13
+Choose most  1  samples:
+path 0 ACC!: t => P prob: 0.8385689854621887 => 0.7759289145469666
+13
+Choose most  1  samples:
+path 0 NOACC!: scores => scores prob: 0.7759289145469666 => 0.7759289145469666
+13
+Choose most  1  samples:
+path 0 ACC!: line => iter prob: 0.7759289145469666 => 0.7179877161979675
+13
+Choose most  1  samples:
+path 0 NOACC!: s => s prob: 0.7179877161979675 => 0.7179877161979675
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.7179877161979675 => 0.7179877161979675
+13
+Choose most  1  samples:
+path 0 ACC!: T => section prob: 0.7179877161979675 => 0.6504608392715454
+13
+Choose most  1  samples:
+path 0 NOACC!: count => count prob: 0.6504608392715454 => 0.6504608392715454
+13
+Choose most  1  samples:
+path 0 ACC!: case => pair prob: 0.6504608392715454 => 0.5025740265846252
+FAIL! All repalce path: 
+replace_path_0: 
+result=> Result
+n=>out
+t=>P
+scores=>scores
+line=>iter
+s=>s
+p=>p
+T=>section
+count=>count
+case=>pair
+prob: 0.5025740265846252
+
+Example time cost:  0.6 min
+ALL examples time cost:  46.41 min
+Query times in this attack:  136
+Greedy query times: 136
+Greedy sub index: 42
+Ga query times: 0
+All Query times:  10502
+All sub index: 2181
+Avg sub index 5
+Success rate:  0.5263157894736842
+Successful items count:  40
+Total count:  76
+Index:  101
+
+enter
+LABEL_51 [{'label': 'LABEL_37', 'score': 0.21451714634895325}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  46.42 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  10503
+All sub index: 2181
+Avg sub index 5
+Success rate:  0.5263157894736842
+Successful items count:  40
+Total count:  76
+Index:  102
+
+enter
+LABEL_51 [{'label': 'LABEL_51', 'score': 0.8990616202354431}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: N => nos prob: 0.8990616202354431 => 0.8561088442802429
+13
+Choose most  1  samples:
+path 0 NOACC!: score => score prob: 0.8561088442802429 => 0.8561088442802429
+13
+Choose most  1  samples:
+path 0 NOACC!: t => t prob: 0.8561088442802429 => 0.8561088442802429
+13
+Choose most  1  samples:
+path 0 NOACC!: surprise_cutoff => surprise_cutoff prob: 0.8561088442802429 => 0.8561088442802429
+13
+Choose most  1  samples:
+path 0 NOACC!: S => S prob: 0.8561088442802429 => 0.8561088442802429
+13
+Choose most  1  samples:
+path 0 NOACC!: args => args prob: 0.8561088442802429 => 0.8561088442802429
+13
+Choose most  1  samples:
+path 0 NOACC!: total_cases => total_cases prob: 0.8561088442802429 => 0.8561088442802429
+13
+Choose most  1  samples:
+path 0 NOACC!: data_args => data_args prob: 0.8561088442802429 => 0.8561088442802429
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.8561088442802429 => 0.8561088442802429
+13
+Choose most  1  samples:
+path 0 NOACC!: input_file => input_file prob: 0.8561088442802429 => 0.8561088442802429
+13
+Choose most  1  samples:
+path 0 NOACC!: bits => bits prob: 0.8561088442802429 => 0.8561088442802429
+13
+Choose most  1  samples:
+path 0 NOACC!: potential_surprises => potential_surprises prob: 0.8561088442802429 => 0.8561088442802429
+13
+Choose most  1  samples:
+path 0 ACC!: data_line => input_entry prob: 0.8561088442802429 => 0.8216422200202942
+13
+Choose most  1  samples:
+path 0 NOACC!: outright_wins => outright_wins prob: 0.8216422200202942 => 0.8216422200202942
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.8216422200202942 => 0.8216422200202942
+13
+Choose most  1  samples:
+path 0 NOACC!: win_cutoff => win_cutoff prob: 0.8216422200202942 => 0.8216422200202942
+13
+Choose most  1  samples:
+path 0 ACC!: parser => server prob: 0.8216422200202942 => 0.7859889268875122
+13
+Choose most  1  samples:
+path 0 ACC!: case_number => Case_number prob: 0.7859889268875122 => 0.6680654287338257
+13
+Choose most  1  samples:
+path 0 NOACC!: options => options prob: 0.6680654287338257 => 0.6680654287338257
+FAIL! All repalce path: 
+replace_path_0: 
+N=>nos
+score=>score
+t=>t
+surprise_cutoff=>surprise_cutoff
+S=>S
+args=>args
+total_cases=>total_cases
+data_args=>data_args
+p=>p
+input_file=>input_file
+bits=>bits
+potential_surprises=>potential_surprises
+data_line=>input_entry
+outright_wins=>outright_wins
+x=>x
+win_cutoff=>win_cutoff
+parser=>server
+case_number=>Case_number
+options=>options
+prob: 0.6680654287338257
+
+Example time cost:  1.18 min
+ALL examples time cost:  47.6 min
+Query times in this attack:  267
+Greedy query times: 267
+Greedy sub index: 24
+Ga query times: 0
+All Query times:  10770
+All sub index: 2205
+Avg sub index 5
+Success rate:  0.5194805194805194
+Successful items count:  40
+Total count:  77
+Index:  103
+
+enter
+LABEL_52 [{'label': 'LABEL_52', 'score': 0.6975296139717102}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: ab => rb prob: 0.6975296139717102 => 0.6206931471824646
+13
+Choose most  1  samples:
+path 0 ACC!: sq => iq prob: 0.6206931471824646 => 0.5673813223838806
+13
+Choose most  1  samples:
+path 0 ACC!: total_cases => Total_times prob: 0.5673813223838806 => 0.5016472339630127
+13
+Choose most  1  samples:
+path 0 ACC!: fs => feed prob: 0.5016472339630127 => 0.4436231255531311
+13
+Choose most  1  samples:
+path 0 ACC!: case_number => case_directory prob: 0.4436231255531311 => 0.2993430197238922
+13
+SUC! Path: ab=>rb
+sq=>iq
+total_cases=>Total_times
+fs=>feed
+case_number=>case_directory
+r=>hr
+prob: 0.2993430197238922 => 0.20067448914051056
+
+Example time cost:  0.38 min
+ALL examples time cost:  47.98 min
+Query times in this attack:  87
+Greedy query times: 87
+Greedy sub index: 34
+Ga query times: 0
+All Query times:  10857
+All sub index: 2239
+Avg sub index 5
+Success rate:  0.5256410256410257
+Successful items count:  41
+Total count:  78
+Index:  104
+
+enter
+LABEL_52 [{'label': 'LABEL_52', 'score': 0.45614129304885864}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 NOACC!: case_line => case_line prob: 0.45614129304885864 => 0.45614129304885864
+13
+Choose most  1  samples:
+path 0 ACC!: ans => aces prob: 0.45614129304885864 => 0.34723249077796936
+13
+Choose most  1  samples:
+path 0 ACC!: scores => scamples prob: 0.34723249077796936 => 0.2515065670013428
+13
+Choose most  1  samples:
+path 0 ACC!: score => path prob: 0.2515065670013428 => 0.23494228720664978
+12
+Choose most  1  samples:
+path 0 NOACC!: mod_plus_conv_with_s => mod_plus_conv_with_s prob: 0.23494228720664978 => 0.23494228720664978
+13
+SUC! Path: case_line=>case_line
+ans=>aces
+scores=>scamples
+score=>path
+mod_plus_conv_with_s=>mod_plus_conv_with_s
+total_cases=> total_lines
+prob: 0.23494228720664978 => 0.14719051122665405
+
+Example time cost:  0.39 min
+ALL examples time cost:  48.37 min
+Query times in this attack:  89
+Greedy query times: 89
+Greedy sub index: 9
+Ga query times: 0
+All Query times:  10946
+All sub index: 2248
+Avg sub index 5
+Success rate:  0.5316455696202531
+Successful items count:  42
+Total count:  79
+Index:  105
+
+enter
+LABEL_53 [{'label': 'LABEL_53', 'score': 0.8459402322769165}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: B => GB prob: 0.8459402322769165 => 0.749201774597168
+13
+Choose most  1  samples:
+path 0 ACC!: sqrtI => squarercI prob: 0.749201774597168 => 0.741875946521759
+13
+Choose most  1  samples:
+path 0 ACC!: inputFileName => outputFileSize prob: 0.741875946521759 => 0.6586259603500366
+13
+Choose most  1  samples:
+path 0 ACC!: found => where prob: 0.6586259603500366 => 0.5256075859069824
+13
+Choose most  1  samples:
+path 0 ACC!: f => feed prob: 0.5256075859069824 => 0.4502638280391693
+13
+Choose most  1  samples:
+path 0 ACC!: T => I prob: 0.4502638280391693 => 0.3459685742855072
+13
+Choose most  1  samples:
+path 0 ACC!: data => text prob: 0.3459685742855072 => 0.2143000215291977
+13
+Choose most  1  samples:
+path 0 NOACC!: A => A prob: 0.2143000215291977 => 0.2143000215291977
+13
+Choose most  1  samples:
+path 0 ACC!: case => section prob: 0.2143000215291977 => 0.18375776708126068
+13
+Choose most  1  samples:
+path 0 ACC!: i => l prob: 0.18375776708126068 => 0.15678969025611877
+13
+Choose most  1  samples:
+path 0 ACC!: n => b prob: 0.15678969025611877 => 0.13725122809410095
+13
+SUC! Path: B=>GB
+sqrtI=>squarercI
+inputFileName=>outputFileSize
+found=>where
+f=>feed
+T=>I
+data=>text
+A=>A
+case=>section
+i=>l
+n=>b
+fout=> foutput
+prob: 0.13725122809410095 => 0.11857746541500092
+
+Example time cost:  0.73 min
+ALL examples time cost:  49.1 min
+Query times in this attack:  166
+Greedy query times: 166
+Greedy sub index: 47
+Ga query times: 0
+All Query times:  11112
+All sub index: 2295
+Avg sub index 5
+Success rate:  0.5375
+Successful items count:  43
+Total count:  80
+Index:  106
+
+enter
+LABEL_53 [{'label': 'LABEL_53', 'score': 0.6264420747756958}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: n_googlers_with_best_result => n_googlers_with_best_results prob: 0.6264420747756958 => 0.5129618644714355
+13
+Choose most  1  samples:
+path 0 ACC!: arq =>  arqu prob: 0.5129618644714355 => 0.3578329384326935
+13
+Choose most  1  samples:
+path 0 ACC!: i => I prob: 0.3578329384326935 => 0.3421994149684906
+13
+Choose most  1  samples:
+path 0 ACC!: n => l prob: 0.3421994149684906 => 0.32581207156181335
+13
+Choose most  1  samples:
+path 0 ACC!: case => count prob: 0.32581207156181335 => 0.3191101849079132
+13
+Choose most  1  samples:
+path 0 ACC!: j => J prob: 0.3191101849079132 => 0.2772393226623535
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.2772393226623535 => 0.2772393226623535
+13
+SUC! Path: n_googlers_with_best_result=>n_googlers_with_best_results
+arq=> arqu
+i=>I
+n=>l
+case=>count
+j=>J
+p=>p
+n_cases=> n_lines
+prob: 0.2772393226623535 => 0.26652440428733826
+
+Example time cost:  0.5 min
+ALL examples time cost:  49.6 min
+Query times in this attack:  113
+Greedy query times: 113
+Greedy sub index: 48
+Ga query times: 0
+All Query times:  11225
+All sub index: 2343
+Avg sub index 5
+Success rate:  0.5432098765432098
+Successful items count:  44
+Total count:  81
+Index:  107
+
+enter
+LABEL_54 [{'label': 'LABEL_54', 'score': 0.9842273592948914}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: count => col prob: 0.9842273592948914 => 0.9825327396392822
+13
+Choose most  1  samples:
+path 0 ACC!: x => xs prob: 0.9825327396392822 => 0.9802150726318359
+13
+Choose most  1  samples:
+path 0 ACC!: n => j prob: 0.9802150726318359 => 0.9777013063430786
+13
+Choose most  1  samples:
+path 0 NOACC!: u => u prob: 0.9777013063430786 => 0.9777013063430786
+13
+Choose most  1  samples:
+path 0 ACC!: b => range prob: 0.9777013063430786 => 0.9774689078330994
+13
+Choose most  1  samples:
+path 0 ACC!: l => s prob: 0.9774689078330994 => 0.9753000140190125
+13
+Choose most  1  samples:
+path 0 ACC!: i => ri prob: 0.9753000140190125 => 0.9593520760536194
+13
+Choose most  1  samples:
+path 0 ACC!: a => alpha prob: 0.9593520760536194 => 0.953661322593689
+13
+Choose most  1  samples:
+path 0 ACC!: N => max prob: 0.953661322593689 => 0.9202148914337158
+13
+Choose most  1  samples:
+path 0 ACC!: result => comment prob: 0.9202148914337158 => 0.9180859327316284
+FAIL! All repalce path: 
+replace_path_0: 
+count=>col
+x=>xs
+n=>j
+u=>u
+b=>range
+l=>s
+i=>ri
+a=>alpha
+N=>max
+result=>comment
+prob: 0.9180859327316284
+
+Example time cost:  0.6 min
+ALL examples time cost:  50.2 min
+Query times in this attack:  136
+Greedy query times: 136
+Greedy sub index: 43
+Ga query times: 0
+All Query times:  11361
+All sub index: 2386
+Avg sub index 5
+Success rate:  0.5365853658536586
+Successful items count:  44
+Total count:  82
+Index:  108
+
+enter
+LABEL_54 [{'label': 'LABEL_54', 'score': 0.9827843904495239}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: u => au prob: 0.9827843904495239 => 0.968151867389679
+13
+Choose most  1  samples:
+path 0 NOACC!: s => s prob: 0.968151867389679 => 0.968151867389679
+13
+Choose most  1  samples:
+path 0 ACC!: a => z prob: 0.968151867389679 => 0.967121958732605
+13
+Choose most  1  samples:
+path 0 ACC!: ts => xs prob: 0.967121958732605 => 0.9540524482727051
+13
+Choose most  1  samples:
+path 0 ACC!: p => ap prob: 0.9540524482727051 => 0.9056402444839478
+13
+Choose most  1  samples:
+path 0 NOACC!: t => t prob: 0.9056402444839478 => 0.9056402444839478
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.9056402444839478 => 0.9056402444839478
+13
+Choose most  1  samples:
+path 0 ACC!: num_surprises => num_curacters prob: 0.9056402444839478 => 0.8608537316322327
+13
+Choose most  1  samples:
+path 0 NOACC!: line => line prob: 0.8608537316322327 => 0.8608537316322327
+13
+Choose most  1  samples:
+path 0 NOACC!: r => r prob: 0.8608537316322327 => 0.8608537316322327
+13
+Choose most  1  samples:
+path 0 NOACC!: N => N prob: 0.8608537316322327 => 0.8608537316322327
+13
+Choose most  1  samples:
+path 0 NOACC!: result => result prob: 0.8608537316322327 => 0.8608537316322327
+13
+Choose most  1  samples:
+path 0 ACC!: i => I prob: 0.8608537316322327 => 0.8358227610588074
+FAIL! All repalce path: 
+replace_path_0: 
+u=>au
+s=>s
+a=>z
+ts=>xs
+p=>ap
+t=>t
+x=>x
+num_surprises=>num_curacters
+line=>line
+r=>r
+N=>N
+result=>result
+i=>I
+prob: 0.8358227610588074
+
+Example time cost:  0.79 min
+ALL examples time cost:  50.99 min
+Query times in this attack:  179
+Greedy query times: 179
+Greedy sub index: 56
+Ga query times: 0
+All Query times:  11540
+All sub index: 2442
+Avg sub index 5
+Success rate:  0.5301204819277109
+Successful items count:  44
+Total count:  83
+Index:  109
+
+enter
+LABEL_55 [{'label': 'LABEL_52', 'score': 0.21185626089572906}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  50.99 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11541
+All sub index: 2442
+Avg sub index 5
+Success rate:  0.5301204819277109
+Successful items count:  44
+Total count:  83
+Index:  110
+
+enter
+LABEL_55 [{'label': 'LABEL_55', 'score': 0.8385286331176758}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: _t => _tt prob: 0.8385286331176758 => 0.7077990174293518
+13
+Choose most  1  samples:
+path 0 ACC!: sure =>  surely prob: 0.7077990174293518 => 0.6062418222427368
+13
+Choose most  1  samples:
+path 0 ACC!: f => fi prob: 0.6062418222427368 => 0.25532934069633484
+13
+Choose most  1  samples:
+path 0 NOACC!: if_surprising => if_surprising prob: 0.25532934069633484 => 0.25532934069633484
+13
+Choose most  1  samples:
+path 0 ACC!: s => r prob: 0.25532934069633484 => 0.19691365957260132
+13
+Choose most  1  samples:
+path 0 NOACC!: is_surprising => is_surprising prob: 0.19691365957260132 => 0.19691365957260132
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.19691365957260132 => 0.19691365957260132
+13
+Choose most  1  samples:
+path 0 NOACC!: not_surprising => not_surprising prob: 0.19691365957260132 => 0.19691365957260132
+13
+Choose most  1  samples:
+path 0 NOACC!: scores => scores prob: 0.19691365957260132 => 0.19691365957260132
+13
+Choose most  1  samples:
+path 0 NOACC!: t => t prob: 0.19691365957260132 => 0.19691365957260132
+13
+Choose most  1  samples:
+path 0 ACC!: ns => outs prob: 0.19691365957260132 => 0.16530436277389526
+13
+SUC! Path: _t=>_tt
+sure=> surely
+f=>fi
+if_surprising=>if_surprising
+s=>r
+is_surprising=>is_surprising
+p=>p
+not_surprising=>not_surprising
+scores=>scores
+t=>t
+ns=>outs
+fn=>fi
+prob: 0.16530436277389526 => 0.15694884955883026
+
+Example time cost:  0.75 min
+ALL examples time cost:  51.74 min
+Query times in this attack:  170
+Greedy query times: 170
+Greedy sub index: 39
+Ga query times: 0
+All Query times:  11711
+All sub index: 2481
+Avg sub index 5
+Success rate:  0.5357142857142857
+Successful items count:  45
+Total count:  84
+Index:  111
+
+enter
+LABEL_56 [{'label': 'LABEL_56', 'score': 0.9226747155189514}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: tests =>  files prob: 0.9226747155189514 => 0.6163043975830078
+13
+Choose most  1  samples:
+path 0 ACC!: file => model prob: 0.6163043975830078 => 0.38710516691207886
+13
+Choose most  1  samples:
+path 0 NOACC!: result => result prob: 0.38710516691207886 => 0.38710516691207886
+13
+Choose most  1  samples:
+path 0 ACC!: line => inline prob: 0.38710516691207886 => 0.3660137355327606
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.3660137355327606 => 0.3660137355327606
+13
+SUC! Path: tests=> files
+file=>model
+result=>result
+line=>inline
+T=>T
+parts=>piece
+prob: 0.3660137355327606 => 0.41629576683044434
+
+Example time cost:  0.43 min
+ALL examples time cost:  52.16 min
+Query times in this attack:  95
+Greedy query times: 95
+Greedy sub index: 35
+Ga query times: 0
+All Query times:  11806
+All sub index: 2516
+Avg sub index 5
+Success rate:  0.5411764705882353
+Successful items count:  46
+Total count:  85
+Index:  112
+
+enter
+LABEL_56 [{'label': 'LABEL_53', 'score': 0.09377285838127136}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  52.17 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  11807
+All sub index: 2516
+Avg sub index 5
+Success rate:  0.5411764705882353
+Successful items count:  46
+Total count:  85
+Index:  113
+
+enter
+LABEL_57 [{'label': 'LABEL_57', 'score': 0.9044831395149231}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: maior => aior prob: 0.9044831395149231 => 0.8709235191345215
+13
+Choose most  1  samples:
+path 0 ACC!: x => xd prob: 0.8709235191345215 => 0.8238926529884338
+13
+Choose most  1  samples:
+path 0 ACC!: num => nom prob: 0.8238926529884338 => 0.8026885390281677
+13
+Choose most  1  samples:
+path 0 ACC!: N => J prob: 0.8026885390281677 => 0.7941791415214539
+13
+Choose most  1  samples:
+path 0 ACC!: int_maior => int_maor prob: 0.7941791415214539 => 0.7702205777168274
+13
+Choose most  1  samples:
+path 0 ACC!: M => D prob: 0.7702205777168274 => 0.7602675557136536
+13
+Choose most  1  samples:
+path 0 NOACC!: quadrado => quadrado prob: 0.7602675557136536 => 0.7602675557136536
+13
+Choose most  1  samples:
+path 0 NOACC!: fns => fns prob: 0.7602675557136536 => 0.7602675557136536
+13
+Choose most  1  samples:
+path 0 NOACC!: self => self prob: 0.7602675557136536 => 0.7602675557136536
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.7602675557136536 => 0.7602675557136536
+13
+Choose most  1  samples:
+path 0 NOACC!: result => result prob: 0.7602675557136536 => 0.7602675557136536
+13
+Choose most  1  samples:
+path 0 ACC!: tCase => tExample prob: 0.7602675557136536 => 0.39905846118927
+FAIL! All repalce path: 
+replace_path_0: 
+maior=>aior
+x=>xd
+num=>nom
+N=>J
+int_maior=>int_maor
+M=>D
+quadrado=>quadrado
+fns=>fns
+self=>self
+i=>i
+result=>result
+tCase=>tExample
+prob: 0.39905846118927
+
+Example time cost:  0.74 min
+ALL examples time cost:  52.91 min
+Query times in this attack:  168
+Greedy query times: 168
+Greedy sub index: 38
+Ga query times: 0
+All Query times:  11975
+All sub index: 2554
+Avg sub index 5
+Success rate:  0.5348837209302325
+Successful items count:  46
+Total count:  86
+Index:  114
+
+enter
+LABEL_57 [{'label': 'LABEL_57', 'score': 0.7171583771705627}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: tCase => TCase prob: 0.7171583771705627 => 0.4295324981212616
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.4295324981212616 => 0.4295324981212616
+13
+Choose most  1  samples:
+path 0 ACC!: P => DP prob: 0.4295324981212616 => 0.42147937417030334
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.42147937417030334 => 0.42147937417030334
+13
+Choose most  1  samples:
+path 0 NOACC!: list => list prob: 0.42147937417030334 => 0.42147937417030334
+13
+Choose most  1  samples:
+path 0 NOACC!: item => item prob: 0.42147937417030334 => 0.42147937417030334
+13
+Choose most  1  samples:
+path 0 ACC!: j => key prob: 0.42147937417030334 => 0.4187231659889221
+13
+Choose most  1  samples:
+path 0 ACC!: ER1 => BEROne prob: 0.4187231659889221 => 0.39176851511001587
+13
+Choose most  1  samples:
+path 0 ACC!: frases => Frases prob: 0.39176851511001587 => 0.3464414179325104
+13
+Choose most  1  samples:
+path 0 NOACC!: realT => realT prob: 0.3464414179325104 => 0.3464414179325104
+13
+Choose most  1  samples:
+path 0 ACC!: supT => supt prob: 0.3464414179325104 => 0.2984803318977356
+13
+Choose most  1  samples:
+path 0 NOACC!: frase => frase prob: 0.2984803318977356 => 0.2984803318977356
+13
+Choose most  1  samples:
+path 0 NOACC!: linha => linha prob: 0.2984803318977356 => 0.2984803318977356
+13
+Choose most  1  samples:
+path 0 NOACC!: case => case prob: 0.2984803318977356 => 0.2984803318977356
+13
+Choose most  1  samples:
+path 0 ACC!: count => all prob: 0.2984803318977356 => 0.2658573091030121
+FAIL! All repalce path: 
+replace_path_0: 
+tCase=>TCase
+T=>T
+P=>DP
+i=>i
+list=>list
+item=>item
+j=>key
+ER1=>BEROne
+frases=>Frases
+realT=>realT
+supT=>supt
+frase=>frase
+linha=>linha
+case=>case
+count=>all
+prob: 0.2658573091030121
+
+Example time cost:  0.92 min
+ALL examples time cost:  53.83 min
+Query times in this attack:  208
+Greedy query times: 208
+Greedy sub index: 24
+Ga query times: 0
+All Query times:  12183
+All sub index: 2578
+Avg sub index 5
+Success rate:  0.5287356321839081
+Successful items count:  46
+Total count:  87
+Index:  115
+
+enter
+LABEL_58 [{'label': 'LABEL_58', 'score': 0.582226037979126}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: i =>  I prob: 0.582226037979126 => 0.43862733244895935
+13
+Choose most  1  samples:
+path 0 ACC!: step => amp prob: 0.43862733244895935 => 0.3754274547100067
+13
+Choose most  1  samples:
+path 0 ACC!: x => exc prob: 0.3754274547100067 => 0.32276085019111633
+13
+Choose most  1  samples:
+path 0 ACC!: sqb => iqba prob: 0.32276085019111633 => 0.27562493085861206
+13
+Choose most  1  samples:
+path 0 ACC!: s => xs prob: 0.27562493085861206 => 0.24914297461509705
+13
+Choose most  1  samples:
+path 0 ACC!: p => op prob: 0.24914297461509705 => 0.242672398686409
+13
+Choose most  1  samples:
+path 0 NOACC!: ge => ge prob: 0.242672398686409 => 0.242672398686409
+13
+SUC! Path: i=> I
+step=>amp
+x=>exc
+sqb=>iqba
+s=>xs
+p=>op
+ge=>ge
+b=>emb
+prob: 0.242672398686409 => 0.2077254056930542
+
+Example time cost:  0.54 min
+ALL examples time cost:  54.37 min
+Query times in this attack:  121
+Greedy query times: 121
+Greedy sub index: 32
+Ga query times: 0
+All Query times:  12304
+All sub index: 2610
+Avg sub index 5
+Success rate:  0.5340909090909091
+Successful items count:  47
+Total count:  88
+Index:  116
+
+enter
+LABEL_58 [{'label': 'LABEL_58', 'score': 0.3907298743724823}]
+Beam size: 1 Begin:
+SUC! Path: st=>int
+prob: 0.3907298743724823 => 0.20184463262557983
+
+Example time cost:  0.11 min
+ALL examples time cost:  54.48 min
+Query times in this attack:  26
+Greedy query times: 26
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  12330
+All sub index: 2610
+Avg sub index 5
+Success rate:  0.5393258426966292
+Successful items count:  48
+Total count:  89
+Index:  117
+
+enter
+LABEL_59 [{'label': 'LABEL_16', 'score': 0.18344010412693024}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  54.49 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  12331
+All sub index: 2610
+Avg sub index 5
+Success rate:  0.5393258426966292
+Successful items count:  48
+Total count:  89
+Index:  118
+
+enter
+LABEL_59 [{'label': 'LABEL_59', 'score': 0.3391415774822235}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: items => values prob: 0.3391415774822235 => 0.2474661022424698
+13
+Choose most  1  samples:
+path 0 ACC!: raw => feed prob: 0.2474661022424698 => 0.24380794167518616
+13
+Choose most  1  samples:
+path 0 NOACC!: minimum => minimum prob: 0.24380794167518616 => 0.24380794167518616
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.24380794167518616 => 0.24380794167518616
+13
+Choose most  1  samples:
+path 0 ACC!: s => n prob: 0.24380794167518616 => 0.1791079342365265
+13
+SUC! Path: items=>values
+raw=>feed
+minimum=>minimum
+i=>i
+s=>n
+ti=>eni
+prob: 0.1791079342365265 => 0.1904834806919098
+
+Example time cost:  0.42 min
+ALL examples time cost:  54.91 min
+Query times in this attack:  95
+Greedy query times: 95
+Greedy sub index: 27
+Ga query times: 0
+All Query times:  12426
+All sub index: 2637
+Avg sub index 5
+Success rate:  0.5444444444444444
+Successful items count:  49
+Total count:  90
+Index:  119
+
+enter
+LABEL_60 [{'label': 'LABEL_60', 'score': 0.9859775304794312}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: i => u prob: 0.9859775304794312 => 0.9792183041572571
+13
+Choose most  1  samples:
+path 0 NOACC!: case => case prob: 0.9792183041572571 => 0.9792183041572571
+13
+Choose most  1  samples:
+path 0 NOACC!: B => B prob: 0.9792183041572571 => 0.9792183041572571
+13
+Choose most  1  samples:
+path 0 NOACC!: nn => nn prob: 0.9792183041572571 => 0.9792183041572571
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.9792183041572571 => 0.9792183041572571
+13
+Choose most  1  samples:
+path 0 ACC!: fn => rf prob: 0.9792183041572571 => 0.9717782139778137
+13
+Choose most  1  samples:
+path 0 ACC!: c => col prob: 0.9717782139778137 => 0.9704612493515015
+13
+Choose most  1  samples:
+path 0 ACC!: s => ses prob: 0.9704612493515015 => 0.9699761867523193
+13
+Choose most  1  samples:
+path 0 ACC!: out_fn => in_fil prob: 0.9699761867523193 => 0.9683683514595032
+13
+Choose most  1  samples:
+path 0 ACC!: A => D prob: 0.9683683514595032 => 0.9530820846557617
+13
+Choose most  1  samples:
+path 0 ACC!: solver =>  solution prob: 0.9530820846557617 => 0.9477527737617493
+13
+Choose most  1  samples:
+path 0 ACC!: d => l prob: 0.9477527737617493 => 0.9361995458602905
+13
+Choose most  1  samples:
+path 0 ACC!: R =>  r prob: 0.9361995458602905 => 0.9136940836906433
+13
+Choose most  1  samples:
+path 0 NOACC!: in_fn => in_fn prob: 0.9136940836906433 => 0.9136940836906433
+13
+Choose most  1  samples:
+path 0 NOACC!: x => x prob: 0.9136940836906433 => 0.9136940836906433
+13
+Choose most  1  samples:
+path 0 NOACC!: res => res prob: 0.9136940836906433 => 0.9136940836906433
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.9136940836906433 => 0.9136940836906433
+13
+Choose most  1  samples:
+path 0 NOACC!: reader => reader prob: 0.9136940836906433 => 0.9136940836906433
+13
+Choose most  1  samples:
+path 0 NOACC!: b => b prob: 0.9136940836906433 => 0.9136940836906433
+13
+Choose most  1  samples:
+path 0 NOACC!: f => f prob: 0.9136940836906433 => 0.9136940836906433
+FAIL! All repalce path: 
+replace_path_0: 
+i=>u
+case=>case
+B=>B
+nn=>nn
+T=>T
+fn=>rf
+c=>col
+s=>ses
+out_fn=>in_fil
+A=>D
+solver=> solution
+d=>l
+R=> r
+in_fn=>in_fn
+x=>x
+res=>res
+n=>n
+reader=>reader
+b=>b
+f=>f
+prob: 0.9136940836906433
+
+Example time cost:  1.21 min
+ALL examples time cost:  56.12 min
+Query times in this attack:  271
+Greedy query times: 271
+Greedy sub index: 55
+Ga query times: 0
+All Query times:  12697
+All sub index: 2692
+Avg sub index 5
+Success rate:  0.5384615384615384
+Successful items count:  49
+Total count:  91
+Index:  120
+
+enter
+LABEL_60 [{'label': 'LABEL_60', 'score': 0.9408332705497742}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: append => shift prob: 0.9408332705497742 => 0.9275544881820679
+13
+SUC! Path: append=>shift
+res=>breaks
+prob: 0.9275544881820679 => 0.08729607611894608
+
+Example time cost:  0.2 min
+ALL examples time cost:  56.32 min
+Query times in this attack:  44
+Greedy query times: 44
+Greedy sub index: 8
+Ga query times: 0
+All Query times:  12741
+All sub index: 2700
+Avg sub index 5
+Success rate:  0.5434782608695652
+Successful items count:  50
+Total count:  92
+Index:  121
+
+enter
+LABEL_61 [{'label': 'LABEL_61', 'score': 0.32885023951530457}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: i => ip prob: 0.32885023951530457 => 0.3223065733909607
+13
+Choose most  1  samples:
+path 0 ACC!: max => size prob: 0.3223065733909607 => 0.3197978138923645
+13
+Choose most  1  samples:
+path 0 ACC!: t => tc prob: 0.3197978138923645 => 0.2515018880367279
+13
+Choose most  1  samples:
+path 0 ACC!: case => count prob: 0.2515018880367279 => 0.21650265157222748
+13
+Choose most  1  samples:
+path 0 NOACC!: a => a prob: 0.21650265157222748 => 0.21650265157222748
+13
+Choose most  1  samples:
+path 0 NOACC!: line => line prob: 0.21650265157222748 => 0.21650265157222748
+13
+Choose most  1  samples:
+path 0 NOACC!: b => b prob: 0.21650265157222748 => 0.21650265157222748
+13
+Choose most  1  samples:
+path 0 ACC!: cantidad =>  captity prob: 0.21650265157222748 => 0.18826833367347717
+13
+Choose most  1  samples:
+path 0 ACC!: x => pair prob: 0.18826833367347717 => 0.16353704035282135
+FAIL! All repalce path: 
+replace_path_0: 
+i=>ip
+max=>size
+t=>tc
+case=>count
+a=>a
+line=>line
+b=>b
+cantidad=> captity
+x=>pair
+prob: 0.16353704035282135
+
+Example time cost:  0.55 min
+ALL examples time cost:  56.87 min
+Query times in this attack:  126
+Greedy query times: 126
+Greedy sub index: 24
+Ga query times: 0
+All Query times:  12867
+All sub index: 2724
+Avg sub index 5
+Success rate:  0.5376344086021505
+Successful items count:  50
+Total count:  93
+Index:  122
+
+enter
+LABEL_61 [{'label': 'LABEL_57', 'score': 0.13784746825695038}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  56.88 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  12868
+All sub index: 2724
+Avg sub index 5
+Success rate:  0.5376344086021505
+Successful items count:  50
+Total count:  93
+Index:  123
+
+enter
+LABEL_62 [{'label': 'LABEL_62', 'score': 0.24590253829956055}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: c => t prob: 0.24590253829956055 => 0.1669543981552124
+13
+Choose most  1  samples:
+path 0 ACC!: psqtop => psqunum prob: 0.1669543981552124 => 0.12798598408699036
+13
+Choose most  1  samples:
+path 0 NOACC!: b => b prob: 0.12798598408699036 => 0.12798598408699036
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.12798598408699036 => 0.12798598408699036
+13
+Choose most  1  samples:
+path 0 NOACC!: limit => limit prob: 0.12798598408699036 => 0.12798598408699036
+13
+Choose most  1  samples:
+path 0 NOACC!: a => a prob: 0.12798598408699036 => 0.12798598408699036
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.12798598408699036 => 0.12798598408699036
+13
+Choose most  1  samples:
+path 0 NOACC!: psqix => psqix prob: 0.12798598408699036 => 0.12798598408699036
+13
+Choose most  1  samples:
+path 0 NOACC!: all_palindromes => all_palindromes prob: 0.12798598408699036 => 0.12798598408699036
+13
+Choose most  1  samples:
+path 0 NOACC!: ps => ps prob: 0.12798598408699036 => 0.12798598408699036
+13
+Choose most  1  samples:
+path 0 NOACC!: pp => pp prob: 0.12798598408699036 => 0.12798598408699036
+13
+SUC! Path: c=>t
+psqtop=>psqunum
+b=>b
+i=>i
+limit=>limit
+a=>a
+p=>p
+psqix=>psqix
+all_palindromes=>all_palindromes
+ps=>ps
+pp=>pp
+aix=> aik
+prob: 0.12798598408699036 => 0.14902065694332123
+
+Example time cost:  0.78 min
+ALL examples time cost:  57.65 min
+Query times in this attack:  176
+Greedy query times: 176
+Greedy sub index: 21
+Ga query times: 0
+All Query times:  13044
+All sub index: 2745
+Avg sub index 5
+Success rate:  0.5425531914893617
+Successful items count:  51
+Total count:  94
+Index:  124
+
+enter
+LABEL_62 [{'label': 'LABEL_6', 'score': 0.3002636432647705}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  57.66 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  13045
+All sub index: 2745
+Avg sub index 5
+Success rate:  0.5425531914893617
+Successful items count:  51
+Total count:  94
+Index:  125
+
+enter
+LABEL_63 [{'label': 'LABEL_25', 'score': 0.30447325110435486}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  57.66 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  13046
+All sub index: 2745
+Avg sub index 5
+Success rate:  0.5425531914893617
+Successful items count:  51
+Total count:  94
+Index:  126
+
+enter
+LABEL_63 [{'label': 'LABEL_63', 'score': 0.8211851119995117}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: p => tp prob: 0.8211851119995117 => 0.8035298585891724
+13
+Choose most  1  samples:
+path 0 ACC!: S => P prob: 0.8035298585891724 => 0.7779479622840881
+13
+Choose most  1  samples:
+path 0 NOACC!: surpising_limit => surpising_limit prob: 0.7779479622840881 => 0.7779479622840881
+13
+Choose most  1  samples:
+path 0 NOACC!: surprising_count => surprising_count prob: 0.7779479622840881 => 0.7779479622840881
+13
+Choose most  1  samples:
+path 0 ACC!: T => Case prob: 0.7779479622840881 => 0.7036421895027161
+13
+Choose most  1  samples:
+path 0 ACC!: normal_limit => normalslimits prob: 0.7036421895027161 => 0.6798855066299438
+13
+SUC! Path: p=>tp
+S=>P
+surpising_limit=>surpising_limit
+surprising_count=>surprising_count
+T=>Case
+normal_limit=>normalslimits
+fin=>n
+prob: 0.6798855066299438 => 0.3769731819629669
+
+Example time cost:  0.46 min
+ALL examples time cost:  58.12 min
+Query times in this attack:  104
+Greedy query times: 104
+Greedy sub index: 37
+Ga query times: 0
+All Query times:  13150
+All sub index: 2782
+Avg sub index 5
+Success rate:  0.5473684210526316
+Successful items count:  52
+Total count:  95
+Index:  127
+
+enter
+LABEL_64 [{'label': 'LABEL_64', 'score': 0.9490885138511658}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: max => rand prob: 0.9490885138511658 => 0.9291357398033142
+13
+Choose most  1  samples:
+path 0 NOACC!: d => d prob: 0.9291357398033142 => 0.9291357398033142
+13
+Choose most  1  samples:
+path 0 ACC!: s => services prob: 0.9291357398033142 => 0.9197192788124084
+13
+Choose most  1  samples:
+path 0 NOACC!: i => i prob: 0.9197192788124084 => 0.9197192788124084
+13
+Choose most  1  samples:
+path 0 NOACC!: square => square prob: 0.9197192788124084 => 0.9197192788124084
+13
+Choose most  1  samples:
+path 0 NOACC!: MAX => MAX prob: 0.9197192788124084 => 0.9197192788124084
+13
+Choose most  1  samples:
+path 0 ACC!: base => center prob: 0.9197192788124084 => 0.9083045125007629
+13
+Choose most  1  samples:
+path 0 ACC!: Ti => lo prob: 0.9083045125007629 => 0.9047254323959351
+13
+Choose most  1  samples:
+path 0 ACC!: B => ab prob: 0.9047254323959351 => 0.8941067457199097
+13
+Choose most  1  samples:
+path 0 NOACC!: n => n prob: 0.8941067457199097 => 0.8941067457199097
+13
+Choose most  1  samples:
+path 0 NOACC!: answer => answer prob: 0.8941067457199097 => 0.8941067457199097
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.8941067457199097 => 0.8941067457199097
+13
+Choose most  1  samples:
+path 0 ACC!: fas =>  fast prob: 0.8941067457199097 => 0.8869420886039734
+13
+Choose most  1  samples:
+path 0 ACC!: A => Ca prob: 0.8869420886039734 => 0.8396220803260803
+13
+Choose most  1  samples:
+path 0 NOACC!: fasappend => fasappend prob: 0.8396220803260803 => 0.8396220803260803
+FAIL! All repalce path: 
+replace_path_0: 
+max=>rand
+d=>d
+s=>services
+i=>i
+square=>square
+MAX=>MAX
+base=>center
+Ti=>lo
+B=>ab
+n=>n
+answer=>answer
+T=>T
+fas=> fast
+A=>Ca
+fasappend=>fasappend
+prob: 0.8396220803260803
+
+Example time cost:  0.92 min
+ALL examples time cost:  59.04 min
+Query times in this attack:  211
+Greedy query times: 211
+Greedy sub index: 35
+Ga query times: 0
+All Query times:  13361
+All sub index: 2817
+Avg sub index 5
+Success rate:  0.5416666666666666
+Successful items count:  52
+Total count:  96
+Index:  128
+
+enter
+LABEL_64 [{'label': 'LABEL_64', 'score': 0.9389097094535828}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: t => ot prob: 0.9389097094535828 => 0.8848005533218384
+13
+Choose most  1  samples:
+path 0 ACC!: curr_S => currs_T prob: 0.8848005533218384 => 0.845881462097168
+13
+Choose most  1  samples:
+path 0 ACC!: totals => towalls prob: 0.845881462097168 => 0.844312846660614
+13
+Choose most  1  samples:
+path 0 ACC!: numbers => enumer prob: 0.844312846660614 => 0.809609055519104
+13
+Choose most  1  samples:
+path 0 ACC!: Ti => No prob: 0.809609055519104 => 0.7346497774124146
+13
+Choose most  1  samples:
+path 0 ACC!: i => Is prob: 0.7346497774124146 => 0.7027203440666199
+13
+Choose most  1  samples:
+path 0 NOACC!: a => a prob: 0.7027203440666199 => 0.7027203440666199
+13
+Choose most  1  samples:
+path 0 NOACC!: p => p prob: 0.7027203440666199 => 0.7027203440666199
+13
+Choose most  1  samples:
+path 0 NOACC!: N => N prob: 0.7027203440666199 => 0.7027203440666199
+13
+Choose most  1  samples:
+path 0 ACC!: S => s prob: 0.7027203440666199 => 0.6766993403434753
+13
+Choose most  1  samples:
+path 0 NOACC!: m => m prob: 0.6766993403434753 => 0.6766993403434753
+13
+Choose most  1  samples:
+path 0 NOACC!: T => T prob: 0.6766993403434753 => 0.6766993403434753
+FAIL! All repalce path: 
+replace_path_0: 
+t=>ot
+curr_S=>currs_T
+totals=>towalls
+numbers=>enumer
+Ti=>No
+i=>Is
+a=>a
+p=>p
+N=>N
+S=>s
+m=>m
+T=>T
+prob: 0.6766993403434753
+
+Example time cost:  0.74 min
+ALL examples time cost:  59.79 min
+Query times in this attack:  169
+Greedy query times: 169
+Greedy sub index: 40
+Ga query times: 0
+All Query times:  13530
+All sub index: 2857
+Avg sub index 5
+Success rate:  0.5360824742268041
+Successful items count:  52
+Total count:  97
+Index:  129
+
+enter
+LABEL_65 [{'label': 'LABEL_65', 'score': 0.6349055171012878}]
+Beam size: 1 Begin:
+Choose most  1  samples:
+path 0 ACC!: T =>  R prob: 0.6349055171012878 => 0.2160620391368866
+13
+SUC! Path: T=> R
+number=>function
+prob: 0.2160620391368866 => 0.20771712064743042
+
+Example time cost:  0.19 min
+ALL examples time cost:  59.98 min
+Query times in this attack:  44
+Greedy query times: 44
+Greedy sub index: 7
+Ga query times: 0
+All Query times:  13574
+All sub index: 2864
+Avg sub index 5
+Success rate:  0.5408163265306123
+Successful items count:  53
+Total count:  98
+Index:  130
+
+enter
+LABEL_65 [{'label': 'LABEL_16', 'score': 0.35719823837280273}]
+Beam size: 1 Begin:
+Example time cost:  0.0 min
+ALL examples time cost:  59.98 min
+Query times in this attack:  1
+Greedy query times: 1
+Greedy sub index: 0
+Ga query times: 0
+All Query times:  13575
+All sub index: 2864
+Avg sub index 5
+Success rate:  0.5408163265306123
+Successful items count:  53
+Total count:  98
+Index:  131
+
