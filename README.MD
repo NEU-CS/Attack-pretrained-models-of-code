@@ -41,4 +41,10 @@ code目录中包含模型fine-tune,attack的代码；注意，模型在攻击前
 
 其中CodeLLaMA和DeepSeek的causal模型使用vllm框架进行加速推理
 
+## Baseline
+Natural attack for pre-trained models of code  
+
+https://dl.acm.org/doi/abs/10.1145/3510003.3510146
+
+
 
