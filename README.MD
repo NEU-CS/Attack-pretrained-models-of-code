@@ -34,7 +34,8 @@ project
 ```
 
 code目录中包含模型fine-tune,attack的代码；注意，模型在攻击前需要进行fine-tune
-
+已经fine-tune好的部分模型在huggingface上（使用trainer训练的)。在Huggingface上models搜索"ljcnju"即可  
+如https://huggingface.co/ljcnju/DeepSeek7bForCodeTrans
 
 ## 运行代码
 Fine-tune： 使用fine-tune文件夹中的fine-tune代码即可。有的是jupyter notebook形式的，有的模型提供了多种fine-tune代码:使用transformers trainer或使用pytorch training loop。  
