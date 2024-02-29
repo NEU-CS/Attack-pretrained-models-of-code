@@ -33,11 +33,13 @@ project
     └─── python_parser(code parser of program languages)
 ```
 
-code目录中包含模型fine-tune,attack的代码；注意，模型在攻击前必须进行attack
+code目录中包含模型fine-tune,attack的代码；注意，模型在攻击前需要进行fine-tune
 
 
 ## 运行代码
-直接使用各个攻击模块中的attack.sh即可运行，若要修改运行参数，请查看attack.py中args_parser  
+Fine-tune： 使用fine-tune文件夹中的fine-tune代码即可。有的是jupyter notebook形式的，有的模型提供了多种fine-tune代码:使用transformers trainer或使用pytorch training loop。  
+
+Attack：直接使用各个攻击模块中的attack.sh即可运行，若要修改运行参数，请查看attack.py中args_parser  
 
 其中CodeLLaMA和DeepSeek的causal模型使用vllm框架进行加速推理
 
