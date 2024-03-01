@@ -167,38 +167,40 @@ beam search只使用了replace attack，完善dead code insert attack是我们�
 | Task | Model             | Performance |    | Baseline(Only replace and beam size = 1) | DeadCodeInsert(beam size = 1) | Mix(replace and insert;beam size = 1) |
 |------|-------------------|-------------|----|------------------------------------------|-------------------------------|---------------------------------------|
 |      | CodeT5            | 0.746       | CD | 0.54155496                               | 0.024128686                   | 0.383378016                           |
-|      | CodeLLaMA-7b      |             | CD |                                          |                               |                                       |
+|      | CodeLLaMA-7b      | 0.271       | CD | 0.394                                    | 0.129                         | 0.402                                 |
 |      | DeepSeek-coder-7b | 0.756       | CD | 0.575396825                              | 0.021164021                   | 0.260582011                           |
 
 
-上表是CodeT5,CodeLLaMA,DeepSeek在生成式任务上的表现（CodeBert在生成式任务上表现太差，Performance很低,不对其做研究）  、
-
-可以知道:  
-
-    Performance: 填上
-
-    Robustness: 填上  
-
-
-
-分析
-  
-  CodeT5为Encoder-Decoder模型，对于翻译这种Seq2Seq的任务，其表现应该较好.  
-  后续将扩充另外的不是seq2seq的生成式任务  
-    
-    
-本任务是代码翻译，将一段Java代码翻译为c-sharp代码。  
-代码翻译中，首要任务是使得翻译后的代码语义上与源代码相同  
-因此
-
-生成式任务CodeLLaMA还没跑完  
-
-
-
+上表是CodeT5,CodeLLaMA,DeepSeek在生成式任务上的表现（CodeBert在生成式任务上表现太差，Performance很低,不对其做研究）  
 beam search在生成式任务上的实现是未来的工作  
 
 
+可以知道:  
 
+    Performance: DeepSeek > CodeT5 >> CodeLLaMA
 
+    Robustness: CodeLLaMA > CodeT5 > DeepSeek  
+
+  
+CodeT5为Encoder-Decoder模型，对于翻译这种Seq2Seq的任务，其表现应该较好.
+可以看出CodeT5和DeepSeek在CodeTrans任务上表现不相上下，一个Performance稍好，一个Robustness稍好；  
+而CodeLLaMA表现很差，它的Performance显著低于其他二者，它在CodeTrans任务上基本没有任何应用价值  
+（DeepSeek和CodeLLaMA在训练时超参设置相同，训练过程一致，二者都是同一个架构。但DeepSeek的效果显著好于CodeLLaMA）（训练CodeLLaMA时出了问题？目前对比了代码，感觉没什么问题）  
+
+    
+| Task | Model             |     | Baseline(Only replace and beam size = 1) | DeadCodeInsert(beam size = 1) | Mix(replace and insert;beam size = 1) |
+|------|-------------------|-----|------------------------------------------|-------------------------------|---------------------------------------|
+|      | CodeT5            | MQT | 3126                                     | 441                           | 1899                                  |
+|      |                   | SQR | 1.732421496                              | 0.547135744                   | 2.01884158                            |
+|      | CodeLLaMA-7b      | MQT | 946                                      | 125                           | 485                                   |
+|      |                   | SQR | 4.173720384                              | 10.33210332                   | 8.293072621                           |
+|      | DeepSeek-coder-7b | MQT | 3576                                     | 374                           | 1610                                  |
+|      |                   | SQR | 1.609051525                              | 0.565882919                   | 1.618521805                           |
+
+上表是不同攻击手段在效率上的对比  
+
+本任务是代码翻译，将一段Java代码翻译为c-sharp代码。  
+代码翻译中，首要任务是使得翻译后的代码语义上与源代码相同  
+因此
 
 因此，设计不同攻击手段（例如replace或insert），需要根据任务而定。不同的任务，Victim model获取到的特征信息都不一样，我们认为应该以任务为导向设计攻击手段，以获得更好的攻击效果  
