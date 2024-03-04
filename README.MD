@@ -140,12 +140,11 @@ Encoder-only式的CodeBert模型Robustness强很多
 |                        | CodeLLaMA-7b      | ASR | 0.723262032                              | 0.79144385                  | 0.846256684                 | 0.89973262                  |
 |                        |                   | MQT | 13578                                    | 22762                       | 40196                       | 73350                       |
 |                        |                   | SQR | 0.532671993                              | 0.347704002                 | 0.210532562                 | 0.122662934                 |
-|                        | DeepSeek-coder-7b | ASR | 0.311864407                              | 0.350282486                 | 0.379661017                 | 0                           |
-|                        |                   | MQT | 19255                                    | 34291                       | 63308                       |                             |
-|                        |                   | SQR | 0.161965415                              | 0.102149977                 | 0.059970465                 | #DIV/0!                     |
+|                        | DeepSeek-coder-7b | ASR | 0.311864407                              | 0.350282486                 | 0.379661017                 | -                           |
+|                        |                   | MQT | 19255                                    | 34291                       | 63308                       | -                           |
+|                        |                   | SQR | 0.161965415                              | 0.102149977                 | 0.059970465                 | -                           |
 
-(DeepSeek beam size = 8)还没跑完
-
+(DeepSeek beam size = 8 还没跑出来)
 上表是beam search不同beam size的对比结果  
 beam search只使用了replace attack，完善dead code insert attack是我们未来的工作    
   
@@ -185,7 +184,7 @@ beam search在生成式任务上的实现是未来的工作
 CodeT5为Encoder-Decoder模型，对于翻译这种Seq2Seq的任务，其表现应该较好.
 可以看出CodeT5和DeepSeek在CodeTrans任务上表现不相上下，一个Performance稍好，一个Robustness稍好；  
 而CodeLLaMA表现很差，它的Performance显著低于其他二者，它在CodeTrans任务上基本没有任何应用价值  
-（DeepSeek和CodeLLaMA在训练时超参设置相同，训练过程一致，二者都是同一个架构。但DeepSeek的效果显著好于CodeLLaMA）（训练CodeLLaMA时出了问题？目前对比了代码，感觉没什么问题）  
+（DeepSeek和CodeLLaMA在训练时超参设置相同，训练过程一致，二者都是同一个架构。但DeepSeek的效果显著好于CodeLLaMA（可能是训练CodeLLaMA时出了问题，后续将继续调整））
 
     
 | Task | Model             |     | Baseline(Only replace and beam size = 1) | DeadCodeInsert(beam size = 1) | Mix(replace and insert;beam size = 1) |
@@ -199,8 +198,9 @@ CodeT5为Encoder-Decoder模型，对于翻译这种Seq2Seq的任务，其表现�
 
 上表是不同攻击手段在效率上的对比  
 
-本任务是代码翻译，将一段Java代码翻译为c-sharp代码。  
-代码翻译中，首要任务是使得翻译后的代码语义上与源代码相同  
-因此
+本任务是代码翻译，将一段Java代码翻译为c-sharp代码。翻译的目标最重要的在于代码语义的翻译是否准确。
+本数据集中代码段比较小，变量名比较少，插入死代码的位置不多。本例中死代码插入的攻击效率低的原因在于
+很多例子判断出没有插入死代码的位置（死代码插入算法设计还不太通用，直接使用了上个数据集的算法）。
+后续还需继续调整死代码插入的算法并得出最新的结果。 
 
-因此，设计不同攻击手段（例如replace或insert），需要根据任务而定。不同的任务，Victim model获取到的特征信息都不一样，我们认为应该以任务为导向设计攻击手段，以获得更好的攻击效果  
+
