@@ -144,7 +144,6 @@ Encoder-only式的CodeBert模型Robustness强很多
 |                        |                   | MQT | 19255                                    | 34291                       | 63308                       | 129110                      |
 |                        |                   | SQR | 0.161965415                              | 0.102149977                 | 0.059970465                 | 0.030178583                 |
 
-(DeepSeek beam size = 8 还没跑出来)
 上表是beam search不同beam size的对比结果  
 beam search只使用了replace attack，完善dead code insert attack是我们未来的工作    
   
