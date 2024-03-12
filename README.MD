@@ -164,20 +164,21 @@ beam search只使用了replace attack，完善dead code insert attack是我们�
 
 | Task | Model             | Performance |    | Baseline(Only replace and beam size = 1) | DeadCodeInsert(beam size = 1) | Mix(replace and insert;beam size = 1) |
 |------|-------------------|-------------|----|------------------------------------------|-------------------------------|---------------------------------------|
+|      | CodeBert          | 0.731       | CD | 0.49818193                               | 0.028380165                   | 0.235384725                           |
 |      | CodeT5            | 0.746       | CD | 0.54155496                               | 0.024128686                   | 0.383378016                           |
 |      | CodeLLaMA-7b      | 0.271       | CD | 0.394                                    | 0.129                         | 0.402                                 |
 |      | DeepSeek-coder-7b | 0.756       | CD | 0.575396825                              | 0.021164021                   | 0.260582011                           |
 
 
-上表是CodeT5,CodeLLaMA,DeepSeek在生成式任务上的表现（CodeBert在生成式任务上表现太差，Performance很低,不对其做研究）  
+上表是CodeBert,CodeT5,CodeLLaMA,DeepSeek在生成式任务上的表现
 beam search在生成式任务上的实现是未来的工作  
 
 
 可以知道:  
 
-    Performance: DeepSeek > CodeT5 >> CodeLLaMA
+    Performance: DeepSeek > CodeT5 > CodeBert >> CodeLLaMA
 
-    Robustness: CodeLLaMA > CodeT5 > DeepSeek  
+    Robustness: CodeLLaMA > Codebert > CodeT5 > DeepSeek  
 
   
 CodeT5为Encoder-Decoder模型，对于翻译这种Seq2Seq的任务，其表现应该较好.
